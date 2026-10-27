@@ -36,7 +36,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500;600&display=swap">
 <script>try{var t=JSON.parse(localStorage.getItem("saaransh-theme"));if(t)document.documentElement.dataset.theme=t;if(localStorage.getItem("saaransh-lang")==="hi")document.documentElement.lang="hi"}catch(e){}</script>
-<link rel="stylesheet" href="/assets/css/app.css?v=1">
+<link rel="stylesheet" href="/assets/css/app.css?v=2">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Saaransh","alternateName":"सारांश","description":"CAG audits, NITI Aayog reports and official surveys explained in plain English and Hindi.","inLanguage":["en-IN","hi-IN"]}</script>
 </head>
 <body>
@@ -80,11 +80,12 @@
           <div class="w w-spot hero s4 c-teal" id="k2"></div>
           <div class="w w-spot hero s4" id="wSpot" aria-live="polite"></div>
           <div class="w s7" id="wSev"></div>
-          <div class="w s5" id="wPub"></div>
+          <div class="bstack s5"><div class="w" id="wPub"></div><div class="w" id="wLatest"></div></div>
           <div class="w s7" id="wTop"></div>
           <div class="w s5" id="wMap"></div>
-          <div class="w s5" id="wLatest"></div>
-          <div class="w s7" id="wTimeline"></div>
+          <div class="w s6 c-red" id="wFlagBars"></div>
+          <div class="w s6 c-violet" id="wSevBars"></div>
+          <div class="w s12" id="wTimeline"></div>
         </div>
       </section>
 
@@ -139,12 +140,10 @@
         <div class="vhead"><div><p class="kicker">Insights</p><h1>The same failures, across reports</h1></div></div>
         <div class="tabs" role="tablist" data-subgroup="ins">
           <button role="tab" data-sub="patterns" aria-selected="true">Patterns</button>
-          <button role="tab" data-sub="charts" aria-selected="false">Charts</button>
           <button role="tab" data-sub="why" aria-selected="false">Why few read them</button>
         </div>
         <div class="vbody">
           <div class="panel" data-subpanel="ins:patterns"><div class="ins-list" id="insList"></div></div>
-          <div class="panel" data-subpanel="ins:charts" hidden><div class="duo" id="insCharts"></div></div>
           <div class="panel" data-subpanel="ins:why" hidden><div class="why-grid" id="whyGrid"></div></div>
         </div>
       </section>
@@ -242,7 +241,7 @@
 <script src="/assets/js/reports-v2.js?v=1"></script>
 <script src="/assets/js/reports-2025-26.js?v=1"></script>
 <script src="/assets/js/reports-hi.js?v=1"></script>
-<script src="/assets/js/app.js?v=1"></script>
+<script src="/assets/js/app.js?v=2"></script>
 <script src="/assets/js/i18n.js?v=1"></script>
 </body>
 </html>
