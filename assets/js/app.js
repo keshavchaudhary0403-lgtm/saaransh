@@ -196,14 +196,22 @@ function renderSev(){
   let n=0;
   $("#wSev").innerHTML=`<div class="wl"><h3>Every finding, one dot</h3><label class="sr" for="sevSel">Show</label><select class="sel" id="sevSel"><option value="all">All reports</option><option value="cag">CAG audits</option><option value="niti">NITI Aayog</option></select></div>
     <div class="dgsum">${[["high","serious"],["med","notable"],["low","minor or context"]].map(([k,l])=>`<button class="k-${k}" data-sev="${k}" aria-pressed="${sevHi===k}"><i></i><b>${c(k)}</b> ${l}</button>`).join("")}</div>
-    <p class="dgtip" id="dgTip">Hover or focus a dot to read the finding. Click to open it.</p>
-    <div class="dotgrid${sevHi?" hi-"+sevHi:""}">${list.map(x=>`<div class="dg-row"><button class="dg-name" data-open="${x.r.id}" data-tab="findings">${esc(SHORT[x.r.id]||x.r.title)}</button><div class="dg-dots">${x.items.map(it=>`<button class="dot k-${it.sev}" data-open="${x.r.id}" data-tab="findings" data-tip="${esc(SW[it.sev])} · ${esc(x.r.title)}" data-tt="${esc(it.t)}" aria-label="${esc(SW[it.sev])}: ${esc(it.t)}" style="animation-delay:${Math.min(n++,60)*12}ms"></button>`).join("")}</div><span class="dg-n">${x.items.length}</span></div>`).join("")}</div>`;
+    <p class="dghint">Hover or focus a dot to read the finding. Click to open it.</p>
+    <div class="dotgrid${sevHi?" hi-"+sevHi:""}">${list.map(x=>`<div class="dg-row"><button class="dg-name" data-open="${x.r.id}" data-tab="findings">${esc(SHORT[x.r.id]||x.r.title)}</button><div class="dg-dots">${x.items.map(it=>`<button class="dot k-${it.sev}" data-open="${x.r.id}" data-tab="findings" data-tip="${esc(SW[it.sev])} · ${esc(x.r.title)}" data-tt="${esc(it.t)}" aria-label="${esc(SW[it.sev])}: ${esc(it.t)}" style="animation-delay:${Math.min(n++,60)*12}ms"></button>`).join("")}</div><span class="dg-n">${x.items.length}</span></div>`).join("")}</div>
+    <div class="dgpop" id="dgPop" role="tooltip" hidden></div>`;
   $("#sevSel").value=sevF;
 }
 $("#wSev").addEventListener("click",e=>{const b=e.target.closest("[data-sev]");if(!b)return;sevHi=sevHi===b.dataset.sev?"":b.dataset.sev;renderSev()});
 $("#wSev").addEventListener("change",e=>{if(e.target.id==="sevSel"){sevF=e.target.value;renderSev()}});
-const dgShow=e=>{const d=e.target.closest&&e.target.closest(".dot");if(d)$("#dgTip").innerHTML=`<b>${d.dataset.tip}</b><br>${hiNum(d.dataset.tt)}`};
+/* floating popup beside the dot, so the grid never reflows */
+const dgShow=e=>{const d=e.target.closest&&e.target.closest(".dot");if(!d)return;
+  const p=$("#dgPop"),w=$("#wSev").getBoundingClientRect(),r=d.getBoundingClientRect();
+  p.innerHTML=`<b>${d.dataset.tip}</b>${hiNum(d.dataset.tt)}`;p.hidden=false;
+  const pw=p.offsetWidth,ph=p.offsetHeight,cx=r.left-w.left+r.width/2,x=Math.max(12,Math.min(w.width-pw-12,cx-pw/2)),up=r.top-ph-12>100;
+  p.style.left=x+"px";p.style.top=(up?r.top-w.top-ph-12:r.bottom-w.top+12)+"px";p.style.setProperty("--ax",(cx-x)+"px");p.classList.toggle("below",!up)};
+const dgHide=e=>{if(e.target.closest&&e.target.closest(".dot"))$("#dgPop").hidden=true};
 $("#wSev").addEventListener("pointerover",dgShow);$("#wSev").addEventListener("focusin",dgShow);
+$("#wSev").addEventListener("pointerout",dgHide);$("#wSev").addEventListener("focusout",dgHide);
 renderSev();
 
 /* publisher waffle: one square per report */

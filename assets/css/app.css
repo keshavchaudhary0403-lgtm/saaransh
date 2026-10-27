@@ -927,8 +927,11 @@ body{padding:0!important}
 @keyframes dotpop{from{transform:scale(0)}to{transform:scale(1)}}
 .dg-n{font-size:13px;color:var(--ink3);text-align:right;font-variant-numeric:tabular-nums}
 .k-high{--k:var(--red)} .k-med{--k:var(--saffron)} .k-low{--k:var(--lav)}
-.dgtip{min-height:44px;padding:10px 14px;border-radius:12px;background:var(--sunk);font-size:14px;color:var(--ink2);position:sticky;top:96px;z-index:2;box-shadow:0 0 0 6px var(--paper)}
-.dgtip b{color:var(--ink);font-weight:600}
+.dghint{font-size:13px;color:var(--ink3)}
+.dgpop{position:absolute;z-index:5;width:max-content;max-width:min(340px,calc(100% - 24px));padding:10px 14px;border-radius:12px;background:var(--paper);border:1px solid var(--rule2);box-shadow:0 12px 32px -12px rgba(20,16,40,.35);font-size:13.5px;line-height:1.45;color:var(--ink2);pointer-events:none}
+.dgpop b{display:block;color:var(--ink);font-weight:600;margin-bottom:3px}
+.dgpop::after{content:"";position:absolute;left:var(--ax,50%);top:100%;width:10px;height:10px;background:var(--paper);border:solid var(--rule2);border-width:0 1px 1px 0;transform:translate(-50%,-50%) rotate(45deg)}
+.dgpop.below::after{top:0;border-width:1px 0 0 1px}
 /* publisher waffle */
 .waffle{display:grid;grid-template-columns:repeat(13,minmax(0,1fr));gap:6px}
 .waffle button{aspect-ratio:1;border:0;border-radius:7px;background:var(--c);cursor:pointer;padding:0;transition:transform .15s,box-shadow .15s;animation:dotpop .45s cubic-bezier(.2,.8,.2,1) backwards}
