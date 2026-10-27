@@ -203,10 +203,24 @@ function renderSev(){
 }
 $("#wSev").addEventListener("click",e=>{const b=e.target.closest("[data-sev]");if(!b)return;sevHi=sevHi===b.dataset.sev?"":b.dataset.sev;renderSev()});
 $("#wSev").addEventListener("change",e=>{if(e.target.id==="sevSel"){sevF=e.target.value;renderSev()}});
+/* popup highlighter: units via hiNum, plus bare counts ("27 bodies", "43 of 75"), skipping years, dates and labels like "Grade 8" */
+const MON=/^\s(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\b/;
+const LABEL=/(?:\b(?:Class(?:es)?|Grade|Rule|No\.|Report|Section|Article|Phase|Head|Para|Schedule|Form|Goal)|\b[A-Z]{2,}[\w.]*)\s$/;
+function hiCount(h){
+  let inMark=false;
+  return hiNum(h).replace(/\$\s?\d[\d,]*(?:\.\d+)?(?:\s?[–-]\s?\d[\d,]*(?:\.\d+)?)?(?:\s?(?:trillion|billion|million|tn|bn))?/g,'<mark class="n">$&</mark>').replace(/\b(\d[\d,]*(?:\.\d+)?\s?[–-]\s?)<mark class="n">/g,'<mark class="n">$1').split(/(<[^>]+>)/).map(p=>{
+    if(p.startsWith("<")){if(/^<mark/.test(p))inMark=true;else if(p==="</mark>")inMark=false;return p}
+    if(inMark)return p;
+    return p.replace(/(^|[^\w.₹\/–-])(\d(?:[\d,]*\d)?(?:\.\d+)?(?:\s(?:of|in)\s(?:the\s)?\d(?:[\d,]*\d)?)?)(?![\w%]|[-–]\d|[.,]\d)/g,(m,pre,n,off,s)=>{
+      const before=s.slice(0,off+pre.length), after=s.slice(off+m.length);
+      if(/^(?:19|20)\d\d$/.test(n)||MON.test(after)||LABEL.test(before)||/\bClasses \d+ to\s$/.test(before))return m;
+      return `${pre}<mark class="n">${n}</mark>`});
+  }).join("");
+}
 /* floating popup beside the dot, so the grid never reflows */
 const dgShow=e=>{const d=e.target.closest&&e.target.closest(".dot");if(!d)return;
   const p=$("#dgPop"),w=$("#wSev").getBoundingClientRect(),r=d.getBoundingClientRect();
-  p.innerHTML=`<b>${d.dataset.tip}</b>${hiNum(d.dataset.tt)}`;p.hidden=false;
+  p.innerHTML=`<b>${d.dataset.tip}</b>${hiCount(d.dataset.tt)}`;p.hidden=false;
   const pw=p.offsetWidth,ph=p.offsetHeight,cx=r.left-w.left+r.width/2,x=Math.max(12,Math.min(w.width-pw-12,cx-pw/2)),up=r.top-ph-12>100;
   p.style.left=x+"px";p.style.top=(up?r.top-w.top-ph-12:r.bottom-w.top+12)+"px";p.style.setProperty("--ax",(cx-x)+"px");p.classList.toggle("below",!up)};
 const dgHide=e=>{if(e.target.closest&&e.target.closest(".dot"))$("#dgPop").hidden=true};
