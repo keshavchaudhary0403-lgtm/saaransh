@@ -18,7 +18,16 @@ Object.assign(window.SITE.glossary, {
   "74th Amendment": "The 1992 constitutional amendment that made city governments constitutional bodies and listed 18 functions in the 12th Schedule that states may give them.",
   "State Finance Commission": "A body each state must set up every five years to recommend how state money is shared with panchayats and city governments.",
   "Municipal bond": "A loan a city government raises from investors by selling bonds, usually to fund infrastructure.",
-  "Parastatal": "A state-run agency, such as a water board or development authority, that does city work but is not answerable to the city government."
+  "Parastatal": "A state-run agency, such as a water board or development authority, that does city work but is not answerable to the city government.",
+  "Government guarantee": "A promise by the government to repay a loan taken by a public body if that body cannot; it is a possible future liability.",
+  "Medium-Term Fiscal Policy Statement": "A statement laid with the Budget under the FRBM Act that sets rolling targets for deficits and debt.",
+  "Digital Bharat Nidhi": "The telecom fund, formerly the Universal Service Obligation Fund, that pays for connectivity in rural and remote areas.",
+  "Liquidated damages": "A penalty fixed in a contract that a supplier pays for delay or failure to deliver.",
+  "Common Service Centre": "A village-level kiosk, run by a local entrepreneur, that offers government and private digital services.",
+  "Business Correspondent": "An agent who offers basic banking services, such as deposits and withdrawals, on behalf of a bank in places without a branch.",
+  "Demand response": "Cutting or shifting electricity use when the grid is under strain, often automatically, in return for payment or lower tariffs.",
+  "SLDC": "State Load Dispatch Centre: the body that balances electricity supply and demand on a state's grid in real time.",
+  "TWh": "Terawatt-hour: a unit of electricity equal to one billion kilowatt-hours (units)."
 });
 
 window.SPEC_REPORTS.push(
@@ -700,6 +709,209 @@ window.SPEC_REPORTS.push(
   related:["fiscal-health-2026","state-finances","niti-ifi-2026"],
   src:[["NITI Aayog: full report (PDF)","https://www.niti.gov.in/sites/default/files/2026-04/Moving-Towards-Effective-City-Government-a-Framework-for-Million-Plus-Cities.pdf","official"],["All India Radio News: Khattar releases NITI Aayog report","https://newsonair.gov.in/union-minister-manohar-lal-khattar-releases-niti-aayog-report-titled-moving-towards-effective-city-government-framework/","coverage"],["IANS: roadmap to boost urban governance reforms","https://ianslive.in/niti-aayog-report-presents-roadmap-to-boost-urban-governance-reforms--20260425223652","coverage"],["Vajiram & Ravi: NITI Aayog report on city governance","https://vajiramandravi.com/current-affairs/niti-aayog-report-on-city-governance/","analysis"]],
   kw:"city government mayor urban local body municipal corporation 74th amendment 12th schedule parastatal municipal bonds NITI 2026"
+},
+/* ---------- CAG · FRBM compliance 2024-25 (Union) ---------- */
+{
+  id:"cag-frbm-29-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 29 of 2026",
+  title:"Compliance of the Fiscal Responsibility and Budget Management Act, 2003 for the year 2024-25", short:"FRBM Compliance 2024-25", sector:"Public finance", ministry:"Ministry of Finance (Department of Economic Affairs)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026", period:"Financial year 2024-25", flagged:null,
+  tldr:[
+    "Central Government debt fell to 58.46% of GDP, but stayed well above the FRBM target of 40%.",
+    "Taxes raised but not collected reached ₹38.40 lakh crore, up ₹7.29 lakh crore in a year.",
+    "The fiscal deficit in the Budget papers (₹15.74 lakh crore) differs from the FRBM calculation (₹14.70 lakh crore) by ₹1.04 lakh crore."
+  ],
+  en:"Every year the CAG checks whether the Union Government kept to the FRBM Act, the law that sets limits on deficits and debt. For 2024-25, it found Central Government debt falling, to 58.46% of GDP, but still far above the 40% target. Interest took a slightly smaller share of revenue, and guarantees stayed within their limit. But taxes worth ₹38.40 lakh crore had been raised and not collected, and some figures in budget documents did not match the government's own accounts.",
+  hi:"हर साल CAG जाँचता है कि केंद्र सरकार ने FRBM अधिनियम का पालन किया या नहीं, यह वह क़ानून है जो घाटे और कर्ज़ की सीमाएँ तय करता है। 2024-25 के लिए उसने पाया कि केंद्र सरकार का कर्ज़ घटकर GDP का 58.46% रहा, लेकिन 40% के लक्ष्य से अब भी काफ़ी ऊपर है। राजस्व में ब्याज का हिस्सा थोड़ा घटा और गारंटियाँ सीमा के भीतर रहीं। लेकिन ₹38.40 लाख करोड़ के कर लगाए गए पर वसूले नहीं गए, और बजट दस्तावेज़ों के कुछ आंकड़े सरकार के अपने खातों से मेल नहीं खाते।",
+  context:{
+    what:"The CAG's annual review, required under the FRBM framework, of whether the Union Government met the targets and disclosure rules of the FRBM Act in 2024-25.",
+    why:"The FRBM Act is Parliament's main check on government borrowing. Missed targets or figures that don't match make it harder to judge the true state of public finances.",
+    how:"Comparison of FRBM targets and disclosure statements with the Union Government Finance Accounts and Budget documents for 2024-25."
+  },
+  nums:[["58.46%","Central Government debt, % of GDP (target 40%)",1],["₹38.40 lakh cr","Taxes raised but not realised",1],["₹14.24 lakh cr","Rise in Central Government debt in 2024-25",0],["34.02%","Interest payments as a share of revenue receipts",0]],
+  themes:[
+    {name:"Debt above the target", sev:"high", items:[
+      {t:"Central Government debt was 58.46% of GDP at the end of 2024-25. It has fallen over two years but missed the 40% target set for that year.", amt:""},
+      {t:"Debt rose by ₹14.24 lakh crore (8.29%) in 2024-25, mainly internal debt (₹12.28 lakh crore), with external debt up ₹0.78 lakh crore and public account liabilities up ₹0.24 lakh crore.", amt:""},
+      {t:"Between 2022-23 and 2024-25 debt grew more slowly than GDP, and the debt stabilisation indicator was positive.", amt:""}]},
+    {name:"Taxes raised but not collected", sev:"high", items:[
+      {t:"Taxes raised but not realised stood at ₹38.40 lakh crore at the end of 2024-25, up ₹7.29 lakh crore over the year.", amt:"₹38.40 lakh cr"},
+      {t:"Of this, ₹4.80 lakh crore was not under dispute.", amt:"₹4.80 lakh cr"}]},
+    {name:"Figures that don't match", sev:"med", items:[
+      {t:"Budget at a Glance 2026-27 shows a fiscal deficit of ₹15.74 lakh crore for 2024-25, against ₹14.70 lakh crore calculated under the FRBM Act from the Finance Accounts.", amt:"₹1.04 lakh cr"},
+      {t:"Figures in the arrears-of-interest (D2) and financial-assets (D4) statements did not match the Finance Accounts and Receipt Budget.", amt:""},
+      {t:"Budget estimates in the half-yearly statements and the Medium-Term Fiscal Policy Statement differed from the Annual Financial Statement 2024-25.", amt:""}]},
+    {name:"What stayed on track", sev:"low", items:[
+      {t:"Interest payments fell to 34.02% of revenue receipts, from 35.72% in 2023-24.", amt:""},
+      {t:"Additional guarantees stayed within the limit of 0.5% of GDP.", amt:""}]}
+  ],
+  charts:[
+    {title:"Central Government debt vs FRBM target", type:"bars", unit:"% of GDP", data:[["Actual, end 2024-25",58.46],["FRBM target",40]]},
+    {title:"Interest payments as a share of revenue receipts", type:"bars", unit:"%", data:[["2022-23",35.35],["2023-24",35.72],["2024-25",34.02]]},
+    {title:"₹38.40 lakh crore of unrealised taxes", type:"split", unit:"₹ lakh crore", data:[["Not under dispute",4.80],["Rest of the total",33.60]]}
+  ],
+  recs:[
+    "Reconcile the FRBM disclosure statements with the Finance Accounts and the Annual Financial Statement.",
+    "Use one consistent fiscal deficit figure across Budget documents and FRBM calculations.",
+    "Pursue the ₹4.80 lakh crore of unrealised taxes that is not under dispute."
+  ],
+  recsNote:"The press brief lists no recommendations; these are drawn from the findings.",
+  response:["The report goes to Parliament's Public Accounts Committee. The government's replies are in the full report."],
+  timeline:[["2003","FRBM Act passed"],["Mar 2025","Year reviewed ends"],["29 Jul 2026","Report sent to the government"],["12 Aug 2026","Report No. 29 of 2026 tabled in Parliament"]],
+  glossary:["Compliance audit","FRBM","Fiscal deficit","Debt sustainability","Government guarantee","Medium-Term Fiscal Policy Statement"],
+  exam:{
+    prelims:[
+      "CAG Report No. 29 of 2026 reviewed FRBM Act compliance for 2024-25 and was tabled on 12 August 2026.",
+      "Central Government debt was 58.46% of GDP at the end of 2024-25, against a 40% target.",
+      "Taxes raised but not realised stood at ₹38.40 lakh crore.",
+      "Additional guarantees under the FRBM Act are capped at 0.5% of GDP a year."
+    ],
+    mains:"Fiscal rules lose force when targets are missed and figures don't reconcile. Discuss with reference to the CAG's review of FRBM compliance for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Central Government debt as a share of GDP at the end of 2024-25, per the CAG?", o:["40%","58.46%","60%","34.02%"], a:1, w:"58.46%, against a 40% FRBM target."},
+      {q:"How much tax had been raised but not realised at the end of 2024-25?", o:["₹4.80 lakh crore","₹7.29 lakh crore","₹14.24 lakh crore","₹38.40 lakh crore"], a:3, w:"₹38.40 lakh crore, of which ₹4.80 lakh crore was not under dispute."},
+      {q:"The FRBM limit on additional guarantees in a year is:", o:["0.5% of GDP","1% of GDP","3% of GDP","40% of GDP"], a:0, w:"0.5% of GDP; the Centre stayed within it in 2024-25."}
+    ]
+  },
+  related:["union-accounts-2425","fiscal-health-2026","cag-banks-nbfc-tax-40-2025"],
+  src:[["CAG press brief on Report No. 29 of 2026","https://saiindia.gov.in/uploads/PressRelease/PR-Press-brief-29-of-2026-English-06a80874db093d8-85298897.pdf","official"],["CAG audit report page","https://cag.gov.in/mab/tamil-nadu/en/audit-report/details/125971","official"],["TaxGuru: CAG flags ₹38.40 lakh crore unrealised taxes","https://taxguru.in/corporate-law/cag-flags-rs-38-40-lakh-crore-unrealised-taxes-frbm-compliance-review.html","analysis"]],
+  kw:"FRBM fiscal responsibility debt GDP fiscal deficit unrealised tax arrears guarantees interest payments Union 2026"
+},
+/* ---------- CAG · Finance and Communication (Union) ---------- */
+{
+  id:"cag-fin-comm-5-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 5 of 2026",
+  title:"Compliance Audit on Finance and Communication, Union Government", short:"Posts, Telecom & BSNL Audit", sector:"Other", ministry:"Ministry of Communications, Ministry of Finance (Department of Expenditure), MeitY",
+  date:"Apr 2026", dateISO:"2026-04-02", tabled:"Tabled in Parliament on 2 April 2026", period:"Period ended March 2024, with earlier cases not reported before", flagged:null,
+  tldr:[
+    "₹107.07 crore (75%) of penalties on telecom operators for weak subscriber checks was still unrecovered in March 2025.",
+    "India Post did not collect ₹78.92 crore of GST on late fees for postal life insurance.",
+    "1,740 BSNL tower sites were non-functional, some for up to 16 years, and IPPB's UPI was down 362 hours in 2023-24."
+  ],
+  en:"This CAG report checks several bodies under the communications and finance ministries. India Post did not charge GST on insurance late fees. The telecom department had not recovered most penalties on operators for weak SIM verification, or all penalties from Airtel for a delayed rural mobile project. BSNL had idle and non-functional towers and land without clear title. India Post Payments Bank had frequent UPI failures. Skilling schemes and village service centres also had gaps.",
+  hi:"CAG की यह रिपोर्ट संचार और वित्त मंत्रालयों के तहत कई संस्थाओं की जाँच करती है। डाक विभाग ने बीमा की विलंब फ़ीस पर GST नहीं लिया। दूरसंचार विभाग ने कमज़ोर सिम सत्यापन के लिए ऑपरेटरों पर लगे अधिकांश जुर्माने और ग्रामीण मोबाइल परियोजना में देरी के लिए एयरटेल पर लगे पूरे जुर्माने वसूल नहीं किए। BSNL के टावर बेकार पड़े थे या काम नहीं कर रहे थे, और ज़मीन का स्पष्ट मालिकाना हक़ नहीं था। इंडिया पोस्ट पेमेंट्स बैंक में UPI बार-बार विफल हुआ। कौशल योजनाओं और ग्रामीण सेवा केंद्रों में भी कमियाँ मिलीं।",
+  context:{
+    what:"A CAG compliance audit of the Department of Posts, Department of Telecommunications, BSNL, India Post Payments Bank, the Department of Expenditure and MeitY: four subject-specific audits and five audit paragraphs.",
+    why:"These bodies run services that reach rural India, from post offices and payments banks to mobile towers and village kiosks. Lapses mean lost revenue and weaker services.",
+    how:"Test checks for the period ended March 2024, including earlier cases not reported before. Some reviews, such as BSNL towers and MeitY skilling, covered 2018-19 to 2022-23."
+  },
+  nums:[["₹107.07 cr","Subscriber-verification penalties unrecovered (75%)",1],["₹78.92 cr","GST not collected on postal insurance late fees",1],["362 hours","IPPB UPI outages in 2023-24",1],["1,740","BSNL tower sites non-functional",1]],
+  themes:[
+    {name:"Money not collected", sev:"high", items:[
+      {t:"GST was not levied on late fees for postal life insurance (PLI/RPLI) premiums from July 2017 to December 2023.", amt:"₹78.92 cr"},
+      {t:"Of ₹143.09 crore of penalties on operators for subscriber verification lapses (2022-23 to 2024-25), only ₹36.02 crore was recovered by March 2025.", amt:"₹107.07 cr"},
+      {t:"Of ₹19.47 crore of penalties on Bharti Airtel for delays in a Digital Bharat Nidhi project in Assam and Sikkim, ₹8.49 crore was outstanding; 124 sites were still not commissioned in April 2025.", amt:"₹8.49 cr"},
+      {t:"Excess payments were made to an e-commerce firm by India Post's Kolkata RMS division.", amt:"₹1.05 cr"}]},
+    {name:"BSNL towers idle or without title", sev:"high", items:[
+      {t:"Title deeds for 36% of land parcels with BSNL towers were not in BSNL's name, and 27% of leased sites in selected circles ran on expired agreements.", amt:""},
+      {t:"Tower material lay unused.", amt:"₹59.77 cr"},
+      {t:"81 erected towers worth ₹11.13 crore were idle for three to seven years, and 1,740 tower sites were non-functional for up to 16 years.", amt:"₹11.13 cr"},
+      {t:"Delayed handover of 1,092 sites to telecom operators caused a revenue loss.", amt:"₹10.87 cr"}]},
+    {name:"Payments bank service gaps", sev:"med", items:[
+      {t:"IPPB's UPI technical decline rate was 3.29% in 2021-22 and 7.82% in 2022-23, against the RBI's target of under 1%.", amt:""},
+      {t:"UPI was down 362 hours in 2023-24, against 52 hours for Airtel Payments Bank, 19 for Fino and zero for Paytm Payments Bank.", amt:""},
+      {t:"Accounts were opened without verified mobile numbers, and many accounts were dormant.", amt:""}]},
+    {name:"Skilling, service centres and staff insurance", sev:"med", items:[
+      {t:"In MeitY's electronics skilling scheme, 33 of 40 training partners did not collect the registration-cum-certification fee, and trainees were tracked for three months instead of one year.", amt:""},
+      {t:"Common Service Centres 2.0 (outlay ₹475.11 crore) grew transactions by 291% between 2018 and 2024, but many centres were inactive and few women ran them.", amt:""},
+      {t:"In the Central Government Employees Group Insurance Scheme, savings fund interest was worked out as simple annual interest instead of compounded quarterly, and the scheme was not reviewed as required.", amt:""}]}
+  ],
+  charts:[
+    {title:"UPI outage hours, 2023-24", type:"bars", unit:"hours", data:[["IPPB",362],["Airtel Payments Bank",52],["Fino",19],["Paytm Payments Bank",0]]},
+    {title:"Subscriber-verification penalties, 2022-23 to 2024-25", type:"split", unit:"₹ crore", data:[["Recovered",36.02],["Pending",107.07]]}
+  ],
+  recs:[
+    "Recover the pending penalties from telecom operators.",
+    "Give BSNL a real-time tower database, settle land titles, renew leases and reuse or lease idle towers.",
+    "Monitor IPPB's UPI performance against RBI benchmarks and clean up account data.",
+    "Use Aadhaar e-KYC to stop duplicate trainee registrations, and revive inactive Common Service Centres."
+  ],
+  recsNote:"Summarised from the CAG press release.",
+  response:["The press release does not give the ministries' replies; they are in the full report, which goes to Parliament's Public Accounts Committee."],
+  timeline:[["Dec 2017","Airtel agreement for mobile coverage in Assam and Sikkim"],["Jun 2019","Original deadline to commission all sites"],["Mar 2025","₹107.07 crore of verification penalties still pending"],["2 Apr 2026","Report No. 5 of 2026 tabled in Parliament"]],
+  glossary:["Compliance audit","Digital Bharat Nidhi","Liquidated damages","Common Service Centre","Business Correspondent"],
+  exam:{
+    prelims:[
+      "CAG Report No. 5 of 2026 (Finance and Communication) was tabled on 2 April 2026.",
+      "GST of ₹78.92 crore was not collected on postal life insurance late fees.",
+      "IPPB's UPI was down 362 hours in 2023-24; the RBI's target for the technical decline rate is under 1%.",
+      "1,740 BSNL tower sites were non-functional, some for up to 16 years."
+    ],
+    mains:"Public sector telecom and postal services carry a social mandate but must still manage assets well. Discuss with reference to the CAG's 2026 audit of BSNL towers and India Post Payments Bank. (10 marks)",
+    quiz:[
+      {q:"What share of subscriber-verification penalties on telecom operators was still pending in March 2025?", o:["25%","50%","75%","100%"], a:2, w:"75%, or ₹107.07 crore of ₹143.09 crore."},
+      {q:"GST was not collected on late fees for which India Post product?", o:["Speed Post","Postal life insurance premiums","Savings bank accounts","Money orders"], a:1, w:"Late fees on PLI/RPLI premiums; ₹78.92 crore of GST was not collected."},
+      {q:"How many hours was IPPB's UPI down in 2023-24 per the CAG?", o:["0","19","52","362"], a:3, w:"362 hours."}
+    ]
+  },
+  related:["pmkvy-2025","cab-report-9-2026","cag-gst-20-2026"],
+  src:[["CAG press release on Report No. 5 of 2026","https://saiindia.gov.in/uploads/PressRelease/PR-Press-Release-on-Report-no-5-of-2026-in-english-069ce585c6c0771-77186201.pdf","official"],["CAG audit report page","https://cag.gov.in/en/audit-report/details/125146","official"],["TelecomTalk: CAG flags Airtel penalty dues of ₹8.49 crore","https://telecomtalk.info/?p=1006010","coverage"]],
+  kw:"BSNL towers India Post Payments Bank IPPB UPI Department of Posts GST PLI telecom penalties Airtel Digital Bharat Nidhi CSC MeitY skilling 2026"
+},
+/* ---------- NITI · Data Centre Evaluation Framework ---------- */
+{
+  id:"niti-datacentre-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Frontier Tech Hub framework",
+  title:"Data Centre Evaluation Framework", short:"Data Centre Framework", sector:"Roads & infrastructure", ministry:"NITI Aayog (Frontier Tech Hub)",
+  date:"Oct 2026", dateISO:"2026-10-14", tabled:"Released on 14 October 2026", period:"Planning horizon to 2030", flagged:null,
+  tldr:[
+    "India's installed data centre capacity was about 1.57 GW in August 2026; industry estimates put it at 4.5–6.5 GW by 2030.",
+    "Data centres used about 13 TWh of electricity in 2024, projected to rise to 57 TWh by 2030.",
+    "The framework asks states to tie approvals and incentives to verified power and water and to real economic benefits."
+  ],
+  en:"Data centres are growing fast in India and need a lot of electricity and water. NITI Aayog's framework gives states a common way to judge data centre proposals across five pillars, from power and water to economic value and governance. It says approvals should depend on verified power and water, that large centres should help balance the grid, and that incentives should be linked to jobs, clean energy and local buying. It is a guide for states, not a new regulation.",
+  hi:"भारत में डेटा सेंटर तेज़ी से बढ़ रहे हैं और इन्हें बहुत बिजली और पानी चाहिए। नीति आयोग का ढाँचा राज्यों को डेटा सेंटर प्रस्तावों को पाँच स्तंभों पर परखने का साझा तरीका देता है, बिजली और पानी से लेकर आर्थिक मूल्य और शासन तक। यह कहता है कि मंज़ूरी सत्यापित बिजली और पानी पर निर्भर हो, बड़े सेंटर ग्रिड के संतुलन में मदद करें, और प्रोत्साहन रोज़गार, स्वच्छ ऊर्जा और स्थानीय ख़रीद से जुड़े हों। यह राज्यों के लिए मार्गदर्शन है, नया नियम नहीं।",
+  context:{
+    what:"A decision-support framework from NITI Aayog's Frontier Tech Hub, developed with Deloitte India in consultation with the Ministry of Power and MeitY, to help states assess data centre investment proposals.",
+    why:"States compete to attract data centres with land, infrastructure and utility concessions. Without checks, projects can strain local power grids and water supplies while bringing few jobs.",
+    how:"Common evaluation criteria across five pillars that states can adapt to their own priorities."
+  },
+  nums:[["1.57 GW","Installed data centre capacity, August 2026",0],["4.5–6.5 GW","Projected capacity by 2030 (industry estimates)",0],["57 TWh","Projected electricity use by 2030, up from 13 TWh in 2024",1],["5","Pillars in the framework",0]],
+  themes:[
+    {name:"Fast growth, heavy resource needs", sev:"high", items:[
+      {t:"Installed capacity was about 1.57 GW in August 2026, with industry estimates of 4.5–6.5 GW by 2030.", amt:""},
+      {t:"Data centres used about 13 TWh of electricity in 2024; this is projected to reach 57 TWh by 2030.", amt:""}]},
+    {name:"Power and water first", sev:"med", items:[
+      {t:"Approvals should be tied to verified availability of electricity, water and other infrastructure.", amt:""},
+      {t:"Data centres above 20 MW should be ready for automated demand response and integrated with State Load Dispatch Centres.", amt:""},
+      {t:"States should prepare seasonal water-availability assessments covering 20 to 30 years and protect existing users.", amt:""},
+      {t:"Developers should pay for grid assets built only for their projects.", amt:""}]},
+    {name:"Making incentives count", sev:"med", items:[
+      {t:"States should weigh a project's economic benefits against the land, utility concessions and other support it receives.", amt:""},
+      {t:"Incentives could be linked to employment, renewable energy use, efficiency and local procurement.", amt:""},
+      {t:"Planning should move from single projects to whole campuses and infrastructure corridors.", amt:""}]},
+    {name:"How the framework works", sev:"low", items:[
+      {t:"Five pillars: power and energy; water and cooling; siting and environmental sustainability; economic and strategic value; policy, governance and implementation.", amt:""},
+      {t:"It is a decision-support tool that states can adapt, not an extra layer of regulation.", amt:""}]}
+  ],
+  charts:[
+    {title:"Data centre capacity", type:"bars", unit:"GW", data:[["August 2026",1.57],["2030 (upper estimate)",6.5]], note:"Industry estimates for 2030 range from 4.5 to 6.5 GW; the upper end is shown."},
+    {title:"Data centre electricity use", type:"bars", unit:"TWh", data:[["2024",13],["2030 (projected)",57]]}
+  ],
+  recs:[
+    "Tie data centre approvals to verified power and water availability.",
+    "Require demand-response readiness and grid integration for centres above 20 MW.",
+    "Prepare long-term seasonal water assessments before allotting sites.",
+    "Link incentives to measurable outcomes such as jobs, renewable energy use and local procurement."
+  ],
+  recsNote:"Summarised from coverage of the framework's release.",
+  response:["The framework is meant to guide states, which can adapt it to their priorities. Coverage noted it was not stated whether it has been formally adopted or will bind states."],
+  timeline:[["2024","Data centres use about 13 TWh of electricity"],["Aug 2026","Installed capacity about 1.57 GW"],["14 Oct 2026","Framework released"],["2030","Projected 4.5–6.5 GW and 57 TWh"]],
+  glossary:["Demand response","SLDC","TWh"],
+  exam:{
+    prelims:[
+      "NITI Aayog's Frontier Tech Hub released a Data Centre Evaluation Framework on 14 October 2026.",
+      "India's installed data centre capacity was about 1.57 GW in August 2026.",
+      "Data centre electricity use is projected to rise from about 13 TWh (2024) to 57 TWh by 2030.",
+      "The framework has five pillars, including power and energy, and water and cooling."
+    ],
+    mains:"Data centres bring investment but compete with people for power and water. Discuss with reference to NITI Aayog's 2026 Data Centre Evaluation Framework. (10 marks)",
+    quiz:[
+      {q:"What was India's installed data centre capacity in August 2026?", o:["0.57 GW","1.57 GW","4.5 GW","6.5 GW"], a:1, w:"About 1.57 GW."},
+      {q:"Above what size should data centres be ready for automated demand response under the framework?", o:["5 MW","10 MW","20 MW","100 MW"], a:2, w:"20 MW."},
+      {q:"Which body developed the Data Centre Evaluation Framework?", o:["MeitY alone","NITI Aayog's Frontier Tech Hub","Central Electricity Authority","RBI"], a:1, w:"NITI Aayog's Frontier Tech Hub, with Deloitte India."}
+    ]
+  },
+  related:["niti-ai-2025","niti-ifi-2026","niti-netzero-2026"],
+  src:[["All India Radio News: Frontier Tech Hub releases framework","https://newsonair.gov.in/niti-aayogs-frontier-tech-hub-releases-framework-for-sustainable-data-centers-growth/","coverage"],["Communications Today: clearances should depend on power and water","https://www.communicationstoday.co.in/dc-clearances-should-depend-on-power-water-availability-niti-aayog/","coverage"],["GKToday: NITI Aayog links data centre approvals to power and water","https://www.gktoday.in/niti-aayog-links-data-centre-approvals-to-power-and-water/","analysis"],["Devdiscourse: states asked to link incentives to sustainability","https://www.devdiscourse.com/article/business/3992419-niti-aayog-launches-data-centre-framework-asks-states-to-link-incentives-to-sustainability","coverage"]],
+  kw:"data centre framework NITI Frontier Tech Hub power water electricity TWh GW states incentives AI infrastructure 2026"
 }
 );
 
