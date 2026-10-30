@@ -8,7 +8,17 @@ Object.assign(window.SITE.glossary, {
   "SDRF": "State Disaster Response Fund: money set aside, largely with Union support, for immediate relief after a notified disaster.",
   "STP": "Sewage Treatment Plant: a facility that cleans wastewater before it is released into a river or reused.",
   "PSA oxygen plant": "Pressure Swing Adsorption plant: a unit that produces medical oxygen on site at a hospital.",
-  "Net zero": "A state where the greenhouse gases a country emits are balanced by those it removes. India's target year is 2070."
+  "Net zero": "A state where the greenhouse gases a country emits are balanced by those it removes. India's target year is 2070.",
+  "NPA": "Non-Performing Asset: a loan on which interest or principal has stayed unpaid beyond a set period.",
+  "Bad debt": "A loan a lender does not expect to recover and writes off its books; tax law lets it be deducted from income under conditions.",
+  "CBDT": "Central Board of Direct Taxes: the body under the Finance Ministry that runs income tax and other direct taxes.",
+  "E-way bill": "An electronic permit, generated on the GST portal, needed to move goods above a set value.",
+  "Regulatory asset": "Costs a power company has incurred but not yet been allowed to recover through tariffs; consumers usually pay them later.",
+  "Urban Local Body": "An elected city or town government, such as a municipal corporation, municipal council or nagar panchayat.",
+  "74th Amendment": "The 1992 constitutional amendment that made city governments constitutional bodies and listed 18 functions in the 12th Schedule that states may give them.",
+  "State Finance Commission": "A body each state must set up every five years to recommend how state money is shared with panchayats and city governments.",
+  "Municipal bond": "A loan a city government raises from investors by selling bonds, usually to fund infrastructure.",
+  "Parastatal": "A state-run agency, such as a water board or development authority, that does city work but is not answerable to the city government."
 });
 
 window.SPEC_REPORTS.push(
@@ -475,6 +485,221 @@ window.SPEC_REPORTS.push(
   related:["niti-ai-2025","econ-survey"],
   src:[["NITI Aayog report page","https://www.niti.gov.in/index.php/node/2334","official"],["Drishti IAS: Scenarios towards Viksit Bharat and Net Zero","https://www.drishtiias.com/daily-updates/daily-news-analysis/scenarios-towards-viksit-bharat-and-net-zero/print_manually","analysis"],["Renewable Watch: $22.7 trillion needed","https://renewablewatch.in/2026/02/16/capital-mobilisation-of-22-7-trillion-required-by-2070-to-achieve-net-zero-niti-aayog/","coverage"]],
   kw:"net zero 2070 climate finance energy transition power NITI 2026 viksit bharat"
+},
+/* ---------- CAG · Direct tax deductions to banks and NBFCs (Union) ---------- */
+{
+  id:"cag-banks-nbfc-tax-40-2025", body:"CAG", kind:"Performance audit", reportNo:"Report No. 40 of 2025",
+  title:"Performance Audit on Direct Taxes Exemptions and Deductions to Banks and Non-Banking Financial Companies", short:"Tax Deductions to Banks & NBFCs", sector:"Public finance", ministry:"Ministry of Finance (Department of Revenue, CBDT)",
+  date:"Apr 2026", dateISO:"2026-04-02", tabled:"Laid in Parliament on 2 April 2026", period:"Report for the year ended March 2024; cases examined up to June 2023", flagged:74766.39, flaggedNote:"Probable tax implication of the audit's compliance observations. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "The CAG examined 2,378 income tax cases of banks and NBFCs and made 1,847 observations with a probable tax implication of ₹74,766.39 crore.",
+    "In 127 cases, bad debts of ₹40,178.47 crore were written off without the borrower's PAN.",
+    "Tax rules treat a loan as an NPA after six months, while the RBI uses three months, which has led to disputes."
+  ],
+  en:"Banks and non-banking finance companies can cut their taxable income by claiming deductions, mostly for loans that go bad. The CAG checked how the Income Tax Department allowed these claims. It found deductions allowed without enough checks, write-offs without the borrower's PAN, and tax rules that do not match RBI norms. The observations carry a probable tax implication of ₹74,766.39 crore. After the audit, ₹3,503.44 crore was recovered from five taxpayers.",
+  hi:"बैंक और गैर-बैंकिंग वित्तीय कंपनियाँ कटौतियाँ दावा करके अपनी कर-योग्य आय घटा सकती हैं, ज़्यादातर डूबे कर्ज़ों के लिए। CAG ने जाँचा कि आयकर विभाग ने ये दावे कैसे मंज़ूर किए। उसने पाया कि कटौतियाँ पर्याप्त जाँच के बिना मंज़ूर हुईं, उधारकर्ता के PAN के बिना कर्ज़ बट्टे खाते में डाले गए, और कर नियम RBI के मानकों से मेल नहीं खाते। इन टिप्पणियों का संभावित कर प्रभाव ₹74,766.39 करोड़ है। ऑडिट के बाद पाँच करदाताओं से ₹3,503.44 करोड़ वसूले गए।",
+  context:{
+    what:"A CAG performance audit of how the Income Tax Department assessed exemptions and deductions claimed by scheduled commercial banks and NBFCs. It also follows up on the CAG's earlier Report No. 7 of 2008 on the same subject.",
+    why:"Deductions for bad loans and reserves are among the largest claims banks make. If they are allowed loosely, the government loses tax and the same loan can bring relief more than once.",
+    how:"2,463 cases were selected and 2,378 examined, up to June 2023, with a fuller analysis of 10 banks and 7 NBFCs for assessment years 2014-15 to 2019-20. Ministry replies were taken up to November 2025."
+  },
+  nums:[["₹74,766 cr","Probable tax implication of audit observations",1],["2,378","Assessment cases examined",0],["1,847","Audit observations",0],["₹3,503 cr","Recovered from five taxpayers after the audit",0]],
+  themes:[
+    {name:"Bad-loan deductions allowed loosely", sev:"high", items:[
+      {t:"Irregular allowance of deductions for bad debts written off.", amt:"₹33,459.08 cr"},
+      {t:"Irregular allowance of provisions for bad and doubtful debts.", amt:"₹2,971.26 cr"},
+      {t:"Irregular allowance of transfers to special reserves.", amt:"₹531.18 cr"}]},
+    {name:"Borrower details missing", sev:"high", items:[
+      {t:"In 127 cases, bad debts were written off without the borrower's PAN.", amt:"₹40,178.47 cr"},
+      {t:"In 58 cases, bad debts were allowed without borrower information even though they were not debited to the profit and loss account.", amt:"₹1,69,782.47 cr"},
+      {t:"The tax return form ITR-6 and the tax audit report (Form 3CD) have no columns to capture these details.", amt:""}]},
+    {name:"Tax rules out of step with RBI", sev:"med", items:[
+      {t:"Rule 6EA treats a loan as an NPA after six months overdue; the RBI uses three months. This has caused disputes over tax on interest in the gap.", amt:""},
+      {t:"In 36 NBFC cases, interest on NPAs was not taxed on an accrual basis. Rule 6EA has not been aligned with Section 43D.", amt:""}]},
+    {name:"Recoveries not matched with tax returns", sev:"med", items:[
+      {t:"In 52 cases, banks offered only ₹2,098.35 crore for tax against recoveries of ₹14,303 crore reported to the RBI.", amt:"₹14,303 cr"},
+      {t:"In 15 cases, amounts reported as recovered to the National Housing Bank were missing from the tax audit report.", amt:"₹137.89 cr"},
+      {t:"There is no standard procedure for Assessing Officers to treat bank and NBFC deductions uniformly.", amt:""}]}
+  ],
+  charts:[
+    {title:"Largest deduction issues", type:"bars", unit:"₹ crore, probable tax implication", data:[["Bad debts written off",33459.08],["Provisions for bad and doubtful debts",2971.26],["Special reserves",531.18]]},
+    {title:"52 bank cases: recoveries vs tax offered", type:"bars", unit:"₹ crore", data:[["Recoveries reported to RBI",14303],["Offered for tax",2098.35]]}
+  ],
+  recs:[
+    "Amend Rule 6EA in line with Section 43D and RBI categories of NBFCs.",
+    "Allow bad-debt write-offs only after the debt is actually found irrecoverable.",
+    "Change ITR-6 to capture borrower PAN and bad-debt details above a threshold.",
+    "Check mismatches between recoveries reported to the RBI and the tax audit report.",
+    "Frame a standard procedure for Assessing Officers handling bank assessments."
+  ],
+  recsNote:"5 of the report's 37 recommendations, summarised from the CAG press release.",
+  response:[
+    "The Ministry fully accepted 21 of 25 compliance observations put to it (₹799.38 crore), partly accepted 2 and did not accept 2 (₹237.70 crore).",
+    "Income Tax field offices accepted 88 of 212 observations (₹28,639.13 crore) and did not accept 41 (₹6,900.25 crore).",
+    "The report goes to Parliament's Public Accounts Committee."
+  ],
+  timeline:[["2008","CAG Report No. 7 of 2008 on the same subject"],["Jun 2023","Cases examined up to"],["Aug 2025","Income Tax Act, 2025 passed"],["Nov 2025","Ministry replies received up to"],["2 Apr 2026","Report No. 40 of 2025 laid in Parliament"]],
+  glossary:["Performance audit","NPA","Bad debt","CBDT","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 40 of 2025 on direct tax exemptions and deductions to banks and NBFCs was laid in Parliament on 2 April 2026.",
+      "Its observations carry a probable tax implication of ₹74,766.39 crore.",
+      "Rule 6EA of the Income Tax Rules treats a loan as an NPA after six months; RBI norms use three months.",
+      "The audit made a fuller analysis of 10 banks and 7 NBFCs."
+    ],
+    mains:"Generous tax treatment of bad loans can turn a banking problem into a fiscal one. Discuss with reference to the CAG's 2026 audit of deductions to banks and NBFCs. (10 marks)",
+    quiz:[
+      {q:"What probable tax implication did the CAG report for deductions allowed to banks and NBFCs?", o:["₹3,503 crore","₹33,459 crore","₹74,766 crore","₹1,69,782 crore"], a:2, w:"₹74,766.39 crore across the compliance observations."},
+      {q:"After how long does Rule 6EA of the Income Tax Rules treat an overdue loan as an NPA?", o:["30 days","Three months","Six months","One year"], a:2, w:"Six months, against three months under RBI norms."},
+      {q:"In how many cases were bad debts written off without the borrower's PAN?", o:["36","52","127","212"], a:2, w:"127 cases, involving ₹40,178.47 crore."}
+    ]
+  },
+  related:["cag-gst-20-2026","union-accounts-2425"],
+  src:[["CAG press release on Report No. 40 of 2025","https://saiindia.gov.in/uploads/PressRelease/PR-Press-Release-on-Report-no-40-of-2026-in-english-069ce5835737b64-56884580.pdf","official"],["CAG audit report page","https://cag.gov.in/en/audit-report/details/125150","official"],["A2Z Taxcorp: CAG flags ₹74,766 crore tax impact","https://a2ztaxcorp.net/cag-flags-%E2%82%B974766-crore-tax-impact-from-deductions-claimed-by-banks-nbfcs/","coverage"]],
+  kw:"income tax banks NBFC bad debt write-off NPA Rule 6EA Section 36 PAN CBDT direct tax deductions audit 2026"
+},
+/* ---------- CAG · Delhi: GST, power subsidy, e-procurement ---------- */
+{
+  id:"cag-delhi-revenue-1-2026", body:"CAG", state:"Delhi", kind:"Compliance audit", reportNo:"Report No. 1 of 2026 (Delhi)",
+  title:"Audit Report on Revenue, Economic, Social and General Sectors, Government of NCT of Delhi", short:"Delhi GST, Power Subsidy & Tenders", sector:"Public finance", ministry:"Government of NCT of Delhi (Trade & Taxes, Power and other departments)",
+  date:"Aug 2026", dateISO:"2026-08-07", tabled:"Tabled in the Delhi Assembly on 7 August 2026", period:"Year ended 31 March 2023", flagged:2030.16, flaggedNote:"Monetary value of the report's eight compliance audit paragraphs (₹1,985.04 crore in revenue and ₹45.12 crore in other sectors). These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "Only 63,283 of 6.10 crore e-way bills (about 0.10%) were physically verified.",
+    "The electricity subsidy reached ₹3,161 crore in 2022-23 and went to almost all domestic consumers, including ₹42.26 crore to connections with zero use.",
+    "The same IP address was used for 14,527 bids across 7,181 tenders worth ₹3,217.44 crore."
+  ],
+  en:"This CAG report on Delhi covers tax collection, the power subsidy and online tendering. Very few e-way bills were checked, and some taxpayers with cancelled registrations had moved goods worth crores. The power subsidy went to nearly every household instead of those who need it, and some was paid on connections that used no power. In online tenders, rival bidders often shared a PAN, an email or an IP address. The CAG says these are risks to examine, not proven losses or collusion.",
+  hi:"दिल्ली पर CAG की यह रिपोर्ट कर वसूली, बिजली सब्सिडी और ऑनलाइन टेंडर को देखती है। बहुत कम ई-वे बिलों की जाँच हुई, और रद्द पंजीकरण वाले कुछ करदाताओं ने करोड़ों का माल भेजा था। बिजली सब्सिडी ज़रूरतमंदों के बजाय लगभग हर घर को मिली, और कुछ ऐसे कनेक्शनों पर भी दी गई जिनमें बिजली खपत ही नहीं हुई। ऑनलाइन टेंडरों में प्रतिद्वंद्वी बोलीदाता अक्सर एक ही PAN, ईमेल या IP पता इस्तेमाल कर रहे थे। CAG कहता है कि ये जाँचने योग्य जोखिम हैं, सिद्ध नुकसान या मिलीभगत नहीं।",
+  context:{
+    what:"A CAG report on Delhi with two chapters: the revenue sector (a performance audit of the GST e-way bill system and a review of GST payment and return oversight) and other sectors (audits of the electricity subsidy and the e-procurement system, plus spending paragraphs).",
+    why:"GST and the power subsidy are among Delhi's largest revenue and spending items, and e-procurement is meant to make public buying fair and transparent.",
+    how:"Review of departmental records and data analysis for the year ended 31 March 2023. The report was sent to the government on 5 May 2026."
+  },
+  nums:[["₹2,030 cr","Value of compliance audit paragraphs",1],["0.10%","Share of e-way bills physically verified",1],["₹3,161 cr","Electricity subsidy, 2022-23",0],["3.47%","Tenders with award-of-contract details",1]],
+  themes:[
+    {name:"Weak GST oversight", sev:"high", items:[
+      {t:"Only 63,283 of 6.10 crore e-way bills, about 0.10%, were physically verified.", amt:""},
+      {t:"15 taxpayers generated 580 e-way bills for ₹252.66 crore of supplies without filing GSTR-3B returns.", amt:"₹31.46 cr"},
+      {t:"28 taxpayers with cancelled registrations had generated 3,629 e-way bills worth ₹734.75 crore.", amt:"₹99.39 cr"},
+      {t:"The CAG notes these are mismatches needing scrutiny, not established revenue losses.", amt:""}]},
+    {name:"Power subsidy not targeted", sev:"high", items:[
+      {t:"The electricity subsidy rose from ₹2,405.59 crore in 2019-20 to ₹3,161 crore in 2022-23, about 67–70% of all government subsidy spending.", amt:""},
+      {t:"The 400-unit threshold covered about 80% of domestic consumers, and its basis could not be established.", amt:""},
+      {t:"Subsidy went to connections with zero consumption for long periods, including ₹17.81 crore to over 50,000 connections idle for more than a year.", amt:"₹42.26 cr"},
+      {t:"Regulatory assets of power distribution companies rose from ₹9,063 crore (2019-20) to ₹27,200.37 crore (March 2021).", amt:""}]},
+    {name:"Red flags in e-procurement", sev:"high", items:[
+      {t:"1,185 tenders were floated manually despite the e-procurement system.", amt:""},
+      {t:"In 45 tenders, competing bidders were registered under a common PAN; in 38 tenders, all bidders shared one email address.", amt:"₹530.25 cr"},
+      {t:"The same IP address was used for 14,527 bids across 7,181 tenders worth ₹3,217.44 crore. This is a risk of collusion, not proof of it.", amt:""},
+      {t:"Only 3.47% of about 1.55 lakh tenders had award-of-contract details.", amt:""}]},
+    {name:"Wasteful or unfruitful spending", sev:"med", items:[
+      {t:"Land taken by DSIIDC in 2006 for a Gems and Jewellery Park and Fashion Design Hub stayed unproductive.", amt:"₹29.45 cr"},
+      {t:"Avoidable payments on dewatering works.", amt:"₹5.63 cr"},
+      {t:"Potential interest loss because the DTC Employees' Provident Fund Trust did not invest surplus funds on time.", amt:"₹5.50 cr"},
+      {t:"A junior engineer exam was held by DSSSB after the vacancies were withdrawn.", amt:"₹1.05 cr"}]}
+  ],
+  charts:[
+    {title:"Delhi's electricity subsidy", type:"bars", unit:"₹ crore", data:[["2019-20",2405.59],["2022-23",3161]]},
+    {title:"Power distribution companies' regulatory assets", type:"bars", unit:"₹ crore", data:[["2019-20",9063],["March 2021",27200.37]]},
+    {title:"Tenders with award-of-contract details", type:"split", unit:"% of about 1.55 lakh tenders", data:[["With details",3.47],["Without",96.53]]}
+  ],
+  recs:[
+    "Target the power subsidy using billing data and sanctioned load, and examine Direct Benefit Transfer.",
+    "Assess rising regulatory assets and the tariff burden they create.",
+    "Make e-tendering mandatory above set thresholds and use all e-procurement modules.",
+    "Add checks and alerts for bidders sharing a PAN, email or IP address."
+  ],
+  recsNote:"Summarised from published coverage of the report.",
+  response:[
+    "The Power Department said Direct Benefit Transfer was not feasible because subsidy payments are adjusted against the distribution companies' dues.",
+    "The government's reply on the main e-procurement findings was awaited when the report was finalised. The report goes to the Assembly's Public Accounts Committee."
+  ],
+  timeline:[["2006","DSIIDC land taken for the Gems and Jewellery Park"],["Mar 2023","Year audited ends"],["5 May 2026","Report sent to the Delhi government"],["7 Aug 2026","Tabled in the Delhi Assembly"]],
+  glossary:["Compliance audit","Performance audit","E-way bill","Regulatory asset","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2026 on the Government of NCT of Delhi was tabled on 7 August 2026.",
+      "Only about 0.10% of e-way bills in Delhi were physically verified.",
+      "Delhi's electricity subsidy was ₹3,161 crore in 2022-23.",
+      "Only 3.47% of about 1.55 lakh e-tenders had award-of-contract details."
+    ],
+    mains:"Universal subsidies are easy to run but costly and poorly targeted. Examine with reference to the CAG's 2026 findings on Delhi's electricity subsidy. (10 marks)",
+    quiz:[
+      {q:"What share of e-way bills in Delhi did the CAG find were physically verified?", o:["About 0.10%","About 3.47%","About 10%","About 34%"], a:0, w:"63,283 of 6.10 crore, about 0.10%."},
+      {q:"An e-way bill is generated on which portal?", o:["PFMS","GeM","GST portal","e-Procurement portal"], a:2, w:"It is a GST permit for moving goods."},
+      {q:"Which shared detail did the CAG find across 14,527 bids in Delhi's e-tenders?", o:["Bank account","IP address","Office address","Phone number"], a:1, w:"The same IP address, across 7,181 tenders worth ₹3,217.44 crore."}
+    ]
+  },
+  related:["delhi-excise","cag-gst-20-2026","delhi-health"],
+  src:[["CAG audit report page: GNCTD Report No. 1 of 2026","https://cag.gov.in/en/audit-report/details/125907","official"],["The Policy Edge: CAG audit flags gaps in Delhi's GST oversight, power subsidy and e-procurement","https://www.policyedge.in/p/cag-audit-flags-systemic-gaps-in-delhis-gst-oversight-power-subsidy-and-e-procurement","analysis"],["A2Z Taxcorp: CAG flags GST lapses, untargeted power subsidy","https://a2ztaxcorp.net/delhi-cag-flags-gst-lapses-untargeted-power-subsidy-wasteful-expenditure/","coverage"]],
+  kw:"Delhi GST e-way bill electricity power subsidy discom regulatory assets e-procurement tenders DSIIDC 2026"
+},
+/* ---------- NITI · Effective city government ---------- */
+{
+  id:"niti-city-govt-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report",
+  title:"Moving Towards Effective City Government: A Framework for Million-Plus Cities", short:"Effective City Government", sector:"Other", ministry:"NITI Aayog",
+  date:"Apr 2026", dateISO:"2026-04-25", tabled:"Released on 25 April 2026 by Union Minister Manohar Lal Khattar", period:"Census 2011 data and current state practice", flagged:null,
+  tldr:[
+    "46 municipal corporations with a million or more people house 30.66% of India's urban population (Census 2011).",
+    "City governments fully control only about 4 of the 18 functions the Constitution lists for them, per a CAG audit cited in the report.",
+    "The report recommends a directly elected mayor with a fixed term and stronger powers."
+  ],
+  en:"India's biggest cities are run by many agencies, with mayors who are often weak and short-term. NITI Aayog's framework for million-plus cities says city governments control few of the functions the 74th Amendment lists, have thin finances, and depend on officers sent by the state. It recommends directly elected mayors with fixed terms, bringing water, sanitation and city transport under the city government, and stronger city finances. States would have to change their municipal laws.",
+  hi:"भारत के बड़े शहर कई एजेंसियाँ चलाती हैं, और मेयर अक्सर कमज़ोर और कम अवधि के होते हैं। दस लाख से अधिक आबादी वाले शहरों के लिए नीति आयोग का ढाँचा कहता है कि शहर सरकारें 74वें संशोधन में सूचीबद्ध कुछ ही कामों पर नियंत्रण रखती हैं, उनकी वित्तीय स्थिति कमज़ोर है, और वे राज्य से भेजे गए अधिकारियों पर निर्भर हैं। यह सीधे चुने गए, तय कार्यकाल वाले मेयर, पानी, स्वच्छता और शहरी परिवहन को शहर सरकार के अधीन लाने और शहरों के वित्त को मज़बूत करने की सिफ़ारिश करता है। इसके लिए राज्यों को अपने नगरपालिका क़ानून बदलने होंगे।",
+  context:{
+    what:"A NITI Aayog framework on how India's million-plus cities should be governed: leadership, functions, finances and staff.",
+    why:"Large cities are central to the Viksit Bharat 2047 goal, but fragmented agencies and weak mayors make it hard to say who is accountable for city services.",
+    how:"Review of the 74th Amendment, state municipal laws and practice, Census 2011 data, CAG audit findings and municipal finance data."
+  },
+  nums:[["46","Municipal corporations with 1 million+ people (Census 2011)",0],["30.66%","Share of urban population living in them",0],["4 of 18","Constitutional functions under full city control, on average",1],["8","States that directly elect mayors",0]],
+  themes:[
+    {name:"Weak and fragmented leadership", sev:"high", items:[
+      {t:"Only 8 states directly elect mayors: Bihar, Chhattisgarh, Haryana, Jharkhand, Madhya Pradesh, Odisha, Uttar Pradesh and Uttarakhand.", amt:""},
+      {t:"A mayor's term ranges from 1 year (Delhi MCD) to 5 years (Kolkata, Bhopal); Mumbai's is 2.5 years.", amt:""},
+      {t:"Municipal corporations, development authorities and parastatals overlap, which blurs accountability.", amt:""}]},
+    {name:"Functions not handed over", sev:"high", items:[
+      {t:"The 74th Amendment lists 18 functions for city governments. A CAG audit across 18 states found they have full control over about 4 and a minimal role in 7.", amt:""},
+      {t:"A CAG audit found elections delayed in over 61% of urban local bodies across 17 states, by 22 months on average.", amt:""}]},
+    {name:"Thin city finances", sev:"med", items:[
+      {t:"Borrowing was about 2.4% of total municipal receipts in 2021-22.", amt:""},
+      {t:"About 25 municipal bond issues by 18 issuers raised about ₹3,579 crore between 2017 and 2025.", amt:"₹3,579 cr"},
+      {t:"Of 468 urban local bodies credit-rated under AMRUT in 2023-24, about 162 were investment grade.", amt:""},
+      {t:"State Finance Commission reports came on average 13 months after their deadline.", amt:""}]},
+    {name:"Capacity gaps", sev:"med", items:[
+      {t:"Cities rely on officers deputed by the state, municipal commissioners are transferred often, and there are no professional municipal cadres.", amt:""}]}
+  ],
+  charts:[
+    {title:"Mayor's term in selected cities", type:"bars", unit:"years", data:[["Kolkata",5],["Bhopal",5],["Mumbai",2.5],["Delhi MCD",1]]},
+    {title:"AMRUT credit ratings, 2023-24", type:"split", unit:"urban local bodies rated", data:[["Investment grade",162],["Below investment grade",306]], note:"The report says about 162 of 468 rated bodies were investment grade."}
+  ],
+  recs:[
+    "Have a directly elected mayor with a fixed term, supported by a mayor-in-council.",
+    "Bring water supply, sanitation, solid waste management and urban transport under the city government.",
+    "Raise cities' own revenue, especially property tax, make state transfers predictable through State Finance Commissions, and develop municipal bonds.",
+    "Bring parastatal agencies under city government oversight.",
+    "States to amend their municipal laws, the Ministry of Housing and Urban Affairs to update the Model Municipal Law, with pilots in selected cities."
+  ],
+  recsNote:"Summarised from the report and coverage of its launch.",
+  response:["Urban governance is a state subject, so the framework works only if states amend their municipal laws. Urban development ministers from more than 10 states attended the launch."],
+  timeline:[["1992","74th Constitutional Amendment"],["2011","Census data used for million-plus cities"],["25 Apr 2026","Framework released"],["2047","Viksit Bharat target year"]],
+  glossary:["Urban Local Body","74th Amendment","State Finance Commission","Municipal bond","Parastatal"],
+  exam:{
+    prelims:[
+      "NITI Aayog's 'Moving Towards Effective City Government' framework was released on 25 April 2026.",
+      "The 12th Schedule, added by the 74th Amendment (1992), lists 18 functions for urban local bodies.",
+      "46 municipal corporations with a million or more people house 30.66% of the urban population (Census 2011).",
+      "8 states currently elect mayors directly."
+    ],
+    mains:"The 74th Amendment created city governments but not city leaders. Discuss with reference to NITI Aayog's 2026 framework for million-plus cities. (15 marks)",
+    quiz:[
+      {q:"How many functions does the 12th Schedule of the Constitution list for urban local bodies?", o:["11","18","29","46"], a:1, w:"18, listed in the 12th Schedule added by the 74th Amendment."},
+      {q:"Which of these states directly elects its mayors, per NITI Aayog's 2026 framework?", o:["Maharashtra","West Bengal","Madhya Pradesh","Karnataka"], a:2, w:"Madhya Pradesh is one of the 8 states with direct election."},
+      {q:"About how many of the 18 functions do city governments fully control, per the CAG audit cited?", o:["4","7","12","18"], a:0, w:"About 4, with a minimal role in 7."}
+    ]
+  },
+  related:["fiscal-health-2026","state-finances","niti-ifi-2026"],
+  src:[["NITI Aayog: full report (PDF)","https://www.niti.gov.in/sites/default/files/2026-04/Moving-Towards-Effective-City-Government-a-Framework-for-Million-Plus-Cities.pdf","official"],["All India Radio News: Khattar releases NITI Aayog report","https://newsonair.gov.in/union-minister-manohar-lal-khattar-releases-niti-aayog-report-titled-moving-towards-effective-city-government-framework/","coverage"],["IANS: roadmap to boost urban governance reforms","https://ianslive.in/niti-aayog-report-presents-roadmap-to-boost-urban-governance-reforms--20260425223652","coverage"],["Vajiram & Ravi: NITI Aayog report on city governance","https://vajiramandravi.com/current-affairs/niti-aayog-report-on-city-governance/","analysis"]],
+  kw:"city government mayor urban local body municipal corporation 74th amendment 12th schedule parastatal municipal bonds NITI 2026"
 }
 );
 
@@ -485,5 +710,6 @@ Object.assign(window.STATE_FACTS_V2, {
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"]],
-  TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"]]
+  TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"]],
+  DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
 });
