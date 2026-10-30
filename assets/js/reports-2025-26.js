@@ -27,7 +27,16 @@ Object.assign(window.SITE.glossary, {
   "Business Correspondent": "An agent who offers basic banking services, such as deposits and withdrawals, on behalf of a bank in places without a branch.",
   "Demand response": "Cutting or shifting electricity use when the grid is under strain, often automatically, in return for payment or lower tariffs.",
   "SLDC": "State Load Dispatch Centre: the body that balances electricity supply and demand on a state's grid in real time.",
-  "TWh": "Terawatt-hour: a unit of electricity equal to one billion kilowatt-hours (units)."
+  "TWh": "Terawatt-hour: a unit of electricity equal to one billion kilowatt-hours (units).",
+  "District Mineral Foundation": "A trust in each mining district, funded by mining companies, that must spend its money on people and areas affected by mining.",
+  "PMKKKY": "Pradhan Mantri Khanij Kshetra Kalyan Yojana: the 2015 scheme that sets rules for how District Mineral Foundations spend their money.",
+  "MGNREGS": "Mahatma Gandhi National Rural Employment Guarantee Scheme: guarantees rural households up to 100 days of paid manual work a year.",
+  "Certificate of Fitness": "A certificate that a transport vehicle is safe to run on the road; it must be renewed at set intervals.",
+  "Extra Neutral Alcohol": "Highly purified alcohol that distilleries use as the base for making liquor.",
+  "Credit bureau": "A company, such as TransUnion CIBIL, that collects borrowers' loan and repayment records and gives them credit scores.",
+  "Credit penetration": "The share of people eligible for credit who actually have an active loan or credit card.",
+  "CAGR": "Compound annual growth rate: the steady yearly growth rate that takes a value from its start level to its end level.",
+  "Microfinance": "Small loans, often without collateral, given to low-income borrowers, many of them women in groups."
 });
 
 window.SPEC_REPORTS.push(
@@ -912,13 +921,217 @@ window.SPEC_REPORTS.push(
   related:["niti-ai-2025","niti-ifi-2026","niti-netzero-2026"],
   src:[["All India Radio News: Frontier Tech Hub releases framework","https://newsonair.gov.in/niti-aayogs-frontier-tech-hub-releases-framework-for-sustainable-data-centers-growth/","coverage"],["Communications Today: clearances should depend on power and water","https://www.communicationstoday.co.in/dc-clearances-should-depend-on-power-water-availability-niti-aayog/","coverage"],["GKToday: NITI Aayog links data centre approvals to power and water","https://www.gktoday.in/niti-aayog-links-data-centre-approvals-to-power-and-water/","analysis"],["Devdiscourse: states asked to link incentives to sustainability","https://www.devdiscourse.com/article/business/3992419-niti-aayog-launches-data-centre-framework-asks-states-to-link-incentives-to-sustainability","coverage"]],
   kw:"data centre framework NITI Frontier Tech Hub power water electricity TWh GW states incentives AI infrastructure 2026"
+},
+/* ---------- CAG · Odisha: District Mineral Foundations (PMKKKY) ---------- */
+{
+  id:"cag-odisha-dmf-2026", body:"CAG", state:"Odisha", kind:"Performance audit", reportNo:"CAG performance audit (Odisha, 2026)",
+  title:"Performance Audit of PMKKKY and the Functioning of District Mineral Foundations in Odisha", short:"Odisha Mining Fund Audit", sector:"Social welfare", ministry:"Steel and Mines Department, Government of Odisha (District Mineral Foundations)",
+  date:"Sep 2026", dateISO:"2026-09-28", tabled:"Tabled in the Odisha Assembly on 28 September 2026", period:"2015-16 to 2023-24", flagged:983.32, flaggedNote:"Spent on projects in 976 villages not identified as mining-affected. This is an amount at issue, not a confirmed loss.",
+  tldr:[
+    "Six District Mineral Foundations collected ₹22,568.17 crore and sanctioned 17,435 projects worth ₹20,947.52 crore.",
+    "₹983.32 crore was spent in 976 villages not identified as mining-affected, while 488 directly affected villages got no project.",
+    "₹136.77 crore went on a hockey stadium in Rourkela, which the CAG said was not allowed under the scheme."
+  ],
+  en:"Mining companies pay into a District Mineral Foundation in each mining district. The money is meant for people living in areas hit by mining. The CAG checked six of Odisha's foundations from 2015-16 to 2023-24. They collected over ₹22,500 crore but used less than half by March 2024. In Kendujhar and Sundargarh, ₹983 crore was spent in villages not listed as mining-affected, while hundreds of affected villages got nothing. Money also went to a hockey stadium, extra MGNREGS wages and other uses the rules do not allow.",
+  hi:"खनन कंपनियाँ हर खनन ज़िले में ज़िला खनिज फ़ाउंडेशन (DMF) में पैसा जमा करती हैं। यह पैसा खनन से प्रभावित इलाकों में रहने वाले लोगों के लिए है। CAG ने 2015-16 से 2023-24 तक ओडिशा के छह फ़ाउंडेशन की जाँच की। उन्होंने ₹22,500 करोड़ से अधिक जुटाए, लेकिन मार्च 2024 तक आधे से भी कम खर्च हुआ। केंदुझर और सुंदरगढ़ में ₹983 करोड़ उन गाँवों में खर्च हुए जो खनन-प्रभावित सूची में नहीं थे, जबकि सैकड़ों प्रभावित गाँवों को कुछ नहीं मिला। पैसा हॉकी स्टेडियम, MGNREGS की अतिरिक्त मज़दूरी और ऐसे अन्य कामों पर भी गया जिनकी नियम अनुमति नहीं देते।",
+  context:{
+    what:"A CAG performance audit of the Pradhan Mantri Khanij Kshetra Kalyan Yojana (PMKKKY) and the working of District Mineral Foundations (DMFs) in six Odisha districts: Dhenkanal, Jajpur, Kendujhar, Mayurbhanj, Nabarangpur and Sundargarh.",
+    why:"DMF money comes from mining royalties and is meant to fix the damage mining does to nearby communities. If it is spent elsewhere, the people who bear the costs of mining lose out.",
+    how:"Review of DMF records for 2015-16 to 2023-24 in six districts, covering how contributions were assessed, how projects were chosen and how funds were spent and accounted for."
+  },
+  nums:[["₹22,568.17 cr","Collected by six DMFs, including interest",0],["48.18%","Share of sanctioned money used by March 2024",1],["₹983.32 cr","Spent in villages not identified as mining-affected",1],["488","Directly affected villages with no project",1]],
+  themes:[
+    {name:"Money not reaching mining-affected villages", sev:"high", items:[
+      {t:"In Kendujhar and Sundargarh, ₹983.32 crore was spent on projects in 976 villages not identified as mining-affected.", amt:"₹983.32 cr"},
+      {t:"No project was taken up in 488 directly affected and 96 indirectly affected villages.", amt:""},
+      {t:"In Jajpur, 43.54% of funds used went to indirectly affected areas, above the 40% limit.", amt:"₹507.02 cr"},
+      {t:"Lists of affected areas were updated only in Kendujhar and Sundargarh, and 61 to 62 months late.", amt:""}]},
+    {name:"Spending outside the rules", sev:"high", items:[
+      {t:"Sundargarh DMF spent on a hockey stadium in Rourkela, which the CAG said is not a permissible activity under PMKKKY.", amt:"₹136.77 cr"},
+      {t:"Three DMFs released money to the MGNREGS director for additional wages, against Ministry of Rural Development guidelines.", amt:"₹171.79 cr"},
+      {t:"In Sundargarh, about a quarter of administrative spending went on items such as police patrol vehicles and school functions.", amt:"₹25.01 cr"},
+      {t:"During Covid-19, Sundargarh DMF paid a private hospital ₹109.45 crore against ₹98.85 crore due.", amt:"₹10.60 cr"}]},
+    {name:"Weak planning and approvals", sev:"med", items:[
+      {t:"None of the six DMFs prepared the required perspective plan and master plan, or set up an endowment fund for long-term livelihood support.", amt:""},
+      {t:"In Kendujhar, 757 projects were sanctioned without approval of the Executive Committee or Board.", amt:""},
+      {t:"Only 48.18% of the money sanctioned had been used by March 2024.", amt:""}]},
+    {name:"Money lost or not returned", sev:"med", items:[
+      {t:"Implementing agencies in Jajpur, Kendujhar and Sundargarh did not return unspent funds after projects ended, plus ₹26.51 crore of interest.", amt:"₹470.25 cr"},
+      {t:"Kendujhar DMF lost interest because of investment decisions the CAG called imprudent.", amt:"₹84.51 cr"},
+      {t:"Wrong contribution rates, no reassessment after final royalty assessment and unlevied interest on late payments.", amt:"₹73.71 cr"}]}
+  ],
+  charts:[
+    {title:"Six DMFs: money in and money used", type:"bars", unit:"₹ crore", data:[["Collected (incl. interest)",22568.17],["Sanctioned for projects",20947.52],["Used by March 2024",10092.53]]},
+    {title:"Selected spending the CAG questioned", type:"bars", unit:"₹ crore", data:[["Non-affected villages",983.32],["Unspent funds not returned",470.25],["MGNREGS wages",171.79],["Hockey stadium",136.77]]}
+  ],
+  recs:[
+    "Update the lists of mining-affected areas and spend in those areas first.",
+    "Recover unspent balances and accrued interest from implementing agencies.",
+    "Keep DMF accounts as the rules require and finish sanctioned projects on time.",
+    "Investigate irregular spending and fix responsibility on officials."
+  ],
+  recsNote:"Summarised from published coverage of the report.",
+  response:["Coverage did not report a reply from the Odisha government or the DMFs. The report goes to the Odisha Assembly's Public Accounts Committee."],
+  timeline:[["2015-16","Audit period begins"],["Mar 2024","Audit period ends; 48.18% of sanctioned funds used"],["28 Sep 2026","Report tabled in the Odisha Assembly"]],
+  glossary:["Performance audit","District Mineral Foundation","PMKKKY","MGNREGS","PAC"],
+  exam:{
+    prelims:[
+      "District Mineral Foundations are funded by contributions from mining lease holders and spend under PMKKKY.",
+      "The CAG audit covered six Odisha DMFs for 2015-16 to 2023-24 and was tabled on 28 September 2026.",
+      "The six DMFs collected ₹22,568.17 crore including interest.",
+      "Under PMKKKY rules cited by the audit, spending in indirectly affected areas is capped at 40%."
+    ],
+    mains:"Mining royalties meant for affected communities often fund unrelated projects. Discuss with reference to the CAG's 2026 audit of District Mineral Foundations in Odisha. (15 marks)",
+    quiz:[
+      {q:"Which scheme governs spending by District Mineral Foundations?", o:["PMKSY","PMKKKY","PMAY-G","MGNREGS"], a:1, w:"Pradhan Mantri Khanij Kshetra Kalyan Yojana (PMKKKY)."},
+      {q:"How much did Odisha's audited DMFs spend in villages not identified as mining-affected?", o:["₹136.77 crore","₹470.25 crore","₹983.32 crore","₹22,568 crore"], a:2, w:"₹983.32 crore in 976 villages in Kendujhar and Sundargarh."},
+      {q:"What did Sundargarh DMF spend ₹136.77 crore on, which the CAG said was not permissible?", o:["A medical college","A hockey stadium","An airport","Police housing"], a:1, w:"A hockey stadium in Rourkela."}
+    ]
+  },
+  related:["uk-campa","cag-kerala-jjm"],
+  src:[["Business Standard: CAG flags ₹1,662 cr DMF spend outside norms","https://www.business-standard.com/industry/news/cag-flags-1-662-cr-dmf-spend-outside-norms-mining-affected-areas-126092901031_1.html","coverage"],["Pragativadi: CAG flags lapses in Odisha DMF spending","https://pragativadi.com/cag-flags-major-lapses-in-odisha-dmf-spending-rs-983-crore-spent-in-non-mining-affected-villages/","coverage"],["Social News XYZ (IANS): CAG flags irregularities in PMKKKY","https://www.socialnews.xyz/2026/09/28/odisha-cag-flags-irregularities-in-pmkkky-implementation/","coverage"]],
+  kw:"Odisha DMF District Mineral Foundation PMKKKY mining affected Kendujhar Sundargarh Keonjhar hockey stadium Rourkela MGNREGS 2026"
+},
+/* ---------- CAG · Kerala: State revenues ---------- */
+{
+  id:"cag-kerala-revenue-2-2026", body:"CAG", state:"Kerala", kind:"Compliance audit", reportNo:"Report No. 2 of 2026 (Kerala)",
+  title:"Report of the CAG on State Revenues for the period ended March 2024, Government of Kerala", short:"Kerala Revenue Audit", sector:"Public finance", ministry:"Taxes, Excise, Transport and Registration Departments, Government of Kerala",
+  date:"Jun 2026", dateISO:"2026-06-23", tabled:"Tabled in the Kerala Assembly on 23 June 2026", period:"Year ended March 2024", flagged:603.53, flaggedNote:"Revenue impact of the 11 paragraphs in this report. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "Kerala's revenue arrears stood at ₹30,308.52 crore, 24.35% of its revenue; over ₹11,000 crore had been pending for more than five years.",
+    "Nine automated driving test tracks and nine vehicle testing stations cost ₹37.48 crore; only two tracks work and no station does.",
+    "A distillery's loss of ₹51.88 crore from missing alcohol stock was not recovered."
+  ],
+  en:"The CAG checked how Kerala collects taxes on liquor, vehicles, and property sales for 2023-24. Unpaid revenue had piled up to over ₹30,000 crore, about a quarter of the state's revenue. In transport, costly automated test tracks and stations sat mostly idle, and thousands of vehicles ran on expired fitness certificates, some of them in fatal accidents. In excise, a large loss at a distillery was not recovered and some liquor sent to Mahe may have been diverted. The report's findings add up to ₹603.53 crore.",
+  hi:"CAG ने 2023-24 के लिए जाँचा कि केरल शराब, वाहनों और संपत्ति बिक्री पर कर कैसे वसूलता है। बकाया राजस्व ₹30,000 करोड़ से ऊपर पहुँच गया था, यानी राज्य के राजस्व का लगभग एक-चौथाई। परिवहन में महँगे स्वचालित टेस्ट ट्रैक और स्टेशन ज़्यादातर बेकार पड़े रहे, और हज़ारों वाहन समाप्त फ़िटनेस प्रमाणपत्र के साथ चलते रहे, जिनमें से कुछ जानलेवा दुर्घटनाओं में शामिल थे। आबकारी में एक डिस्टिलरी का बड़ा नुकसान वसूला नहीं गया और माहे भेजी गई कुछ शराब के इधर-उधर होने की आशंका है। रिपोर्ट के निष्कर्ष कुल ₹603.53 करोड़ के हैं।",
+  context:{
+    what:"A CAG compliance audit of Kerala's state revenues for 2023-24, with two subject-specific audits: one of Regional Transport Offices and the State Transport Authority, and one of foreign liquor excise.",
+    why:"Kerala relies heavily on its own taxes. Uncollected dues and weak enforcement cut the money available for services, and lax vehicle checks also put lives at risk.",
+    how:"Test check of records in the Taxes, Excise, Transport and Registration departments, with VAHAN vehicle data matched against police accident records."
+  },
+  nums:[["₹603.53 cr","Revenue impact of the report's 11 paragraphs",1],["₹30,308.52 cr","Revenue arrears (24.35% of revenue)",1],["2 of 9","Automated driving test tracks working",1],["48,059","Transport vehicles with expired fitness certificates",1]],
+  themes:[
+    {name:"Transport: idle equipment and unsafe vehicles", sev:"high", items:[
+      {t:"Nine automated driving test tracks and nine automated testing stations were set up; only two tracks work and no station is operational.", amt:"₹37.48 cr"},
+      {t:"48,059 active transport vehicles had expired fitness certificates; 197 of them were linked to accidents with 19 deaths.", amt:"₹23.12 cr"},
+      {t:"147 vehicles with expired registration certificates were linked to accidents with 13 deaths.", amt:"₹24.57 cr"},
+      {t:"1,620 contract and goods carriages ran without valid permits; Green Tax was not levied at renewals.", amt:"₹2.57 cr"}]},
+    {name:"Excise: liquor revenue leaks", sev:"high", items:[
+      {t:"A Thiruvalla distillery's loss from a shortage of Extra Neutral Alcohol after a theft was not recovered.", amt:"₹51.88 cr"},
+      {t:"A Kanjikode brewery was irregularly exempted from Turnover Tax.", amt:"₹13.81 cr"},
+      {t:"No exit records for 22 permits covering 1,10,720 bulk litres of liquor sent to Mahe, pointing to possible diversion.", amt:"₹5.10 cr"},
+      {t:"Wrong tax rates led to short levy.", amt:"₹3.71 cr"}]},
+    {name:"Arrears and slow follow-up", sev:"med", items:[
+      {t:"Revenue arrears were ₹30,308.52 crore, 24.35% of total revenue; over ₹11,000 crore was pending for more than five years.", amt:""},
+      {t:"15,021 earlier audit paragraphs worth ₹4,978.61 crore were still outstanding in June 2024.", amt:""},
+      {t:"Action Taken Notes were missing for 155 of 165 Public Accounts Committee recommendations to four departments.", amt:""}]},
+    {name:"Stamps and registration", sev:"low", items:[
+      {t:"Stamp duty was short levied through wrong fair values, land misclassification and splitting properties to avoid duty.", amt:""}]}
+  ],
+  charts:[
+    {title:"Automated vehicle testing facilities", type:"pairs", unit:"facilities", legend:["Set up","Working"], data:[["Driving test tracks",9,2],["Vehicle testing stations",9,0]]},
+    {title:"Largest single findings", type:"bars", unit:"₹ crore", data:[["Distillery loss not recovered",51.88],["Automated test facilities",37.48],["Expired registration certificates",24.57],["Expired fitness certificates",23.12],["Brewery tax exemption",13.81]]}
+  ],
+  recs:[
+    "Recover Green Tax and penalties due on vehicles with expired certificates.",
+    "Review VAHAN data regularly and act on vehicles running without valid fitness, registration or permits.",
+    "Recover the distillery's loss and monitor liquor permits to prevent diversion.",
+    "Clear long-pending arrears and reply to audit and PAC on time."
+  ],
+  recsNote:"Summarised from the report.",
+  response:["Department secretaries replied to all 11 paragraphs. The report goes to the Kerala Assembly's Public Accounts Committee."],
+  timeline:[["Mar 2024","Year audited ends"],["Jun 2024","₹4,978.61 crore of earlier audit paragraphs still outstanding"],["23 Jun 2026","Report No. 2 of 2026 tabled in the Kerala Assembly"]],
+  glossary:["Compliance audit","Certificate of Fitness","Extra Neutral Alcohol","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Kerala) covers state revenues for the year ended March 2024.",
+      "Kerala's revenue arrears were ₹30,308.52 crore, 24.35% of total revenue.",
+      "Only two of nine automated driving test tracks were working, and none of nine automated testing stations.",
+      "The report's 11 paragraphs have a revenue impact of ₹603.53 crore."
+    ],
+    mains:"Weak tax enforcement costs states both revenue and public safety. Illustrate with findings from the CAG's 2026 report on Kerala's state revenues. (10 marks)",
+    quiz:[
+      {q:"What share of Kerala's revenue were its arrears in 2023-24, per the CAG?", o:["4.35%","14.35%","24.35%","34.35%"], a:2, w:"24.35%, or ₹30,308.52 crore."},
+      {q:"How many of nine automated vehicle testing stations in Kerala were operational?", o:["None","Two","Five","Nine"], a:0, w:"None; only two of nine driving test tracks worked."},
+      {q:"Liquor permits with missing exit records in the report were for supplies to:", o:["Lakshadweep","Puducherry's Mahe","Goa","Karnataka"], a:1, w:"Mahe, a part of Puducherry surrounded by Kerala."}
+    ]
+  },
+  related:["cag-delhi-revenue-1-2026","cag-gujarat-gst-2026","cag-kerala-jjm"],
+  src:[["CAG Report No. 2 of 2026 on State Revenues, Kerala (Kerala Legislative Assembly)","https://www.niyamasabha.org/codes/16kla/C&AG/Audit%20Report%202024_Report%20No.2%20of%202026_English.pdf","official"],["Outlook (PTI): Kerala CAG report flags revenue gaps in liquor and transport","https://www.outlookindia.com/national/kerala-cag-report-flags-revenue-gaps-in-liquor-transport-sectors-2","coverage"]],
+  kw:"Kerala revenue arrears excise liquor distillery Thiruvalla Mahe transport RTO fitness certificate driving test track VAHAN stamp duty 2026"
+},
+/* ---------- NITI · Women and India's credit market ---------- */
+{
+  id:"niti-women-credit-2026", body:"NITI", kind:"Policy report", reportNo:"Second edition (with TransUnion CIBIL and MicroSave Consulting)",
+  title:"From Borrowers to Builders: Women and India's Evolving Credit Market", short:"Women and Credit 2026", sector:"Public finance", ministry:"NITI Aayog (Women Entrepreneurship Platform)",
+  date:"Apr 2026", dateISO:"2026-04-08", tabled:"Released in April 2026", period:"2017 to 2025", flagged:null,
+  tldr:[
+    "Women hold ₹76 lakh crore of credit, 26% of all credit in the system, up 4.8 times since 2017.",
+    "The share of credit-active women rose from 19% in 2017 to 36% in 2025, about 16 crore women.",
+    "Women business borrowers grew 31% a year over three years, against 17% for all commercial credit."
+  ],
+  en:"This report from NITI Aayog's Women Entrepreneurship Platform, TransUnion CIBIL and MicroSave Consulting tracks how women borrow. Women now hold about a quarter of all credit in India, and their borrowing has grown faster than total credit since 2017. More women are taking business loans, and they default less than average. But few women-owned businesses use working-capital products like overdrafts, and fewer new borrowers are being added. The report asks lenders to use digital records such as UPI payments to judge creditworthiness and to track how women progress, not just whether they get a first loan.",
+  hi:"नीति आयोग के महिला उद्यमिता मंच, TransUnion CIBIL और MicroSave Consulting की यह रिपोर्ट बताती है कि महिलाएँ कैसे कर्ज़ लेती हैं। भारत के कुल कर्ज़ का लगभग एक-चौथाई अब महिलाओं के पास है, और 2017 से उनका कर्ज़ कुल कर्ज़ से तेज़ी से बढ़ा है। ज़्यादा महिलाएँ कारोबारी कर्ज़ ले रही हैं और औसत से कम चूक करती हैं। लेकिन महिलाओं के कुछ ही व्यवसाय ओवरड्राफ्ट जैसे कार्यशील पूँजी उत्पादों का उपयोग करते हैं, और नए उधारकर्ता कम जुड़ रहे हैं। रिपोर्ट कहती है कि ऋणदाता साख आँकने के लिए UPI भुगतान जैसे डिजिटल रिकॉर्ड का उपयोग करें और यह देखें कि महिलाएँ आगे कैसे बढ़ती हैं, सिर्फ़ यह नहीं कि उन्हें पहला कर्ज़ मिला या नहीं।",
+  context:{
+    what:"The second edition of a NITI Aayog report on women borrowers, prepared by its Women Entrepreneurship Platform with TransUnion CIBIL and MicroSave Consulting, using credit bureau data on about 16 crore women.",
+    why:"Access to credit lets women start and grow businesses. Knowing where women borrow, and where they are left out, helps target policy and lending.",
+    how:"Analysis of credit bureau data on women borrowers from 2017 to 2025, with field insights on rural women entrepreneurs."
+  },
+  nums:[["₹76 lakh cr","Credit held by women, 26% of the system",0],["36%","Credit penetration among women in 2025 (19% in 2017)",0],["31%","Yearly growth in women business borrowers",0],["4.3%","Women-owned businesses with cash credit or overdraft (about 40% overall)",1]],
+  themes:[
+    {name:"Women's borrowing has grown fast", sev:"low", items:[
+      {t:"Women's outstanding credit rose from ₹16 lakh crore in 2017 to ₹76 lakh crore in 2025, about 4.8 times, against 2.9 times for total credit.", amt:""},
+      {t:"Credit penetration among women rose from 19% to 36%; the number of women borrowers grew 9% a year.", amt:""},
+      {t:"Women's default rate on 2024 loans was about 0.7 times the overall level.", amt:""}]},
+    {name:"More women borrowing for business", sev:"low", items:[
+      {t:"Credit-active women business borrowers grew 31% a year over three years, against 17% for overall commercial credit.", amt:""},
+      {t:"Tamil Nadu (15%) and Maharashtra (11%) have the largest shares of women business borrowers; Bihar (59%) and Uttar Pradesh (42%) grew fastest.", amt:""}]},
+    {name:"Gaps that remain", sev:"med", items:[
+      {t:"Only about 4.3% of women-owned businesses use cash credit or overdraft, against roughly 40% overall.", amt:""},
+      {t:"About 27% of women entrepreneurs hold loans in their business's name.", amt:""},
+      {t:"Since 2023 lenders have focused more on existing borrowers, slowing the entry of new women borrowers.", amt:""},
+      {t:"Shared phones, time pressures and limited say over money hold back rural women's use of digital finance.", amt:""}]}
+  ],
+  charts:[
+    {title:"Credit penetration among women", type:"bars", unit:"% of eligible women", max:100, data:[["2017",19],["2025",36]]},
+    {title:"Women's outstanding credit", type:"bars", unit:"₹ lakh crore", data:[["2017",16],["2025",76]]}
+  ],
+  recs:[
+    "Use digital footprints such as UPI and cash-flow records to assess creditworthiness, with regular checks for gender bias in credit models.",
+    "Design loan products, such as repayment schedules, around women's business cash-flow cycles.",
+    "Expand first-time access to credit responsibly and strengthen last-mile digital skills.",
+    "Measure how women progress to bigger and better loans, not just whether they get access."
+  ],
+  recsNote:"Summarised from the report and published analysis.",
+  response:["The report is advisory, meant to guide lenders and policymakers; it does not create new rules."],
+  timeline:[["2017","Women hold ₹16 lakh crore of credit"],["2025","₹76 lakh crore; 36% credit penetration"],["Apr 2026","Second edition released"]],
+  glossary:["Credit bureau","Credit penetration","CAGR","Microfinance"],
+  exam:{
+    prelims:[
+      "'From Borrowers to Builders' is a NITI Aayog report prepared with TransUnion CIBIL and MicroSave Consulting; its second edition came out in April 2026.",
+      "Women hold ₹76 lakh crore of credit, 26% of total system credit.",
+      "Credit penetration among women rose from 19% (2017) to 36% (2025).",
+      "Women's default rate on 2024 loans was about 0.7 times the overall level."
+    ],
+    mains:"Women's share of credit has grown fast, but few women-owned businesses use working-capital loans. Examine the gaps in women's access to business credit and suggest measures, with reference to NITI Aayog's 2026 report. (15 marks)",
+    quiz:[
+      {q:"What share of India's total system credit do women borrowers hold, per the 2026 NITI Aayog report?", o:["16%","26%","36%","45%"], a:1, w:"26%, or ₹76 lakh crore."},
+      {q:"Which NITI Aayog platform prepared the report?", o:["Atal Innovation Mission","Women Entrepreneurship Platform","Frontier Tech Hub","SDG India Index"], a:1, w:"The Women Entrepreneurship Platform (WEP), with TransUnion CIBIL and MicroSave Consulting."},
+      {q:"About what share of women-owned business entities use cash credit or overdraft facilities?", o:["4.3%","27%","40%","59%"], a:0, w:"About 4.3%, against roughly 40% overall."}
+    ]
+  },
+  related:["niti-ifi-2026","cag-banks-nbfc-tax-40-2025"],
+  src:[["NITI Aayog: From Borrowers to Builders (report PDF)","https://www.niti.gov.in/sites/default/files/2026-04/From-Borrowers-To-Builders-Women-and-India-Evolving-Credit-Market.pdf","official"],["DD News: NITI Aayog report on women in the credit market","https://ddnews.gov.in/en/niti-aayog-releases-report-highlighting-surge-in-womens-participation-in-indias-credit-market/","coverage"],["Drishti IAS: Trends in India's female credit market","https://www.drishtiias.com/daily-updates/daily-news-analysis/trends-in-indias-female-credit-market/print_manually","analysis"]],
+  kw:"women credit borrowers NITI Aayog WEP TransUnion CIBIL MicroSave financial inclusion business loans microfinance gold loans 2026"
 }
+
 );
 
 /* map facts for the new state reports */
 Object.assign(window.STATE_FACTS_V2, {
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
-  KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"]],
+  KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
+  OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"]],
