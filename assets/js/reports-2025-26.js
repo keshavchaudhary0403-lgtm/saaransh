@@ -36,7 +36,18 @@ Object.assign(window.SITE.glossary, {
   "Credit bureau": "A company, such as TransUnion CIBIL, that collects borrowers' loan and repayment records and gives them credit scores.",
   "Credit penetration": "The share of people eligible for credit who actually have an active loan or credit card.",
   "CAGR": "Compound annual growth rate: the steady yearly growth rate that takes a value from its start level to its end level.",
-  "Microfinance": "Small loans, often without collateral, given to low-income borrowers, many of them women in groups."
+  "Microfinance": "Small loans, often without collateral, given to low-income borrowers, many of them women in groups.",
+  "Jal Jeevan Mission": "The Union scheme, launched in 2019, to give every rural household a working tap water connection.",
+  "Social audit": "A public check of a scheme's records and works by the people it is meant to serve, usually in a village meeting.",
+  "ICDS": "Integrated Child Development Services: the scheme that runs anganwadi centres for nutrition, health and pre-school for young children and mothers.",
+  "RoSCTL": "Rebate of State and Central Taxes and Levies: a scheme that refunds taxes built into the price of apparel and made-up exports, paid as duty credit scrips.",
+  "DGFT": "Directorate General of Foreign Trade: the Commerce Ministry body that runs India's export and import policy and incentive schemes.",
+  "Duty credit scrip": "An electronic credit given to exporters that can be used to pay Customs duty or sold to another importer.",
+  "Denied Entity List": "A DGFT list of firms barred from export benefits, for example for not bringing back export payments.",
+  "Long-term care": "Ongoing help with daily living for people who cannot fully look after themselves, such as frail older people or persons with disabilities.",
+  "Respite care": "Short-term care that gives a family caregiver a break.",
+  "NSQF": "National Skills Qualifications Framework: a national system that grades skills courses and certificates by level.",
+  "Time Use Survey": "An NSO survey that records how people spend each day, including on paid work, unpaid housework and care."
 });
 
 window.SPEC_REPORTS.push(
@@ -1123,6 +1134,209 @@ window.SPEC_REPORTS.push(
   related:["niti-ifi-2026","cag-banks-nbfc-tax-40-2025"],
   src:[["NITI Aayog: From Borrowers to Builders (report PDF)","https://www.niti.gov.in/sites/default/files/2026-04/From-Borrowers-To-Builders-Women-and-India-Evolving-Credit-Market.pdf","official"],["DD News: NITI Aayog report on women in the credit market","https://ddnews.gov.in/en/niti-aayog-releases-report-highlighting-surge-in-womens-participation-in-indias-credit-market/","coverage"],["Drishti IAS: Trends in India's female credit market","https://www.drishtiias.com/daily-updates/daily-news-analysis/trends-in-indias-female-credit-market/print_manually","analysis"]],
   kw:"women credit borrowers NITI Aayog WEP TransUnion CIBIL MicroSave financial inclusion business loans microfinance gold loans 2026"
+},
+/* ---------- CAG · Nagaland: Social, Economic, General and Revenue Sectors ---------- */
+{
+  id:"cag-nagaland-1-2026", body:"CAG", state:"Nagaland", kind:"Performance audit", reportNo:"Report No. 1 of 2026 (Nagaland)",
+  title:"Report of the CAG on Social (including Local Governments Audit), Economic, General and Revenue Sectors for the year ended March 2024, Government of Nagaland", short:"Nagaland Audit: Water, Jobs, Treasury", sector:"Social welfare", ministry:"Public Health Engineering, Rural Development, Social Welfare, Transport and other departments, Government of Nagaland",
+  date:"Sep 2026", dateISO:"2026-09-03", tabled:"Tabled in the Nagaland Assembly on 3 September 2026", period:"Year ended March 2024", flagged:288.12, flaggedNote:"Avoidable extra spending on Jal Jeevan Mission materials bought from one supplier without tenders, the report's largest single finding. This is an amount at issue, not a confirmed loss.",
+  tldr:[
+    "Jal Jeevan Mission materials were bought from one supplier without tenders, costing ₹288.12 crore more than needed.",
+    "In 34 sampled villages, only 8,251 of 16,288 targeted tap connections were given; ₹21.57 crore was shown as spent on households that got nothing.",
+    "Ten MGNREGS works worth ₹2.87 crore shown as complete did not exist, and 24 government employees were enrolled as job-card workers."
+  ],
+  en:"This CAG report on Nagaland covers four performance audits, an IT audit and ten other findings for 2023-24. The biggest problems are in the Jal Jeevan Mission. Pipes and other materials were bought from one supplier without tenders, at an extra cost of ₹288 crore. In the villages checked, only about half the promised tap connections were given, yet money was shown as spent on the rest. In the rural jobs scheme, some works shown as complete could not be found. The report also found learner's licences issued without tests, funds for hostels diverted to a private school and a bus station left a third built.",
+  hi:"नागालैंड पर CAG की इस रिपोर्ट में 2023-24 के चार निष्पादन ऑडिट, एक IT ऑडिट और दस अन्य निष्कर्ष हैं। सबसे बड़ी समस्याएँ जल जीवन मिशन में हैं। पाइप और अन्य सामान बिना निविदा के एक ही आपूर्तिकर्ता से खरीदा गया, जिससे ₹288 करोड़ का अतिरिक्त खर्च हुआ। जाँचे गए गाँवों में वादा किए गए नल कनेक्शनों में से लगभग आधे ही दिए गए, फिर भी बाकी पर पैसा खर्च दिखाया गया। ग्रामीण रोज़गार योजना में पूरे दिखाए गए कुछ काम मौके पर मिले ही नहीं। रिपोर्ट में यह भी पाया गया कि लर्नर लाइसेंस बिना परीक्षा के जारी हुए, छात्रावासों का पैसा एक निजी स्कूल को दे दिया गया और एक बस स्टेशन एक-तिहाई ही बना।",
+  context:{
+    what:"A CAG report on Nagaland for the year ended March 2024. It has four performance audits (Jal Jeevan Mission, Integrated Child Development Services, MGNREGS and Regional and District Transport Offices), an IT audit of treasury computerisation and ten compliance audit paragraphs.",
+    why:"Nagaland depends heavily on central schemes for drinking water, rural jobs and child nutrition. If money is spent without tenders or shown against work not done, the people these schemes are meant for lose out.",
+    how:"Risk-based test check of 364 of 1,186 government units, with sampled villages and districts for the scheme audits and physical checks of works."
+  },
+  nums:[["₹288.12 cr","Extra JJM spending on a supply order given without tenders",1],["50.66%","Targeted tap connections actually given in 34 sampled villages",1],["₹21.57 cr","Shown as spent on 5,851 households that got no tap",1],["59%","Planned MGNREGS social audits not done",1]],
+  themes:[
+    {name:"Jal Jeevan Mission: costly buying, missing taps", sev:"high", items:[
+      {t:"Materials were bought from a single supplier without tenders, causing avoidable extra spending.", amt:"₹288.12 cr"},
+      {t:"In 34 test-checked villages, 8,251 tap connections were given against a target of 16,288; spending on 5,851 households that got no benefit was fictitious.", amt:"₹21.57 cr"},
+      {t:"Only 14,231 of 71,448 planned water source tests (19.92%) were done; the State laboratory had 21 of 43 required instruments.", amt:""},
+      {t:"Only 10 of 34 villages held social audits, and 30 of 34 village water committees had no bank account.", amt:""}]},
+    {name:"MGNREGS: works that did not exist", sev:"high", items:[
+      {t:"Ten projects shown as completed could not be found on the ground.", amt:"₹2.87 cr"},
+      {t:"Fifty-one other works were short-executed.", amt:"₹8.69 cr"},
+      {t:"24 government employees were enrolled as workers and 19 of them were paid ₹6.04 lakh in wages.", amt:""},
+      {t:"2,676 of 4,536 planned social audits (59%) were not held.", amt:""}]},
+    {name:"Money diverted or wasted", sev:"med", items:[
+      {t:"Funds for boys' and girls' hostels under PMJVK were used to build on the premises of a private school.", amt:"₹6.14 cr"},
+      {t:"A bus station-cum-market in Dimapur reached only 33% progress after six years, with a further liability of ₹16.64 crore.", amt:"₹10.61 cr"},
+      {t:"National Health Mission money for infrastructure maintenance was diverted to medicines, linen and other supplies.", amt:"₹3.85 cr"},
+      {t:"Commercial LPG for the police was bought without tenders.", amt:"₹3.46 cr"}]},
+    {name:"Weak controls in transport, treasury and child nutrition", sev:"med", items:[
+      {t:"6,292 of 33,567 learner's licences checked were issued without the mandatory test; 8,633 vehicles owed tax.", amt:"₹9.03 cr"},
+      {t:"Delays in choosing a vendor cost the State central assistance for treasury computerisation; 5 of 13 TreasuryNet modules were not implemented.", amt:"₹2.84 cr"},
+      {t:"Only 28% of 4.10 lakh ICDS beneficiaries were tracked on the Poshan Tracker; stock records were poor for medicine kits, uniforms and badges.", amt:"₹4.17 cr"},
+      {t:"Fraudulent, double and excess drawals by 13 drawing officers totalled ₹0.88 crore, of which ₹0.24 crore was still to be recovered.", amt:"₹0.88 cr"}]}
+  ],
+  charts:[
+    {title:"Tap connections in 34 sampled villages", type:"split", unit:"connections", data:[["Given",8251],["Not given",8037]], note:"Target 16,288. The audit counted 5,851 households as deprived of the benefit."},
+    {title:"Largest findings", type:"bars", unit:"₹ crore", data:[["JJM supply order without tenders",288.12],["JJM spending on households with no tap",21.57],["Bus station project spending",10.61],["Vehicle tax arrears",9.03],["MGNREGS short-executed works",8.69]]}
+  ],
+  recs:[
+    "Tighten procurement rules so large purchases go through open tenders.",
+    "Recover excess, fraudulent and misappropriated payments.",
+    "Fix responsibility on officials for the irregularities found.",
+    "Make sure assets paid for with public money are used for their intended purpose."
+  ],
+  recsNote:"Summarised from published coverage of the report.",
+  response:["Coverage did not report a reply from the Nagaland government on these findings. The report goes to the Nagaland Assembly's Public Accounts Committee."],
+  timeline:[["2019-20","Start of the Jal Jeevan Mission audit period"],["Mar 2024","Year audited ends"],["3 Sep 2026","Report No. 1 of 2026 tabled in the Nagaland Assembly, with the State Finances Audit Report for 2024-25"]],
+  glossary:["Performance audit","Jal Jeevan Mission","FHTC","MGNREGS","Social audit","ICDS","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2026 on Nagaland covers the year ended March 2024 and was tabled on 3 September 2026.",
+      "It includes performance audits of Jal Jeevan Mission, ICDS, MGNREGS and transport offices, and an IT audit of treasury computerisation.",
+      "In 34 sampled villages, 8,251 of 16,288 targeted tap connections (50.66%) were provided.",
+      "The CAG found ₹288.12 crore of avoidable extra spending on JJM materials bought without tenders."
+    ],
+    mains:"Social audits and open tendering are meant to stop leakages in flagship schemes. Discuss with reference to the CAG's 2026 findings on Jal Jeevan Mission and MGNREGS in Nagaland. (15 marks)",
+    quiz:[
+      {q:"What share of targeted tap connections were provided in Nagaland's 34 sampled villages?", o:["About 20%","About 51%","About 75%","About 95%"], a:1, w:"8,251 of 16,288, or 50.66%."},
+      {q:"Why did the CAG flag ₹288.12 crore under Jal Jeevan Mission in Nagaland?", o:["Funds lapsed unspent","Materials bought from one supplier without tenders","Money sent to another state","Pipes stolen from stores"], a:1, w:"A supply order given without tenders caused avoidable extra spending."},
+      {q:"How many government employees were found enrolled as MGNREGS workers in the audit?", o:["4","24","240","2,676"], a:1, w:"24 were enrolled and 19 of them received ₹6.04 lakh in wages."}
+    ]
+  },
+  related:["cag-kerala-jjm","tn-jjm","cag-odisha-dmf-2026"],
+  src:[["CAG: Report No. 1 of 2026, Government of Nagaland","https://cag.gov.in/en/audit-report/details/126309","official"],["CAG: Overview of the Nagaland audit report (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2026/05-Overview-06a99a4d7e55011.05295814.pdf","official"],["Hub Network: CAG flags ₹288 crore lapses across Nagaland","https://hubnetwork.in/cag-flags-%E2%82%B9288-crore-lapses-across-nagaland/","coverage"],["The Policy Edge: CAG flags fictitious water connections in Nagaland","https://www.policyedge.in/p/cag-flags-fictitious-water-connections-missing-mgnregs-works-and-weak-controls-in-nagaland","analysis"]],
+  kw:"Nagaland Jal Jeevan Mission JJM tap connections MGNREGS ICDS Poshan Tracker transport learner licence treasury TreasuryNet PMJVK Dimapur Kohima 2026"
+},
+/* ---------- CAG · Customs and DGFT (Union) ---------- */
+{
+  id:"cag-customs-dgft-25-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 25 of 2026",
+  title:"Compliance Audit Report on the Department of Revenue (Customs) and the Directorate General of Foreign Trade", short:"Customs and Export Incentives Audit", sector:"Public finance", ministry:"Ministry of Finance (Department of Revenue, CBIC) and Ministry of Commerce & Industry (DGFT)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Presented in Parliament on 12 August 2026", period:"Year ended March 2024", flagged:667, flaggedNote:"Total revenue implication of the report's 106 paragraphs. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "The report has 106 paragraphs with a revenue implication of ₹667 crore; ministries accepted 104 of them.",
+    "A special check of the RoSCTL export incentive for garment exporters found issues worth ₹603.08 crore, including scrips given to firms on a denied list.",
+    "Automation of scrip issue did not stop errors, the CAG said; only ₹62.40 lakh had been recovered on the RoSCTL findings."
+  ],
+  en:"The CAG checked how Customs collects duty and how the Directorate General of Foreign Trade gives export incentives, for 2023-24. The report's 106 findings add up to ₹667 crore. Most of it, ₹603 crore, is in the RoSCTL scheme, which refunds state and central taxes to garment and made-up exporters through credit scrips. Scrips were issued in excess, to firms that were barred, and for exports whose payment never came in. Customs also under-assessed duty worth about ₹64 crore by using the wrong tariff headings or exemptions. Ministries accepted almost all findings and have recovered some money.",
+  hi:"CAG ने 2023-24 के लिए जाँचा कि सीमा शुल्क विभाग शुल्क कैसे वसूलता है और विदेश व्यापार महानिदेशालय (DGFT) निर्यात प्रोत्साहन कैसे देता है। रिपोर्ट के 106 निष्कर्ष कुल ₹667 करोड़ के हैं। इसमें सबसे बड़ा हिस्सा, ₹603 करोड़, RoSCTL योजना का है, जो परिधान और मेड-अप निर्यातकों को क्रेडिट स्क्रिप के ज़रिए राज्य और केंद्रीय करों की वापसी देती है। स्क्रिप ज़रूरत से ज़्यादा जारी हुईं, प्रतिबंधित फ़र्मों को दी गईं, और ऐसे निर्यात पर भी दी गईं जिनका भुगतान कभी आया ही नहीं। सीमा शुल्क विभाग ने गलत टैरिफ़ शीर्ष या छूट लगाकर लगभग ₹64 करोड़ का शुल्क कम आँका। मंत्रालयों ने लगभग सभी निष्कर्ष स्वीकार किए हैं और कुछ पैसा वसूल किया है।",
+  context:{
+    what:"A CAG compliance audit of Customs (under the Department of Revenue) and the Directorate General of Foreign Trade for the year ended March 2024. It includes a subject-specific audit of the Rebate of State and Central Taxes and Levies (RoSCTL) scheme.",
+    why:"Customs duty is a major source of Union revenue, and export incentives are paid out of it. Wrong assessment or excess incentives mean less money for the government and unfair gains for some traders.",
+    how:"Test audit of 47 Customs Commissionerates, 13 DGFT Regional Authorities and eight Development Commissioners. The report draws on observations issued between August 2025 and January 2026."
+  },
+  nums:[["₹667 cr","Revenue implication of 106 paragraphs",1],["₹603.08 cr","Issues found in the RoSCTL export incentive scheme",1],["104 of 106","Paragraphs accepted by the ministries",0],["₹21 cr","Recovered in 56 cases of wrong duty assessment",0]],
+  themes:[
+    {name:"RoSCTL: export incentives given wrongly", sev:"high", items:[
+      {t:"Inadmissible benefits from export payments not received or received late, wrong classification of exports, wrong incentive rates and wrong exchange rates (₹158.63 crore under DGFT, ₹314.06 crore under Customs).", amt:"₹472.69 cr"},
+      {t:"System weaknesses: excess or irregular scrips, including to firms on the Denied Entity List, scrips beyond entitlement, double export benefits and late e-scrip creation (₹97.62 crore under DGFT, ₹32.77 crore under Customs).", amt:"₹130.39 cr"},
+      {t:"The CAG said automation of scrip issue failed to achieve its aim of simpler procedures and ease of doing business.", amt:""},
+      {t:"Partial recoveries of ₹62.40 lakh were reported against the RoSCTL findings.", amt:""}]},
+    {name:"Customs duty under-assessed", sev:"med", items:[
+      {t:"Duty was under-assessed through misclassification of goods, wrong use of exemption notifications and breaches of Foreign Trade Policy rules.", amt:"₹64 cr"}]},
+    {name:"Action taken so far", sev:"low", items:[
+      {t:"Ministries accepted 104 of the 106 paragraphs.", amt:""},
+      {t:"Show cause notices and adjudication were started in cases involving ₹55 crore.", amt:"₹55 cr"},
+      {t:"₹21 crore was recovered in 56 cases of incorrect duty assessment.", amt:"₹21 cr"}]}
+  ],
+  charts:[
+    {title:"Where the ₹667 crore comes from", type:"bars", unit:"₹ crore", data:[["RoSCTL: compliance issues",472.69],["RoSCTL: system weaknesses",130.39],["Customs duty under-assessed",64]], note:"Figures are rounded in the CAG press release."},
+    {title:"RoSCTL compliance issues by agency", type:"bars", unit:"₹ crore", data:[["Customs",314.06],["DGFT",158.63]]}
+  ],
+  recs:[
+    "DGFT should stop scrips going to firms on the Denied Entity List and fix accountability where they did.",
+    "Link the Customs system with the DGFT portal so listed exporters cannot get RoSCTL benefits without a valid order.",
+    "Track whether export payments are received, under FEMA, and recover ineligible credits with interest.",
+    "Add checks to stop misclassification and wrong exchange rates, and monitor scrolls so payouts are on time."
+  ],
+  recsNote:"Summarised from the CAG press release.",
+  response:["The ministries accepted 104 of 106 paragraphs and reported recoveries and show cause notices. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Mar 2024","Year audited ends"],["Aug 2025 to Jan 2026","Audit observations in this report issued"],["12 Aug 2026","Report No. 25 of 2026 presented in Parliament"]],
+  glossary:["Compliance audit","RoSCTL","DGFT","Duty credit scrip","Denied Entity List","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 25 of 2026 covers Customs and the DGFT for the year ended March 2024 and was presented on 12 August 2026.",
+      "Its 106 paragraphs have a revenue implication of ₹667 crore.",
+      "RoSCTL refunds embedded state and central taxes to exporters of apparel and made-ups through duty credit scrips.",
+      "The RoSCTL subject-specific audit found issues worth ₹603.08 crore."
+    ],
+    mains:"Export incentive schemes must balance support for exporters with protection of revenue. Examine the gaps the CAG found in the RoSCTL scheme in 2026 and suggest safeguards. (10 marks)",
+    quiz:[
+      {q:"RoSCTL, examined in CAG Report No. 25 of 2026, is an incentive for exporters of:", o:["Pharmaceuticals","Apparel and made-ups","Electronics","Steel"], a:1, w:"It rebates state and central taxes on apparel and made-up exports."},
+      {q:"Which body issues RoSCTL scrips along with Customs systems?", o:["CBDT","DGFT","SEBI","RBI"], a:1, w:"The Directorate General of Foreign Trade under the Commerce Ministry."},
+      {q:"What was the total revenue implication of the report's 106 paragraphs?", o:["₹64 crore","₹472 crore","₹667 crore","₹6,670 crore"], a:2, w:"₹667 crore, of which ₹603.08 crore was in the RoSCTL audit."}
+    ]
+  },
+  related:["cag-gst-20-2026","cag-banks-nbfc-tax-40-2025","cag-fin-comm-5-2026"],
+  src:[["CAG press release on Report No. 25 of 2026","https://cag.gov.in/uploads/PressRelease/PR-Press-Eng-25-2026-06a8087cca0aa11-09487010.pdf","official"],["TaxGuru: CAG Customs audit report 2026 flags RoSCTL deficiencies","https://taxguru.in/?p=1072113","analysis"]],
+  kw:"Customs DGFT RoSCTL export incentive scrips Denied Entity List apparel made-ups textiles duty under-assessment CBIC FEMA Report 25 2026"
+},
+/* ---------- NITI · Caregiving ---------- */
+{
+  id:"niti-care-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report",
+  title:"Reimagining Care: Strategies for Empowering Caregivers in Viksit Bharat@2047", short:"Reimagining Care 2026", sector:"Health", ministry:"NITI Aayog",
+  date:"Aug 2026", dateISO:"2026-08-06", tabled:"Released by NITI Aayog in August 2026 (reported 6 August 2026)", period:"Projections to 2050", flagged:null,
+  tldr:[
+    "India's population aged 60 and above is projected to rise from 149 million in 2022 to 347 million by 2050, about 20.8% of all people.",
+    "About 10% of Indians are family caregivers, mostly untrained and unpaid; caregiving is not a regulated profession.",
+    "NITI Aayog proposes a National Caregiving Council, a qualification framework, a caregiver registry and wider social security for caregivers."
+  ],
+  en:"India is ageing fast, and more people need long-term care. This NITI Aayog report looks at who gives that care and how to support them. Most care is given at home by family members, mostly women, who are not trained or paid. Caregiving is not a regulated profession, there are few certified caregivers, and long-term care insurance is lacking. The report proposes a national council to set standards and certify caregivers, a common qualification framework, a registry and digital platform, social security for care workers, more support for family carers and partnerships to place trained Indian caregivers abroad.",
+  hi:"भारत तेज़ी से बूढ़ा हो रहा है, और ज़्यादा लोगों को लंबे समय तक देखभाल की ज़रूरत है। नीति आयोग की यह रिपोर्ट देखती है कि यह देखभाल कौन करता है और उन्हें कैसे सहारा दिया जाए। ज़्यादातर देखभाल घर पर परिवार के लोग करते हैं, अधिकतर महिलाएँ, जिन्हें न प्रशिक्षण मिला है न वेतन। देखभाल एक विनियमित पेशा नहीं है, प्रमाणित देखभालकर्ता कम हैं, और दीर्घकालिक देखभाल बीमा की कमी है। रिपोर्ट मानक तय करने और देखभालकर्ताओं को प्रमाणित करने के लिए एक राष्ट्रीय परिषद, एक साझा योग्यता ढाँचा, एक रजिस्ट्री और डिजिटल प्लेटफ़ॉर्म, देखभाल कर्मियों के लिए सामाजिक सुरक्षा, पारिवारिक देखभालकर्ताओं को ज़्यादा सहायता और प्रशिक्षित भारतीय देखभालकर्ताओं को विदेश भेजने के लिए साझेदारी का प्रस्ताव करती है।",
+  context:{
+    what:"A NITI Aayog policy report on India's caregiving ecosystem: care for older people, persons with disabilities and others who need long-term support, and the paid and unpaid workers who provide it.",
+    why:"The number of older Indians will more than double by 2050. Without trained caregivers and support for families, the burden falls on unpaid relatives, mostly women, and care quality suffers.",
+    how:"Review of data from the India Ageing Report 2023, Census 2011 and the Time Use Survey, global practices in countries such as Japan, Australia, China and the Nordic states, and consultations with ministries, states and institutions."
+  },
+  nums:[["347 million","Indians aged 60+ projected by 2050 (20.8% of population)",0],["~10%","Share of Indians who are family caregivers",0],["299 vs 97 min","Daily unpaid domestic and care work, women vs men (Time Use Survey 2019)",1],["USD 72.31 bn","Projected Indian care services market by 2030",0]],
+  themes:[
+    {name:"Rising need for care", sev:"high", items:[
+      {t:"People aged 60+ numbered 149 million in July 2022 (about 10.5%), and are projected to reach 194 million by 2031 and 347 million (20.8%) by 2050.", amt:""},
+      {t:"26.8 million people, or 2.21% of the population, live with disabilities (Census 2011).", amt:""},
+      {t:"OECD countries will need 13.5 million more care workers by 2040, a 60% increase, creating demand for trained workers abroad.", amt:""}]},
+    {name:"Care falls on unpaid women", sev:"high", items:[
+      {t:"Women spend about 299 minutes a day on unpaid domestic and care work, against 97 minutes for men (Time Use Survey 2019).", amt:""},
+      {t:"About 10% of Indians are family caregivers, most of them untrained and unpaid.", amt:""}]},
+    {name:"A sector without rules", sev:"med", items:[
+      {t:"Caregiving is not a regulated profession and has no dedicated legal, accreditation or quality framework.", amt:""},
+      {t:"Training is not aligned with international standards, and specialised training in dementia, stroke and palliative care is limited.", amt:""},
+      {t:"Long-term care financing, insurance and social security for caregivers are lacking, and respite care is largely absent.", amt:""},
+      {t:"Background checks, grievance redressal and digital records are limited.", amt:""}]},
+    {name:"A growing market", sev:"low", items:[
+      {t:"India's care services market is projected to grow from USD 29.62 billion in 2023 to USD 72.31 billion by 2030, about 13.76% a year.", amt:""},
+      {t:"The care sector accounts for 16% of employment worldwide (World Economic Forum, 2024).", amt:""}]}
+  ],
+  charts:[
+    {title:"Indians aged 60 and above", type:"bars", unit:"million", data:[["2022",149],["2031",194],["2050",347]]},
+    {title:"Daily unpaid domestic and care work (2019)", type:"bars", unit:"minutes per day", data:[["Women",299],["Men",97]]}
+  ],
+  recs:[
+    "Set up a National Caregiving Council to regulate, accredit and certify caregivers and keep a registry.",
+    "Create a National Caregiving Qualification Framework, aligned with NSQF, with specialised cadres for geriatric, palliative and dementia care.",
+    "Build a national digital caregiver platform with a certified directory, background checks and training.",
+    "Extend social security and insurance to caregivers and support family and community carers through SHGs and Ayushman Arogya Mandirs.",
+    "Sign government-to-government partnerships with countries such as Japan, Germany, the UK and Australia for ethical overseas placement."
+  ],
+  recsNote:"Summarised from the report and published analysis.",
+  response:["The report is advisory. It proposes a National Policy on Caregiving but does not create new rules by itself."],
+  timeline:[["2019","Time Use Survey records the unpaid care gap"],["Jul 2022","149 million Indians aged 60+"],["Aug 2026","NITI Aayog releases the report"],["2050","Projected 347 million Indians aged 60+"]],
+  glossary:["NITI Aayog","Long-term care","Respite care","NSQF","Time Use Survey"],
+  exam:{
+    prelims:[
+      "'Reimagining Care: Strategies for Empowering Caregivers in Viksit Bharat@2047' was released by NITI Aayog in August 2026.",
+      "India's 60+ population is projected to rise from 149 million (2022) to 347 million (20.8%) by 2050, per the India Ageing Report 2023 cited in it.",
+      "The report proposes a National Caregiving Council and a National Caregiving Qualification Framework.",
+      "About 26.8 million Indians live with disabilities, per Census 2011."
+    ],
+    mains:"India's care needs are rising with an ageing population, while caregiving remains unpaid, untrained and largely done by women. Discuss the measures NITI Aayog has proposed in 2026 to build a formal care workforce. (15 marks)",
+    quiz:[
+      {q:"What share of India's population is projected to be aged 60+ by 2050, as cited in NITI Aayog's 2026 care report?", o:["10.5%","14.9%","20.8%","34.7%"], a:2, w:"347 million, about 20.8%."},
+      {q:"Which new apex body does the report propose for caregiving?", o:["National Caregiving Council","National Health Authority","Rehabilitation Council of India","National Commission for Senior Citizens"], a:0, w:"A National Caregiving Council for regulation, accreditation, certification and a registry."},
+      {q:"In the 2019 Time Use Survey cited, how many minutes a day did women spend on unpaid domestic and care work?", o:["97","140","299","420"], a:2, w:"About 299 minutes, against 97 for men."}
+    ]
+  },
+  related:["skilling-viksit-2047","niti-women-credit-2026","plfs"],
+  src:[["NITI Aayog: Reimagining Care (report PDF)","https://www.niti.gov.in/sites/default/files/2026-08/Reimagining-Care-Strategies-for-Empowering-Caregivers-in-Viksit-Bharat-2047.pdf","official"],["All India Radio: NITI Aayog releases report to strengthen India's caregiving workforce","https://newsonair.gov.in/niti-aayog-releases-report-to-strengthen-indias-caregiving-workforce/","coverage"],["Drishti IAS: NITI Aayog report on India's caregiving ecosystem","https://www.drishtiias.com/daily-updates/daily-news-analysis/niti-aayog-report-on-indias-caregiving-ecosystem/print_manually","analysis"]],
+  kw:"caregiving care economy elderly ageing senior citizens disability palliative dementia long-term care caregivers National Caregiving Council NITI Aayog 2047 2026"
 }
 
 );
@@ -1132,6 +1346,7 @@ Object.assign(window.STATE_FACTS_V2, {
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
   OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"]],
+  NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"]],
