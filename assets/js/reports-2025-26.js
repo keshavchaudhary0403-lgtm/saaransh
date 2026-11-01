@@ -47,7 +47,17 @@ Object.assign(window.SITE.glossary, {
   "Long-term care": "Ongoing help with daily living for people who cannot fully look after themselves, such as frail older people or persons with disabilities.",
   "Respite care": "Short-term care that gives a family caregiver a break.",
   "NSQF": "National Skills Qualifications Framework: a national system that grades skills courses and certificates by level.",
-  "Time Use Survey": "An NSO survey that records how people spend each day, including on paid work, unpaid housework and care."
+  "Time Use Survey": "An NSO survey that records how people spend each day, including on paid work, unpaid housework and care.",
+  "Green India Mission": "A national mission, approved as a centrally sponsored scheme in 2014, to increase and improve forest and tree cover as part of India's climate plan.",
+  "NAPCC": "National Action Plan on Climate Change: India's 2008 plan with eight national missions, including those on solar energy, water and a Green India.",
+  "Carbon sink": "Forests, soils or oceans that absorb more carbon dioxide from the air than they release.",
+  "PFRDA": "Pension Fund Regulatory and Development Authority: the statutory body that regulates the National Pension System and Atal Pension Yojana.",
+  "NPS": "National Pension System: a defined-contribution pension scheme where savings are invested by pension fund managers and the payout depends on returns.",
+  "EPFO": "Employees' Provident Fund Organisation: the body under the Labour Ministry that runs provident fund, pension and insurance schemes for salaried workers.",
+  "Atal Pension Yojana": "A government pension scheme for workers aged 18 to 40, mainly in the unorganised sector, that pays a fixed monthly pension after age 60.",
+  "e-Challan": "An electronic fine for a traffic offence, issued through a central system and payable online or in court.",
+  "HSRP": "High Security Registration Plate: a tamper-proof aluminium number plate with a hologram and laser-etched code, mandatory for vehicles.",
+  "Swadesh Darshan": "A Union Tourism Ministry scheme that funds themed tourist circuits and destinations in the states."
 });
 
 window.SPEC_REPORTS.push(
@@ -1337,6 +1347,214 @@ window.SPEC_REPORTS.push(
   related:["skilling-viksit-2047","niti-women-credit-2026","plfs"],
   src:[["NITI Aayog: Reimagining Care (report PDF)","https://www.niti.gov.in/sites/default/files/2026-08/Reimagining-Care-Strategies-for-Empowering-Caregivers-in-Viksit-Bharat-2047.pdf","official"],["All India Radio: NITI Aayog releases report to strengthen India's caregiving workforce","https://newsonair.gov.in/niti-aayog-releases-report-to-strengthen-indias-caregiving-workforce/","coverage"],["Drishti IAS: NITI Aayog report on India's caregiving ecosystem","https://www.drishtiias.com/daily-updates/daily-news-analysis/niti-aayog-report-on-indias-caregiving-ecosystem/print_manually","analysis"]],
   kw:"caregiving care economy elderly ageing senior citizens disability palliative dementia long-term care caregivers National Caregiving Council NITI Aayog 2047 2026"
+},
+/* ---------- CAG · Green India Mission (Union) ---------- */
+{
+  id:"cag-green-india-4-2026", body:"CAG", kind:"Performance audit", reportNo:"Report No. 4 of 2026",
+  title:"Performance Audit Report of the CAG on Green India Mission, Union Government (Ministry of Environment, Forest and Climate Change)", short:"Green India Mission Audit", sector:"Environment", ministry:"Ministry of Environment, Forest and Climate Change",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026", period:"2015-16 to 2024-25", flagged:null,
+  tldr:[
+    "Against a target of 1.4 million hectares, forest cover rose on only 0.03409 million hectares under the Mission, a 97.57% shortfall.",
+    "Only ₹1,149.14 crore (47.88%) of the planned budget support came in over ten years, and ₹10,600 crore expected from other schemes never arrived.",
+    "Satellite checks of sampled plantation sites found little or no improvement in about 70% of them."
+  ],
+  en:"The Green India Mission is India's main programme to grow and improve forests as part of its climate plan. The CAG checked how it worked in 16 states and union territories from 2015-16 to 2024-25. The Mission was meant to draw ₹10,600 crore from other schemes such as CAMPA and MGNREGS, but that money never came. It got only ₹1,149.14 crore from the budget in ten years. Afforestation covered about 0.15 million hectares against a target of 2.8 million hectares. Planting often skipped the most vulnerable land, few states measured carbon stored, and reported data was sometimes inflated.",
+  hi:"ग्रीन इंडिया मिशन जलवायु योजना के तहत जंगलों को बढ़ाने और सुधारने का भारत का मुख्य कार्यक्रम है। CAG ने जाँचा कि 2015-16 से 2024-25 तक 16 राज्यों और केंद्र शासित प्रदेशों में इसने कैसे काम किया। मिशन को CAMPA और MGNREGS जैसी दूसरी योजनाओं से ₹10,600 करोड़ मिलने थे, लेकिन यह पैसा कभी नहीं आया। दस साल में बजट से उसे सिर्फ़ ₹1,149.14 करोड़ मिले। 28 लाख हेक्टेयर के लक्ष्य के मुकाबले लगभग 1.5 लाख हेक्टेयर में ही वनीकरण हुआ। पौधारोपण में अक्सर सबसे संवेदनशील ज़मीन छूट गई, कुछ ही राज्यों ने संचित कार्बन मापा, और रिपोर्ट किए गए आँकड़े कई बार बढ़ा-चढ़ाकर दिखाए गए।",
+  context:{
+    what:"A CAG performance audit of the Green India Mission (GIM), one of the eight missions under the National Action Plan on Climate Change, run by the Ministry of Environment, Forest and Climate Change as a centrally sponsored scheme.",
+    why:"India has promised an extra carbon sink of 2.5 to 3 billion tonnes of CO₂ equivalent by 2030, and GIM was meant to play a key role. If the Mission does not grow forests, that promise is harder to meet.",
+    how:"Audit of the Ministry, state forest departments and agencies in 15 states and one union territory for 2015-16 to 2024-25, with satellite analysis of 170 plantation sites (1,397 ha) by IISc Bangalore and ground checks of 46 sites."
+  },
+  nums:[["97.57%","Shortfall in increasing forest cover (0.03409 of 1.4 million ha)",1],["₹1,149.14 cr","Budget support received in 10 years (47.88% of outlay)",1],["0.148 mha","Area afforested against a 2.8 mha target",1],["~70%","Sampled sites with little or no improvement",1]],
+  themes:[
+    {name:"Targets missed by a wide margin", sev:"high", items:[
+      {t:"Forest cover increased on only 0.03409 million hectares against a target of 1.4 million hectares, a 97.57% shortfall.", amt:""},
+      {t:"Forest quality improved on only 0.11384 million hectares against a target of 1.4 million hectares, a 91.87% shortfall.", amt:""},
+      {t:"Afforestation covered 0.14793 million hectares by March 2025 against 2.8 million hectares due by 2018.", amt:""},
+      {t:"A new target of 25 million hectares by 2030 was set in 2021, but guidelines for it had not been framed by September 2025.", amt:""}]},
+    {name:"Money that never came", sev:"high", items:[
+      {t:"Funding planned through convergence with CAMPA (₹6,000 crore), MGNREGS (₹4,000 crore) and the National Afforestation Programme (₹600 crore) was not secured.", amt:"₹10,600 cr"},
+      {t:"Against ₹2,000 crore approved by the CCEA plus ₹400 crore of 13th Finance Commission grants, only ₹1,149.14 crore came as budget support in ten years.", amt:"₹1,149.14 cr"},
+      {t:"Only 6 of 68 sampled annual plans reached the Ministry before the year began, and none was approved on time.", amt:""},
+      {t:"Eight of 16 states/UTs did not keep annual accounts; in six, spending in utilisation certificates did not match records.", amt:""}]},
+    {name:"Wrong places, wrong species", sev:"med", items:[
+      {t:"Less vulnerable landscapes were picked over those more exposed to climate change.", amt:""},
+      {t:"Scrublands, ravines and abandoned mines were largely left out of targets.", amt:""},
+      {t:"States preferred non-native species over native ones.", amt:""}]},
+    {name:"Weak monitoring and inflated data", sev:"med", items:[
+      {t:"Satellite analysis in nine states found no noticeable change from GIM in 70% of sampled areas; achievement was overstated.", amt:""},
+      {t:"Only Madhya Pradesh and Chhattisgarh assessed carbon sequestration in 2015-2025; flux towers there lay idle.", amt:"₹3.50 cr"},
+      {t:"14 of 16 states/UTs did not publish the required web-links, and 14 did not hold social audits through gram sabhas.", amt:""}]}
+  ],
+  charts:[
+    {title:"Targets vs achievement under GIM", type:"bars", unit:"million hectares", data:[["Forest quality: target",1.4],["Forest quality: achieved",0.11384],["Forest cover: target",1.4],["Forest cover: achieved",0.03409]]},
+    {title:"GIM funding: planned vs received", type:"bars", unit:"₹ crore", data:[["Expected via convergence",10600],["CCEA outlay + 13th FC grants",2400],["Budget support received (10 yrs)",1149.14]]}
+  ],
+  recs:[
+    "Reassess convergence with CAMPA, MGNREGS and other schemes and why it keeps failing.",
+    "Review financial planning and give the Mission adequate funds to meet its targets.",
+    "Follow bottom-up planning from village to state and prioritise the most climate-vulnerable landscapes.",
+    "Monitor carbon sequestered under GIM and get the idle flux towers working.",
+    "Ensure regular monitoring, public web-links and social audits by gram sabhas."
+  ],
+  recsNote:"Summarised from the report's executive summary.",
+  response:["The Ministry said (July 2025) that limited funds held back the Mission and that convergence was meant in terms of activities, not money from other schemes. The CAG said this contradicted the 2014 Cabinet approval. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["2008","National Action Plan on Climate Change launched"],["2011","GIM Mission Document endorsed"],["Feb 2014","CCEA approves GIM as a centrally sponsored scheme"],["2021","New target of 25 million hectares by 2030"],["Sep 2025","Exit conference with the Ministry"],["12 Aug 2026","Report No. 4 of 2026 tabled in Parliament"]],
+  glossary:["Performance audit","Green India Mission","NAPCC","CAMPA","MGNREGS","Carbon sink","Utilisation certificate","Social audit","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 4 of 2026 on the Green India Mission was tabled in Parliament on 12 August 2026 and covers 2015-16 to 2024-25.",
+      "GIM is one of the eight missions under the National Action Plan on Climate Change (2008).",
+      "The CCEA approved GIM in February 2014 with a target of afforestation over 2.8 million hectares in four years.",
+      "The audit found a 97.57% shortfall in increasing forest cover and a 91.87% shortfall in improving forest quality."
+    ],
+    mains:"The CAG's 2026 audit found that the Green India Mission missed its targets by wide margins. Examine the reasons and suggest how afforestation programmes can better support India's climate commitments. (15 marks)",
+    quiz:[
+      {q:"The Green India Mission is part of which national plan?", o:["National Mission on Biodiversity","National Action Plan on Climate Change","National Forest Policy 1988","Nagar Van Yojana"], a:1, w:"It is one of the eight missions under the NAPCC, launched in 2008."},
+      {q:"How much funding was GIM expected to draw through convergence with CAMPA, MGNREGS and NAP?", o:["₹1,149 crore","₹2,400 crore","₹10,600 crore","₹46,000 crore"], a:2, w:"₹6,000 crore (CAMPA) + ₹4,000 crore (MGNREGS) + ₹600 crore (NAP); none of it was secured."},
+      {q:"Which two states were the only ones to assess carbon sequestration under GIM during 2015-2025?", o:["Odisha and Kerala","Madhya Pradesh and Chhattisgarh","Uttarakhand and Mizoram","Punjab and Haryana"], a:1, w:"Only Madhya Pradesh and Chhattisgarh did so."}
+    ]
+  },
+  related:["uk-campa","niti-netzero-2026","cag-uk-namami-gange"],
+  src:[["CAG press release on Report No. 4 of 2026 (Green India Mission)","https://cag.gov.in/uploads/PressRelease/PR-Press-brief-GIM-4-of-2026-English-06a8088a01a4961-25001996.pdf","official"],["CAG: Report No. 4 of 2026 (full report PDF)","https://cag.gov.in/webroot/uploads/download_audit_report/2026/4-of-2026-Eng-06a82acec6ac374.65754275.pdf","official"],["Mongabay India: Audit exposes fundamental flaws in Green India Mission's execution","https://india.mongabay.com/2026/08/audit-exposes-fundamental-flaws-in-green-india-missions-execution/","coverage"]],
+  kw:"Green India Mission GIM afforestation forest cover NAPCC climate change carbon sink NDC CAMPA MGNREGS plantation MoEFCC environment Report 4 2026"
+},
+/* ---------- CAG · Pension sector (Union) ---------- */
+{
+  id:"cag-pension-15-2026", body:"CAG", kind:"Performance audit", reportNo:"Report No. 15 of 2026",
+  title:"Performance Audit Report of the CAG on Key Entities and Schemes in Pension Sector", short:"Pension Sector Audit", sector:"Social welfare", ministry:"Ministry of Finance (Department of Financial Services), Ministry of Labour & Employment and other ministries",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Placed in Parliament on 12 August 2026", period:"April 2017 to March 2024", flagged:null,
+  tldr:[
+    "PFRDA both regulates the NPS and appoints the NPS Trust's CEO and trustees, so there is no arm's length between regulator and operator.",
+    "PM-SYM had 44.92 lakh subscribers against a target of 10 crore, and PM-KMY 19.49 lakh against 5 crore.",
+    "CMPFO held ₹12,130.91 crore in suspense accounts not yet posted to members, and EPFO's actuarial checks left out the ₹1,000 minimum pension."
+  ],
+  en:"The CAG checked how India's main pension bodies and schemes are run, from April 2017 to March 2024. It looked at the PFRDA and the NPS, the EPFO, smaller provident fund bodies for coal mines, seamen and Assam tea workers, and government schemes for informal workers. It found that regulators also run or choose the bodies they oversee. Some funds were put into securities below the required grade. Some funds have more liabilities than assets. Lakhs of members wait for their money to be credited, and grievances are slow to resolve. The schemes for informal workers overlap and enrolled only a small share of their targets.",
+  hi:"CAG ने अप्रैल 2017 से मार्च 2024 तक जाँचा कि भारत की मुख्य पेंशन संस्थाएँ और योजनाएँ कैसे चलती हैं। इसमें PFRDA और NPS, EPFO, कोयला खदान, नाविकों और असम के चाय श्रमिकों के छोटे भविष्य निधि संगठन, और अनौपचारिक श्रमिकों के लिए सरकारी योजनाएँ देखी गईं। पाया गया कि नियामक उन्हीं संस्थाओं को चलाते या चुनते भी हैं जिनकी वे निगरानी करते हैं। कुछ पैसा ज़रूरी ग्रेड से नीचे की प्रतिभूतियों में लगाया गया। कुछ निधियों की देनदारियाँ उनकी संपत्ति से ज़्यादा हैं। लाखों सदस्यों का पैसा उनके खातों में जमा होने का इंतज़ार कर रहा है, और शिकायतें धीरे निपटती हैं। अनौपचारिक श्रमिकों की योजनाएँ एक-दूसरे से टकराती हैं और अपने लक्ष्य का छोटा हिस्सा ही नामांकित कर पाईं।",
+  context:{
+    what:"A CAG performance audit of the legal, regulatory and institutional framework of India's pension sector: PFRDA and the NPS, EPFO, CMPFO, SPFO, ATEPFO, pension systems of six autonomous bodies and CPSEs, and four government schemes (APY, PM-SYM, PM-KMY and PMVVY).",
+    why:"Pension funds hold the old-age savings of crores of workers. Weak governance, risky investment or slow crediting can leave retirees with less than they were promised.",
+    how:"Examination of records in the Department of Financial Services, other ministries and the pension bodies for April 2017 to March 2024, with data analysis and entry and exit conferences."
+  },
+  nums:[["44.92 lakh","PM-SYM subscribers against a 10 crore target",1],["₹12,130.91 cr","Held by CMPFO in suspense accounts (March 2024)",1],["41%","Sampled EPFO grievances that took over the 7-day limit",1],["~51%","APY accounts still active (March 2024)",0]],
+  themes:[
+    {name:"Regulators too close to what they regulate", sev:"high", items:[
+      {t:"PFRDA regulates the NPS and also appointed the CEO and trustees of the NPS Trust and the intermediaries, with no arm's length relationship.", amt:""},
+      {t:"EPFO selected portfolio managers and allocated funds among them while also overseeing them.", amt:""},
+      {t:"Boards of CMPFO and SPFO did not meet as often as required; some bodies had no prescribed meeting schedule.", amt:""}]},
+    {name:"Risky investment and funding gaps", sev:"high", items:[
+      {t:"EPFO, CMPFO, SPFO and ATEPFO invested in securities below the required investment grade.", amt:""},
+      {t:"EPFO and CMPFO had significant asset-liability mismatches; EPFO's actuarial valuation left out the guaranteed ₹1,000 minimum pension.", amt:""},
+      {t:"The Calcutta Dock Labour Board had no dedicated pension fund and paid pensions from earnings, with arrears of ₹967.38 crore (March 2023).", amt:"₹967.38 cr"},
+      {t:"PMVVY had 98% of funds in government securities against a 60-70% limit, and ₹5,437.74 crore in securities beyond the 15-year tenure limit.", amt:"₹5,437.74 cr"}]},
+    {name:"Members' money stuck and slow service", sev:"high", items:[
+      {t:"CMPFO held money in suspense accounts not yet posted to individual ledgers.", amt:"₹12,130.91 cr"},
+      {t:"Contributions of over 28,000 SPFO subscribers were unposted, denying them interest.", amt:""},
+      {t:"ATEPFO's yearly shortfall in PF deposits ranged from ₹78.69 crore (2018-19) to ₹315.45 crore (2021-22).", amt:"₹315.45 cr"},
+      {t:"41% of EPFO grievances took longer than seven days; EPFO has no ombudsman.", amt:""}]},
+    {name:"Schemes for informal workers fall short", sev:"med", items:[
+      {t:"APY reached its target of 2 crore subscribers in 2020, five years late; only about 51% of accounts were still active by March 2024.", amt:""},
+      {t:"PM-SYM enrolled 44.92 lakh against a 10 crore target, and PM-KMY 19.49 lakh against 5 crore.", amt:""},
+      {t:"APY, PM-SYM and PM-KMY target overlapping groups; multiple accounts were linked to single bank accounts.", amt:""},
+      {t:"No actuarial valuation was done for PM-SYM and PM-KMY despite five years of operation.", amt:""}]}
+  ],
+  charts:[
+    {title:"Enrolment vs target in schemes for informal workers", type:"bars", unit:"lakh subscribers", data:[["PM-SYM target",1000],["PM-SYM enrolled",44.92],["PM-KMY target",500],["PM-KMY enrolled",19.49]], note:"Enrolment as of 31 March 2024."},
+    {title:"Assets under management", type:"bars", unit:"₹ lakh crore", data:[["EPFO (Mar 2024)",24.05],["NPS (Mar 2025)",14.45]]}
+  ],
+  recs:[
+    "Separate PFRDA's regulatory role from the NPS Trust's operational role.",
+    "PFRDA should speed up a Minimum Assured Return Scheme for NPS subscribers.",
+    "Build a central grievance portal with a single escalation system.",
+    "Revise the EPF wage ceiling of ₹15,000, last changed in September 2014, to widen pension coverage.",
+    "CMPFO and SPFO should clear suspense and unposted balances; ATEPFO should carry out regular actuarial valuation."
+  ],
+  recsNote:"Summarised from the report's recommendations.",
+  response:["The Department of Financial Services said (April 2025) that 2023 amendments to NPS Trust rules separated the roles of PFRDA and the Trust, that a proposal to separate them by law was under consideration, and that PFRDA was finalising a guaranteed-return option. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Sep 2014","EPF wage ceiling last revised to ₹15,000"],["Apr 2017","Audit period begins"],["2020","APY reaches 2 crore subscribers, five years late"],["Mar 2024","Audit period ends"],["12 Aug 2026","Report No. 15 of 2026 placed in Parliament"]],
+  glossary:["Performance audit","PFRDA","NPS","EPFO","Atal Pension Yojana","Actuarial valuation","Suspense account","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 15 of 2026 on the pension sector was placed in Parliament on 12 August 2026 and covers April 2017 to March 2024.",
+      "EPFO and CMPFO guarantee a minimum monthly pension of ₹1,000; NPS offers no assured minimum return.",
+      "The Employees' Pension Scheme excludes employees with salaries above ₹15,000.",
+      "PM-SYM had 44.92 lakh subscribers against a 10 crore target by March 2024."
+    ],
+    mains:"India's pension sector is governed by several regulators with different rules. Discuss the governance gaps highlighted by the CAG in 2026 and the case for unified pension oversight. (15 marks)",
+    quiz:[
+      {q:"Which body regulates the National Pension System?", o:["EPFO","IRDAI","PFRDA","SEBI"], a:2, w:"The Pension Fund Regulatory and Development Authority."},
+      {q:"How much did CMPFO hold in suspense accounts at the end of 2023-24?", o:["₹967.38 crore","₹5,437.74 crore","₹12,130.91 crore","₹24.05 lakh crore"], a:2, w:"₹12,130.91 crore was yet to be posted to individual ledgers."},
+      {q:"PM-KMY, which enrolled 19.49 lakh against a 5 crore target, is a pension scheme for:", o:["Small and marginal farmers","Unorganised urban workers","Senior citizens","Coal mine workers"], a:0, w:"Pradhan Mantri Kisan Maandhan Yojana is for small and marginal farmers."}
+    ]
+  },
+  related:["niti-care-2026","union-accounts-2425","cag-frbm-29-2026"],
+  src:[["CAG press release on Report No. 15 of 2026 (pension sector)","https://cag.gov.in/uploads/PressRelease/PR-Press-release-Report-No-15-of-2026-Eng-06a7d416e8eaae4-10348857.pdf","official"],["CAG: Report No. 15 of 2026 (full report PDF)","https://cag.gov.in/webroot/uploads/download_audit_report/2026/CAG--Report-No.-15-of-2026_(English)-06a7d57ab831c62.45914606.pdf","official"],["The Policy Edge: CAG audit makes case for unified pension oversight","https://www.policyedge.in/p/cag-audit-makes-case-for-unified-pension-oversight","analysis"]],
+  kw:"pension NPS PFRDA EPFO EPS CMPFO SPFO ATEPFO Atal Pension Yojana APY PM-SYM PM-KMY PMVVY retirement provident fund social security unorganised workers Report 15 2026"
+},
+/* ---------- CAG · Odisha: Coastal tourism and transport ---------- */
+{
+  id:"cag-odisha-tourism-transport-2026", body:"CAG", state:"Odisha", kind:"Compliance audit", reportNo:"Report No. 2 of 2026 (Odisha)",
+  title:"Report of the CAG on Subject Specific Compliance Audits: Development of Tourism in Coastal Zone in Odisha, and Functioning of State Transport Authority and Regional Transport Offices, for the year ended March 2024, Government of Odisha", short:"Odisha Coastal Tourism and Transport Audit", sector:"Other", ministry:"Tourism Department and Commerce & Transport Department, Government of Odisha",
+  date:"Sep 2026", dateISO:"2026-09-28", tabled:"Tabled in the Odisha Assembly on 28 September 2026", period:"2019-20 to 2023-24 (year ended March 2024)", flagged:1136.62, flaggedNote:"Value of 39.55 lakh e-challans pending with RTOs, courts or police, the report's largest single figure. This is an amount at issue, not a confirmed loss.",
+  tldr:[
+    "39.55 lakh e-challans worth ₹1,136.62 crore were pending, and fines of about ₹640.87 crore were never imposed.",
+    "₹898.48 crore for tourism projects sat idle in agency bank accounts; seven eco-retreats ran at a loss of ₹207.68 crore.",
+    "Tourism structures worth ₹28.84 crore were built in sanctuary, national park and reserve forest areas against the Forest (Conservation) Act."
+  ],
+  en:"The CAG checked two things in Odisha for 2019-20 to 2023-24: tourism along the coast, and the work of the state transport authority and transport offices. In tourism, ₹898 crore meant for projects sat unused in agency accounts, seven eco-retreats lost ₹208 crore, and several projects were left incomplete. Some structures were built inside protected forest areas. In transport, 39.55 lakh traffic e-challans worth ₹1,137 crore were pending, only 1.83% of a tax arrears target was recovered, ride aggregators worked without licences, and accidents and deaths rose despite the road safety policy.",
+  hi:"CAG ने 2019-20 से 2023-24 तक ओडिशा में दो चीज़ें जाँचीं: तट पर पर्यटन, और राज्य परिवहन प्राधिकरण व परिवहन कार्यालयों का काम। पर्यटन में परियोजनाओं के लिए रखे ₹898 करोड़ एजेंसियों के खातों में बिना उपयोग पड़े रहे, सात इको-रिट्रीट में ₹208 करोड़ का घाटा हुआ, और कई परियोजनाएँ अधूरी छोड़ दी गईं। कुछ ढाँचे संरक्षित वन क्षेत्रों के अंदर बनाए गए। परिवहन में ₹1,137 करोड़ के 39.55 लाख ट्रैफ़िक ई-चालान लंबित थे, कर बकाया लक्ष्य का सिर्फ़ 1.83% वसूला गया, राइड एग्रीगेटर बिना लाइसेंस के चलते रहे, और सड़क सुरक्षा नीति के बावजूद दुर्घटनाएँ और मौतें बढ़ीं।",
+  context:{
+    what:"A CAG report with two subject-specific compliance audits in Odisha: development of tourism in the coastal zone, and the functioning of the State Transport Authority and Regional Transport Offices, for the year ended March 2024.",
+    why:"Coastal tourism is a major source of jobs and income in Odisha, and transport offices collect taxes and fines and enforce road safety. Idle funds, unpaid fines and weak enforcement mean lost revenue and less safe roads.",
+    how:"Test check of records of the Tourism Department, OTDC, executing agencies, the State Transport Authority and RTOs for 2019-20 to 2023-24, including VAHAN and e-challan data."
+  },
+  nums:[["₹1,136.62 cr","Value of 39.55 lakh pending e-challans",1],["₹898.48 cr","Tourism project funds parked idle with nine agencies",1],["₹207.68 cr","Loss on seven eco-retreats (2019-20 to 2023-24)",1],["1.83%","Transport tax arrears recovered against target",1]],
+  themes:[
+    {name:"Tourism money lying idle", sev:"high", items:[
+      {t:"Funds for tourism projects sat in the bank accounts of nine executing agencies, ₹806.44 crore of it with OTDC and STDC for five years.", amt:"₹898.48 cr"},
+      {t:"The Tourism Department surrendered ₹103.35 crore of its ₹2,278.04 crore budget because it was not used.", amt:"₹103.35 cr"},
+      {t:"Seven eco-retreats were run at a loss.", amt:"₹207.68 cr"},
+      {t:"OTDC did not recover ₹10.72 crore from government departments and ₹72 lakh from private parties.", amt:"₹10.72 cr"}]},
+    {name:"Projects incomplete or in protected areas", sev:"high", items:[
+      {t:"Permanent or semi-permanent structures were built in sanctuary, national park and proposed reserve forest areas, against the Forest (Conservation) Act, 1980.", amt:"₹28.84 cr"},
+      {t:"Swadesh Darshan works at Barkul, Satapada, Tampara and Gopalpur did not meet their objectives.", amt:"₹41.60 cr"},
+      {t:"The Shamuka special tourism area in Puri was left incomplete, making spending unfruitful; Bindusagar Lake work was incomplete after nine years (₹8.16 crore).", amt:"₹11.92 cr"},
+      {t:"20 Panthanivas ran without mandatory fire safety certificates.", amt:""}]},
+    {name:"Fines and taxes not collected", sev:"high", items:[
+      {t:"39.55 lakh e-challans were pending with RTOs, courts or police.", amt:"₹1,136.62 cr"},
+      {t:"Only one or two offences were booked per vehicle, leaving fines unimposed.", amt:"₹640.87 cr"},
+      {t:"Only ₹9.71 crore of transport tax arrears was recovered against a target of ₹530 crore by August 2024.", amt:"₹9.71 cr"},
+      {t:"Inspection fees of ₹73.18 lakh for 9,760 vehicles were not realised as tax was accepted without valid fitness certificates in VAHAN.", amt:""}]},
+    {name:"Weak regulation and road safety", sev:"med", items:[
+      {t:"Ride aggregators ran without licences and set their own fares, as no base fare was fixed.", amt:""},
+      {t:"High Security Registration Plates were not ensured on 17.61 lakh pre-2019 vehicles; 1.52 lakh vehicles were registered without them up to March 2024.", amt:""},
+      {t:"Public service vehicles were registered without tracking devices and emergency buttons.", amt:""},
+      {t:"The 2015 Road Safety Policy aimed to cut accidents by 50% by 2020, but accidents, injuries and deaths rose in 2019-23, except in 2020.", amt:""}]}
+  ],
+  charts:[
+    {title:"Largest findings", type:"bars", unit:"₹ crore", data:[["Pending e-challans",1136.62],["Idle tourism project funds",898.48],["Fines not imposed",640.87],["Eco-retreat losses",207.68],["Tourism budget surrendered",103.35]]},
+    {title:"Transport tax arrears, up to August 2024", type:"bars", unit:"₹ crore", data:[["Recovery target",530],["Recovered",9.71]]}
+  ],
+  response:["Coverage did not report a reply from the Odisha government. The report goes to the Odisha Assembly's Public Accounts Committee."],
+  timeline:[["2015","Odisha Road Safety Policy sets 2020 targets"],["2019-20","Audit period begins"],["Mar 2024","Year audited ends"],["Aug 2024","Tax arrears recovery at 1.83% of target"],["28 Sep 2026","Report tabled in the Odisha Assembly"]],
+  glossary:["Compliance audit","e-Challan","VAHAN","HSRP","Certificate of Fitness","Swadesh Darshan","PAC"],
+  exam:{
+    prelims:[
+      "The CAG report on coastal tourism and transport in Odisha covers the year ended March 2024 and was tabled on 28 September 2026.",
+      "It found 39.55 lakh e-challans worth ₹1,136.62 crore pending in Odisha.",
+      "The CAG said the objective at three Blue Flag beach sites (Niladri, Muhan and Pir Jahania) was not achieved despite ₹3.78 crore spent in 2020-25.",
+      "Swadesh Darshan and PRASAD are Union Tourism Ministry schemes whose Odisha projects were found incomplete."
+    ],
+    mains:"Idle funds and weak enforcement reduce the returns from public spending. Discuss with reference to the CAG's 2026 findings on coastal tourism and transport in Odisha. (10 marks)",
+    quiz:[
+      {q:"What was the value of pending e-challans in Odisha found by the CAG?", o:["₹207.68 crore","₹640.87 crore","₹898.48 crore","₹1,136.62 crore"], a:3, w:"39.55 lakh e-challans worth ₹1,136.62 crore were pending."},
+      {q:"What share of the transport tax arrears target had Odisha recovered by August 2024?", o:["1.83%","18.3%","48%","91.8%"], a:0, w:"₹9.71 crore against a target of ₹530 crore."},
+      {q:"Which law did tourism structures in Odisha's sanctuary and reserve forest areas breach, per the CAG?", o:["Coastal Regulation Zone Notification only","Forest (Conservation) Act, 1980","Wild Life (Protection) Act, 1972 only","Environment Protection Act, 1986 only"], a:1, w:"Works worth ₹28.84 crore were contrary to government instructions and the Forest (Conservation) Act, 1980."}
+    ]
+  },
+  related:["cag-odisha-dmf-2026","cag-nagaland-1-2026","delhi-air"],
+  src:[["CAG: Odisha (A.G. Audit-II) page on the coastal tourism and transport audits","https://cag.gov.in/ag2/odisha/en","official"],["Business News This Week (UDN): CAG flags lapses in Odisha tourism, transport sectors","https://businessnewsthisweek.com/news/cag-flags-financial-and-regulatory-lapses-in-odisha-tourism-transport-sectors/","coverage"],["OrissaPOST: CAG flags ₹207.68 crore loss in eco-retreats","https://www.orissapost.com/odisha-cag-flags-rs-207-68-crore-loss-in-eco-retreats/","coverage"],["OmmCom News: CAG red flags lapses in Odisha tourism, transport sectors","https://ommcomnews.com/odisha-news/cag-red-flags-financial-lapses-in-odisha-tourism-transport-sectors/","coverage"]],
+  kw:"Odisha tourism coastal Puri Konark eco-retreat OTDC Swadesh Darshan PRASAD Blue Flag transport RTO e-challan VAHAN HSRP aggregators road safety Forest Conservation Act 2026"
 }
 
 );
@@ -1345,7 +1563,7 @@ window.SPEC_REPORTS.push(
 Object.assign(window.STATE_FACTS_V2, {
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
-  OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"]],
+  OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
   NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
