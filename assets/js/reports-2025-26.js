@@ -57,7 +57,15 @@ Object.assign(window.SITE.glossary, {
   "Atal Pension Yojana": "A government pension scheme for workers aged 18 to 40, mainly in the unorganised sector, that pays a fixed monthly pension after age 60.",
   "e-Challan": "An electronic fine for a traffic offence, issued through a central system and payable online or in court.",
   "HSRP": "High Security Registration Plate: a tamper-proof aluminium number plate with a hologram and laser-etched code, mandatory for vehicles.",
-  "Swadesh Darshan": "A Union Tourism Ministry scheme that funds themed tourist circuits and destinations in the states."
+  "Swadesh Darshan": "A Union Tourism Ministry scheme that funds themed tourist circuits and destinations in the states.",
+  "UDAY": "Ujwal DISCOM Assurance Yojana: a Union scheme under which states took over most of the debt of their power distribution companies in return for reforms.",
+  "CERC": "Central Electricity Regulatory Commission: the national regulator that sets tariff rules and norms for power generation and transmission.",
+  "Interest During Construction": "Interest paid on loans while a project is being built; it is added to the project's cost and recovered through tariffs if the regulator allows it.",
+  "Revamped Distribution Sector Scheme": "A Union scheme to cut losses and improve the finances and supply reliability of state power distribution companies.",
+  "Ayush": "The Union ministry and umbrella term for Ayurveda, Yoga and Naturopathy, Unani, Siddha, Sowa-Rigpa and Homoeopathy.",
+  "WHO-GMP": "Good Manufacturing Practices certified to World Health Organization standards, which assure that medicines are made with consistent quality.",
+  "Medical value travel": "Travel by people from other countries to receive medical or wellness treatment.",
+  "Mutual Recognition Arrangement": "An agreement between countries to accept each other's qualifications, licences or standards."
 });
 
 window.SPEC_REPORTS.push(
@@ -1555,6 +1563,210 @@ window.SPEC_REPORTS.push(
   related:["cag-odisha-dmf-2026","cag-nagaland-1-2026","delhi-air"],
   src:[["CAG: Odisha (A.G. Audit-II) page on the coastal tourism and transport audits","https://cag.gov.in/ag2/odisha/en","official"],["Business News This Week (UDN): CAG flags lapses in Odisha tourism, transport sectors","https://businessnewsthisweek.com/news/cag-flags-financial-and-regulatory-lapses-in-odisha-tourism-transport-sectors/","coverage"],["OrissaPOST: CAG flags ₹207.68 crore loss in eco-retreats","https://www.orissapost.com/odisha-cag-flags-rs-207-68-crore-loss-in-eco-retreats/","coverage"],["OmmCom News: CAG red flags lapses in Odisha tourism, transport sectors","https://ommcomnews.com/odisha-news/cag-red-flags-financial-lapses-in-odisha-tourism-transport-sectors/","coverage"]],
   kw:"Odisha tourism coastal Puri Konark eco-retreat OTDC Swadesh Darshan PRASAD Blue Flag transport RTO e-challan VAHAN HSRP aggregators road safety Forest Conservation Act 2026"
+},
+/* ---------- CAG · Tamil Nadu Tangedco power generation ---------- */
+{
+  id:"cag-tn-tangedco-2026", body:"CAG", state:"Tamil Nadu", kind:"Performance audit", reportNo:"CAG performance audit (Tamil Nadu, 2026)",
+  title:"Performance Audit on Power Generation Activities of Tangedco", short:"Tangedco Power Generation Audit", sector:"Roads & infrastructure", ministry:"Energy Department, Government of Tamil Nadu (Tangedco)",
+  date:"Sep 2026", dateISO:"2026-09-08", tabled:"Tabled in the Tamil Nadu Assembly on 8 September 2026 (reported 9 September 2026)", period:"Several periods, mainly 2013-14 to 2024-25", flagged:9500, flaggedNote:"Approximate avoidable spending on buying power at higher cost, as reported. This is an amount flagged by audit, not a confirmed loss.",
+  tldr:[
+    "Outages at Tangedco's thermal plants forced it to buy costlier power, an avoidable spend of about ₹9,500 crore.",
+    "Coal shortages, lower-grade coal and costlier coal purchases added thousands of crore more; 17.55 lakh tonnes of coal was not tested.",
+    "Under UDAY the state took over only ₹22,815 crore (34.38%) of Tangedco's debt against 75% required, and debt rose to ₹1.23 lakh crore by March 2020."
+  ],
+  en:"Tangedco generates and distributes most of Tamil Nadu's electricity. The CAG looked at how it runs its power plants. Overhauls and maintenance were delayed, so plants broke down and Tangedco had to buy power at a higher cost, an avoidable spend of about ₹9,500 crore. Coal was poorly managed: shortages were not claimed from suppliers, lower-grade coal was accepted, and a lot of coal was never tested. New thermal projects ran 13 to 56 months late, raising interest costs by about ₹3,600 crore. The UDAY scheme did not fix Tangedco's finances. Its debt kept rising and state subsidy support grew 314% in about a decade.",
+  hi:"Tangedco तमिलनाडु की ज़्यादातर बिजली बनाती और बाँटती है। CAG ने देखा कि वह अपने बिजलीघर कैसे चलाती है। ओवरहॉल और रखरखाव में देरी हुई, इसलिए संयंत्र बंद हुए और Tangedco को महँगी बिजली खरीदनी पड़ी, जिस पर लगभग ₹9,500 करोड़ का टाला जा सकने वाला खर्च हुआ। कोयले का प्रबंधन कमज़ोर था: कमी का दावा आपूर्तिकर्ताओं से नहीं किया गया, घटिया ग्रेड का कोयला स्वीकार किया गया, और बहुत सा कोयला जाँचा ही नहीं गया। नई थर्मल परियोजनाएँ 13 से 56 महीने देर से चलीं, जिससे ब्याज लागत लगभग ₹3,600 करोड़ बढ़ी। UDAY योजना से Tangedco की वित्तीय हालत नहीं सुधरी। उसका कर्ज़ बढ़ता रहा और लगभग एक दशक में राज्य की सब्सिडी सहायता 314% बढ़ गई।",
+  context:{
+    what:"A CAG performance audit of the power generation activities of the Tamil Nadu Generation and Distribution Corporation (Tangedco), covering plant operations, coal management, new thermal projects and the company's finances.",
+    why:"Power that a state utility fails to generate must be bought from outside, often at a higher price. Those costs flow into tariffs, subsidies and the utility's debt, which the state budget ends up carrying.",
+    how:"Review of Tangedco's records on plant outages, coal purchase and testing, project progress, the UDAY scheme and state support. Different findings cover different periods, from 2001-24 for coal claims to 2013-14 to 2024-25 for subsidies."
+  },
+  nums:[["₹9,500 cr","Avoidable spend on costlier power purchases (approx.)",1],["₹3,900 cr+","Cost of coal shortages and costlier coal buys",1],["34.38%","Share of debt the state took over under UDAY (75% required)",1],["₹1.23 lakh cr","Tangedco's outstanding debt by March 2020",1]],
+  themes:[
+    {name:"Plant outages and costly power purchases", sev:"high", items:[
+      {t:"Delayed overhauls and late preventive maintenance caused thermal plant outages, so Tangedco bought power at a higher cost.", amt:"₹9,500 cr"},
+      {t:"Failure of the ash handling system at NCTPS-II led to generation loss and extra spending.", amt:"₹130 cr"}]},
+    {name:"Weak coal management", sev:"high", items:[
+      {t:"Coal shortages were not worked out or claimed from contractors, and costlier coal was bought to fill the gap.", amt:"₹3,900 cr"},
+      {t:"Accepting lower-grade coal cost about ₹1,500 crore.", amt:"₹1,500 cr"},
+      {t:"Not using the variable-price method for imported coal cost ₹1,200 crore.", amt:"₹1,200 cr"},
+      {t:"17.55 lakh tonnes of coal was not tested or test results were not available; pre-berth delays in time charters cost about ₹250 crore.", amt:"₹250 cr"}]},
+    {name:"Delayed thermal projects", sev:"high", items:[
+      {t:"Projects due before March 2023 were only 18% to 94% complete.", amt:""},
+      {t:"Delays ran 13 to 56 months beyond the CERC norm of 50 months.", amt:""},
+      {t:"Interest During Construction rose by about ₹3,600 crore for three projects; the CAG warned the state regulator may not allow it in tariffs.", amt:"₹3,600 cr"}]},
+    {name:"Finances not fixed by UDAY", sev:"med", items:[
+      {t:"The state took over ₹22,815 crore (34.38%) of Tangedco's debt against the required 75% (₹56,317 crore).", amt:"₹22,815 cr"},
+      {t:"The gap between the average cost of supply and average revenue widened from ₹0.60 to ₹1.07 per unit between 2015-16 and 2019-20.", amt:""},
+      {t:"Outstanding debt rose from ₹81,312 crore to ₹1.23 lakh crore by March 2020.", amt:""},
+      {t:"State subsidy and grant support rose 314%, from ₹5,947.09 crore in 2013-14 to ₹24,636.98 crore in 2024-25.", amt:"₹24,636.98 cr"}]}
+  ],
+  charts:[
+    {title:"Largest cost findings", type:"bars", unit:"₹ crore (approx.)", data:[["Costlier power purchases",9500],["Coal shortages and costlier coal",3900],["Extra interest on delayed projects",3600],["Lower-grade coal accepted",1500],["Fixed-price imported coal",1200]]},
+    {title:"State subsidy and grant support to Tangedco", type:"bars", unit:"₹ crore", data:[["2013-14",5947.09],["2024-25",24636.98]]},
+    {title:"UDAY debt takeover", type:"bars", unit:"₹ crore", data:[["Required (75%)",56317],["Taken over (34.38%)",22815]]}
+  ],
+  recs:[
+    "Carry out overhauls and preventive maintenance of thermal plants on time.",
+    "Work out and claim coal shortages from suppliers, and test all coal received.",
+    "Finish thermal projects within the CERC timeline to avoid extra interest costs."
+  ],
+  recsNote:"Summarised from the audit findings as reported in published coverage.",
+  response:["Coverage did not report a reply from the Tamil Nadu government or Tangedco. The report goes to the Tamil Nadu Assembly's committees for scrutiny."],
+  timeline:[["2013-14","State subsidy support at ₹5,947.09 crore"],["Mar 2020","Tangedco debt reaches ₹1.23 lakh crore"],["2024-25","State subsidy support at ₹24,636.98 crore"],["8 Sep 2026","Report tabled in the Tamil Nadu Assembly"]],
+  glossary:["Performance audit","UDAY","CERC","Interest During Construction","Revamped Distribution Sector Scheme"],
+  exam:{
+    prelims:[
+      "The CAG's performance audit of Tangedco's power generation activities was tabled in the Tamil Nadu Assembly in September 2026.",
+      "It found avoidable spending of about ₹9,500 crore on buying power at a higher cost because of plant outages.",
+      "Under UDAY, Tamil Nadu took over 34.38% of Tangedco's debt against the 75% required.",
+      "The CERC norm for completing a thermal project, used by the audit, is 50 months."
+    ],
+    mains:"Operational failures at state power utilities end up as a burden on the state budget. Discuss with reference to the CAG's 2026 audit of Tangedco. (15 marks)",
+    quiz:[
+      {q:"What share of Tangedco's debt did Tamil Nadu take over under UDAY, per the CAG?", o:["75%","50%","34.38%","18%"], a:2, w:"₹22,815 crore, or 34.38%, against the 75% (₹56,317 crore) required."},
+      {q:"What was the main cause of the ₹9,500 crore avoidable spend flagged by the CAG?", o:["Solar power contracts","Buying costlier power after thermal plant outages","Transmission losses","Free power to farmers"], a:1, w:"Delayed overhauls and maintenance led to outages and costlier power purchases."},
+      {q:"UDAY, under which states took over the debt of power distribution companies, stands for:", o:["Ujwal DISCOM Assurance Yojana","Urban Development and Electricity Yojana","Unified Distribution and Access Yojana","Ujjwala DISCOM Aid Yojana"], a:0, w:"Ujwal DISCOM Assurance Yojana."}
+    ]
+  },
+  related:["cag-delhi-revenue-1-2026","state-finances"],
+  src:[["DT Next: Lapses cost Tangedco Rs 9,500 crore, finds CAG audit of utility","https://www.dtnext.in/news/tamilnadu/lapses-cost-tangedco-rs-9500-crore-finds-cag-audit-of-utility","news"],["News Today: CAG flags Rs 9,500 cr Tangedco loss","https://newstodaynet.com/2026/09/09/cag-flags-rs-9500-cr-tangedco-loss/","news"],["CAG audit reports","https://cag.gov.in/en/audit-report","official"]],
+  kw:"Tamil Nadu Tangedco TNEB power generation thermal plant coal UDAY debt subsidy CERC NCTPS electricity audit 2026"
+},
+/* ---------- CAG · IIM Rohtak (Union) ---------- */
+{
+  id:"cag-iim-rohtak-24-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 24 of 2026",
+  title:"Compliance Audit of Indian Institute of Management, Rohtak, Ministry of Education", short:"IIM Rohtak Audit", sector:"Education & institutions", ministry:"Ministry of Education (IIM Rohtak)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026", period:"Mainly 2018-19 to 2023-24", flagged:null,
+  tldr:[
+    "IIM Rohtak raised its average annual fee 35% and its programme receipts rose 299% between 2018-19 and 2023-24, but it prepared no annual budgets.",
+    "It paid ₹7.49 crore in faculty incentives and honoraria, more than 100% of salary in six cases, and gave out gifts and devices worth ₹58.32 lakh.",
+    "28 changes were made to regulations already cleared by the Education Ministry, with no record of the Ministry approving them; the Ministry agreed with the audit."
+  ],
+  en:"The CAG audited IIM Rohtak, a public management institute under the Ministry of Education. Between 2018-19 and 2023-24 the average fee per student rose 35% and receipts from its main programmes rose almost four times, yet the institute stopped preparing annual budgets. It paid ₹7.49 crore in extra incentives and honoraria to faculty, in six cases more than their full salary, and handed out phones, laptops and fitness equipment as gifts. The director was paid ₹3.20 crore in variable pay under rules applied retrospectively. The board also made 28 changes to regulations without the Ministry's approval. The Ministry agreed with most findings and said excess payments should be recovered. The institute said it is self-financed and its board was empowered to decide.",
+  hi:"CAG ने IIM रोहतक का ऑडिट किया, जो शिक्षा मंत्रालय के अधीन एक सार्वजनिक प्रबंधन संस्थान है। 2018-19 से 2023-24 के बीच प्रति छात्र औसत फ़ीस 35% बढ़ी और मुख्य कार्यक्रमों से प्राप्तियाँ लगभग चार गुना हो गईं, फिर भी संस्थान ने वार्षिक बजट बनाना बंद कर दिया। उसने शिक्षकों को ₹7.49 करोड़ के अतिरिक्त प्रोत्साहन और मानदेय दिए, छह मामलों में यह उनके पूरे वेतन से ज़्यादा था, और फ़ोन, लैपटॉप और फ़िटनेस उपकरण उपहार में बाँटे। निदेशक को पिछली तारीख से लागू नियमों के तहत ₹3.20 करोड़ का परिवर्तनीय वेतन दिया गया। बोर्ड ने मंत्रालय की मंज़ूरी के बिना नियमों में 28 बदलाव भी किए। मंत्रालय ने ज़्यादातर निष्कर्षों से सहमति जताई और कहा कि अतिरिक्त भुगतान वसूले जाएँ। संस्थान ने कहा कि वह स्व-वित्तपोषित है और उसका बोर्ड निर्णय लेने के लिए सक्षम था।",
+  context:{
+    what:"A CAG compliance audit of the Indian Institute of Management, Rohtak, covering its fees and finances, faculty payments, the director's pay, recruitment and governance under the IIM Act, 2017.",
+    why:"IIMs were given wide autonomy under the IIM Act, 2017. The audit tests whether that autonomy came with proper budgeting, transparency and the checks the law and the Ministry require.",
+    how:"Review of the institute's accounts, board records, fee data and recruitment files, mostly for 2018-19 to 2023-24, with replies from the institute and the Ministry of Education."
+  },
+  nums:[["35%","Rise in average annual fee per student, 2018-19 to 2023-24",1],["₹7.49 cr","Faculty incentives and honoraria, 2019-20 to 2023-24",1],["₹3.20 cr","Director's variable pay for 2018-19 to 2020-21, paid retrospectively",1],["28","Regulation changes made without a record of Ministry approval",1]],
+  themes:[
+    {name:"Fees rose, but no budgets", sev:"high", items:[
+      {t:"Average annual fee per student rose from ₹6.40 lakh in 2018-19 to ₹8.64 lakh in 2023-24, a 35% increase.", amt:""},
+      {t:"Academic receipts from the PGP, IPM and IPL programmes rose from ₹31.57 crore to ₹125.91 crore, up 299%.", amt:"₹125.91 cr"},
+      {t:"The institute did not prepare annual budgets and stopped presenting them to its Board after 2017-18, while running a surplus of ₹217.91 crore.", amt:"₹217.91 cr"},
+      {t:"A development plan showed ₹410 crore of planned spending with no documented funding sources or timelines.", amt:"₹410 cr"}]},
+    {name:"Payments to faculty and the director", sev:"high", items:[
+      {t:"₹7.49 crore was paid in incentives (₹4.11 crore) and honoraria (₹3.38 crore); in six cases payments exceeded 100% of salary.", amt:"₹7.49 cr"},
+      {t:"iPhones, iPads, laptops, treadmills, fitness bikes and smartwatches worth ₹58.32 lakh were given as gifts or honoraria in 2020-21 and 2021-22.", amt:"₹0.58 cr"},
+      {t:"The director's variable pay of ₹3.20 crore for 2018-19 to 2020-21 was paid under regulations that took effect only in October 2021.", amt:"₹3.20 cr"},
+      {t:"Gross salaries of ₹88.64 lakh were paid to 10 people without complete recruitment records.", amt:"₹0.89 cr"}]},
+    {name:"Governance and oversight", sev:"med", items:[
+      {t:"The Board made 28 changes to regulations already vetted by the Ministry, with no record of the Ministry approving them.", amt:""},
+      {t:"The changes widened the director's powers and brought back a provision the Ministry had rejected.", amt:""},
+      {t:"The Board had no SC or ST representative from December 2018 to March 2023, and no external experts were nominated to the Academic Council from 2017 to 2024.", amt:""},
+      {t:"Social-category data was not kept for 82 faculty records reviewed, and records for 27 faculty were not provided.", amt:""}]}
+  ],
+  charts:[
+    {title:"Academic receipts from PGP, IPM and IPL", type:"bars", unit:"₹ crore", data:[["2018-19",31.57],["2023-24",125.91]]},
+    {title:"Average annual fee per student", type:"bars", unit:"₹ lakh", data:[["2018-19",6.40],["2023-24",8.64]]},
+    {title:"Faculty incentives and honoraria, 2019-20 to 2023-24", type:"split", unit:"₹ crore", data:[["Incentives",4.11],["Honoraria",3.38]]}
+  ],
+  recs:[
+    "Prepare annual budgets and place them before the Board of Governors.",
+    "Recover honoraria above 100% of salary and the director's variable pay as the Ministry has advised.",
+    "Act on the 28 regulation changes made without Ministry approval."
+  ],
+  recsNote:"Based on the Ministry of Education's replies to the audit as reported in coverage.",
+  response:[
+    "The Ministry of Education agreed with the audit on the 28 regulation changes and on the director's variable pay, and said the pay for 2018-19 to 2024-25 should be recovered. It said the Board may revise faculty norms and recover honoraria above 100% of salary.",
+    "IIM Rohtak said it has been self-financed since 2019, its fees are among the lowest of the IIMs, its Board was empowered to make regulations under Section 35 of the IIM Act, and its incentive policy matches other IIMs."
+  ],
+  timeline:[["2018-19","Fee and receipts comparison begins"],["Sep 2021","Board changes regulations cleared by the Ministry"],["Apr 2026","Ministry of Education replies to the audit"],["12 Aug 2026","Report No. 24 of 2026 tabled in Parliament"]],
+  glossary:["Compliance audit"],
+  exam:{
+    prelims:[
+      "CAG Report No. 24 of 2026 is a compliance audit of IIM Rohtak under the Ministry of Education, tabled on 12 August 2026.",
+      "It found the average annual fee per student rose 35% between 2018-19 and 2023-24, while no annual budgets were prepared.",
+      "The Board of Governors made 28 changes to Ministry-vetted regulations without recorded Ministry approval.",
+      "Under Section 35 of the IIM Act, 2017, the Board of Governors can make regulations for the institute."
+    ],
+    mains:"Autonomy for higher education institutions must be matched by accountability. Discuss with reference to the CAG's 2026 audit of IIM Rohtak. (10 marks)",
+    quiz:[
+      {q:"By how much did IIM Rohtak's academic receipts from PGP, IPM and IPL rise between 2018-19 and 2023-24, per the CAG?", o:["35%","99%","299%","410%"], a:2, w:"From ₹31.57 crore to ₹125.91 crore, a 299% rise."},
+      {q:"How many changes to Ministry-vetted regulations did the CAG find were made without recorded Ministry approval?", o:["7","10","28","82"], a:2, w:"28 changes; the Ministry agreed with the audit observation."},
+      {q:"Under which law do IIMs have the autonomy that IIM Rohtak cited in its reply?", o:["UGC Act, 1956","IIM Act, 2017","Societies Registration Act, 1860","National Education Policy 2020"], a:1, w:"The institute cited Section 35 of the IIM Act, 2017."}
+    ]
+  },
+  related:["cab-report-9-2026","school-education-2026"],
+  src:[["CAG: New Delhi-II audit reports list (Report No. 24 of 2026)","https://cag.gov.in/cen/new-delhi-ii/en/audit-report","official"],["Careers360: IIM Rohtak raised MBA fees without preparing budget, says CAG","https://news.careers360.com/iim-rohtak-raise-mba-courses-fees-35pc-no-budget-income-up-299pc-7-49cr-faculty-incentives-iphone-ipad-edu-ministry-cag-report","news"],["Careers360 (PTI): CAG flags Rs 3.20 cr variable pay to IIM-Rohtak director","https://news.careers360.com/iim-rohtak-director-rs-320-cr-variable-pay-cag-says-payment-made-retrospectively","news"],["The Tribune: CAG flags financial irregularities, unauthorised regulation changes at IIM Rohtak","https://www.tribuneindia.com/news/haryana/cag-flags-financial-irregularities-unauthorised-regulation-changes-at-iim-rohtak/","news"]],
+  kw:"IIM Rohtak Indian Institute of Management fees budget faculty incentives honorarium director variable pay IIM Act 2017 regulations Ministry of Education audit 2026"
+},
+/* ---------- NITI · Making Ayurveda Global ---------- */
+{
+  id:"niti-ayurveda-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report (Health Division, with PwC)",
+  title:"Strategic Roadmap for Making Ayurveda Global", short:"Making Ayurveda Global", sector:"Health", ministry:"NITI Aayog (with the Ministry of Ayush)",
+  date:"Jul 2026", dateISO:"2026-07-02", tabled:"Launched by NITI Aayog on 2 July 2026", period:"Roadmap to 2047", flagged:null,
+  tldr:[
+    "Ayurveda product exports doubled from USD 1.09 billion in 2014 to USD 2.16 billion in 2023, reaching about 150 countries.",
+    "India has over 3.55 lakh trained Ayurveda practitioners, but about 95% of them work in India and only about 30 countries permit Ayurveda practice.",
+    "The roadmap proposes a Global Ayurveda Register, mutual recognition deals, WHO-GMP quality and a three-phase plan to 2047."
+  ],
+  en:"This NITI Aayog report sets out how to make Ayurveda accepted and used around the world. India has the largest Ayurveda workforce and its exports have doubled in a decade, but most exports are sold as dietary supplements because of rules abroad, and few countries recognise Ayurveda as a medical system. The report groups its plan under three pillars: availability, acceptability and propagation. It proposes a Global Ayurveda Register of practitioners, recognition agreements with other countries, better manufacturing standards, more clinical research, a trade dashboard and medical value travel. The work is split into three phases, up to 2029, 2030 to 2035 and 2036 to 2047.",
+  hi:"नीति आयोग की यह रिपोर्ट बताती है कि आयुर्वेद को दुनिया भर में स्वीकार्य और प्रचलित कैसे बनाया जाए। भारत के पास आयुर्वेद का सबसे बड़ा कार्यबल है और इसका निर्यात एक दशक में दोगुना हुआ है, लेकिन विदेशी नियमों के कारण ज़्यादातर निर्यात आहार पूरक के रूप में बिकता है, और कुछ ही देश आयुर्वेद को चिकित्सा प्रणाली के रूप में मान्यता देते हैं। रिपोर्ट अपनी योजना को तीन स्तंभों में बाँटती है: उपलब्धता, स्वीकार्यता और प्रसार। यह चिकित्सकों का एक ग्लोबल आयुर्वेद रजिस्टर, दूसरे देशों के साथ मान्यता समझौते, बेहतर विनिर्माण मानक, अधिक क्लिनिकल शोध, एक व्यापार डैशबोर्ड और मेडिकल वैल्यू ट्रैवल का प्रस्ताव करती है। काम तीन चरणों में बँटा है: 2029 तक, 2030 से 2035 और 2036 से 2047।",
+  context:{
+    what:"A NITI Aayog policy report, prepared by its Health Division with PwC, on a strategy to take Ayurveda to global markets and health systems by 2047.",
+    why:"Ayurveda is a large Indian asset in practitioners and products, but limited recognition, uneven evidence and differing drug rules abroad keep it at the margins of global healthcare and trade.",
+    how:"Review of Ayurveda's global position, comparison with Traditional Chinese Medicine, and consultations, organised into a three-pillar framework and a phased action plan."
+  },
+  nums:[["USD 2.16 bn","Ayurveda product exports in 2023 (USD 1.09 bn in 2014)",0],["3.55 lakh+","Trained Ayurveda practitioners in India",0],["~95%","Share of qualified Ayurveda professionals based in India",1],["~30","Countries that officially permit Ayurveda practice (2024)",1]],
+  themes:[
+    {name:"Large base at home, small footprint abroad", sev:"high", items:[
+      {t:"India has over 3.55 lakh trained Ayurveda practitioners, and about 95% of qualified professionals work in India.", amt:""},
+      {t:"About 30 countries officially permit Ayurveda practice as of 2024.", amt:""},
+      {t:"India has over 415 Ayurveda colleges, none of them ranked globally.", amt:""}]},
+    {name:"Trade held back by rules and quality", sev:"high", items:[
+      {t:"Exports rose from USD 1.09 billion in 2014 to USD 2.16 billion in 2023 and reach about 150 countries.", amt:""},
+      {t:"Most exports are dietary supplements because of regulatory limits in other countries.", amt:""},
+      {t:"Clinical evidence costs an estimated ₹25 to 40 lakh per product even for smaller studies.", amt:""}]},
+    {name:"The roadmap", sev:"med", items:[
+      {t:"A Global Ayurveda Register with digital credentials, with NCISM as custodian.", amt:""},
+      {t:"Mutual Recognition Arrangements with friendly countries and through forums like G20, BRICS and ASEAN.", amt:""},
+      {t:"Upgrade Schedule T manufacturing rules to WHO-GMP level, set up an Ayurveda Trade Dashboard and promote medical value travel.", amt:""},
+      {t:"A Mission Steering Group chaired by the Union Ayush Minister, supported by a Global Ayurveda Forum.", amt:""}]}
+  ],
+  charts:[
+    {title:"Ayurveda product exports", type:"bars", unit:"USD billion", data:[["2014",1.09],["2023",2.16]]},
+    {title:"Ayurveda practitioners abroad (approx.)", type:"bars", unit:"practitioners", data:[["United States",5000],["Germany",2000],["Australia",1500]]}
+  ],
+  recs:[
+    "Create a Global Ayurveda Register and a single-window global information portal on licensing and rules.",
+    "Sign Mutual Recognition Arrangements and push for recognition in at least 20 national health systems by 2047.",
+    "Raise manufacturing to WHO-GMP standards and shift exports to higher-value finished products.",
+    "Fund more clinical research and pilot insurance coverage for Ayurveda in select countries."
+  ],
+  recsNote:"Phase I (to 2029) builds foundations; Phase II (2030-2035) widens market access and pilots insurance; Phase III (2036-2047) aims at integration into national health systems.",
+  response:["The report was launched by NITI Aayog Vice Chairman Ashok Kumar Lahiri in the presence of the Ministry of Ayush Secretary. It is a roadmap; the Ministry of Ayush and other ministries would carry out the actions."],
+  timeline:[["2014","Ayurveda exports at USD 1.09 billion"],["2022","WHO Global Traditional Medicine Centre set up in Jamnagar"],["2023","Exports reach USD 2.16 billion"],["2 Jul 2026","Roadmap launched by NITI Aayog"],["2047","Target: recognition in at least 20 national health systems"]],
+  glossary:["Ayush","WHO-GMP","Medical value travel","Mutual Recognition Arrangement"],
+  exam:{
+    prelims:[
+      "NITI Aayog launched the 'Strategic Roadmap for Making Ayurveda Global' on 2 July 2026; it was prepared by its Health Division with PwC.",
+      "Its framework has three pillars: Availability, Acceptability and Propagation.",
+      "Ayurveda product exports rose from USD 1.09 billion in 2014 to USD 2.16 billion in 2023.",
+      "The WHO Global Traditional Medicine Centre was set up in Jamnagar, Gujarat, in 2022."
+    ],
+    mains:"What stands in the way of Ayurveda gaining global acceptance? Discuss the strategy proposed by NITI Aayog in its 2026 roadmap. (10 marks)",
+    quiz:[
+      {q:"Which is NOT one of the three pillars of NITI Aayog's roadmap for making Ayurveda global?", o:["Availability","Acceptability","Propagation","Privatisation"], a:3, w:"The three pillars are Availability, Acceptability and Propagation."},
+      {q:"Where is the WHO Global Traditional Medicine Centre located?", o:["Jamnagar","Varanasi","Kochi","New Delhi"], a:0, w:"It was set up in Jamnagar, Gujarat, in 2022."},
+      {q:"Per the roadmap, roughly what share of qualified Ayurveda professionals are based in India?", o:["50%","75%","95%","35%"], a:2, w:"About 95%."}
+    ]
+  },
+  related:["niti-care-2026","pmjay"],
+  src:[["PIB: NITI Aayog launches report on Strategic Roadmap for Making Ayurveda Global","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280540&reg=48&lang=1","official"],["NITI Aayog: Strategic Roadmap for Making Ayurveda Global (PDF)","https://www.niti.gov.in/sites/default/files/2026-07/Strategic-Roadmap-for-Globalization-of-Ayurveda.pdf","official"],["Vajiram & Ravi: NITI Aayog's Strategic Roadmap for Making Ayurveda Global","https://vajiramandravi.com/current-affairs/niti-aayogs-strategic-roadmap-for-making-ayurveda-global/","analysis"]],
+  kw:"Ayurveda Ayush NITI Aayog global roadmap 2047 exports traditional medicine WHO GMP Jamnagar medical value travel"
 }
 
 );
@@ -1568,6 +1780,6 @@ Object.assign(window.STATE_FACTS_V2, {
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"]],
-  TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"]],
+  TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
 });
