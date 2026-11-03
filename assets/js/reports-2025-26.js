@@ -65,7 +65,16 @@ Object.assign(window.SITE.glossary, {
   "Ayush": "The Union ministry and umbrella term for Ayurveda, Yoga and Naturopathy, Unani, Siddha, Sowa-Rigpa and Homoeopathy.",
   "WHO-GMP": "Good Manufacturing Practices certified to World Health Organization standards, which assure that medicines are made with consistent quality.",
   "Medical value travel": "Travel by people from other countries to receive medical or wellness treatment.",
-  "Mutual Recognition Arrangement": "An agreement between countries to accept each other's qualifications, licences or standards."
+  "Mutual Recognition Arrangement": "An agreement between countries to accept each other's qualifications, licences or standards.",
+  "Operating ratio": "How much the Railways spend to earn every ₹100 of traffic income; below 100 means they earn more than they spend on running.",
+  "RRSK": "Rashtriya Rail Sanraksha Kosh: a dedicated railway fund for priority safety works such as track renewal and bridge repair.",
+  "Depreciation Reserve Fund": "A railway fund that sets money aside to replace old assets such as track, coaches and wagons when they wear out.",
+  "RIDF": "Rural Infrastructure Development Fund: a NABARD fund that lends to state governments for rural roads, bridges, irrigation and water works.",
+  "IFMS": "Integrated Financial Management System: an IT system that links a government's budget, treasury, payments and accounts.",
+  "Net worth": "What a company owns minus what it owes; when losses wipe it out, the net worth is said to be fully eroded.",
+  "Independent director": "A board member with no business or family ties to a company, appointed to bring outside oversight.",
+  "Job card": "The card given to a rural household under MGNREGS that records its members and the work days they get.",
+  "Geo-tagging": "Attaching location coordinates and photos to a work or asset so its existence and progress can be checked."
 });
 
 window.SPEC_REPORTS.push(
@@ -1767,7 +1776,214 @@ window.SPEC_REPORTS.push(
   related:["niti-care-2026","pmjay"],
   src:[["PIB: NITI Aayog launches report on Strategic Roadmap for Making Ayurveda Global","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2280540&reg=48&lang=1","official"],["NITI Aayog: Strategic Roadmap for Making Ayurveda Global (PDF)","https://www.niti.gov.in/sites/default/files/2026-07/Strategic-Roadmap-for-Globalization-of-Ayurveda.pdf","official"],["Vajiram & Ravi: NITI Aayog's Strategic Roadmap for Making Ayurveda Global","https://vajiramandravi.com/current-affairs/niti-aayogs-strategic-roadmap-for-making-ayurveda-global/","analysis"]],
   kw:"Ayurveda Ayush NITI Aayog global roadmap 2047 exports traditional medicine WHO GMP Jamnagar medical value travel"
+},
+/* ---------- CAG · Railway Finances (Union) ---------- */
+{
+  id:"cag-railways-30-2026", body:"CAG", kind:"Financial audit", reportNo:"Report No. 30 of 2026",
+  title:"Report of the CAG on Union Government, Ministry of Railways (Railways Finances) for the year ended March 2025", short:"Railway Finances 2024-25", sector:"Roads & infrastructure", ministry:"Ministry of Railways",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in both Houses of Parliament on 12 August 2026", period:"Year ended March 2025 (2024-25)", flagged:19458.25, flaggedNote:"Expenditure incurred without proper sanction in 1,321 cases. This is an irregularity flagged by audit, not a confirmed loss.",
+  tldr:[
+    "Railways spent ₹98.22 to earn every ₹100 in 2024-25; the net surplus fell to ₹2,660.28 crore.",
+    "₹19,458.25 crore was spent without sanction in 1,321 cases, 2.55% of total expenditure.",
+    "The rail safety fund RRSK got only ₹5,324.62 crore of the ₹25,000 crore planned from internal resources, and more than 20,304 safety works were unfinished."
+  ],
+  en:"Every year the CAG checks the finances of Indian Railways. In 2024-25 the Railways spent ₹5.32 lakh crore, about half on new assets and half on running costs. It spent ₹98.22 to earn every ₹100, so very little was left over, and the surplus fell. About 77% of working costs went on staff, pensions and lease charges for trains. ₹19,458 crore was spent without proper sanction. The special safety fund, Rashtriya Rail Sanraksha Kosh, received only about a fifth of the money the Railways were meant to put in from their own earnings, some of it went to non-priority works, and more than 20,000 safety works were still unfinished.",
+  hi:"CAG हर साल भारतीय रेलवे के वित्त की जाँच करता है। 2024-25 में रेलवे ने ₹5.32 लाख करोड़ खर्च किए, लगभग आधा नई संपत्तियों पर और आधा चलाने के खर्च पर। हर ₹100 कमाने के लिए उसने ₹98.22 खर्च किए, इसलिए बहुत कम बचा और अधिशेष घट गया। कामकाजी खर्च का लगभग 77% कर्मचारियों, पेंशन और ट्रेनों के लीज़ शुल्क पर गया। ₹19,458 करोड़ उचित मंज़ूरी के बिना खर्च हुए। विशेष सुरक्षा कोष, राष्ट्रीय रेल संरक्षा कोष, को रेलवे की अपनी कमाई से तय पैसे का केवल लगभग पाँचवाँ हिस्सा मिला, उसका कुछ हिस्सा गैर-प्राथमिकता वाले कामों पर गया, और 20,000 से अधिक सुरक्षा कार्य अब भी अधूरे थे।",
+  context:{
+    what:"The CAG's annual report on the finances of the Ministry of Railways for 2024-25. It covers the state of finances, the appropriation accounts, the performance of railway public sector enterprises and the financial management of the Rashtriya Rail Sanraksha Kosh (RRSK).",
+    why:"The Railways are one of the largest spenders in the Union Budget. How much they earn, how much they spend to earn it, and whether safety money is used as planned affect fares, investment and passenger safety.",
+    how:"Review of the Railways' accounts and appropriation accounts for the year ended March 2025, the accounts of 45 railway public sector enterprises, and RRSK records."
+  },
+  nums:[["98.22%","Operating ratio in 2024-25 (98.43% in 2023-24)",1],["₹19,458.25 cr","Spent without sanction in 1,321 cases",1],["21.30%","Share of planned internal RRSK money actually put in",1],["20,304+","Safety-related works unfinished",1]],
+  themes:[
+    {name:"Thin margins", sev:"high", items:[
+      {t:"Total expenditure was ₹5,32,378.43 crore, up 3.36%: ₹2,69,360.63 crore capital and ₹2,63,017.80 crore revenue.", amt:"₹5,32,378.43 cr"},
+      {t:"Gross traffic receipts rose 3.86% to ₹2,65,113.61 crore; coal made up 51.68% of freight earnings.", amt:"₹2,65,113.61 cr"},
+      {t:"The net surplus fell to ₹2,660.28 crore from ₹3,259.68 crore. The operating ratio was 98.22%.", amt:"₹2,660.28 cr"},
+      {t:"76.83% of working expenses went on staff cost, pensions and lease hire charges for rolling stock.", amt:""}]},
+    {name:"Budget control", sev:"high", items:[
+      {t:"Expenditure without sanction in 1,321 cases, 2.55% of total expenditure.", amt:"₹19,458.25 cr"},
+      {t:"Spending exceeded the sanctioned ₹74,541.34 crore under one revenue grant by ₹2,702.41 crore.", amt:"₹2,702.41 cr"},
+      {t:"Savings of ₹28,923.33 crore in 7 cases of over ₹100 crore each; under the capital grant, savings of ₹11,515.50 crore came despite supplementary provisions.", amt:"₹28,923.33 cr"},
+      {t:"Low provisioning for depreciation built up ₹6,448 crore of deferred renewal and replacement of over-aged assets.", amt:"₹6,448 cr"}]},
+    {name:"Rail safety fund (RRSK)", sev:"high", items:[
+      {t:"In its first five years, the Railways put in ₹5,324.62 crore from internal resources against ₹25,000 crore planned, 21.30% of the target.", amt:"₹5,324.62 cr"},
+      {t:"₹823.14 crore was allocated to non-priority works against the set framework, and ₹3,397.60 crore went to non-priority works from 2022-23 to 2024-25.", amt:"₹3,397.60 cr"},
+      {t:"More than 20,304 safety-related works were unfinished; the pending cost of ongoing RRSK works was ₹2,29,354 crore.", amt:"₹2,29,354 cr"},
+      {t:"After RRSK began, contributions to the Depreciation Reserve Fund and Development Fund fell by 87.05% and 60.82%.", amt:""}]},
+    {name:"Railway public sector enterprises", sev:"low", items:[
+      {t:"Net profit of railway PSEs rose from ₹7,071.14 crore in 2020-21 to ₹12,661.03 crore in 2024-25.", amt:"₹12,661.03 cr"},
+      {t:"38 of 45 PSEs made a profit, but only 14 declared dividends as required by DIPAM's 2018 instructions.", amt:""}]}
+  ],
+  charts:[
+    {title:"RRSK: internal money planned vs put in (first five years)", type:"bars", unit:"₹ crore", data:[["Planned",25000],["Put in",5324.62]]},
+    {title:"Railways' spending in 2024-25", type:"split", unit:"₹ crore", data:[["Capital",269360.63],["Revenue",263017.80]]},
+    {title:"Net surplus", type:"bars", unit:"₹ crore", data:[["2023-24",3259.68],["2024-25",2660.28]]}
+  ],
+  recs:[
+    "Spend only with proper sanction and classify spending under the correct heads.",
+    "Put in the planned internal money for RRSK and use it only for priority safety works.",
+    "Provide enough for depreciation so old assets are renewed on time."
+  ],
+  recsNote:"Drawn from the findings in the CAG press brief; the brief does not list formal recommendations.",
+  response:["The Ministry's replies are in the full report. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Mar 2025","Year audited ends"],["12 Aug 2026","Report No. 30 of 2026 tabled in Parliament"]],
+  glossary:["Financial audit","Operating ratio","RRSK","Depreciation Reserve Fund","Supplementary grant","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 30 of 2026 on Railways Finances was tabled in Parliament on 12 August 2026.",
+      "The operating ratio of Indian Railways was 98.22% in 2024-25, against 98.43% in 2023-24.",
+      "Coal accounted for 51.68% of freight earnings in 2024-25.",
+      "RRSK received ₹5,324.62 crore from internal resources in its first five years, 21.30% of the ₹25,000 crore planned."
+    ],
+    mains:"An operating ratio close to 100% leaves the Railways little room to invest in safety. Discuss with reference to the CAG's report on Railways Finances for 2024-25. (15 marks)",
+    quiz:[
+      {q:"An operating ratio of 98.22% means the Railways:", o:["Earned ₹98.22 for every ₹100 spent","Spent ₹98.22 to earn every ₹100","Ran 98.22% of trains on time","Used 98.22% of their budget"], a:1, w:"The operating ratio is working expenses as a share of traffic earnings."},
+      {q:"Which commodity made up about half of the Railways' freight earnings in 2024-25?", o:["Iron ore","Cement","Coal","Foodgrains"], a:2, w:"Coal, at 51.68%."},
+      {q:"RRSK, examined in the report, is a fund for:", o:["Railway pensions","Rail safety works","High-speed rail","Station redevelopment"], a:1, w:"Rashtriya Rail Sanraksha Kosh funds priority safety works."}
+    ]
+  },
+  related:["railways","union-accounts-2425","cag-frbm-29-2026"],
+  src:[["CAG press brief on Report No. 30 of 2026 (PDF)","https://saiindia.gov.in/uploads/PressRelease/PR-Press-Brief-Report-No-30-of-2026-English-06a7d3f49734501-62812963.pdf","official"],["Construction World: CAG finds 20,304 railway safety works unfinished in FY25","https://www.constructionworld.in/transport-infrastructure/metro-rail-and-railways-infrastructure/cag-finds-20304-railway-safety-works-unfinished-in-fy25/96122","news"]],
+  kw:"Railways finances operating ratio RRSK Rashtriya Rail Sanraksha Kosh safety fund surplus freight coal depreciation unsanctioned expenditure railway PSE 2024-25 audit 2026"
+},
+/* ---------- CAG · Jammu & Kashmir (UT) ---------- */
+{
+  id:"cag-jk-3-2026", body:"CAG", state:"Jammu & Kashmir", kind:"Compliance audit", reportNo:"Report No. 3 of 2026 (Jammu & Kashmir)",
+  title:"Composite Audit Report on Civil Departments and Public Sector Enterprises for the period ended March 2023, Union Territory of Jammu and Kashmir", short:"J&K NABARD Works, PSEs and IFMS Audit", sector:"Public finance", ministry:"Finance, Public Works and Jal Shakti Departments, Government of Jammu and Kashmir",
+  date:"Sep 2026", dateISO:"2026-09-30", tabled:"Tabled in the Jammu and Kashmir Legislative Assembly on 30 September 2026", period:"Year ended March 2023 (NABARD works: April 2018 to March 2023)", flagged:461.67, flaggedNote:"NABARD-funded money released for rural works but left unspent by March 2023. This is an amount flagged by audit, not a loss.",
+  tldr:[
+    "Only 32 of 263 NABARD-funded rural projects due by March 2023 were finished; ₹461.67 crore of ₹844.17 crore released was unspent.",
+    "Of 42 public sector enterprises, 20 made losses of ₹252.53 crore and 14 had their net worth wiped out.",
+    "The financial management IT system, begun in 2010, had only 4 of 12 modules fully working by March 2023."
+  ],
+  en:"The CAG looked at three things in Jammu and Kashmir. First, rural roads and water works funded by loans from NABARD. Only 32 of 263 projects due by March 2023 were finished, and more than half the money released was not spent, because of poor planning, faulty project reports and missing land and forest clearances. Second, the 42 companies and corporations the government owns. Twenty made losses, 14 had lost all their capital, and most were late with their accounts and did not follow company law rules on boards and audits. Third, the IT system for managing government money. Started in 2010, only four of its 12 parts were fully working, and the UT lost ₹11.88 crore of central help.",
+  hi:"CAG ने जम्मू और कश्मीर में तीन चीज़ें देखीं। पहली, NABARD के कर्ज़ से बनने वाली ग्रामीण सड़कें और जल परियोजनाएँ। मार्च 2023 तक पूरी होने वाली 263 परियोजनाओं में से केवल 32 पूरी हुईं, और जारी पैसे का आधे से ज़्यादा खर्च नहीं हुआ, क्योंकि योजना कमज़ोर थी, परियोजना रिपोर्टें गलत थीं और ज़मीन व वन मंज़ूरियाँ नहीं मिली थीं। दूसरी, सरकार की 42 कंपनियाँ और निगम। बीस को घाटा हुआ, 14 की पूरी पूँजी खत्म हो गई, और ज़्यादातर ने खाते देर से बनाए और बोर्ड व ऑडिट से जुड़े कंपनी कानून के नियम नहीं माने। तीसरी, सरकारी पैसे के प्रबंधन की IT प्रणाली। 2010 में शुरू हुई इस प्रणाली के 12 में से केवल चार हिस्से पूरी तरह काम कर रहे थे, और UT को ₹11.88 करोड़ की केंद्रीय सहायता गँवानी पड़ी।",
+  context:{
+    what:"A composite CAG audit report for the Union Territory of Jammu and Kashmir. It covers the UT's public sector enterprises, a performance review of works funded through NABARD's Rural Infrastructure Development Fund, and an IT audit of the Integrated Financial Management System (IFMS).",
+    why:"Unfinished rural works leave villages without roads and water. Loss-making public companies drain the budget. A weak financial IT system makes it harder to control spending.",
+    how:"Review of PSE accounts as of 31 March 2023, NABARD-RIDF works of the Public Works and Jal Shakti Departments from April 2018 to March 2023, and the IFMS."
+  },
+  nums:[["32 of 263","NABARD projects due by Mar 2023 that were completed",1],["₹461.67 cr","NABARD money released but unspent",1],["14","Public sector enterprises with net worth fully eroded",1],["4 of 12","IFMS modules fully working",1]],
+  themes:[
+    {name:"NABARD-funded rural works", sev:"high", items:[
+      {t:"Only 32 of 263 projects due by March 2023 were completed; 231 were incomplete or not started.", amt:""},
+      {t:"Of ₹844.17 crore released in 2018-23, ₹382.50 crore (45%) was spent and ₹461.67 crore was unspent.", amt:"₹461.67 cr"},
+      {t:"Against the Centre's consent to borrow ₹3,900 crore, the UT took ₹2,316.37 crore (59%); NABARD disbursed 28% to 84% of sanctioned loans across tranches.", amt:"₹2,316.37 cr"},
+      {t:"Causes included weak planning, defective DPRs, poor site selection and missing land, forest clearances and water sources.", amt:""}]},
+    {name:"Public sector enterprises", sev:"high", items:[
+      {t:"20 of 42 PSEs reported losses totalling ₹252.53 crore; only 11 made a profit.", amt:"₹252.53 cr"},
+      {t:"The net worth of 14 PSEs was completely eroded. Only J&K Bank paid a dividend.", amt:""},
+      {t:"Only 4 of 34 PSEs due had presented 2022-23 accounts by 30 September 2023; 19 were three or more years in arrears.", amt:""},
+      {t:"Only J&K Bank appointed the required independent directors and audit committees; 24 of 33 PSEs held no AGM for 2022-23.", amt:""}]},
+    {name:"Financial management IT system (IFMS)", sev:"med", items:[
+      {t:"Begun in March 2010, only 4 of 12 planned modules were fully working by March 2023.", amt:""},
+      {t:"The UT lost central assistance because the DPR was not revised and milestones were missed.", amt:"₹11.88 cr"},
+      {t:"Money meant to upgrade the State Data Centre was misused.", amt:"₹5.26 cr"},
+      {t:"No backup site, weak access controls and no disaster recovery; user acceptance testing was done only for TreasuryNet in 2011.", amt:""}]}
+  ],
+  charts:[
+    {title:"NABARD money released in 2018-23", type:"split", unit:"₹ crore", data:[["Spent",382.50],["Unspent",461.67]]},
+    {title:"NABARD projects due by March 2023", type:"split", unit:"projects", data:[["Completed",32],["Incomplete or not started",231]]},
+    {title:"Public sector enterprises", type:"bars", unit:"count", data:[["Total",42],["Making losses",20],["Making profits",11],["Net worth fully eroded",14]]}
+  ],
+  recs:[
+    "Strengthen planning and technical checks of project reports before works start.",
+    "Get land and clearances in place and release funds on time.",
+    "Improve financial discipline, coordination and monitoring of NABARD-funded works."
+  ],
+  recsNote:"Summarised from published coverage of the report.",
+  response:["Coverage did not report a reply from the UT government. The report goes to the Assembly's committees for scrutiny."],
+  timeline:[["Mar 2010","IFMS project begins"],["Apr 2018 – Mar 2023","Period of the NABARD works review"],["Mar 2023","Period audited ends"],["30 Sep 2026","Report No. 3 of 2026 tabled in the J&K Assembly"]],
+  glossary:["Compliance audit","RIDF","IFMS","Net worth","Independent director","DPR"],
+  exam:{
+    prelims:[
+      "CAG Report No. 3 of 2026 on Jammu and Kashmir was tabled in the J&K Legislative Assembly on 30 September 2026.",
+      "Only 32 of 263 NABARD-RIDF projects due by March 2023 were completed.",
+      "J&K had 42 public sector enterprises; power accounted for 78% of total investment in them.",
+      "Only 4 of 12 planned IFMS modules were fully operational as of March 2023."
+    ],
+    mains:"Delays in rural infrastructure often begin at the planning stage. Discuss with reference to the CAG's 2026 audit of NABARD-funded works in Jammu and Kashmir. (10 marks)",
+    quiz:[
+      {q:"What share of NABARD-RIDF money released in J&K in 2018-23 was actually spent?", o:["12%","45%","59%","78%"], a:1, w:"₹382.50 crore of ₹844.17 crore, or 45%."},
+      {q:"RIDF, the fund behind the J&K works reviewed, is maintained by:", o:["RBI","NABARD","SIDBI","Finance Commission"], a:1, w:"NABARD's Rural Infrastructure Development Fund lends to states for rural works."},
+      {q:"Which was the only J&K public sector enterprise to pay a dividend?", o:["J&K Road Transport Corporation","J&K Bank","J&K and Ladakh Financial Corporation","J&K Power Development Corporation"], a:1, w:"Only J&K Bank declared or paid a dividend."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","state-finances"],
+  src:[["Kashmir Life: 231 of 263 NABARD projects incomplete, Rs 462 cr unutilised: CAG","https://kashmirlife.net/231-of-263-nabard-projects-incomplete-in-jammu-kashmir-rs-462-cr-remains-unutilised-cag-454529/","news"],["The Tribune: 12% NABARD projects completed in J&K, Rs 461.67 crore unutilised","https://www.tribuneindia.com/news/j-k/12-nabard-projects-completed-in-jk-rs-461-67-crore-unutilised-cag/","news"],["Kashmir Despatch: CAG report on J&K PSUs and NABARD projects","https://kashmirdespatch.com/cag-report-exposes-grave-financial-mess-in-j-14-firms-insolvent-231-nabard-projects-incomplete/","news"],["Kashmir Images: CAG reports for 2023, 2024 tabled in Assembly","https://thekashmirimages.com/2026/09/30/cag-reports-for-2023-2024-tabled-in-assembly/","news"]],
+  kw:"Jammu Kashmir J&K NABARD RIDF rural infrastructure public sector enterprises PSU J&K Bank IFMS treasury net worth audit 2026"
+},
+/* ---------- CAG · Maharashtra MGNREGS ---------- */
+{
+  id:"cag-maharashtra-mgnregs-2026", body:"CAG", state:"Maharashtra", kind:"Performance audit", reportNo:"CAG audit report (Maharashtra, 2026)",
+  title:"Report of the CAG on the Implementation of the Mahatma Gandhi National Rural Employment Guarantee Scheme in Maharashtra", short:"Maharashtra MGNREGS Audit", sector:"Social welfare", ministry:"Employment Guarantee Scheme Department, Government of Maharashtra",
+  date:"Mar 2026", dateISO:"2026-03-25", tabled:"Tabled in the Maharashtra Legislature on 25 March 2026, the last day of the Budget Session", period:"2019-20 to 2023-24 (status of works as of March 2025)", flagged:5361.02, flaggedNote:"Amount spent on works that were still incomplete, as reported. This is an amount flagged by audit, not a confirmed loss.",
+  tldr:[
+    "Only 52.81% of 25.72 lakh approved works were completed; 7.10 lakh had not started and 5.03 lakh were incomplete.",
+    "Only 1.71 lakh households (8.7%, as reported) got the full 100 days of work.",
+    "Social audits were skipped in 72.43% to 95.67% of gram panchayats; ₹4.44 crore of misappropriated money was still to be recovered."
+  ],
+  en:"MGNREGS promises every rural household up to 100 days of paid work a year. The CAG checked how Maharashtra ran it from 2019-20 to 2023-24. Of 25.72 lakh works approved, only about half were finished. More than 7 lakh works had not even started, and the share finished fell every year, from 82% in 2019-20 to 23% in 2023-24. Almost everyone who asked for work got some, but only 1.71 lakh households got the full 100 days. Some wages were paid late, many villages skipped social audits, and duplicate job cards were found in 44 of 48 sampled panchayats.",
+  hi:"MGNREGS हर ग्रामीण परिवार को साल में 100 दिन तक मज़दूरी वाले काम का वादा करती है। CAG ने जाँचा कि महाराष्ट्र ने 2019-20 से 2023-24 तक इसे कैसे चलाया। स्वीकृत 25.72 लाख कामों में से केवल लगभग आधे पूरे हुए। 7 लाख से ज़्यादा काम शुरू भी नहीं हुए, और पूरे होने वाले कामों का हिस्सा हर साल घटा, 2019-20 में 82% से 2023-24 में 23% तक। काम माँगने वाले लगभग सभी को कुछ काम मिला, लेकिन केवल 1.71 लाख परिवारों को पूरे 100 दिन मिले। कुछ मज़दूरी देर से दी गई, कई गाँवों में सामाजिक ऑडिट नहीं हुआ, और जाँची गई 48 में से 44 पंचायतों में दोहरे जॉब कार्ड मिले।",
+  context:{
+    what:"A CAG audit of how Maharashtra implemented the Mahatma Gandhi National Rural Employment Guarantee Scheme from 2019-20 to 2023-24.",
+    why:"MGNREGS is a legal guarantee of work for rural households. Unfinished works, late wages and missing social audits weaken both the safety net and the village assets it is meant to build.",
+    how:"Review of state records for five years, a sample of gram panchayats and 15,077 households, and physical checks of 336 works."
+  },
+  nums:[["52.81%","Approved works completed",1],["1.71 lakh","Households that got the full 100 days (8.7%)",1],["44 of 48","Sampled panchayats with duplicate job cards",1],["₹541.92 cr","Pending liabilities for wages, material and taxes",1]],
+  themes:[
+    {name:"Works left unfinished", sev:"high", items:[
+      {t:"Of 25.72 lakh approved works, 52.81% were completed; works worth ₹6,725.65 crore were finished.", amt:"₹6,725.65 cr"},
+      {t:"₹5,361.02 crore was spent on works that stayed incomplete.", amt:"₹5,361.02 cr"},
+      {t:"As of March 2025, 7.10 lakh works (27.62%) had not started and 5.03 lakh (19.57%) were incomplete; 2.48 lakh had been pending over three years.", amt:""},
+      {t:"The share of works completed fell from 82% in 2019-20 to 23% in 2023-24.", amt:""}]},
+    {name:"Work and wages", sev:"high", items:[
+      {t:"Of about 117.98 lakh registered households, 21.97 lakh sought work and 99.73% of them were offered it, but only 1.71 lakh households (8.7%, as reported) got the full 100 days.", amt:""},
+      {t:"About 7% of wages were paid late; ₹5.88 crore of delay compensation was rejected by officials although the Act does not allow this.", amt:"₹5.88 cr"},
+      {t:"₹35.32 crore of unskilled wages was pending as of October 2024; total pending liabilities were ₹541.92 crore.", amt:"₹541.92 cr"}]},
+    {name:"Records and planning", sev:"med", items:[
+      {t:"52% of job cards in sampled households were issued late, and duplicate job cards were found in 44 of 48 sampled panchayats.", amt:""},
+      {t:"Door-to-door surveys were not done in 46% of sampled panchayats, and annual plans and labour budgets were late.", amt:""},
+      {t:"Gram Rozgar Sahayaks were not appointed in 2,258 of 28,279 gram panchayats; 65% of 336 works checked had no display board.", amt:""}]},
+    {name:"Oversight", sev:"high", items:[
+      {t:"Social audits were not held in 72.43% to 95.67% of gram panchayats in the period.", amt:""},
+      {t:"The Social Audit Unit found misappropriation in 1,084 cases with ₹11.22 crore to recover; ₹4.44 crore in 314 cases was still pending.", amt:"₹4.44 cr"},
+      {t:"The State Employment Guarantee Council did not meet regularly, and district quality monitors were not appointed.", amt:""}]}
+  ],
+  charts:[
+    {title:"Status of 25.72 lakh approved works (March 2025)", type:"split", unit:"% of works", data:[["Completed",52.81],["Not started",27.62],["Incomplete",19.57]]},
+    {title:"Share of works completed, by year approved", type:"bars", unit:"%", data:[["2019-20",82],["2020-21",81],["2021-22",61],["2022-23",45],["2023-24",23]]},
+    {title:"Spending on works", type:"bars", unit:"₹ crore", data:[["On completed works",6725.65],["On incomplete works",5361.02]]}
+  ],
+  recs:[
+    "Appoint State Quality Monitors in all districts.",
+    "Hold social audits in every gram panchayat as the rules require.",
+    "Speed up recovery in misappropriation cases."
+  ],
+  recsNote:"As reported in published coverage of the report.",
+  response:["Coverage did not report a reply from the state government. The report goes to the Maharashtra Legislature's Public Accounts Committee."],
+  timeline:[["2019-20 to 2023-24","Period audited"],["Mar 2025","Status date for pending works"],["25 Mar 2026","Report tabled in the Maharashtra Legislature"]],
+  glossary:["Performance audit","MGNREGS","Social audit","Job card","Geo-tagging"],
+  exam:{
+    prelims:[
+      "The CAG's audit of MGNREGS in Maharashtra was tabled in the state legislature in March 2026.",
+      "Only 52.81% of the 25.72 lakh works approved from 2019-20 to 2023-24 were completed.",
+      "Only 1.71 lakh households got the full 100 days of work in the period.",
+      "Duplicate job cards were found in 44 of 48 sampled gram panchayats."
+    ],
+    mains:"A demand-driven guarantee is only as strong as its delivery. Examine the gaps in MGNREGS implementation highlighted by the CAG's 2026 audit in Maharashtra. (15 marks)",
+    quiz:[
+      {q:"Under MGNREGS, a rural household is guaranteed up to how many days of paid work a year?", o:["50","100","150","200"], a:1, w:"100 days per household per financial year."},
+      {q:"What share of approved MGNREGS works in Maharashtra were completed, per the CAG?", o:["23%","52.81%","82%","99.73%"], a:1, w:"52.81% of 25.72 lakh works; 82% and 23% were the rates for 2019-20 and 2023-24."},
+      {q:"In how many of 48 sampled gram panchayats did the CAG find duplicate job cards?", o:["4","26","44","48"], a:2, w:"44 of 48."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","cag-kerala-jjm"],
+  src:[["Deccan Chronicle: CAG flags gaps in MGNREGS implementation in Maharashtra","https://www.deccanchronicle.com/nation/cag-flags-gaps-in-mgnregs-implementation-in-maharashtra-1946267","news"],["ETV Bharat: CAG flags major lapses in MGNREGS implementation in Maharashtra","https://www.etvbharat.com/en/state/cag-flags-major-lapses-in-mgnregs-implementation-in-maharashtra-enn26032605382","news"],["Goodreturns: MGNREGS Maharashtra audit","https://www.goodreturns.in/news/mgnregs-maharashtra-cag-finds-low-completion-and-unpaid-allowances-011-1498501.html","news"]],
+  kw:"Maharashtra MGNREGS MGNREGA NREGA rural employment guarantee job card social audit wages 100 days gram panchayat audit 2026"
 }
+
 
 );
 
@@ -1779,7 +1995,8 @@ Object.assign(window.STATE_FACTS_V2, {
   NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
-  MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"]],
+  MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
+  JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
 });
