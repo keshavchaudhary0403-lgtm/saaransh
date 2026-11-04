@@ -2,6 +2,14 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Measurement Book": "The official register where an engineer records the measured quantity of work done; payments to contractors are based on it.",
+  "Muster roll": "The attendance and wage sheet for workers on a public works site, such as an MGNREGS project.",
+  "State Employment Guarantee Fund": "The state-level MGNREGS fund into which central and state money is transferred before it is spent on wages and materials.",
+  "EV penetration": "The share of new vehicles sold in a period that are electric.",
+  "Composite index": "A single score built by combining several indicators, each given a weight.",
+  "Environmental clearance": "Approval needed under the 2006 EIA notification before certain projects, such as industrial estates, can be built.",
+  "Chainage": "Distance measured along a road from a fixed starting point, used to mark which stretch a work or payment covers.",
+  "Lump-sum contract": "A contract where the contractor is paid a fixed total price for the whole job rather than for measured quantities.",
   "Input Tax Credit": "GST already paid on purchases that a business can set off against the GST it owes on its sales.",
   "IGST": "Integrated GST: tax on supplies between states, later shared between the Centre and the destination state.",
   "Works contract": "A contract to build, repair or install something where goods and services are supplied together, such as construction.",
@@ -1982,7 +1990,211 @@ window.SPEC_REPORTS.push(
   related:["cag-nagaland-1-2026","cag-kerala-jjm"],
   src:[["Deccan Chronicle: CAG flags gaps in MGNREGS implementation in Maharashtra","https://www.deccanchronicle.com/nation/cag-flags-gaps-in-mgnregs-implementation-in-maharashtra-1946267","news"],["ETV Bharat: CAG flags major lapses in MGNREGS implementation in Maharashtra","https://www.etvbharat.com/en/state/cag-flags-major-lapses-in-mgnregs-implementation-in-maharashtra-enn26032605382","news"],["Goodreturns: MGNREGS Maharashtra audit","https://www.goodreturns.in/news/mgnregs-maharashtra-cag-finds-low-completion-and-unpaid-allowances-011-1498501.html","news"]],
   kw:"Maharashtra MGNREGS MGNREGA NREGA rural employment guarantee job card social audit wages 100 days gram panchayat audit 2026"
+},
+/* ---------- CAG · MGNREGS, Jammu & Kashmir (UT) ---------- */
+{
+  id:"cag-jk-mgnregs-4-2026", body:"CAG", state:"Jammu & Kashmir", kind:"Compliance audit", reportNo:"Report No. 4 of 2026 (Jammu & Kashmir)",
+  title:"Composite Audit Report on Civil Departments for the period ended March 2024, Union Territory of Jammu and Kashmir: Implementation of MGNREGS", short:"J&K MGNREGS Audit", sector:"Social welfare", ministry:"Rural Development Department, Government of Jammu and Kashmir",
+  date:"Sep 2026", dateISO:"2026-09-30", tabled:"Tabled in the Jammu and Kashmir Legislative Assembly on 30 September 2026", period:"2019-20 to 2023-24", flagged:1897.10, flaggedNote:"Money spent on MGNREGS works that were still incomplete in March 2024. This is an amount flagged by audit, not a confirmed loss.",
+  tldr:[
+    "Of 20.16 lakh MGNREGS works taken up in J&K, 14.82 lakh (about 74%) were incomplete in March 2024, after ₹1,897.10 crore had been spent on them.",
+    "Only 77,512 households, about 2% of those who asked for work, got the full 100 days in five years.",
+    "₹704.39 crore was owed to workers and suppliers in March 2024, and no person with a disability got 100 days of work in the period."
+  ],
+  en:"MGNREGS promises rural households up to 100 days of paid work a year. The CAG checked how the scheme ran in Jammu and Kashmir from 2019-20 to 2023-24. About three in four works that were started were still unfinished in March 2024, and ₹1,897.10 crore had already been spent on them. Records did not show why. Of about 37.82 lakh households that asked for work, 93% got some, but only 77,512 got the full 100 days. Bills worth ₹704.39 crore were unpaid, some for up to five years, and central money reached the scheme fund late. More than three lakh wage payments were rejected because of bank account errors. The department said dues would be cleared once the Union Ministry of Rural Development released funds.",
+  hi:"MGNREGS ग्रामीण परिवारों को साल में 100 दिन तक के भुगतान वाले काम का वादा करती है। CAG ने जाँचा कि 2019-20 से 2023-24 के बीच जम्मू-कश्मीर में यह योजना कैसे चली। शुरू किए गए हर चार में से लगभग तीन काम मार्च 2024 तक अधूरे थे, और उन पर ₹1,897.10 करोड़ पहले ही खर्च हो चुके थे। रिकॉर्ड में इसका कारण दर्ज नहीं था। काम माँगने वाले लगभग 37.82 लाख परिवारों में से 93% को कुछ काम मिला, लेकिन सिर्फ़ 77,512 परिवारों को पूरे 100 दिन मिले। ₹704.39 करोड़ के बिल बकाया थे, कुछ पाँच साल तक से, और केंद्र का पैसा योजना के कोष में देर से पहुँचा। बैंक खातों की गड़बड़ियों के कारण तीन लाख से ज़्यादा मज़दूरी भुगतान अस्वीकार हुए। विभाग ने कहा कि केंद्रीय ग्रामीण विकास मंत्रालय से पैसा मिलने पर बकाया चुका दिया जाएगा।",
+  context:{
+    what:"A chapter of the CAG's composite report on Jammu and Kashmir's civil departments for the year ended March 2024, examining the Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) from 2019-20 to 2023-24.",
+    why:"MGNREGS is a legal guarantee of work for rural households. If works stay unfinished and wages are delayed, the guarantee does not reach the people it is meant for.",
+    how:"Review of departmental records and NREGASoft data, with test checks in five sampled districts, 10 blocks, 40 gram panchayats and 400 sampled works."
+  },
+  nums:[["74%","Works taken up that were incomplete in March 2024",1],["₹1,897.10 cr","Spent on works still incomplete",1],["77,512","Households that got the full 100 days (about 2%)",1],["₹704.39 cr","Unpaid liabilities in March 2024",1]],
+  themes:[
+    {name:"Works left unfinished", sev:"high", items:[
+      {t:"27.14 lakh works were planned, 20.16 lakh taken up and 5.34 lakh completed; 14.82 lakh (about 74%) were incomplete.", amt:"₹1,897.10 cr"},
+      {t:"The reasons for non-completion could not be established from the records.", amt:""},
+      {t:"No door-to-door labour survey was done and there were no District Perspective Plans; the CAG called planning input-driven, not demand-driven.", amt:""},
+      {t:"Of 144 anganwadi centres sanctioned under convergence in four sampled districts, 104 (72%) were incomplete; ₹2.42 crore spent on them was called unfruitful.", amt:"₹2.42 cr"}]},
+    {name:"The 100-day guarantee", sev:"high", items:[
+      {t:"37,82,594 households asked for work and 34,99,449 (93%) got some, but only 77,512 (about 2%) got 100 days.", amt:""},
+      {t:"No special drive was held to identify persons with disabilities, and none of them got 100 days of work in the five years.", amt:""},
+      {t:"Only 30 to 35% of registered persons with disabilities were given work; demand data for them was missing from NREGASoft.", amt:""}]},
+    {name:"Unpaid bills and late money", sev:"high", items:[
+      {t:"Liabilities of ₹704.39 crore were pending in March 2024: ₹49.19 crore unskilled wages, ₹646.92 crore material and skilled wages, ₹8.28 crore administrative costs.", amt:"₹704.39 cr"},
+      {t:"Of ₹1,333.25 crore spent on material and skilled wages, ₹646.92 crore (49%) was unpaid, some for one to five years.", amt:"₹646.92 cr"},
+      {t:"Releases of ₹2,150.39 crore reached the State Employment Guarantee Fund 4 to 122 days late, against 3 to 15 days allowed; possible interest of ₹44.18 crore was not claimed.", amt:"₹44.18 cr"},
+      {t:"3,16,178 payments worth ₹77.24 crore were rejected, mainly for bank account, IFSC or Aadhaar errors; 40,349 worth ₹8.26 crore were still pending in March 2024.", amt:"₹77.24 cr"}]},
+    {name:"Records", sev:"med", items:[
+      {t:"266 of 400 sampled works (67%) had no Measurement Book.", amt:""},
+      {t:"84 of 400 works had no physical muster rolls for skilled and semi-skilled workers; ₹24.72 lakh was paid on the basis of NREGASoft entries.", amt:"₹0.25 cr"},
+      {t:"The demand register was not kept in any of the 40 sampled gram panchayats.", amt:""}]}
+  ],
+  charts:[
+    {title:"Works taken up, 2019-20 to 2023-24", type:"split", unit:"lakh works", data:[["Completed",5.34],["Incomplete",14.82]]},
+    {title:"Unpaid liabilities, March 2024", type:"bars", unit:"₹ crore", data:[["Material and skilled wages",646.92],["Unskilled wages",49.19],["Administrative",8.28]]}
+  ],
+  recs:[
+    "Find out why works are incomplete and finish or close them.",
+    "Clear pending wage and material liabilities and transfer funds to the State Employment Guarantee Fund on time.",
+    "Keep Measurement Books, muster rolls and demand registers for every work and gram panchayat."
+  ],
+  recsNote:"Drawn from the audit findings as reported in coverage; the report's formal recommendations were not reported.",
+  response:[
+    "The Rural Development Department told the CAG (August 2025) that liabilities would be cleared once the Union Ministry of Rural Development released funds, and that future payments would not be made without certified Measurement Book entries.",
+    "It accepted (January and August 2025) that demand data for persons with disabilities was missing from the MIS and said it would take this up with the Ministry. The report goes to the J&K Legislature's Public Accounts Committee."
+  ],
+  timeline:[["2019-20 to 2023-24","Period audited"],["Mar 2024","14.82 lakh works incomplete"],["Aug 2025","Department replies to audit"],["30 Sep 2026","Report No. 4 of 2026 tabled in the J&K Assembly"]],
+  glossary:["Compliance audit","MGNREGS","Job card","Measurement Book","Muster roll","State Employment Guarantee Fund"],
+  exam:{
+    prelims:[
+      "CAG Report No. 4 of 2026 on Jammu and Kashmir's civil departments was tabled in the J&K Assembly on 30 September 2026.",
+      "It found 14.82 lakh of 20.16 lakh MGNREGS works taken up in 2019-20 to 2023-24 were incomplete in March 2024.",
+      "Only 77,512 households, about 2% of those demanding work, got 100 days of employment.",
+      "MGNREGS central releases must reach the State Employment Guarantee Fund within 3 to 15 days; in J&K delays ran up to 122 days."
+    ],
+    mains:"Delayed payments and unfinished works weaken the rights-based design of MGNREGS. Examine with reference to the CAG's 2026 audit in Jammu and Kashmir. (15 marks)",
+    quiz:[
+      {q:"What share of MGNREGS works taken up in J&K were incomplete in March 2024, per the CAG?", o:["26%","49%","74%","93%"], a:2, w:"14.82 lakh of 20.16 lakh works, about 74%."},
+      {q:"How many J&K households got the full 100 days of MGNREGS work in 2019-20 to 2023-24?", o:["77,512","3,16,178","34,99,449","37,82,594"], a:0, w:"77,512, about 2% of households that demanded work."},
+      {q:"Which document records the measured quantity of work done before a payment is made?", o:["Job card","Measurement Book","Demand register","Utilisation certificate"], a:1, w:"The Measurement Book; 67% of sampled works in J&K had none."}
+    ]
+  },
+  related:["cag-maharashtra-mgnregs-2026","cag-jk-3-2026"],
+  src:[["Kashmir Times: MGNREGA audit reveals ₹1,897 cr spent on unfinished works (Report No. 4 of 2026)","https://kashmirtimes.com/news/despite-spending-mgnrega-works-remained-unfinished-in-jk-part-ii","news"],["Kashmir Observer: 74% of MGNREGA works taken up in J&K remain incomplete","https://kashmirobserver.net/2026/10/05/74-of-mgnrega-works-taken-up-in-jk-remain-incomplete-cag/","news"],["Daily Excelsior: No special drive to give assured work to PwDs under MGNREGA","https://www.dailyexcelsior.com/no-special-drive-conducted-in-5-yrs-to-provide-assured-employment-to-pwds-under-mgnrega-cag","news"],["Kashmir Images: CAG reports for 2023, 2024 tabled in Assembly","https://thekashmirimages.com/2026/09/30/cag-reports-for-2023-2024-tabled-in-assembly/","news"]],
+  kw:"Jammu Kashmir J&K MGNREGS MGNREGA NREGA rural employment 100 days incomplete works liabilities wages persons with disabilities measurement book muster roll audit 2026"
+},
+/* ---------- NITI · India Electric Mobility Index 2025 ---------- */
+{
+  id:"niti-iemi-2025", body:"NITI", kind:"Index", reportNo:"Second edition (with WRI India)",
+  title:"India Electric Mobility Index (IEMI) 2025", short:"Electric Mobility Index 2025", sector:"Environment", ministry:"NITI Aayog",
+  date:"Sep 2026", dateISO:"2026-09-16", tabled:"Released by NITI Aayog on 16 September 2026", period:"January to December 2025", flagged:null,
+  tldr:[
+    "Delhi tops the index with 84 out of 100, followed by Maharashtra (78), Karnataka (73), Chandigarh (71) and Goa (65).",
+    "The median score rose from 36 in 2024 to 40 in 2025; scores ranged from 10 to 84.",
+    "EV penetration reached 8.25% by 2025-26, against a national goal of 30% of sales by 2030."
+  ],
+  en:"NITI Aayog's India Electric Mobility Index scores all 36 states and UTs, from 0 to 100, on how far they have moved to electric vehicles. Half the score comes from how many EVs are actually being bought, 30% from charging infrastructure and 20% from research and innovation. Delhi leads with 84. The median state scored 40, up from 36 a year earlier, but the range is wide, from 10 to 84. Some states have built chargers without matching EV sales: Haryana scored 91 on charging but only 19 on adoption. NITI says the focus must now shift from writing EV policies to carrying them out.",
+  hi:"नीति आयोग का भारत इलेक्ट्रिक मोबिलिटी सूचकांक सभी 36 राज्यों और केंद्र शासित प्रदेशों को 0 से 100 के बीच अंक देता है कि वे इलेक्ट्रिक वाहनों की ओर कितना बढ़े हैं। आधे अंक इस पर हैं कि वास्तव में कितने EV खरीदे जा रहे हैं, 30% चार्जिंग ढाँचे पर और 20% शोध और नवाचार पर। दिल्ली 84 अंकों के साथ सबसे आगे है। औसत (माध्यिका) राज्य को 40 अंक मिले, जो एक साल पहले 36 थे, लेकिन अंतर बड़ा है, 10 से 84 तक। कुछ राज्यों ने चार्जर तो बनाए पर EV बिक्री उतनी नहीं बढ़ी: हरियाणा को चार्जिंग पर 91 लेकिन अपनाने पर सिर्फ़ 19 अंक मिले। नीति आयोग का कहना है कि अब ध्यान EV नीतियाँ लिखने से हटकर उन्हें लागू करने पर होना चाहिए।",
+  context:{
+    what:"The second edition of NITI Aayog's India Electric Mobility Index, developed with WRI India, which ranks 36 states and UTs on electric mobility in calendar year 2025.",
+    why:"India has set a goal of 30% EV sales by 2030. Transport, power and industrial policy are largely run by states, so their effort decides whether the goal is met.",
+    how:"16 indicators under three themes: Transport Electrification Progress (50%, 7 indicators), Charging Infrastructure Readiness (30%, 6 indicators) and EV Research and Innovation Status (20%, 3 indicators), scored 0 to 100."
+  },
+  nums:[["84","Delhi's score, rank 1",0],["40","Median score (36 in 2024)",0],["8.25%","EV penetration by 2025-26 (0.5% in 2018)",0],["26 of 36","States and UTs with active EV policies, Dec 2025",0]],
+  themes:[
+    {name:"The leaders", sev:"low", items:[
+      {t:"Top performers (65 and above): Delhi (84), Maharashtra (78), Karnataka (73), Chandigarh (71) and Goa (65).", amt:""},
+      {t:"Maharashtra leads the large states, Manipur (46) the hilly and north-eastern states, and Delhi the UTs and city states.", amt:""},
+      {t:"Madhya Pradesh rose from 23rd to 7th place with 59.", amt:""}]},
+    {name:"Chargers without buyers", sev:"med", items:[
+      {t:"Karnataka (97) led on charging infrastructure; Delhi (77) and Chandigarh (75) led on transport electrification.", amt:""},
+      {t:"Haryana scored 91 on charging readiness but 19 on transport electrification, the lowest among large states.", amt:""},
+      {t:"Public charging stations grew from about 5,151 in December 2022 to over 29,000 by June 2025.", amt:""}]},
+    {name:"Who lags", sev:"med", items:[
+      {t:"Dadra and Nagar Haveli and Daman and Diu scored lowest (10), followed by Nagaland (14), Andaman and Nicobar Islands (15) and Sikkim (16).", amt:""},
+      {t:"Ten of 36 states and UTs had no active EV policy by December 2025.", amt:""},
+      {t:"Several states and UTs fell in rank and score, so progress is uneven.", amt:""}]}
+  ],
+  charts:[
+    {title:"Top seven states and UTs", type:"bars", unit:"score out of 100", max:100, data:[["Delhi",84],["Maharashtra",78],["Karnataka",73],["Chandigarh",71],["Goa",65],["Tamil Nadu",61],["Madhya Pradesh",59]]},
+    {title:"How the score is weighted", type:"split", unit:"% of total score", data:[["Transport electrification",50],["Charging infrastructure",30],["Research and innovation",20]]},
+    {title:"Haryana: two themes compared", type:"bars", unit:"score out of 100", max:100, data:[["Charging readiness",91],["Transport electrification",19]]}
+  ],
+  recs:[
+    "Shift the focus from framing EV policies to implementing them.",
+    "Raise actual EV adoption, the largest opportunity for most states.",
+    "Follow the state-specific actions in the index, such as notifying an EV policy (Andaman and Nicobar Islands) or single-window approval for chargers (Bihar)."
+  ],
+  recsNote:"From the index's conclusion and its state-wise recommendations.",
+  response:["The index is meant to encourage states to act through comparison; it carries no penalties."],
+  timeline:[["2018","EV penetration about 0.5%"],["Dec 2025","26 of 36 states and UTs have active EV policies"],["16 Sep 2026","IEMI 2025 released"]],
+  glossary:["EV penetration","Composite index"],
+  exam:{
+    prelims:[
+      "NITI Aayog released the India Electric Mobility Index 2025, developed with WRI India, in September 2026.",
+      "The index uses 16 indicators under three themes; Transport Electrification Progress carries 50% weight.",
+      "Delhi ranked first with 84; Maharashtra led the large states with 78.",
+      "India's EV penetration reached 8.25% by 2025-26; the national goal is 30% EV sales by 2030."
+    ],
+    mains:"Charging infrastructure alone does not drive electric vehicle adoption. Discuss with reference to NITI Aayog's India Electric Mobility Index 2025. (10 marks)",
+    quiz:[
+      {q:"Which state or UT topped NITI Aayog's India Electric Mobility Index 2025?", o:["Maharashtra","Karnataka","Delhi","Chandigarh"], a:2, w:"Delhi, with 84 out of 100."},
+      {q:"Which theme carries the highest weight in the India Electric Mobility Index?", o:["Charging Infrastructure Readiness","Transport Electrification Progress","EV Research and Innovation Status","EV policy notification"], a:1, w:"Transport Electrification Progress carries 50%."},
+      {q:"Which state scored 91 on charging readiness but 19 on transport electrification?", o:["Haryana","Punjab","Gujarat","Bihar"], a:0, w:"Haryana: chargers have not yet led to vehicle adoption."}
+    ]
+  },
+  related:["niti-ifi-2026","niti-netzero-2026"],
+  src:[["NITI Aayog: India Electric Mobility Index (IEMI) 2025","https://www.niti.gov.in/node/2424","official"],["Business Standard: Delhi tops NITI Aayog's electric mobility index 2025","https://www.business-standard.com/industry/auto/delhi-tops-niti-aayog-s-electric-mobility-index-2025-maharashtra-follows-126091700271_1.html","news"],["Autocar Professional: Delhi tops NITI Aayog's India Electric Mobility Index 2025","https://www.autocarpro.in/news/delhi-tops-niti-aayogs-india-electric-mobility-index-2025-134749","news"],["Drishti IAS: Delhi tops India Electric Mobility Index 2025","https://www.drishtiias.com/state-pcs-current-affairs/delhi-tops-niti-aayogs-india-electric-mobility-index-2025","analysis"]],
+  kw:"India Electric Mobility Index IEMI 2025 EV electric vehicles charging infrastructure states ranking Delhi Maharashtra Karnataka WRI NITI Aayog 2026"
+},
+/* ---------- CAG · Karnataka compliance audit (PWD, KIADB, Minor Irrigation) ---------- */
+{
+  id:"cag-karnataka-pwd-kiadb-2026", body:"CAG", state:"Karnataka", kind:"Compliance audit", reportNo:"CAG compliance audit report (Karnataka, 2026)",
+  title:"Compliance Audit Report of the CAG, Government of Karnataka: Public Works, Industrial Areas (KIADB) and Minor Irrigation", short:"Karnataka Roads and Industrial Areas Audit", sector:"Roads & infrastructure", ministry:"Public Works; Commerce and Industries (KIADB); Minor Irrigation and Ground Water Development Departments, Government of Karnataka",
+  date:"Sep 2026", dateISO:"2026-09-21", tabled:"Tabled in the Karnataka Legislative Assembly on 21 September 2026", period:"April 2019 to March 2024", flagged:281.34, flaggedNote:"Invested by KIADB in three industrial areas without litigation-free land, leaving the investment underutilised. This is an amount flagged by audit, not a confirmed loss.",
+  tldr:[
+    "KIADB invested ₹281.34 crore in three industrial areas without litigation-free land, so the money stayed underutilised.",
+    "Road estimates used wrong rates and conversion factors, adding ₹24.07 crore across 239 works and ₹34.93 crore across 186 works.",
+    "KIADB gave Toyota Industries Engine India an undue benefit of ₹31.90 crore by waiving charges without legal authority."
+  ],
+  en:"The CAG checked works and decisions of Karnataka's Public Works Department, the Karnataka Industrial Areas Development Board (KIADB) and the Minor Irrigation Department from April 2019 to March 2024. Road estimates were inflated by using wrong rates and conversion factors, and in Yadgir the department paid ₹1.33 crore for road stretches counted twice, which the CAG called fraudulent payments. KIADB put ₹281.34 crore into industrial areas whose land was under dispute, ran four industrial areas without environmental clearance, and waived ₹31.90 crore of charges for one company without legal authority. A lift irrigation scheme awarded before land was acquired left ₹58.85 crore blocked. The findings were sent to the government, and its replies are recorded in the report.",
+  hi:"CAG ने अप्रैल 2019 से मार्च 2024 तक कर्नाटक के लोक निर्माण विभाग, कर्नाटक औद्योगिक क्षेत्र विकास बोर्ड (KIADB) और लघु सिंचाई विभाग के कामों और फ़ैसलों की जाँच की। सड़क के अनुमान गलत दरों और रूपांतरण कारकों से बढ़ाए गए, और यादगीर में विभाग ने दो बार गिने गए सड़क हिस्सों के लिए ₹1.33 करोड़ दिए, जिन्हें CAG ने धोखाधड़ी वाले भुगतान कहा। KIADB ने विवादित ज़मीन वाले औद्योगिक क्षेत्रों में ₹281.34 करोड़ लगाए, चार औद्योगिक क्षेत्र बिना पर्यावरण मंज़ूरी के चलाए, और बिना कानूनी अधिकार के एक कंपनी के ₹31.90 करोड़ के शुल्क माफ़ किए। ज़मीन अधिग्रहण से पहले दी गई एक लिफ़्ट सिंचाई योजना में ₹58.85 करोड़ अटक गए। निष्कर्ष सरकार को भेजे गए, और उसके जवाब रिपोर्ट में दर्ज हैं।",
+  context:{
+    what:"A CAG compliance audit of selected works and decisions of Karnataka's Public Works Department, the Karnataka Industrial Areas Development Board and the Minor Irrigation and Ground Water Development Department.",
+    why:"Road estimates, industrial land and irrigation contracts involve large public money. Wrong rates or waivers without authority raise costs for the state and give private parties benefits they are not entitled to.",
+    how:"Test check of records of the departments and KIADB for April 2019 to March 2024, including 41 industrial areas and selected road and irrigation works."
+  },
+  nums:[["₹281.34 cr","KIADB investment underutilised for lack of litigation-free land",1],["₹31.90 cr","Undue benefit to one company in a land allotment",1],["₹1.33 cr","Paid for 925 m of road counted twice (Yadgir)",1],["4 of 22","Industrial areas without environmental clearance",1]],
+  themes:[
+    {name:"Inflated road estimates", sev:"high", items:[
+      {t:"Road metal was converted at 1.5 tonnes per cubic metre instead of 1.8, adding cost in 239 works.", amt:"₹24.07 cr"},
+      {t:"Wrong items or rates were used in 186 works, and building rates instead of road rates for M40 concrete in 18 works (₹3.74 crore).", amt:"₹34.93 cr"},
+      {t:"In Yadgir division, 925 metres of overlapping chainage were paid for, which the CAG called fraudulent payments.", amt:"₹1.33 cr"},
+      {t:"In Kalaburagi and Chamarajanagar, manual excavation rates were paid for machine work, an undue benefit of ₹5.04 crore.", amt:"₹5.04 cr"}]},
+    {name:"Industrial areas (KIADB)", sev:"high", items:[
+      {t:"₹281.34 crore was invested in Kitnur, Balekundri and Aerospace Park Sub-layout 11 without litigation-free land, leaving it underutilised.", amt:"₹281.34 cr"},
+      {t:"Four of 22 industrial areas developed after the 2006 EIA notification had no environmental clearance; they cover 1,046.72 acres allotted to 474 units.", amt:""},
+      {t:"24 of 41 test-checked industrial areas lacked basic water facilities, needing 201 borewells; treatment plants built for ₹31.49 crore could not be run.", amt:"₹31.49 cr"},
+      {t:"Delay in KIADB's office building caused avoidable rent of ₹48.6 crore.", amt:"₹48.6 cr"}]},
+    {name:"Waivers without authority", sev:"high", items:[
+      {t:"KIADB waived ₹27.07 crore of road-land compensation and service charges and cut service charges from 12% to 6% (₹4.83 crore) for Toyota Industries Engine India in Jigani; the audit found no legal authority for either.", amt:"₹31.90 cr"},
+      {t:"An alternative land allotment made without the required negotiation gave an undue benefit of at least ₹3.88 crore.", amt:"₹3.88 cr"}]},
+    {name:"Irrigation contracts", sev:"med", items:[
+      {t:"A lift irrigation scheme was awarded before land was acquired, leaving ₹58.85 crore blocked.", amt:"₹58.85 cr"},
+      {t:"Price adjustments against tender conditions gave contractors an undue benefit of ₹9.52 crore.", amt:"₹9.52 cr"},
+      {t:"Weak provisions for quantity changes in lump-sum contracts caused a loss of ₹26 crore, and ₹3.22 crore was paid for doubtful works.", amt:"₹26 cr"}]}
+  ],
+  charts:[
+    {title:"Largest money findings", type:"bars", unit:"₹ crore", data:[["KIADB land without clear title",281.34],["Lift irrigation blocked",58.85],["KIADB office rent",48.6],["Wrong road rates (186 works)",34.93],["Toyota land waiver",31.90],["Road metal factor (239 works)",24.07]]},
+    {title:"The ₹31.90 crore waiver", type:"split", unit:"₹ crore", data:[["Road-land compensation and charges waived",27.07],["Service charge cut (12% to 6%)",4.83]]}
+  ],
+  recs:[
+    "Use correct rates and conversion factors in road estimates and recover excess payments.",
+    "Develop industrial areas only on litigation-free land with environmental clearance in place.",
+    "Grant waivers and concessions only where government orders allow them."
+  ],
+  recsNote:"Drawn from the audit findings as reported in coverage; the report's formal recommendations were not reported.",
+  response:["The Accountant General said the findings were communicated to the government and departments and their responses are recorded in the report. The report goes to the Karnataka Legislature's Public Accounts Committee."],
+  timeline:[["Apr 2019 to Mar 2024","Period audited"],["2019","Toyota Industries Engine India seeks 11.3 acres in Jigani"],["21 Sep 2026","Report tabled in the Karnataka Assembly"],["22 Sep 2026","Accountant General presents findings in Bengaluru"]],
+  glossary:["Compliance audit","Environmental clearance","Chainage","Lump-sum contract","PAC"],
+  exam:{
+    prelims:[
+      "A CAG compliance audit of Karnataka's PWD, KIADB and Minor Irrigation Department was tabled in the Karnataka Assembly on 21 September 2026.",
+      "It flagged ₹281.34 crore invested by KIADB in industrial areas without litigation-free land.",
+      "Four of 22 industrial areas developed after the 2006 EIA notification had no environmental clearance.",
+      "KIADB stands for Karnataka Industrial Areas Development Board."
+    ],
+    mains:"Weak estimation and discretionary waivers in public works raise costs and erode accountability. Discuss with reference to the CAG's 2026 compliance audit in Karnataka. (10 marks)",
+    quiz:[
+      {q:"What conversion factor for road metal did the CAG say should have been used in Karnataka's road estimates?", o:["1.2 tonnes per cubic metre","1.5 tonnes per cubic metre","1.8 tonnes per cubic metre","2.4 tonnes per cubic metre"], a:2, w:"1.8; using 1.5 added ₹24.07 crore across 239 works."},
+      {q:"How much KIADB investment did the CAG find underutilised for lack of litigation-free land?", o:["₹31.90 crore","₹58.85 crore","₹110.36 crore","₹281.34 crore"], a:3, w:"₹281.34 crore in Kitnur, Balekundri and Aerospace Park Sub-layout 11."}
+    ]
+  },
+  related:["cag-delhi-revenue-1-2026","bharatmala"],
+  src:[["The South First: CAG flags inflated road estimates, Rs 281-crore underutilised investment in Karnataka industrial areas","https://thesouthfirst.com/karnataka/cag-flags-inflated-road-estimates-rs-281-crore-underutilised-investment-in-karnataka-industrial-areas/","news"],["IBC World News: CAG report on ₹31 crore KIADB concession to Toyota","https://ibcworldnews.com/2026/09/22/cag-report-%E2%82%B931-cr-kiadb-concession-to-toyota-exposed/","news"]],
+  kw:"Karnataka CAG compliance audit PWD road estimates KIADB industrial areas Toyota Jigani environmental clearance lift irrigation minor irrigation Yadgir Kalaburagi 2026"
 }
+
 
 
 );
@@ -1996,7 +2208,8 @@ Object.assign(window.STATE_FACTS_V2, {
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
-  JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"]],
+  JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"],["74% of MGNREGS works taken up were incomplete in March 2024 (CAG, 2026)","cag-jk-mgnregs-4-2026"]],
+  KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
 });
