@@ -2,6 +2,18 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Project import": "A Customs facility that lets all the machinery and goods for an industrial or infrastructure project be imported under one registered contract, with simpler procedures.",
+  "CBIC": "Central Board of Indirect Taxes and Customs: the Finance Ministry body that runs Customs and GST.",
+  "Bill of Entry": "The declaration an importer files with Customs giving details of imported goods, used to assess and collect duty.",
+  "Bank guarantee": "A bank's promise to pay a set amount if its customer fails to meet an obligation, such as paying duty owed.",
+  "MRP": "Maximum Retail Price: the highest price, printed on a packaged product, at which it can be sold.",
+  "FCI": "Food Corporation of India: the central agency that buys, stores and supplies food grains for government schemes.",
+  "Avoidable expenditure": "Money spent that need not have been spent if rules had been followed or better decisions taken.",
+  "Comparative statement": "A table that compares the rates quoted by all bidders in a tender, used to pick the lowest valid bid.",
+  "Global Innovation Index": "A yearly ranking of countries by innovation capacity and output, published by the World Intellectual Property Organization.",
+  "Patent": "A legal right, granted for a limited period, that lets an inventor stop others from making or selling the invention.",
+  "Deep tech": "Startups and technologies built on major scientific or engineering advances, such as AI, semiconductors or biotech.",
+  "Atal Tinkering Lab": "A school workspace, funded under NITI Aayog's Atal Innovation Mission, where students build and test ideas with tools such as 3D printers and electronics kits.",
   "Measurement Book": "The official register where an engineer records the measured quantity of work done; payments to contractors are based on it.",
   "Muster roll": "The attendance and wage sheet for workers on a public works site, such as an MGNREGS project.",
   "State Employment Guarantee Fund": "The state-level MGNREGS fund into which central and state money is transferred before it is spent on wages and materials.",
@@ -2193,6 +2205,199 @@ window.SPEC_REPORTS.push(
   related:["cag-delhi-revenue-1-2026","bharatmala"],
   src:[["The South First: CAG flags inflated road estimates, Rs 281-crore underutilised investment in Karnataka industrial areas","https://thesouthfirst.com/karnataka/cag-flags-inflated-road-estimates-rs-281-crore-underutilised-investment-in-karnataka-industrial-areas/","news"],["IBC World News: CAG report on ₹31 crore KIADB concession to Toyota","https://ibcworldnews.com/2026/09/22/cag-report-%E2%82%B931-cr-kiadb-concession-to-toyota-exposed/","news"]],
   kw:"Karnataka CAG compliance audit PWD road estimates KIADB industrial areas Toyota Jigani environmental clearance lift irrigation minor irrigation Yadgir Kalaburagi 2026"
+},
+/* ---------- CAG · Project Imports Scheme (Customs), Report No. 27 of 2026 ---------- */
+{
+  id:"cag-project-imports-27-2026", body:"CAG", kind:"Performance audit", reportNo:"Report No. 27 of 2026",
+  title:"Report of the CAG on Project Imports Scheme, Union Government, Department of Revenue (Indirect Taxes – Customs)", short:"Project Imports Scheme Audit", sector:"Public finance", ministry:"Ministry of Finance (Department of Revenue, CBIC)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Presented in Parliament on 12 August 2026", period:"Year ended 31 March 2024", flagged:128.58, flaggedNote:"The revenue implication of the audit findings as stated by the CAG. The audit separately found procedural irregularities involving ₹2,979.33 crore. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "The CAG found a revenue implication of ₹128.58 crore and procedural irregularities involving ₹2,979.33 crore in the Project Imports Scheme.",
+    "In 57 of 383 finalised cases, contracts were closed without mandatory Installation Certificates or plant site checks.",
+    "The Project Import Regulations, 1986 set no time limit for registering projects or completing imports."
+  ],
+  en:"Under the Project Imports Scheme, machinery and goods for a whole industrial or infrastructure project can be imported under one contract with simpler Customs procedures. The CAG checked how Customs registered these contracts, cleared the imports and closed the cases for the year ended March 2024. It found a revenue implication of ₹128.58 crore and procedural irregularities involving ₹2,979.33 crore. The 1986 regulations set no deadline for registering a project or finishing its imports. Benefits went to projects that were not notified and to ineligible machinery. In 57 of 383 closed cases, contracts were finalised without the required Installation Certificates and site checks. Bank guarantees were not renewed while cases were still open. The report makes 11 recommendations to CBIC.",
+  hi:"प्रोजेक्ट इम्पोर्ट्स योजना के तहत किसी पूरी औद्योगिक या बुनियादी ढाँचा परियोजना के लिए मशीनरी और सामान एक ही अनुबंध के तहत आसान सीमा शुल्क (Customs) प्रक्रिया से आयात किए जा सकते हैं। CAG ने मार्च 2024 को समाप्त वर्ष के लिए जाँचा कि सीमा शुल्क विभाग ने इन अनुबंधों का पंजीकरण कैसे किया, आयात को कैसे मंज़ूरी दी और मामलों को कैसे बंद किया। उसे ₹128.58 करोड़ का राजस्व प्रभाव और ₹2,979.33 करोड़ की प्रक्रियागत अनियमितताएँ मिलीं। 1986 के नियमों में किसी परियोजना के पंजीकरण या उसके आयात पूरे करने की कोई समय-सीमा नहीं है। लाभ उन परियोजनाओं को भी मिले जो अधिसूचित नहीं थीं, और अपात्र मशीनरी को भी। बंद किए गए 383 में से 57 मामलों में अनुबंध ज़रूरी इंस्टॉलेशन सर्टिफ़िकेट और स्थल जाँच के बिना अंतिम कर दिए गए। मामले खुले रहते हुए भी बैंक गारंटी का नवीनीकरण नहीं कराया गया। रिपोर्ट CBIC को 11 सिफ़ारिशें करती है।",
+  context:{
+    what:"A CAG performance audit of the Project Imports Scheme run by Customs under the Project Import Regulations, 1986, covering registration, import and finalisation of project contracts at the port level.",
+    why:"The scheme gives large projects simpler Customs procedures. Without timelines and checks, ineligible goods can get the benefit and duty can go uncollected.",
+    how:"The audit tested the rules, procedures and internal controls for the year ended 31 March 2024, including scrutiny of 383 finalised project import cases. It made 36 audit observations and 11 recommendations."
+  },
+  nums:[["₹128.58 cr","Revenue implication of the findings",1],["₹2,979.33 cr","Procedural irregularities",1],["57 of 383","Finalised cases closed without mandatory certificates and site checks",1],["1,149 days","Longest clearance delay found (range 3 to 1,149 days)",1]],
+  themes:[
+    {name:"Rules without deadlines", sev:"med", items:[
+      {t:"The Project Import Regulations, 1986 do not prescribe timelines for registering projects or for completing imports under registered contracts.", amt:""},
+      {t:"Clearance of project imports was delayed by 3 to 1,149 days, against the goals of the National Trade Facilitation Action Plan.", amt:""}]},
+    {name:"Weak eligibility checks", sev:"high", items:[
+      {t:"Project import benefits were extended to projects that were not notified and to ineligible machinery and goods.", amt:""},
+      {t:"Overall, the findings carry a revenue implication of ₹128.58 crore.", amt:"₹128.58 cr"}]},
+    {name:"Cases closed without proof", sev:"high", items:[
+      {t:"In 57 of 383 finalised cases across eight Commissionerates, contracts were finalised without Installation Certificates, plant site verification or other required documents.", amt:""},
+      {t:"Bills of Entry were finalised late, and some were finalised before the project contract itself was finalised.", amt:""},
+      {t:"Procedural irregularities found by the audit involve ₹2,979.33 crore.", amt:"₹2,979.33 cr"}]},
+    {name:"Monitoring and recovery", sev:"med", items:[
+      {t:"Bank guarantees and bonds were not renewed in cases where contract finalisation was still pending.", amt:""},
+      {t:"Recovery was pending in confirmed demand cases, showing weak follow-up and monitoring.", amt:""}]}
+  ],
+  charts:[
+    {title:"Amounts at issue", type:"bars", unit:"₹ crore", data:[["Procedural irregularities",2979.33],["Revenue implication",128.58]]},
+    {title:"Finalised cases checked", type:"split", unit:"cases", data:[["Closed without mandatory checks",57],["Other finalised cases",326]]}
+  ],
+  recs:[
+    "Prescribe a time frame for registering project import contracts after a complete application is received.",
+    "Amend the Project Import Regulations, 1986 to set a time limit for completing imports and closing projects.",
+    "Block finalisation of a case in the Customs computer system unless the Installation Certificate and plant site verification report are uploaded and verified.",
+    "Enforce renewal of bonds and bank guarantees until contracts are finalised, and track demand recovery centrally."
+  ],
+  recsNote:"Four of the 11 recommendations made to CBIC, in short.",
+  response:["The CAG said responses received from CBIC and its field formations were considered and included in the report. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["1986","Project Import Regulations framed"],["Year to 31 Mar 2024","Period audited"],["12 Aug 2026","Report presented in Parliament"],["13 Aug 2026","CAG issues press release"]],
+  glossary:["Performance audit","Project import","CBIC","Bill of Entry","Bank guarantee","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 27 of 2026 is a performance audit of the Project Imports Scheme run by Customs.",
+      "The scheme is governed by the Project Import Regulations, 1986, which set no timelines for registration or completion of imports.",
+      "The audit found a revenue implication of ₹128.58 crore and procedural irregularities involving ₹2,979.33 crore.",
+      "The report made 36 audit observations and 11 recommendations, mostly addressed to CBIC."
+    ],
+    mains:"Trade facilitation schemes must balance ease of doing business with revenue safeguards. Discuss with reference to the CAG's 2026 audit of the Project Imports Scheme. (10 marks)",
+    quiz:[
+      {q:"Which regulations govern the Project Imports Scheme audited by the CAG in 2026?", o:["Customs Valuation Rules, 2007","Project Import Regulations, 1986","Foreign Trade Policy, 2023","Special Economic Zones Act, 2005"], a:1, w:"The Project Import Regulations, 1986."},
+      {q:"In how many of 383 finalised cases were contracts closed without mandatory Installation Certificates and site checks?", o:["36","57","11","128"], a:1, w:"57 cases across eight Commissionerates."},
+      {q:"What revenue implication did the CAG report for the Project Imports Scheme?", o:["₹57 crore","₹128.58 crore","₹1,149 crore","₹2,979.33 crore"], a:1, w:"₹128.58 crore; ₹2,979.33 crore is the figure for procedural irregularities."}
+    ]
+  },
+  related:["cag-customs-dgft-25-2026","cag-gst-20-2026"],
+  src:[["CAG press release: Performance Audit on Project Imports Scheme (Report No. 27 of 2026)","https://saiindia.gov.in/uploads/PressRelease/PR-English-Press-27-of-2026-06a80868c76e5b5-19617118.pdf","official"],["CAG: Report No. 27 of 2026, audit report page","https://cag.gov.in/en/audit-report/details/125956","official"],["Taxguru: CAG audit of Customs Project Imports Scheme","https://taxguru.in/custom-duty/cag-flags-rs-2-128-crore-revenue-risk-customs-project-imports-scheme.html","analysis"]],
+  kw:"CAG Report 27 2026 Project Imports Scheme customs CBIC Project Import Regulations 1986 installation certificate plant site verification bill of entry bank guarantee trade facilitation performance audit"
+},
+/* ---------- CAG · Assam, Report No. 3 of 2026 (Social, Economic and General Sectors) ---------- */
+{
+  id:"cag-assam-3-2026", body:"CAG", state:"Assam", kind:"Compliance audit", reportNo:"Report No. 3 of 2026 (Assam)",
+  title:"Report of the CAG on Social, Economic and General Sectors for the year ended March 2024, Government of Assam", short:"Assam Welfare and Public Works Audit", sector:"Social welfare", ministry:"Tribal Affairs (Plain), Public Works, Water Resources, Revenue and Disaster Management, Women and Child Development, Health and Family Welfare, and Administrative Reforms and Training Departments, Government of Assam",
+  date:"Jul 2026", dateISO:"2026-07-30", tabled:"Tabled in the Assam Legislative Assembly; reported on 30 July 2026", period:"Year ended March 2024", flagged:56, flaggedNote:"Coverage of the report says its findings together involve more than ₹56 crore. These are amounts flagged by audit, not confirmed losses.",
+  tldr:[
+    "Assam's Tribal Affairs (Plain) directorate paid ₹11.49 crore above MRP for pressure cookers, gas stoves and sprayers.",
+    "₹9.92 crore was paid to suppliers without checking that items reached beneficiaries; 432 of 922 farm machinery units were not distributed by September 2024.",
+    "Public Works gave contractors undue benefits of ₹1.25 crore and ₹3.06 crore; findings across seven departments involve more than ₹56 crore."
+  ],
+  en:"The CAG checked spending by seven Assam government departments for the year ended March 2024. The biggest findings are in the Directorate of Tribal Affairs (Plain). Between 2019 and 2021 it bought 66,715 pressure cookers, as many gas stoves and 2,195 sprayers for beneficiaries, paying ₹11.49 crore more than the printed MRP. It paid suppliers ₹9.92 crore without checking that items reached people, and of 922 units of farm machinery received, 432 had not been given out by September 2024. Public Works used altered rates and let a contract run 91% above the revised estimate, giving contractors undue benefits. Other findings include ₹7.24 crore extra spent on open-market rice when FCI rice was available. Together the findings involve more than ₹56 crore.",
+  hi:"CAG ने मार्च 2024 को समाप्त वर्ष के लिए असम सरकार के सात विभागों के खर्च की जाँच की। सबसे बड़े निष्कर्ष जनजातीय मामले (मैदानी) निदेशालय में हैं। 2019 से 2021 के बीच इसने लाभार्थियों के लिए 66,715 प्रेशर कुकर, उतने ही गैस चूल्हे और 2,195 स्प्रेयर खरीदे, और छपे हुए MRP से ₹11.49 करोड़ ज़्यादा चुकाए। इसने यह जाँचे बिना कि सामान लोगों तक पहुँचा या नहीं, आपूर्तिकर्ताओं को ₹9.92 करोड़ दे दिए, और मिली 922 कृषि मशीनों में से 432 सितंबर 2024 तक बाँटी नहीं गई थीं। लोक निर्माण विभाग ने बदली हुई दरों का इस्तेमाल किया और एक अनुबंध को संशोधित अनुमान से 91% ऊपर चलने दिया, जिससे ठेकेदारों को अनुचित लाभ मिला। अन्य निष्कर्षों में FCI का चावल उपलब्ध होने पर भी खुले बाज़ार से चावल खरीदने पर ₹7.24 करोड़ का अतिरिक्त खर्च शामिल है। कुल मिलाकर ये निष्कर्ष ₹56 करोड़ से ज़्यादा के हैं।",
+  context:{
+    what:"A CAG compliance audit report on the social, economic and general sectors of the Government of Assam for the year ended March 2024, covering seven departments.",
+    why:"Welfare items bought for Scheduled Tribe and other beneficiaries, and public works contracts, involve public money meant for specific people and purposes. Overpaying or not delivering defeats that purpose.",
+    how:"Test check of records of the Tribal Affairs (Plain), Public Works, Water Resources, Revenue and Disaster Management, Women and Child Development, Health and Family Welfare, and Administrative Reforms and Training departments, including distribution status up to September 2024."
+  },
+  nums:[["₹11.49 cr","Paid above MRP for cookers, stoves and sprayers",1],["₹9.92 cr","Paid to suppliers without checking delivery to beneficiaries",1],["432 of 922","Farm machinery units not distributed (Sep 2024)",1],["₹7.24 cr","Extra spent on open-market rice despite FCI allocation",1]],
+  themes:[
+    {name:"Welfare items for tribal beneficiaries", sev:"high", items:[
+      {t:"Schemes distributing pressure cookers, LPG gas stoves and battery-operated sprayers led to avoidable expenditure of more than ₹28 crore.", amt:"₹28 cr"},
+      {t:"66,715 pressure cookers, as many gas stoves and 2,195 sprayers bought between 2019 and 2021 cost ₹11.49 crore more than the notified MRP.", amt:"₹11.49 cr"},
+      {t:"₹9.92 crore was released to suppliers without verifying that beneficiaries received the items.", amt:"₹9.92 cr"},
+      {t:"No acknowledgements were obtained for items worth ₹6.58 crore; of 922 units of farm machinery received, 432 were not distributed by September 2024.", amt:"₹6.58 cr"}]},
+    {name:"Public works contracts", sev:"high", items:[
+      {t:"Public Works used altered item rates instead of the successful bidder's rates, an undue benefit of ₹1.25 crore to a contractor.", amt:"₹1.25 cr"},
+      {t:"A contract value of ₹6.43 crore, 91% higher than the revised estimate, was not revised, an undue benefit of ₹3.06 crore.", amt:"₹3.06 cr"},
+      {t:"An irregular consultancy for the proposed Swahid Smarak Khetra at Pachim Boragaon added a burden of ₹71.60 lakh.", amt:""},
+      {t:"Water Resources used a manual comparative statement instead of the system-generated one, leading to undue payments of ₹30.70 lakh.", amt:""}]},
+    {name:"Other departments", sev:"med", items:[
+      {t:"Women and Child Development spent ₹7.24 crore extra buying rice in the open market for the Scheme for Adolescent Girls although FCI allocations were available.", amt:"₹7.24 cr"},
+      {t:"₹2.14 crore spent on a training institute at the Assam Administrative Staff College without forest clearance became wasteful when the project was closed.", amt:"₹2.14 cr"},
+      {t:"Ancillary works worth ₹1.62 crore became unusable after demolition for a new medical college and hospital.", amt:"₹1.62 cr"},
+      {t:"In Kamrup Metropolitan, 365 days were allowed instead of 64 for additional land compensation, an excess payment of ₹94.26 lakh.", amt:""}]}
+  ],
+  charts:[
+    {title:"Largest money findings", type:"bars", unit:"₹ crore", data:[["Avoidable spend on welfare items (over)",28],["Bought above MRP",11.49],["Paid without checking delivery",9.92],["Open-market rice",7.24],["Items without acknowledgement",6.58],["Contract above estimate",3.06]]},
+    {title:"Farm machinery received (to Sep 2024)", type:"split", unit:"units", data:[["Distributed",490],["Not distributed",432]]}
+  ],
+  recs:[
+    "Buy welfare items at or below the notified MRP and pay suppliers only after delivery to beneficiaries is verified.",
+    "Use the successful bidder's rates and revise contract values when estimates change.",
+    "Use central allocations, such as FCI rice, where they are available."
+  ],
+  recsNote:"Drawn from the audit findings as reported in coverage; the report's formal recommendations were not reported.",
+  response:["Coverage did not report the government's replies. The report goes to the Assam Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2019 to 2021","Tribal Affairs (Plain) buys cookers, stoves and sprayers"],["Mar 2024","End of the year audited"],["Sep 2024","432 of 922 farm machinery units still not distributed"],["30 Jul 2026","Report tabled in the Assam Assembly, as reported"]],
+  glossary:["Compliance audit","MRP","FCI","Avoidable expenditure","Comparative statement","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 3 of 2026 on Assam covers the social, economic and general sectors for the year ended March 2024.",
+      "Assam's Directorate of Tribal Affairs (Plain) paid ₹11.49 crore above MRP for pressure cookers, gas stoves and sprayers.",
+      "The Women and Child Development Department spent ₹7.24 crore extra on open-market rice for the Scheme for Adolescent Girls despite FCI allocations.",
+      "Findings across seven departments together involve more than ₹56 crore."
+    ],
+    mains:"Procurement of welfare goods often fails at the last mile of delivery. Discuss with reference to the CAG's 2026 audit findings on Assam's Tribal Affairs (Plain) directorate. (10 marks)",
+    quiz:[
+      {q:"How much more than MRP did Assam's Tribal Affairs (Plain) directorate pay for cookers, stoves and sprayers?", o:["₹6.58 crore","₹9.92 crore","₹11.49 crore","₹28 crore"], a:2, w:"₹11.49 crore, for items bought between 2019 and 2021."},
+      {q:"Under which scheme did Assam buy open-market rice at extra cost despite FCI allocations, as per the CAG?", o:["PM POSHAN","Scheme for Adolescent Girls","Antyodaya Anna Yojana","ICDS supplementary nutrition for pregnant women"], a:1, w:"The Scheme for Adolescent Girls, with ₹7.24 crore extra spent."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","cag-wb-amphan"],
+  src:[["The Sentinel: CAG flags ₹11.49-crore excess spending in Assam Tribal Affairs procurement","https://www.sentinelassam.com/topheadlines/cag-flags-1149-crore-excess-spending-in-assam-tribal-affairs-procurement","news"],["EastMojo: CAG flags several financial irregularities across Assam departments","https://eastmojo.com/premium/2026/08/03/cag-flags-several-financial-irregularities-across-assam-departments/","news"]],
+  kw:"Assam CAG Report 3 2026 tribal affairs plain pressure cooker gas stove sprayer MRP farm machinery public works undue benefit FCI rice adolescent girls Assam Administrative Staff College compliance audit"
+},
+/* ---------- NITI · India S&T Scoreboard ---------- */
+{
+  id:"niti-st-scoreboard-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog data platform (Science and Technology Division)",
+  title:"India S&T Scoreboard", short:"India S&T Scoreboard", sector:"Education & institutions", ministry:"NITI Aayog",
+  date:"Nov 2026", dateISO:"2026-11-03", tabled:"Launched by NITI Aayog in New Delhi on 3 November 2026", period:"State and UT data across years", flagged:null,
+  tldr:[
+    "NITI Aayog launched the India S&T Scoreboard, an interactive platform that maps science and innovation in every state and UT.",
+    "It covers academia, government R&D labs and industry, and tracks publications and patents across 11 priority research areas.",
+    "Around 67% of India's research papers from 2001 to 2020 came from about 450 centrally funded institutions, so NITI wants states to do more."
+  ],
+  en:"The India S&T Scoreboard is an online platform built by NITI Aayog's Science and Technology Division. It brings together data on each state and UT: universities and colleges, R&D labs, deep-tech startups, Atal Tinkering Labs, incubators and research funding from central, state and private sources. It also tracks research papers and patents, including their quality, impact and collaboration, across 11 priority areas such as clean energy, artificial intelligence, semiconductors, critical minerals and agriculture. Users can compare any two states or UTs and see trends over the years. India ranks 38th in the Global Innovation Index, up from 81st in 2015, but research is concentrated in central institutions. NITI says states must take ownership of research and innovation.",
+  hi:"इंडिया S&T स्कोरबोर्ड नीति आयोग के विज्ञान और प्रौद्योगिकी प्रभाग द्वारा बनाया गया एक ऑनलाइन मंच है। यह हर राज्य और केंद्र शासित प्रदेश के आँकड़े एक जगह लाता है: विश्वविद्यालय और कॉलेज, R&D प्रयोगशालाएँ, डीप-टेक स्टार्टअप, अटल टिंकरिंग लैब, इनक्यूबेटर और केंद्र, राज्य व निजी स्रोतों से मिलने वाला शोध धन। यह शोध पत्रों और पेटेंट को भी देखता है, उनकी गुणवत्ता, प्रभाव और सहयोग समेत, 11 प्राथमिक क्षेत्रों में, जैसे स्वच्छ ऊर्जा, आर्टिफ़िशियल इंटेलिजेंस, सेमीकंडक्टर, महत्वपूर्ण खनिज और कृषि। उपयोगकर्ता किन्हीं दो राज्यों या केंद्र शासित प्रदेशों की तुलना कर सकते हैं और वर्षों के रुझान देख सकते हैं। भारत वैश्विक नवाचार सूचकांक में 38वें स्थान पर है, जो 2015 में 81वाँ था, लेकिन शोध केंद्रीय संस्थानों में सिमटा हुआ है। नीति आयोग का कहना है कि राज्यों को शोध और नवाचार की ज़िम्मेदारी खुद उठानी होगी।",
+  context:{
+    what:"An interactive data platform from NITI Aayog's Science and Technology Division that maps the science, technology and innovation ecosystem of every state and UT.",
+    why:"Data on research and innovation has been scattered across sources, and research output is concentrated in centrally funded institutions. States need comparable data to plan their own science and technology priorities.",
+    how:"It combines data on institutions, R&D labs, startups, Atal Tinkering Labs, incubators and research funding with publication and patent data across academia, government R&D labs and industry, shown as state profiles, comparisons and trends over years."
+  },
+  nums:[["38th","India's Global Innovation Index rank (81st in 2015)",0],["3rd","India's global rank in scientific publications",0],["56%","Resident applicants' share of India's patent filings (up from 25.5%)",0],["67%","Research papers from about 450 central institutions, 2001-2020",0]],
+  themes:[
+    {name:"What it maps", sev:"low", items:[
+      {t:"Three sectors: academia, government R&D labs and industry.", amt:""},
+      {t:"The ecosystem: higher education institutions, R&D labs, deep-tech startups, Atal Tinkering Labs, incubators and research funding from central, state and private sources.", amt:""},
+      {t:"Outputs: research publications and patents, including patent applications, patent strength, research areas and inter-state collaboration.", amt:""},
+      {t:"11 priority research areas, including clean energy, artificial intelligence, semiconductors, critical minerals and agriculture.", amt:""}]},
+    {name:"How it is used", sev:"low", items:[
+      {t:"Users can compare any two states or UTs and view state profiles and trends over years.", amt:""},
+      {t:"It looks beyond the number of papers to research quality, impact, collaboration and open access.", amt:""}]},
+    {name:"Why states matter", sev:"med", items:[
+      {t:"Around 67% of India's research publications between 2001 and 2020 came from about 450 centrally funded institutions.", amt:""},
+      {t:"NITI's Vice Chairman said the Centre alone cannot drive research and that states must become its engines.", amt:""},
+      {t:"The DST Secretary stressed the role of state S&T councils and state universities in widening the research base.", amt:""}]}
+  ],
+  charts:[
+    {title:"India's Global Innovation Index rank", type:"bars", unit:"rank (lower is better)", data:[["2015",81],["2026",38]]},
+    {title:"Resident applicants' share of India's patent filings", type:"bars", unit:"%", max:100, data:[["Earlier",25.5],["Latest",56]]}
+  ],
+  recs:[
+    "States and UTs should use the platform to find their strengths and gaps and plan research priorities.",
+    "Update the platform's data periodically and engage more closely with states.",
+    "Develop it into a comprehensive source of India's science and technology data, including global comparisons."
+  ],
+  recsNote:"From statements made at the launch, as reported.",
+  response:["NITI Aayog's Vice Chairman urged all states and UTs to make full use of the platform to find their strengths and gaps."],
+  timeline:[["2001 to 2020","About 67% of research papers come from central institutions"],["2015","India ranks 81st in the Global Innovation Index"],["2026","India ranks 38th in the Global Innovation Index"],["3 Nov 2026","India S&T Scoreboard launched"]],
+  glossary:["Global Innovation Index","Patent","Deep tech","Atal Tinkering Lab"],
+  exam:{
+    prelims:[
+      "NITI Aayog launched the India S&T Scoreboard on 3 November 2026; it was developed by its Science and Technology Division.",
+      "The platform covers three sectors: academia, government R&D labs and industry.",
+      "India ranks 38th in the Global Innovation Index, up from 81st in 2015.",
+      "India ranks third globally in scientific publications and sixth in patent filings."
+    ],
+    mains:"Research and innovation in India remain concentrated in centrally funded institutions. How can states build their own science and technology capacity? Discuss with reference to NITI Aayog's India S&T Scoreboard. (15 marks)",
+    quiz:[
+      {q:"Which division of NITI Aayog developed the India S&T Scoreboard?", o:["Frontier Tech Hub","Science and Technology Division","Atal Innovation Mission","Women Entrepreneurship Platform"], a:1, w:"The Science and Technology Division."},
+      {q:"What was India's Global Innovation Index rank cited at the Scoreboard's launch?", o:["38th","48th","81st","3rd"], a:0, w:"38th, compared with 81st in 2015."},
+      {q:"About what share of India's research publications between 2001 and 2020 came from around 450 centrally funded institutions?", o:["25%","45%","56%","67%"], a:3, w:"Around 67%."}
+    ]
+  },
+  related:["niti-ai-2025","niti-datacentre-2026"],
+  src:[["ThePrint: NITI Aayog launches science & tech scoreboard to map research, innovation ecosystem across states","https://theprint.in/science/niti-aayog-launches-science-tech-scoreboard-to-map-research-innovation-ecosystem-across-states/3089516/","news"],["Social News XYZ (IANS): NITI Aayog launches 'India S&T Scoreboard' to help states draw up better plans","https://www.socialnews.xyz/2026/11/03/niti-aayog-launches-india-st-scoreboard-to-help-states-draw-up-better-plans/","news"],["GS Times: NITI Aayog launches India S&T Scoreboard","https://www.gstimes.in/niti-aayog-launches-india-st-scoreboard/","analysis"]],
+  kw:"India S&T Scoreboard science technology innovation states UTs NITI Aayog research publications patents Global Innovation Index R&D Atal Tinkering Labs deep tech startups dashboard 2026"
 }
 
 
@@ -2209,6 +2414,7 @@ Object.assign(window.STATE_FACTS_V2, {
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
   JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"],["74% of MGNREGS works taken up were incomplete in March 2024 (CAG, 2026)","cag-jk-mgnregs-4-2026"]],
+  AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
