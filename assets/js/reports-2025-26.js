@@ -94,7 +94,16 @@ Object.assign(window.SITE.glossary, {
   "Net worth": "What a company owns minus what it owes; when losses wipe it out, the net worth is said to be fully eroded.",
   "Independent director": "A board member with no business or family ties to a company, appointed to bring outside oversight.",
   "Job card": "The card given to a rural household under MGNREGS that records its members and the work days they get.",
-  "Geo-tagging": "Attaching location coordinates and photos to a work or asset so its existence and progress can be checked."
+  "Geo-tagging": "Attaching location coordinates and photos to a work or asset so its existence and progress can be checked.",
+  "Capital expenditure": "Spending that creates lasting assets, such as roads, buildings and buses, rather than paying for day-to-day running costs.",
+  "GVA": "Gross Value Added: the value of goods and services produced minus the value of inputs used to make them.",
+  "MSME": "Micro, Small and Medium Enterprises: smaller businesses classified by their investment and turnover.",
+  "PCPIR": "Petroleum, Chemicals and Petrochemicals Investment Region: a large planned zone with shared infrastructure for these industries.",
+  "Inverted duty structure": "A tax set-up where inputs are taxed at a higher rate than the finished product, which raises costs for domestic makers.",
+  "Social discount rate": "The yearly rate used to convert future costs and benefits of a public project into today's value.",
+  "Shadow price": "An adjusted price that reflects the true cost of a resource to the economy, such as labour or foreign exchange, rather than its market price.",
+  "Net present value": "The total value today of all a project's future benefits minus its costs, after discounting.",
+  "Social cost of carbon": "The estimated money value of the damage caused by emitting one more tonne of carbon dioxide."
 });
 
 window.SPEC_REPORTS.push(
@@ -2398,6 +2407,202 @@ window.SPEC_REPORTS.push(
   related:["niti-ai-2025","niti-datacentre-2026"],
   src:[["ThePrint: NITI Aayog launches science & tech scoreboard to map research, innovation ecosystem across states","https://theprint.in/science/niti-aayog-launches-science-tech-scoreboard-to-map-research-innovation-ecosystem-across-states/3089516/","news"],["Social News XYZ (IANS): NITI Aayog launches 'India S&T Scoreboard' to help states draw up better plans","https://www.socialnews.xyz/2026/11/03/niti-aayog-launches-india-st-scoreboard-to-help-states-draw-up-better-plans/","news"],["GS Times: NITI Aayog launches India S&T Scoreboard","https://www.gstimes.in/niti-aayog-launches-india-st-scoreboard/","analysis"]],
   kw:"India S&T Scoreboard science technology innovation states UTs NITI Aayog research publications patents Global Innovation Index R&D Atal Tinkering Labs deep tech startups dashboard 2026"
+},
+/* ---------- CAG · Delhi, Report No. 2 of 2026 (State Finances 2024-25) ---------- */
+{
+  id:"cag-delhi-finances-2-2026", body:"CAG", state:"Delhi", kind:"Financial audit", reportNo:"Report No. 2 of 2026 (Delhi)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of NCT of Delhi", short:"Delhi State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of NCT of Delhi",
+  date:"Aug 2026", dateISO:"2026-08-10", tabled:"Tabled in the Delhi Legislative Assembly on 10 August 2026", period:"Financial year 2024-25", flagged:null,
+  tldr:[
+    "Delhi's economy grew 9.17% in 2024-25 to ₹12.15 lakh crore, but its share of India's GDP fell from 4% in 2015-16 to 3.67%.",
+    "Capital spending fell from ₹6,855 crore in 2023-24 to ₹3,695 crore in 2024-25, a drop of about 46% in one year.",
+    "Revenue spending was 88.38% of total spending, and subsidy spending rose 172.48% between 2015-16 and 2024-25."
+  ],
+  en:"Every year the CAG reviews the finances of the Delhi government. This report covers 2024-25. Delhi's economy (GSDP) grew 9.17% to ₹12.15 lakh crore. But over ten years it grew more slowly than India as a whole, and its share of national GDP fell from 4% in 2015-16 to 3.67% in 2024-25. Revenue receipts rose 9.57%, mainly from GST, while non-tax revenue fell 11.04% and grants from the Centre declined. Most money went on day-to-day costs: revenue spending was 88.38% of total spending. Capital spending, which builds roads, buses and schools, fell from ₹6,855 crore to ₹3,695 crore in one year. Subsidies rose by ₹3,222 crore between 2015-16 and 2024-25, with power subsidies up ₹2,033 crore.",
+  hi:"CAG हर साल दिल्ली सरकार के वित्त की समीक्षा करता है। यह रिपोर्ट 2024-25 की है। दिल्ली की अर्थव्यवस्था (GSDP) 9.17% बढ़कर ₹12.15 लाख करोड़ हो गई। लेकिन दस वर्षों में यह पूरे भारत से धीमी बढ़ी, और राष्ट्रीय GDP में इसका हिस्सा 2015-16 के 4% से घटकर 2024-25 में 3.67% रह गया। राजस्व प्राप्तियाँ 9.57% बढ़ीं, मुख्य रूप से GST से, जबकि गैर-कर राजस्व 11.04% घटा और केंद्र से मिलने वाले अनुदान कम हुए। ज़्यादातर पैसा रोज़मर्रा के खर्च पर गया: कुल खर्च में राजस्व खर्च 88.38% था। सड़क, बसें और स्कूल बनाने वाला पूंजीगत खर्च एक साल में ₹6,855 करोड़ से घटकर ₹3,695 करोड़ रह गया। 2015-16 से 2024-25 के बीच सब्सिडी ₹3,222 करोड़ बढ़ी, जिसमें बिजली सब्सिडी ₹2,033 करोड़ बढ़ी।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report on the Government of NCT of Delhi for 2024-25, covering growth, receipts, spending, subsidies and debt.",
+    why:"How a government splits its money between running costs and building assets shapes future growth. A fall in capital spending means fewer new roads, buses and schools.",
+    how:"Analysis of Delhi's accounts for 2024-25, compared with 2023-24 and with trends since 2015-16. The report was sent to the government on 23 March 2026."
+  },
+  nums:[["₹3,695 cr","Capital spending in 2024-25, down from ₹6,855 cr",1],["3.67%","Delhi's share of India's GDP (4% in 2015-16)",1],["88.38%","Revenue spending as a share of total spending",1],["9.17%","GSDP growth in 2024-25 (₹12.15 lakh crore)",0]],
+  themes:[
+    {name:"Losing ground nationally", sev:"med", items:[
+      {t:"Delhi's GSDP grew 9.17% in 2024-25 to ₹12.15 lakh crore.", amt:""},
+      {t:"Its share of India's GDP fell from 4% in 2015-16 to 3.67% in 2024-25.", amt:""},
+      {t:"From 2015 to 2025, per capita GSDP grew at 6.39% a year, against 8.14% for India's per capita GDP.", amt:""}]},
+    {name:"Capital spending cut", sev:"high", items:[
+      {t:"Capital expenditure fell from ₹6,855 crore in 2023-24 to ₹3,695 crore in 2024-25; it was ₹8,311 crore in 2021-22.", amt:"₹3,695 cr"},
+      {t:"Capital spending on roads and bridges fell from ₹1,936.14 crore to ₹909.30 crore.", amt:"₹909.30 cr"},
+      {t:"Capital spending on road transport fell from ₹1,448 crore to ₹390 crore.", amt:"₹390 cr"},
+      {t:"Capital spending on general education, sports, art and culture fell from ₹637.43 crore to ₹263.97 crore.", amt:"₹263.97 cr"}]},
+    {name:"Running costs and subsidies", sev:"med", items:[
+      {t:"Revenue expenditure made up 88.38% of total expenditure in 2024-25.", amt:""},
+      {t:"Subsidy spending rose by ₹3,222 crore (172.48%) between 2015-16 and 2024-25.", amt:"₹3,222 cr"},
+      {t:"Power subsidies rose by ₹2,033 crore (128.83%) over the same period.", amt:"₹2,033 cr"}]},
+    {name:"Receipts", sev:"low", items:[
+      {t:"Revenue receipts grew 9.57%, driven mainly by GST.", amt:""},
+      {t:"Non-tax revenue fell 11.04%, and grants from the Centre declined.", amt:""}]}
+  ],
+  charts:[
+    {title:"Delhi's capital spending", type:"bars", unit:"₹ crore", data:[["2021-22",8311],["2023-24",6855],["2024-25",3695]]},
+    {title:"Capital spending by head", type:"bars", unit:"₹ crore (2023-24 → 2024-25)", data:[["Roads and bridges, 2023-24",1936.14],["Roads and bridges, 2024-25",909.30],["Road transport, 2023-24",1448],["Road transport, 2024-25",390]]}
+  ],
+  recs:[
+    "Protect capital spending on roads, transport and education.",
+    "Keep the growth of subsidies, including power subsidies, under review.",
+    "Strengthen non-tax revenue."
+  ],
+  recsNote:"Drawn from the findings as reported in coverage; the report's formal recommendations were not reported.",
+  response:["Coverage did not report the government's reply. The report goes to the Delhi Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2015-16","Delhi's share of India's GDP is 4%"],["2021-22","Capital spending ₹8,311 crore"],["Mar 2025","Financial year audited closes"],["23 Mar 2026","Report sent to the Delhi government"],["10 Aug 2026","Report tabled in the Delhi Assembly"]],
+  glossary:["Financial audit","GSDP","Capital expenditure","Committed expenditure","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 on Delhi covers State Finances for 2024-25; it was tabled on 10 August 2026.",
+      "Delhi's GSDP grew 9.17% in 2024-25 to ₹12.15 lakh crore.",
+      "Delhi's share of India's GDP fell from 4% in 2015-16 to 3.67% in 2024-25.",
+      "Delhi's capital expenditure fell from ₹6,855 crore in 2023-24 to ₹3,695 crore in 2024-25."
+    ],
+    mains:"A rising share of revenue spending and falling capital spending can weaken a state's growth prospects. Discuss with reference to the CAG's State Finances Audit Report of Delhi for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Delhi's share of India's GDP in 2024-25 according to the CAG?", o:["4%","3.67%","9.17%","5.2%"], a:1, w:"3.67%, down from 4% in 2015-16."},
+      {q:"Delhi's capital expenditure in 2024-25, per the CAG, was about:", o:["₹8,311 crore","₹6,855 crore","₹3,695 crore","₹2,033 crore"], a:2, w:"₹3,695 crore, down from ₹6,855 crore in 2023-24."},
+      {q:"Which revenue source did the CAG say drove the 9.57% growth in Delhi's revenue receipts?", o:["Non-tax revenue","Grants from the Centre","GST","Stamp duty"], a:2, w:"GST; non-tax revenue fell 11.04% and central grants declined."}
+    ]
+  },
+  related:["cag-delhi-revenue-1-2026","cag-wb-finances-2425","state-finances"],
+  src:[["CAG: Report No. 2 of 2026, State Finances 2024-25, Government of NCT of Delhi","https://cag.gov.in/en/audit-report/details/125923","official"],["PSU Watch: Delhi's economy is growing, but losing ground nationally","https://psuwatch.com/states-news/delhis-economy-shrunk-nationally-cag-flags-shrinking-gsdp-share-and-falling-capex","news"],["The Pioneer: CAG flags sharp fall in capital spending, infra projects hit","https://dailypioneer.com/news/slug-lite/cag-flags-sharp-fall-in-capital-spending-under-aap-government-infra-projects-hit?year=2026","news"]],
+  kw:"Delhi CAG Report 2 2026 state finances 2024-25 GSDP share national GDP capital expenditure capex fall roads transport education subsidies power subsidy revenue receipts GST non-tax revenue financial audit"
+},
+/* ---------- NITI · Key Sectors to Position India as a Global Manufacturing Hub (Vol. I) ---------- */
+{
+  id:"niti-manufacturing-hub-2026", body:"NITI", kind:"Policy report", reportNo:"Volume I (Industry & Foreign Investment Division, with Crisil Intelligence)",
+  title:"Key Sectors to Position India as a Global Manufacturing Hub (Volume I)", short:"Global Manufacturing Hub: Key Sectors", sector:"Other", ministry:"NITI Aayog",
+  date:"Aug 2026", dateISO:"2026-08-13", tabled:"Released by NITI Aayog on 13 August 2026", period:"Current status and outlook to 2030 and 2047", flagged:null,
+  tldr:[
+    "NITI Aayog shortlisted 12 sectors from 62 to make India a global manufacturing hub; this first volume covers chemicals, textiles, solar PV and telecom equipment.",
+    "Manufacturing is about 17.5% of India's GVA, and India's share of global manufacturing value added was about 3.2% in 2023.",
+    "Each sector faces gaps such as import dependence on China, small MSME units and low R&D spending."
+  ],
+  en:"NITI Aayog wants manufacturing to grow faster as India aims to become a USD 30 trillion economy by 2047. Manufacturing is about 17.5% of the country's gross value added (GVA), a share that has barely changed in two decades. India's share of global manufacturing value added rose from about 1.5% in 1995 to 3.2% in 2023, while China's rose to nearly 32%. The report picks 12 sectors out of 62. This first of three volumes looks at chemicals, textiles, solar PV and telecom equipment. It finds heavy import dependence in chemicals, solar machinery and telecom parts, small and scattered textile units, and low research spending by solar makers. It suggests chemical parks, R&D funds, technology partnerships and better use of trade agreements.",
+  hi:"नीति आयोग चाहता है कि विनिर्माण तेज़ी से बढ़े, क्योंकि भारत का लक्ष्य 2047 तक 30 ट्रिलियन डॉलर की अर्थव्यवस्था बनना है। विनिर्माण देश के सकल मूल्य वर्धन (GVA) का लगभग 17.5% है, और यह हिस्सा दो दशकों में मुश्किल से बदला है। वैश्विक विनिर्माण मूल्य वर्धन में भारत का हिस्सा 1995 के लगभग 1.5% से बढ़कर 2023 में 3.2% हुआ, जबकि चीन का हिस्सा लगभग 32% तक पहुँच गया। रिपोर्ट 62 में से 12 क्षेत्र चुनती है। तीन खंडों में से यह पहला खंड रसायन, वस्त्र, सोलर PV और दूरसंचार उपकरण को देखता है। इसमें रसायन, सोलर मशीनरी और दूरसंचार पुर्ज़ों में आयात पर भारी निर्भरता, छोटी और बिखरी वस्त्र इकाइयाँ, और सोलर निर्माताओं का कम शोध खर्च सामने आता है। यह रसायन पार्क, R&D फ़ंड, तकनीकी साझेदारी और व्यापार समझौतों के बेहतर इस्तेमाल का सुझाव देती है।",
+  context:{
+    what:"A NITI Aayog report, prepared by its Industry & Foreign Investment Division with Crisil Intelligence as knowledge partner, on sectors that can make India a global manufacturing hub. This is Volume I of three.",
+    why:"Manufacturing's share of the economy has stayed flat for two decades, and India's share of world manufacturing is small next to China's. Jobs and exports for Viksit Bharat @2047 depend on it growing.",
+    how:"62 sectors were scored on domestic and global market size and growth to FY30, and 12 were shortlisted. Volume I studies four of them in depth: chemicals, textiles, solar PV, and telecom and network equipment."
+  },
+  nums:[["17.5%","Manufacturing's share of India's GVA",0],["3.2%","India's share of global manufacturing value added, 2023 (about 1.5% in 1995)",1],["12 of 62","Sectors shortlisted",0],["98%","Telecom equipment demand from private telecom operators",0]],
+  themes:[
+    {name:"Where India stands", sev:"med", items:[
+      {t:"Manufacturing is about 17.5% of India's GVA, a share broadly stable for two decades.", amt:""},
+      {t:"India's share of global manufacturing value added rose from about 1.5% (1995) to 3.2% (2023); China's rose from about 5% to nearly 32%.", amt:""},
+      {t:"The 12 shortlisted sectors are electronics, telecom equipment, solar PV, pharmaceuticals, chemicals, automobiles, defence and drones, steel, capital goods, textiles, food processing, and leather and footwear.", amt:""}]},
+    {name:"Textiles and solar", sev:"high", items:[
+      {t:"Textiles are about 2% of GDP, 11% of manufacturing GVA and 9% of merchandise exports; textile exports were USD 37.7 billion in FY25, 4.1% of the world total.", amt:""},
+      {t:"Textile units are mostly small and scattered MSMEs; output per working hour is 7.9, against 15.4 in China and 9.8 in Vietnam.", amt:""},
+      {t:"India had 106 GW of solar capacity in March 2025 and needs about 174 GW more to reach 280 GW by 2030; the domestic PV market is estimated at ₹32,400 crore.", amt:"₹32,400 cr"},
+      {t:"Solar makers depend heavily on China for machinery and spend under 1% of revenue on R&D, against a global average of about 3%.", amt:""}]},
+    {name:"Chemicals and telecom", sev:"high", items:[
+      {t:"Chemicals face import dependence, a feedstock base skewed to bulk products, gaps in specialised port infrastructure and delays in petroleum, chemicals and petrochemicals investment regions (PCPIRs).", amt:""},
+      {t:"India is the world's second-largest telecom market with over 1.2 billion subscribers, but relies on imported components and has low local content in 4G/5G radio equipment.", amt:""},
+      {t:"Nearly 98% of telecom equipment demand comes from private telecom service providers.", amt:""}]}
+  ],
+  charts:[
+    {title:"Share of global manufacturing value added", type:"bars", unit:"%", max:40, data:[["India, 1995",1.5],["India, 2023",3.2],["China, 2023",32]]},
+    {title:"Textile output per working hour", type:"bars", unit:"GDP per working hour", data:[["China",15.4],["Vietnam",9.8],["India",7.9]]}
+  ],
+  recs:[
+    "Chemicals: raise domestic feedstock, create an overarching framework for PCPIRs, upgrade ports, and sign trade agreements with safeguards.",
+    "Textiles: support MSMEs with infrastructure, expand weaving capacity, improve market access and fix the inverted duty structure in man-made fibres.",
+    "Solar PV: set up a dedicated solar R&D fund, widen access to Anusandhan National Research Foundation funding, build clean-tech clusters and find partners beyond China.",
+    "Telecom: encourage private operators to buy domestic radio equipment, and support industry-institute work on chip design, joint ventures and IP-led manufacturing."
+  ],
+  recsNote:"Sector recommendations as reported in coverage, in short.",
+  response:["NITI Aayog said the remaining eight sectors will be covered in later volumes."],
+  timeline:[["1995","India's share of global manufacturing value added about 1.5%"],["2023","India's share about 3.2%"],["Mar 2025","106 GW of solar capacity installed"],["13 Aug 2026","Volume I released"],["2030","Target of 280 GW solar capacity"],["2047","Goal of a USD 30 trillion economy"]],
+  glossary:["GVA","MSME","PCPIR","Inverted duty structure"],
+  exam:{
+    prelims:[
+      "NITI Aayog's report 'Key Sectors to Position India as a Global Manufacturing Hub' (Volume I) was released on 13 August 2026.",
+      "It shortlisted 12 sectors out of 62; Volume I covers chemicals, textiles, solar PV, and telecom and network equipment.",
+      "The report was prepared by NITI's Industry & Foreign Investment Division with Crisil Intelligence as knowledge partner.",
+      "India's share of global manufacturing value added was about 3.2% in 2023, up from about 1.5% in 1995."
+    ],
+    mains:"Despite several policy pushes, manufacturing's share of India's GVA has stayed broadly flat for two decades. Discuss the constraints and the sector-specific strategies suggested by NITI Aayog in 2026. (15 marks)",
+    quiz:[
+      {q:"Which of these is NOT among the four sectors in Volume I of NITI Aayog's 2026 manufacturing hub report?", o:["Chemicals","Textiles","Automobiles","Solar PV"], a:2, w:"Volume I covers chemicals, textiles, solar PV and telecom equipment; automobiles is among the other eight shortlisted sectors."},
+      {q:"From how many sectors did NITI Aayog shortlist 12 for its manufacturing hub report?", o:["24","36","48","62"], a:3, w:"62 sectors were assessed and 12 shortlisted."},
+      {q:"According to the report, about what share of India's GVA comes from manufacturing?", o:["11%","17.5%","25%","32%"], a:1, w:"About 17.5%."}
+    ]
+  },
+  related:["niti-ifi-2026","niti-st-scoreboard-2026","niti-netzero-2026"],
+  src:[["NITI Aayog: Key Sectors to Position India as a Global Manufacturing Hub (Vol. I, PDF)","https://www.niti.gov.in/sites/default/files/2026-08/Key-Sectors-to-Position-India-as-a-Global-Manufacturing-Hub.pdf","official"],["All India Radio: NITI Aayog highlights 12 priority sectors to make India a global manufacturing hub","https://newsonair.gov.in/niti-aayog-highlights-12-priority-sectors-to-make-india-a-global-manufacturing-hub/","news"],["ETV Bharat: NITI Aayog identifies 4 sectors to power India's global manufacturing push","https://www.etvbharat.com/en/bharat/niti-aayog-flags-4-sectors-to-power-india-global-manufacturing-push-enn26081306261","news"],["IANS: NITI Aayog highlights 4 key sectors to position India as global manufacturing hub","https://ianslive.in/niti-aayog-highlights-4-key-sectors-to-position-india-as-global-manufacturing-hub--20260813171328","news"]],
+  kw:"NITI Aayog manufacturing hub key sectors 2026 chemicals textiles solar PV telecom network equipment GVA global manufacturing share China MSME PCPIR inverted duty structure Crisil Viksit Bharat 2047"
+},
+/* ---------- NITI · Reassessment of National Parameters for Project Appraisal ---------- */
+{
+  id:"niti-national-parameters-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Study Series WPS (NITI Aayog)/03/2026 (with ISI Delhi)",
+  title:"Reassessment of National Parameters for Appraisal of Public Investment Programmes/Projects in India", short:"National Parameters for Project Appraisal", sector:"Public finance", ministry:"NITI Aayog (Public Finance & Policy Analysis Division)",
+  date:"Oct 2026", dateISO:"2026-10-13", tabled:"Published by NITI Aayog on 13 October 2026", period:"Parameters for appraising public projects; updates the 2018 study", flagged:null,
+  tldr:[
+    "A study published by NITI Aayog recommends a social discount rate of 9.5% for public projects up to 30 years, against 8% in the 2018 study.",
+    "For longer projects it suggests falling rates: 6.5% (30-50 years), 5% (50-75 years) and 3.5% (75-100 years).",
+    "It also sets a shadow wage factor of 0.86 for unskilled labour, a shadow exchange rate factor of 1.09 and a carbon cost of US$10 per tonne."
+  ],
+  en:"Before the government funds a big project, it compares costs today with benefits that come over many years. To do this it uses a few national numbers, called parameters. The most important is the social discount rate, which says how much less a rupee of benefit in the future is worth than a rupee now. A study by the Indian Statistical Institute, Delhi, published by NITI Aayog, updates these numbers from a 2018 study. It recommends 9.5% for projects up to 30 years, against 8% in the 2018 study, and lower rates for longer projects, down to 3.5% for 75 to 100 years. It also sets a shadow wage factor for unskilled labour, a shadow exchange rate factor and a price for carbon emissions. NITI says the study is not a statement of its policy.",
+  hi:"सरकार किसी बड़ी परियोजना को पैसा देने से पहले आज की लागत की तुलना कई वर्षों में मिलने वाले लाभों से करती है। इसके लिए वह कुछ राष्ट्रीय संख्याओं का उपयोग करती है, जिन्हें पैरामीटर कहते हैं। सबसे अहम है सामाजिक छूट दर (social discount rate), जो बताती है कि भविष्य में मिलने वाले एक रुपये के लाभ का मूल्य आज के एक रुपये से कितना कम है। भारतीय सांख्यिकी संस्थान (ISI), दिल्ली के एक अध्ययन ने, जिसे नीति आयोग ने प्रकाशित किया, इन संख्याओं को 2018 के अध्ययन से अद्यतन किया है। यह 30 साल तक की परियोजनाओं के लिए 9.5% की दर सुझाता है, जबकि 2018 के अध्ययन में यह 8% थी, और लंबी परियोजनाओं के लिए कम दरें, 75 से 100 साल के लिए 3.5% तक। यह अकुशल श्रम के लिए छाया मज़दूरी कारक, छाया विनिमय दर कारक और कार्बन उत्सर्जन की एक कीमत भी तय करता है। नीति आयोग का कहना है कि यह अध्ययन उसकी नीति का बयान नहीं है।",
+  context:{
+    what:"A study by the Indian Statistical Institute, Delhi Centre, published by NITI Aayog's Public Finance & Policy Analysis Division, re-estimating the national parameters used to judge whether public projects are worth funding.",
+    why:"These numbers decide which projects pass economic appraisal. A higher discount rate favours projects that pay back quickly; lower rates for long horizons give more weight to long-term benefits such as climate protection.",
+    how:"The authors used National Accounts, PLFS, ASI, KLEMS, direct tax and trade data. The short-term discount rate is based on the economic opportunity cost of capital, and long-term rates on an uncertainty-adjusted Ramsey approach."
+  },
+  nums:[["9.5%","Recommended social discount rate, projects up to 30 years (8% in the 2018 study)",0],["3.5%","Rate for benefits 75-100 years away",0],["0.86","Shadow wage rate factor for unskilled labour",0],["US$10","Social cost of carbon per tonne of CO₂",0]],
+  themes:[
+    {name:"Social discount rate", sev:"med", items:[
+      {t:"For projects up to 30 years, the estimated rate is 9.23% (range 7.3% to 11%), rounded to 9.5% for use.", amt:""},
+      {t:"For longer horizons the rate falls: 6.5% for 30-50 years, 5% for 50-75 years and 3.5% for 75-100 years.", amt:""},
+      {t:"The 2018 study used 8% for projects up to 50 years and 6% for 50 years or more.", amt:""},
+      {t:"Under a declining schedule, each year's net flow is discounted at the rate for the period in which it falls.", amt:""}]},
+    {name:"Shadow prices", sev:"low", items:[
+      {t:"Standard conversion factor 0.92 and shadow exchange rate factor 1.09, implying a foreign exchange premium of about 9% (1.08 in 2018).", amt:""},
+      {t:"Shadow wage rate factor 0.86 for unskilled labour (0.88 for men, 0.82 for women); skilled labour can normally be taken at 1.0.", amt:""},
+      {t:"Non-traded items use a conversion factor of 1.00; taxes and subsidies are removed as transfers.", amt:""}]},
+    {name:"Carbon and choosing projects", sev:"low", items:[
+      {t:"The social cost of carbon is put at US$10 per tonne of CO₂, counting only damage within India, with an evidence range of US$9 to 87.", amt:""},
+      {t:"Within a budget, pick the set of projects with the highest total net present value, and record reasons when other priorities override this.", amt:""}]}
+  ],
+  charts:[
+    {title:"Recommended social discount rates", type:"bars", unit:"%", max:10, data:[["Up to 30 years",9.5],["30-50 years",6.5],["50-75 years",5],["75-100 years",3.5]]},
+    {title:"Shadow wage rate factor, unskilled labour", type:"bars", unit:"factor", max:1, data:[["Men",0.88],["All",0.86],["Women",0.82]]}
+  ],
+  recs:[
+    "Use a 9.5% social discount rate (weighted average / opportunity cost of capital approach) for projects up to 30 years.",
+    "For longer projects, apply a declining rate schedule year by year rather than one low rate for the whole project.",
+    "Use state-specific shadow wage factors where labour is a large share of cost.",
+    "Commission a separate study on a country-specific cost of carbon, and revise the parameters as the economy changes."
+  ],
+  recsNote:"Main recommendations of the study, in short.",
+  response:["NITI Aayog published the study as independent research and says it is not a statement of its policy. The parameters are meant for use by the Finance Ministry, NITI Aayog and ministries in appraising projects before PIB and EFC review."],
+  timeline:[["2018","Previous study (Institute of Economic Growth) sets an 8% rate"],["Oct 2026","ISI Delhi study published by NITI Aayog"],["14 Oct 2026","Study reported in the press"]],
+  glossary:["Social discount rate","Shadow price","Net present value","Social cost of carbon"],
+  exam:{
+    prelims:[
+      "The 2026 study on national parameters for project appraisal was done by the Indian Statistical Institute, Delhi, and published by NITI Aayog.",
+      "It recommends a social discount rate of 9.5% for projects up to 30 years, up from 8% set in the 2018 study.",
+      "It recommends declining rates for longer horizons: 6.5%, 5% and 3.5%.",
+      "It puts the social cost of carbon at US$10 per tonne of CO₂, counting only damage within India."
+    ],
+    mains:"What is a social discount rate? Explain how a declining discount rate schedule changes the appraisal of long-lived public projects, with reference to NITI Aayog's 2026 study. (10 marks)",
+    quiz:[
+      {q:"What social discount rate does the 2026 NITI-published study recommend for projects up to 30 years?", o:["6.5%","8%","9.5%","11%"], a:2, w:"9.5%, rounded from an estimate of 9.23%."},
+      {q:"Which institution carried out the 2026 reassessment of national parameters?", o:["Institute of Economic Growth","Indian Statistical Institute, Delhi","RBI","National Institute of Public Finance and Policy"], a:1, w:"ISI Delhi Centre; the 2018 study was by the Institute of Economic Growth."},
+      {q:"What is the recommended shadow wage rate factor for unskilled labour?", o:["0.86","0.92","1.00","1.09"], a:0, w:"0.86; 0.92 is the standard conversion factor and 1.09 the shadow exchange rate factor."}
+    ]
+  },
+  related:["niti-netzero-2026","cag-fin-comm-5-2026","fiscal-health-2026"],
+  src:[["NITI Aayog: Reassessment of National Parameters for Appraisal of Public Investment Programmes/Projects in India (PDF)","https://www.niti.gov.in/sites/default/files/2026-10/Reassessment-of-National-Parameters-for-Appraisal-of-Public-Investment-Programmes-Projects-in-India.pdf","official"],["NITI Aayog: publication page","https://www.niti.gov.in/node/2442","official"],["The Policy Edge: NITI Aayog-published study proposes higher discount rate for India's public projects","https://www.policyedge.in/p/niti-aayog-published-study-proposes-higher-discount-rate-for-indias-public-projects-lower-rates-for-long-term-benefits","analysis"],["India Business & Trade: NITI Aayog study suggests raising social discount rate","https://indiabusinesstrade.in/niti-aayog-study-suggests-raising-social-discount-rate-to-9-23-for-shorter-infra-projects.htm","news"]],
+  kw:"NITI Aayog national parameters project appraisal social discount rate 9.5% declining discount rate shadow wage rate shadow exchange rate standard conversion factor social cost of carbon ISI Delhi cost benefit analysis net present value PIB EFC 2026"
 }
 
 
@@ -2417,5 +2622,5 @@ Object.assign(window.STATE_FACTS_V2, {
   AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
-  DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"]]
+  DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
