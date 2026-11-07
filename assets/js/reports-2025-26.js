@@ -2,6 +2,11 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Har Ghar Jal certification": "Under Jal Jeevan Mission, a village is certified 'Har Ghar Jal' when its gram sabha confirms every home and public institution gets regular tap water.",
+  "NABL": "National Accreditation Board for Testing and Calibration Laboratories: the body that certifies labs, including water testing labs, meet quality standards.",
+  "Anganwadi Centre": "A village or ward-level centre under ICDS that gives nutrition, health check-ups and pre-school education to young children and mothers.",
+  "Working Women Hostel": "A government-supported hostel (now called Sakhi Niwas) giving safe, low-cost housing, with day care for children, to women working away from home.",
+  "Child Care Institution": "A children's home, shelter or similar home, registered under the Juvenile Justice Act, that looks after children in need of care and protection.",
   "Project import": "A Customs facility that lets all the machinery and goods for an industrial or infrastructure project be imported under one registered contract, with simpler procedures.",
   "CBIC": "Central Board of Indirect Taxes and Customs: the Finance Ministry body that runs Customs and GST.",
   "Bill of Entry": "The declaration an importer files with Customs giving details of imported goods, used to assess and collect duty.",
@@ -2603,6 +2608,148 @@ window.SPEC_REPORTS.push(
   related:["niti-netzero-2026","cag-fin-comm-5-2026","fiscal-health-2026"],
   src:[["NITI Aayog: Reassessment of National Parameters for Appraisal of Public Investment Programmes/Projects in India (PDF)","https://www.niti.gov.in/sites/default/files/2026-10/Reassessment-of-National-Parameters-for-Appraisal-of-Public-Investment-Programmes-Projects-in-India.pdf","official"],["NITI Aayog: publication page","https://www.niti.gov.in/node/2442","official"],["The Policy Edge: NITI Aayog-published study proposes higher discount rate for India's public projects","https://www.policyedge.in/p/niti-aayog-published-study-proposes-higher-discount-rate-for-indias-public-projects-lower-rates-for-long-term-benefits","analysis"],["India Business & Trade: NITI Aayog study suggests raising social discount rate","https://indiabusinesstrade.in/niti-aayog-study-suggests-raising-social-discount-rate-to-9-23-for-shorter-infra-projects.htm","news"]],
   kw:"NITI Aayog national parameters project appraisal social discount rate 9.5% declining discount rate shadow wage rate shadow exchange rate standard conversion factor social cost of carbon ISI Delhi cost benefit analysis net present value PIB EFC 2026"
+},
+/* ---------- CAG · Chhattisgarh: Jal Jeevan Mission ---------- */
+{
+  id:"cag-chhattisgarh-jjm-2-2026", body:"CAG", state:"Chhattisgarh", kind:"Performance audit", reportNo:"Report No. 2 of 2026 (Chhattisgarh)",
+  title:"Report of the CAG on Performance Audit of Jal Jeevan Mission in Chhattisgarh for the period ended March 2024", short:"Jal Jeevan Mission in Chhattisgarh", sector:"Social welfare", ministry:"Public Health Engineering Department, Government of Chhattisgarh",
+  date:"Jul 2026", dateISO:"2026-07-16", tabled:"Findings reported on 16 July 2026 (exact tabling date not confirmed)", period:"2019-20 to 2023-24", flagged:null,
+  tldr:[
+    "By March 2024, 78% of Chhattisgarh's 50 lakh rural households had tap connections, and no district had reached 100%.",
+    "Only 716 of 19,656 villages (3.64%) were certified 'Har Ghar Jal' by March 2024, and only 172 of 29,153 single-village schemes were complete.",
+    "13.31 lakh tap connections (33%) were not working in January 2025, and the state could not draw ₹6,480.04 crore of available Central and state funds."
+  ],
+  en:"Jal Jeevan Mission aims to give every rural home a working tap. The CAG checked how it ran in Chhattisgarh from 2019-20 to 2023-24. By March 2024, 38.97 lakh of 50 lakh rural households (78%) had tap connections, and no district had reached full coverage. But 13.31 lakh connections, a third of the total, were not working in January 2025, often because the water source had dried up or the tank or power supply was not ready. Of 29,153 single-village schemes, only 172 were complete by March 2024, and none of the 70 multi-village schemes was finished even by March 2025. Only 716 of 19,656 villages were certified as 'Har Ghar Jal'. Slow progress meant the state could not draw ₹6,480.04 crore of Central and state funds. Only four of 75 water labs could test all 13 required parameters.",
+  hi:"जल जीवन मिशन का लक्ष्य हर ग्रामीण घर को चालू नल देना है। CAG ने 2019-20 से 2023-24 तक छत्तीसगढ़ में इसके कामकाज की जाँच की। मार्च 2024 तक 50 लाख ग्रामीण परिवारों में से 38.97 लाख (78%) के पास नल कनेक्शन थे, और किसी भी ज़िले में पूरी कवरेज नहीं हुई थी। लेकिन जनवरी 2025 में 13.31 लाख कनेक्शन, यानी कुल का एक-तिहाई, काम नहीं कर रहे थे, अक्सर इसलिए कि जल स्रोत सूख गया था या टंकी या बिजली तैयार नहीं थी। 29,153 एकल-ग्राम योजनाओं में से मार्च 2024 तक केवल 172 पूरी हुईं, और 70 बहु-ग्राम योजनाओं में से एक भी मार्च 2025 तक पूरी नहीं हुई। 19,656 गाँवों में से केवल 716 को 'हर घर जल' प्रमाणित किया गया। धीमी प्रगति के कारण राज्य केंद्र और राज्य के ₹6,480.04 करोड़ नहीं जुटा सका। 75 जल प्रयोगशालाओं में से केवल चार सभी 13 ज़रूरी मानकों की जाँच कर सकती थीं।",
+  context:{
+    what:"A CAG performance audit of Jal Jeevan Mission in Chhattisgarh, run by the state's Public Health Engineering Department, for 2019-20 to 2023-24.",
+    why:"The mission promised a functional tap connection to every rural home. Counting connections is not enough: water must actually flow, be safe and keep flowing.",
+    how:"The CAG test-checked records in six of 33 districts (Dhamtari, Gaurella-Pendra-Marwahi, Kondagaon, Korba, Mahasamund and Surguja), two blocks per district and two villages per block, and surveyed 20 households in each of 24 villages. The exit conference was held in May 2025."
+  },
+  nums:[["78%","Rural households with tap connections, March 2024 (38.97 lakh of 50 lakh)",0],["33%","Tap connections not working, January 2025 (13.31 lakh)",1],["3.64%","Villages certified Har Ghar Jal, March 2024 (716 of 19,656)",1],["₹6,480.04 cr","Central and state funds the state could not draw",1]],
+  themes:[
+    {name:"Coverage and working taps", sev:"high", items:[
+      {t:"Up to 31 March 2024, 38,97,049 of 50,00,155 rural households (78%) had tap connections.", amt:""},
+      {t:"None of the 33 districts or 146 blocks reached 100%; 15 districts were between 56% and 74%.", amt:""},
+      {t:"13.31 lakh connections (33%) were non-functional in January 2025, due to dry sources, incomplete overhead tanks, no electricity or solar pumps not installed.", amt:""},
+      {t:"Chhattisgarh ranked 23rd in India in March 2024 and 26th in March 2025.", amt:""}]},
+    {name:"Schemes not finished", sev:"high", items:[
+      {t:"Of 29,153 single-village schemes and 70 multi-village schemes sanctioned, only 172 single-village schemes were complete and 32 handed over by March 2024.", amt:""},
+      {t:"No multi-village scheme was complete even by March 2025.", amt:""},
+      {t:"In six test-checked districts, 758 of 781 retrofitting schemes (97%) were incomplete in March 2024.", amt:""},
+      {t:"Only 716 of 19,656 villages (3.64%) were certified Har Ghar Jal by March 2024, and some were certified with work still incomplete.", amt:""}]},
+    {name:"Money", sev:"med", items:[
+      {t:"From 2019-20 to 2023-24, ₹11,855.72 crore was released and ₹11,034.26 crore spent.", amt:"₹11,034.26 cr"},
+      {t:"The state could not draw ₹6,480.04 crore: ₹3,285.38 crore from the Centre and ₹3,194.66 crore of its own share.", amt:"₹6,480.04 cr"},
+      {t:"A community contribution of ₹2,220.18 crore was not raised, and a ₹1,358 crore Finance Commission tied grant was not used alongside.", amt:"₹2,220.18 cr"}]},
+    {name:"Water quality and solar schemes", sev:"high", items:[
+      {t:"Only four of 75 laboratories could test all 13 prescribed parameters, and 37% lacked NABL accreditation.", amt:""},
+      {t:"Only ₹40.88 crore was spent on water quality monitoring against a provision of ₹199.79 crore.", amt:"₹40.88 cr"},
+      {t:"Solar-based schemes failed to give the minimum service level to 28,984 households because too many connections were added beyond the solar system's capacity.", amt:""}]}
+  ],
+  charts:[
+    {title:"Jal Jeevan Mission funds, 2019-20 to 2023-24", type:"bars", unit:"₹ crore", data:[["Released",11855.72],["Spent",11034.26],["Not drawn (Centre + state)",6480.04]]},
+    {title:"Schemes and villages, March 2024", type:"bars", unit:"%", max:100, data:[["Households with taps",78],["Connections not working (Jan 2025)",33],["Villages certified Har Ghar Jal",3.64]]}
+  ],
+  recs:[
+    "Assess the real status of funds and incomplete works, and finish them on time, especially in priority areas.",
+    "Set up simpler procedures between departments to bring funds together at the top level.",
+    "Review how villages are reported and certified as Har Ghar Jal, to stop false certification.",
+    "Make sure water testing labs work, have NABL accreditation, staff and equipment.",
+    "Review whether schemes will last, with community ownership and reliable water sources."
+  ],
+  recsNote:"Recommendations from the report's executive summary, in short.",
+  response:["In May 2025 the government said efforts were being made to complete the ongoing works as soon as possible. At the exit conference the department said multi-village scheme DPRs could not be approved because they were submitted late, and that it plans to carry out these schemes from the state budget. The report goes to the Public Accounts Committee."],
+  timeline:[["2019-20","Audit period begins"],["Mar 2024","78% of rural homes with taps; 716 villages certified Har Ghar Jal"],["Aug–Sep 2024","District records test-checked"],["Jan 2025","13.31 lakh connections found non-functional"],["May 2025","Exit conference; government reply"],["16 Jul 2026","Findings reported"]],
+  glossary:["Performance audit","Jal Jeevan Mission","FHTC","Har Ghar Jal certification","NABL","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Chhattisgarh) is a performance audit of Jal Jeevan Mission for 2019-20 to 2023-24.",
+      "By March 2024, 78% of Chhattisgarh's rural households had tap connections; no district had reached 100%.",
+      "Only 716 of 19,656 villages (3.64%) in Chhattisgarh were certified Har Ghar Jal by March 2024.",
+      "Only four of the state's 75 water testing laboratories could test all 13 prescribed parameters."
+    ],
+    mains:"Counting tap connections does not guarantee water at the tap. Examine this with reference to the CAG's 2026 performance audit of Jal Jeevan Mission in Chhattisgarh. (15 marks)",
+    quiz:[
+      {q:"According to the CAG, what share of rural households in Chhattisgarh had tap connections by March 2024?", o:["33%","56%","78%","100%"], a:2, w:"78% (38.97 lakh of 50 lakh); 33% of connections were not working in January 2025."},
+      {q:"How many villages in Chhattisgarh were certified Har Ghar Jal by March 2024?", o:["172","716","3,266","19,656"], a:1, w:"716 of 19,656 (3.64%); the figure rose to 3,266 by March 2025."},
+      {q:"How much Central and state money could Chhattisgarh not draw under the mission, per the CAG?", o:["₹859.93 crore","₹2,220.18 crore","₹6,480.04 crore","₹11,855.72 crore"], a:2, w:"₹6,480.04 crore: ₹3,285.38 crore from the Centre and ₹3,194.66 crore of the state's share."}
+    ]
+  },
+  related:["cag-kerala-jjm","tn-jjm","cag-nagaland-1-2026"],
+  src:[["CAG: Report No. 2 of 2026, Performance Audit of Jal Jeevan Mission in Chhattisgarh (PDF)","https://saiindia.gov.in/webroot/uploads/download_audit_report/2026/Final-PDF-of-Report-No--2-of-2026__English-06a55ff1aa79c09.72753680.pdf","official"],["The Hitavada: C'garh lags on Har Ghar Jal, solar schemes, water testing","https://www.thehitavada.com/Encyc/2026/7/16/cgarh-lags-on-har-ghar-jal-solar-schemes-water-testing.html","news"]],
+  kw:"CAG Chhattisgarh Report 2 2026 Jal Jeevan Mission JJM Har Ghar Jal FHTC tap connections non-functional single village scheme multi village scheme retrofitting water quality NABL laboratories solar schemes PHED performance audit"
+},
+/* ---------- CAG · Madhya Pradesh: Anganwadis, Working Women Hostels and Child Care Institutions ---------- */
+{
+  id:"cag-mp-anganwadi-2-2026", body:"CAG", state:"Madhya Pradesh", kind:"Performance audit", reportNo:"Report No. 2 of 2026 (Madhya Pradesh)",
+  title:"Report of the CAG on Establishment and Functioning of Anganwadi and Adequacy of Working Women Hostels and Child Care Institutions in Madhya Pradesh", short:"MP Anganwadis, Women's Hostels and Child Care", sector:"Social welfare", ministry:"Women and Child Development Department, Government of Madhya Pradesh",
+  date:"Jul 2026", dateISO:"2026-07-22", tabled:"Tabled in the Madhya Pradesh Vidhan Sabha on 22 July 2026", period:"2019-20 to 2023-24", flagged:null,
+  tldr:[
+    "Of 59 working women hostels in Madhya Pradesh, only 13 were functional or partly functional in March 2024; 22 were being used for other purposes.",
+    "8,842 villages and wards (16%) had no anganwadi centre, and building of 202 centres was delayed, raising costs by ₹6.18 crore.",
+    "Four child care institutions were running without registration, and posts of District Project Officers were 55% vacant."
+  ],
+  en:"The CAG audited three services for women and children in Madhya Pradesh from 2019-20 to 2023-24: anganwadi centres, working women hostels and child care institutions. In March 2024 the state had 97,303 anganwadi centres, but 8,842 villages and wards (16%) had none. In 8 of 13 sampled districts, building of 202 centres was delayed, which raised costs by ₹6.18 crore. Many key posts were empty, including 55% of District Project Officer posts, and no anganwadi worker got refresher training. Of 59 hostels for working women, only 13 were working fully or partly; 22 had been turned to other uses and three could not be traced. Four child care institutions were running without registration, and 17% to 61% of their funds went unspent.",
+  hi:"CAG ने 2019-20 से 2023-24 तक मध्य प्रदेश में महिलाओं और बच्चों के लिए तीन सेवाओं की जाँच की: आंगनवाड़ी केंद्र, कामकाजी महिला छात्रावास और बाल देखरेख संस्थाएँ। मार्च 2024 में राज्य में 97,303 आंगनवाड़ी केंद्र थे, लेकिन 8,842 गाँवों और वार्डों (16%) में एक भी नहीं था। 13 नमूना ज़िलों में से 8 में 202 केंद्रों का निर्माण देर से हुआ, जिससे लागत ₹6.18 करोड़ बढ़ गई। कई अहम पद खाली थे, जिनमें ज़िला परियोजना अधिकारी के 55% पद शामिल हैं, और किसी भी आंगनवाड़ी कार्यकर्ता को पुनश्चर्या (refresher) प्रशिक्षण नहीं मिला। कामकाजी महिलाओं के 59 छात्रावासों में से केवल 13 पूरी तरह या आंशिक रूप से चल रहे थे; 22 का दूसरे कामों में इस्तेमाल हो रहा था और तीन का पता ही नहीं चला। चार बाल देखरेख संस्थाएँ बिना पंजीकरण के चल रही थीं, और उनके 17% से 61% फ़ंड खर्च ही नहीं हुए।",
+  context:{
+    what:"A CAG performance audit of the Women and Child Development Department, Government of Madhya Pradesh, covering anganwadi centres (under ICDS), working women hostels and child care institutions.",
+    why:"Anganwadis provide nutrition, health and pre-school care to young children and mothers. Safe hostels help women take up jobs away from home, and child care institutions look after children who need care and protection.",
+    how:"The audit, done between November 2024 and March 2025, covered 2019-20 to 2023-24. It test-checked anganwadi records in 13 districts, all 59 working women hostels in 34 of 52 districts, and 39 child care institutions and two aftercare homes in nine districts, with joint physical visits."
+  },
+  nums:[["13 of 59","Working women hostels functional or partly functional (March 2024)",1],["16%","Villages and wards with no anganwadi centre (8,842 of 54,903)",1],["₹6.18 cr","Cost increase from delayed building of 202 anganwadi centres",1],["97,303","Anganwadi centres functional in March 2024",0]],
+  themes:[
+    {name:"Anganwadi centres", sev:"high", items:[
+      {t:"As of March 2024, 97,303 anganwadi centres were functional, with 85.961 lakh beneficiaries registered.", amt:""},
+      {t:"8,842 of 54,903 villages and wards (16%) had no anganwadi centre.", amt:""},
+      {t:"In 8 of 13 sampled districts, construction of 202 centres was delayed, raising costs by ₹6.18 crore.", amt:"₹6.18 cr"},
+      {t:"In Mandla, Ratlam and Shajapur, ₹2.32 crore of interest was earned on construction funds left parked, with no plan to use it.", amt:"₹2.32 cr"}]},
+    {name:"Staff and training", sev:"med", items:[
+      {t:"Posts were vacant for 55% of District Project Officers, 40% of Child Development Project Officers and 17% of Supervisors.", amt:""},
+      {t:"No anganwadi worker or helper received refresher training during the audit period.", amt:""}]},
+    {name:"Working women hostels", sev:"high", items:[
+      {t:"Of 59 hostels with 3,519 beds, only 13 (990 beds) were functional or partly functional on 31 March 2024.", amt:""},
+      {t:"22 hostels (1,310 beds) were used for other purposes, four (173 beds) were non-functional and three could not be traced.", amt:""},
+      {t:"Nine of the 13 working hostels had only 40% to 50% occupancy.", amt:""},
+      {t:"None of the 11 sanctioned day-care creches at the hostels was running.", amt:""}]},
+    {name:"Child care institutions", sev:"high", items:[
+      {t:"As of March 2024 there were 126 child care institutions and two aftercare homes in 41 districts, housing 2,819 children.", amt:""},
+      {t:"Four child care institutions were operating without registration, which the CAG called a serious regulatory lapse.", amt:""},
+      {t:"An open shelter in Bhopal received an excess grant of ₹1.11 crore in 2019-22.", amt:"₹1.11 cr"},
+      {t:"In child care institutions, ₹1.29 crore was paid in excess towards maintenance.", amt:"₹1.29 cr"},
+      {t:"Between 17% and 61% of funds went unspent, and staff shortages of 47% to 54% were found in 14 institutions and one aftercare home.", amt:""}]}
+  ],
+  charts:[
+    {title:"Status of 59 working women hostels (March 2024)", type:"bars", unit:"hostels", data:[["Functional or partly functional",13],["Used for other purposes",22],["Non-functional",4],["Untraceable",3]]},
+    {title:"Vacant posts in the department", type:"bars", unit:"% vacant", max:100, data:[["District Project Officers",55],["Child Development Project Officers",40],["Supervisors",17]]}
+  ],
+  recs:[
+    "Check MIS data on anganwadis regularly against the centres' manual records.",
+    "Fix responsibility for delays in building anganwadi centres, and fill core vacancies in a time-bound way.",
+    "Build a single online platform for hostel demand with real-time occupancy, and fix responsibility for untraced hostels and unapproved use.",
+    "Plan child care institutions from a baseline survey, and set up a State Level Inspection Committee with regular inspections."
+  ],
+  recsNote:"Main recommendations of the report, in short.",
+  response:["The report goes to the Madhya Pradesh Vidhan Sabha's Public Accounts Committee for examination."],
+  timeline:[["2019-20","Audit period begins"],["Mar 2024","Audit period ends: 97,303 anganwadi centres; 13 of 59 hostels working"],["Nov 2024 – Mar 2025","Audit carried out"],["22 Jul 2026","Report tabled in the Madhya Pradesh Vidhan Sabha"]],
+  glossary:["Performance audit","ICDS","Anganwadi Centre","Working Women Hostel","Child Care Institution","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Madhya Pradesh) audited anganwadis, working women hostels and child care institutions for 2019-20 to 2023-24; it was tabled on 22 July 2026.",
+      "Only 13 of Madhya Pradesh's 59 working women hostels were functional or partly functional on 31 March 2024.",
+      "8,842 of 54,903 villages and wards (16%) in Madhya Pradesh had no anganwadi centre.",
+      "Four child care institutions in the state were running without registration."
+    ],
+    mains:"Gaps in infrastructure and staffing weaken services meant for women and children. Discuss with reference to the CAG's 2026 audit of anganwadis, working women hostels and child care institutions in Madhya Pradesh. (15 marks)",
+    quiz:[
+      {q:"According to the CAG, how many of Madhya Pradesh's 59 working women hostels were functional or partly functional in March 2024?", o:["13","22","35","59"], a:0, w:"13; 22 were being used for other purposes."},
+      {q:"What share of villages and wards in Madhya Pradesh had no anganwadi centre?", o:["6%","16%","26%","40%"], a:1, w:"16% (8,842 of 54,903)."},
+      {q:"Which post had the highest vacancy rate in the department, per the CAG?", o:["Supervisors","Child Development Project Officers","District Project Officers","Anganwadi helpers"], a:2, w:"District Project Officers, 55% vacant, against 40% for CDPOs and 17% for Supervisors."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","cag-assam-3-2026","niti-care-2026"],
+  src:[["CAG: Report No. 2 of 2026, Government of Madhya Pradesh (report page)","https://www.cag.gov.in/en/audit-report/details/125598","official"],["CAG: Report No. 2 of 2026 (Madhya Pradesh), full report (PDF)","https://saiindia.gov.in/webroot/uploads/download_audit_report/2026/MP-Report-No.-2-of-2026-English-06a61c242e0da69.34500633.pdf","official"],["ESG News: CAG flags widespread misuse of women hostels","https://www.esgnews.earth/latest-news/cag-flags-widespread-misuse-of-women-hostels/20951.html","news"]],
+  kw:"CAG Madhya Pradesh Report 2 2026 anganwadi centres ICDS working women hostels Sakhi Niwas child care institutions women and child development vacancies refresher training unregistered CCI day care creche performance audit MP"
 }
 
 
@@ -2622,5 +2769,7 @@ Object.assign(window.STATE_FACTS_V2, {
   AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
+  MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"]],
+  CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
