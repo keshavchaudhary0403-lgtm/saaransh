@@ -2,6 +2,16 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Section 115BBE": "An Income Tax Act section that taxes unexplained credits, investments, money or spending at a special high rate, with no deductions allowed.",
+  "Surcharge": "An extra tax charged as a percentage of the income tax payable.",
+  "Income tax assessment": "The Income Tax Department's process of checking a return and working out the income and tax due.",
+  "Internal audit": "A review of a department's own work by its own audit wing, separate from the CAG's external audit.",
+  "Bioeconomy": "The part of the economy that makes or uses products from biological resources and biotechnology, such as medicines, vaccines, crops and bio-based materials.",
+  "Biosimilar": "A medicine that is highly similar to an already approved biological drug, with no meaningful difference in safety or effect.",
+  "Synthetic biology": "Designing or changing organisms and biological parts to perform new, useful functions.",
+  "Biofoundry": "A largely automated lab facility for designing, building and testing biological systems at speed.",
+  "Single Village Scheme": "A Jal Jeevan Mission water supply scheme that serves one village from its own source.",
+  "Multi Village Scheme": "A Jal Jeevan Mission water supply scheme that brings water from one source, usually surface water, to several villages.",
   "Har Ghar Jal certification": "Under Jal Jeevan Mission, a village is certified 'Har Ghar Jal' when its gram sabha confirms every home and public institution gets regular tap water.",
   "NABL": "National Accreditation Board for Testing and Calibration Laboratories: the body that certifies labs, including water testing labs, meet quality standards.",
   "Anganwadi Centre": "A village or ward-level centre under ICDS that gives nutrition, health check-ups and pre-school education to young children and mothers.",
@@ -2750,6 +2760,212 @@ window.SPEC_REPORTS.push(
   related:["cag-nagaland-1-2026","cag-assam-3-2026","niti-care-2026"],
   src:[["CAG: Report No. 2 of 2026, Government of Madhya Pradesh (report page)","https://www.cag.gov.in/en/audit-report/details/125598","official"],["CAG: Report No. 2 of 2026 (Madhya Pradesh), full report (PDF)","https://saiindia.gov.in/webroot/uploads/download_audit_report/2026/MP-Report-No.-2-of-2026-English-06a61c242e0da69.34500633.pdf","official"],["ESG News: CAG flags widespread misuse of women hostels","https://www.esgnews.earth/latest-news/cag-flags-widespread-misuse-of-women-hostels/20951.html","news"]],
   kw:"CAG Madhya Pradesh Report 2 2026 anganwadi centres ICDS working women hostels Sakhi Niwas child care institutions women and child development vacancies refresher training unregistered CCI day care creche performance audit MP"
+},
+/* ---------- CAG · Union: Taxation of Unexplained Transactions ---------- */
+{
+  id:"cag-unexplained-tax-32-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 32 of 2026",
+  title:"Compliance Audit on Taxation of Unexplained Transactions under the Income Tax Act, 1961, Union Government (Department of Revenue, Direct Taxes)", short:"Taxation of Unexplained Transactions", sector:"Public finance", ministry:"Ministry of Finance (Department of Revenue, Central Board of Direct Taxes)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Laid in Parliament on 12 August 2026", period:"Audit conducted from FY 2018-19 to 2022-23, across 19 Income Tax regions",
+  flagged:25085, flaggedNote:"Tax effect of 1,902 audit observations, not confirmed losses. The department accepted or acted on ₹13,258 crore of it.",
+  tldr:[
+    "The CAG raised 1,902 observations on how income tax officers taxed unexplained money, with a tax effect of ₹25,085 crore.",
+    "In 589 cases worth ₹18,799 crore, the sections meant for bogus or unexplained transactions were not used uniformly, so income was under-assessed or escaped tax.",
+    "The department's internal audit had not reviewed 1,777 of the 1,902 cases."
+  ],
+  en:"When a taxpayer cannot explain money, investments or spending, the Income Tax Act treats it as income under Sections 68 to 69D. Section 115BBE taxes this income at a high rate with no deductions: 30% at first, and 60% plus a 25% surcharge after 2016. The CAG checked how this was applied across 19 Income Tax regions and raised 1,902 observations with a tax effect of ₹25,085 crore. The biggest problem was in 589 cases worth ₹18,799 crore, where these sections were not used uniformly even though transactions were bogus or their source was unexplained. In 926 cases worth ₹4,707 crore the wrong tax rate or surcharge was applied; most were short levies, but 37 charged too much. Internal audit had not reviewed 1,777 of the cases. The department accepted or acted on 1,643 observations (₹13,258 crore), did not accept 39 (₹2,349 crore) and did not reply on 220 (₹9,478 crore).",
+  hi:"जब कोई करदाता पैसे, निवेश या खर्च का स्रोत नहीं बता पाता, तो आयकर अधिनियम की धारा 68 से 69D के तहत उसे आय माना जाता है। धारा 115BBE ऐसी आय पर बिना किसी कटौती के ऊँची दर से कर लगाती है: पहले 30%, और 2016 के बाद 60% के साथ 25% अधिभार। CAG ने 19 आयकर क्षेत्रों में इसके पालन की जाँच की और ₹25,085 करोड़ के कर प्रभाव वाली 1,902 आपत्तियाँ उठाईं। सबसे बड़ी समस्या ₹18,799 करोड़ के 589 मामलों में थी, जहाँ लेन-देन फ़र्ज़ी या स्रोत अस्पष्ट होने के बावजूद इन धाराओं का एक समान इस्तेमाल नहीं हुआ। ₹4,707 करोड़ के 926 मामलों में कर की गलत दर या अधिभार लगाया गया; ज़्यादातर में कर कम लगा, लेकिन 37 मामलों में ज़्यादा वसूला गया। 1,777 मामलों की आंतरिक लेखापरीक्षा नहीं हुई थी। विभाग ने 1,643 आपत्तियों (₹13,258 करोड़) को माना या उन पर कार्रवाई की, 39 (₹2,349 करोड़) को नहीं माना और 220 (₹9,478 करोड़) पर जवाब नहीं दिया।",
+  context:{
+    what:"A CAG compliance audit of how the Income Tax Department assessed and taxed unexplained credits, investments, money and spending under Sections 68, 69, 69A, 69B, 69C and 69D, read with Section 115BBE.",
+    why:"These sections are the main tool for taxing undisclosed income. Section 115BBE, added by the Finance Act, 2012, keeps the tax rate high and allows no deductions, so errors in using it can cost a lot of revenue.",
+    how:"Observations were raised during the compliance audit conducted from FY 2018-19 to 2022-23 across 19 regions of the Income Tax Department. The findings were discussed with the CBDT in May 2026."
+  },
+  nums:[["₹25,085 cr","Tax effect of 1,902 audit observations",1],["₹18,799 cr","Unexplained-income sections not used uniformly (589 cases)",1],["926","Cases with wrong tax rate or surcharge (₹4,707 crore)",1],["1,777 of 1,902","Cases not reviewed by internal audit",1]],
+  themes:[
+    {name:"Sections not used uniformly", sev:"high", items:[
+      {t:"In 589 cases across 20 states, Sections 68, 69 and 69A to 69D were not invoked uniformly even though transactions were bogus or the source was unexplained. This led to under-assessment or income escaping assessment.", amt:"₹18,799 cr"}]},
+    {name:"Wrong tax rate or surcharge", sev:"high", items:[
+      {t:"In 926 observations across 23 states, the wrong rate of tax or surcharge was applied.", amt:"₹4,707 cr"},
+      {t:"Of these, 889 observations were short levies of tax.", amt:"₹4,384 cr"},
+      {t:"The other 37 observations were excess levies, where taxpayers were charged too much.", amt:"₹323 cr"}]},
+    {name:"Mistakes in working out tax", sev:"med", items:[
+      {t:"In 331 cases across 19 states, assessed income was shown wrongly in the department's ITNS form: entered twice or three times, too low, or as zero.", amt:"₹1,230 cr"},
+      {t:"In 56 cases across 12 states, losses were wrongly set off against additions made under Sections 68 to 69D.", amt:"₹349 cr"},
+      {t:"In 51 cases, irregularities from before Section 115BBE came in (up to assessment year 2012-13) continued after it was introduced.", amt:""}]},
+    {name:"Weak internal checks", sev:"med", items:[
+      {t:"1,777 of the 1,902 cases had not been reviewed by the department's internal audit.", amt:""},
+      {t:"In 17 of 103 cases, internal audit was done only after the CAG's receipt audit had finished.", amt:""}]}
+  ],
+  charts:[
+    {title:"Tax effect by type of finding", type:"bars", unit:"₹ crore", data:[["Sections not used uniformly",18799],["Wrong rate or surcharge",4707],["Income shown wrongly in ITNS",1230],["Losses wrongly set off",349]]},
+    {title:"How the department responded", type:"bars", unit:"₹ crore", data:[["Accepted or acted on",13258],["No reply",9478],["Not accepted",2349]]}
+  ],
+  recs:[
+    "Review assessment cases on unexplained transactions from the audit period, based on manpower, risk and a money threshold, to avoid revenue loss.",
+    "Build a foolproof IT system and internal controls so these errors do not recur.",
+    "Check whether errors were omission or commission, and fix responsibility where they were commission.",
+    "Find the reasons for computation mistakes and set up a way to fix them quickly.",
+    "Issue SOPs or guidelines, with examples, so Sections 68 to 69D are used consistently.",
+    "Strengthen the internal audit wing and revisit how cases are chosen for internal audit."
+  ],
+  recsNote:"Recommendations to the CBDT from the CAG's press release, in short.",
+  response:["The department accepted, rectified or began remedial action on 1,643 observations (₹13,258 crore). It did not accept 39 cases (₹2,349 crore) and had not replied on 220 cases (₹9,478 crore). The CAG said the department has taken corrective measures in cases pointed out by audit."],
+  timeline:[["2012","Finance Act adds Section 115BBE, effective from assessment year 2013-14"],["After 2016","Rate raised to 60% plus a 25% surcharge"],["2018-19 to 2022-23","Compliance audit conducted"],["May 2026","Findings discussed with the CBDT"],["12 Aug 2026","Report laid in Parliament"]],
+  glossary:["Compliance audit","CBDT","Section 115BBE","Surcharge","Income tax assessment","Internal audit","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 32 of 2026, laid in Parliament on 12 August 2026, is a compliance audit on taxation of unexplained transactions under the Income Tax Act, 1961.",
+      "Section 115BBE taxes income under Sections 68 to 69D at a special high rate with no deductions.",
+      "After 2016 the rate under Section 115BBE was raised from 30% to 60% plus a surcharge of 25% of tax.",
+      "The audit raised 1,902 observations with a tax effect of ₹25,085 crore."
+    ],
+    mains:"Uneven use of tax provisions weakens the fight against undisclosed income. Examine this with reference to the CAG's 2026 audit on the taxation of unexplained transactions. (15 marks)",
+    quiz:[
+      {q:"What was the total tax effect of the observations in CAG Report No. 32 of 2026?", o:["₹4,707 crore","₹13,258 crore","₹18,799 crore","₹25,085 crore"], a:3, w:"₹25,085 crore across 1,902 audit observations."},
+      {q:"Which finding carried the largest tax effect in this audit?", o:["Wrong rate of tax or surcharge","Sections 68 to 69D not used uniformly","Income shown wrongly in the ITNS form","Losses wrongly set off"], a:1, w:"589 cases worth ₹18,799 crore, in 20 states."},
+      {q:"After 2016, income taxed under Section 115BBE attracts:", o:["30% with no surcharge","30% plus a 25% surcharge","60% plus a 25% surcharge","50% with no surcharge"], a:2, w:"The rate went from 30% to 60%, plus a flat surcharge of 25% of the tax."}
+    ]
+  },
+  related:["cag-banks-nbfc-tax-40-2025","cag-fin-comm-5-2026","cag-gst-20-2026"],
+  src:[["CAG: Press release on Report No. 32 of 2026 (PDF)","https://saiindia.gov.in/uploads/PressRelease/PR-Press-Release-report-no-32-in-english-06a7d42a9c704f2-09713969.pdf","official"],["CAG: Audit reports listing","https://cag.gov.in/en/audit-report","official"],["TaxGuru: C&AG flags errors in taxation of unexplained transactions","https://taxguru.in/income-tax/ag-flags-errors-taxation-unexplained-transactions-sections-68-69d-115bbe.html","analysis"],["JurisHour: CAG flags ₹25,085 crore taxation lapses in 1,902 cases","https://www.jurishour.in/columns/cag-excess-tax-charges-assessments/","news"]],
+  kw:"CAG Report 32 2026 unexplained transactions income undisclosed Section 68 69 69A 69B 69C 69D 115BBE CBDT income tax direct taxes bogus surcharge 60 percent demonetisation internal audit ITNS assessment escaped under-assessment compliance audit"
+},
+/* ---------- NITI Aayog: Bioeconomy Roadmap ---------- */
+{
+  id:"niti-bioeconomy-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Frontier Tech Hub roadmap (with Department of Biotechnology and ABLE)",
+  title:"Roadmap for Building India as a Leading Bioeconomy Powerhouse by 2035", short:"Bioeconomy Roadmap to 2035", sector:"Other", ministry:"NITI Aayog (Frontier Tech Hub), with the Department of Biotechnology",
+  date:"Jul 2026", dateISO:"2026-07-16", tabled:"Launched by NITI Aayog in New Delhi on 16 July 2026", period:"Ten-year roadmap to 2035, with a pathway to 2047", flagged:null,
+  tldr:[
+    "NITI Aayog's roadmap sets a target of a $691 billion bioeconomy by 2035 and $2.6 trillion by 2047, up from $195.3 billion in 2025.",
+    "Its main proposal is six National BioMissions, covering gene therapy, climate-resilient crops, synthetic biology, disease surveillance, marine biotech and biopharma.",
+    "It proposes a ₹50,000 crore BioEconomy Growth Fund, carved out of the existing ₹1 lakh crore RDI framework."
+  ],
+  en:"The bioeconomy is the part of the economy built on biology and biotechnology, such as medicines, vaccines, farm products and bio-based materials. NITI Aayog says India's bioeconomy grew from $10 billion in 2014 to $195.3 billion in 2025, and now makes up 4.8% of GDP. Its ten-year roadmap sets a target of $691 billion by 2035 and $2.6 trillion by 2047, with over 30 million high-value jobs. The main proposal is six National BioMissions: GeneIndia, AgriBio 2.0, BioX Foundry, One Health Grid, Marine Biotechnology and BioPharmaNext. It also proposes a ₹50,000 crore BioEconomy Growth Fund for 2026 to 2035. The roadmap names financing, regulation and skilled manpower as the biggest constraints. These are targets and proposals, not results.",
+  hi:"जैव अर्थव्यवस्था (बायोइकोनॉमी) अर्थव्यवस्था का वह हिस्सा है जो जीव विज्ञान और जैव प्रौद्योगिकी पर टिका है, जैसे दवाएँ, टीके, कृषि उत्पाद और जैव-आधारित सामग्री। नीति आयोग के अनुसार भारत की जैव अर्थव्यवस्था 2014 के $10 अरब से बढ़कर 2025 में $195.3 अरब हो गई और अब GDP का 4.8% है। दस साल के इस रोडमैप का लक्ष्य 2035 तक $691 अरब और 2047 तक $2.6 ट्रिलियन है, साथ ही 3 करोड़ से ज़्यादा उच्च-मूल्य वाली नौकरियाँ। मुख्य प्रस्ताव छह राष्ट्रीय बायोमिशन हैं: GeneIndia, AgriBio 2.0, BioX Foundry, One Health Grid, Marine Biotechnology और BioPharmaNext। इसमें 2026 से 2035 के लिए ₹50,000 करोड़ के BioEconomy Growth Fund का भी प्रस्ताव है। रोडमैप वित्त, नियमन और कुशल कार्यबल को सबसे बड़ी बाधाएँ बताता है। ये लक्ष्य और प्रस्ताव हैं, नतीजे नहीं।",
+  context:{
+    what:"A ten-year roadmap from NITI Aayog's Frontier Tech Hub, developed with the Department of Biotechnology, the Association of Biotechnology Led Enterprises (ABLE), industry and academia.",
+    why:"Biotechnology touches health, food, climate and manufacturing. The roadmap sets out how India can move from scattered programmes to a mission-led push in this field.",
+    how:"The roadmap was launched at the National Media Centre, New Delhi, by Dr Jitendra Singh, Minister of State (Independent Charge) for Science and Technology. It is a forward-looking policy document, not an audit."
+  },
+  nums:[["$195.3 bn","India's bioeconomy in 2025",0],["$691 bn","Target for 2035",0],["4.8%","Share of national GDP",0],["₹50,000 cr","Proposed BioEconomy Growth Fund, 2026 to 2035",0]],
+  themes:[
+    {name:"Where India stands", sev:"low", items:[
+      {t:"The bioeconomy grew from $10 billion in 2014 to $195.3 billion in 2025, contributing 4.8% to GDP.", amt:""},
+      {t:"India has over 10,000 biotech startups, more than 700 US FDA-approved manufacturing plants outside America, and over 20 biosimilar products in global markets.", amt:""}]},
+    {name:"Six National BioMissions", sev:"med", items:[
+      {t:"GeneIndia aims at affordable gene and cell therapies; AgriBio 2.0 at climate-resilient crops.", amt:""},
+      {t:"BioX Foundry is to commercialise synthetic biology products, using biofoundries and AI-driven design platforms.", amt:""},
+      {t:"One Health Grid is for AI-enabled disease surveillance; Marine Biotechnology is to boost the blue economy.", amt:""},
+      {t:"BioPharmaNext aims to make India a global hub for biologics, biosimilars, vaccines and AI-driven drug discovery.", amt:""}]},
+    {name:"Money and targets", sev:"med", items:[
+      {t:"A ₹50,000 crore BioEconomy Growth Fund for 2026 to 2035, carved out of the existing ₹1 lakh crore RDI framework, to support scale-up and biomanufacturing.", amt:"₹50,000 cr"},
+      {t:"Targets of $691 billion by 2035 and $2.6 trillion by 2047, with over 30 million high-value jobs.", amt:""}]},
+    {name:"Constraints named", sev:"high", items:[
+      {t:"Financing, regulation and skilled manpower are named as the biggest constraints.", amt:""}]}
+  ],
+  charts:[
+    {title:"India's bioeconomy: actual and targets", type:"bars", unit:"US$ billion", data:[["2014 (actual)",10],["2025 (actual)",195.3],["2035 (target)",691],["2047 (target)",2600]]}
+  ],
+  recs:[
+    "Create six National BioMissions as the execution platforms, replacing several standalone programmes.",
+    "Set up a ₹50,000 crore BioEconomy Growth Fund using blended finance, catalytic equity and infrastructure support.",
+    "Bring AI and biology together, through computational biology, biofoundries, digital twins and biosensor networks.",
+    "Give PLI-style support to biomanufacturing, with regulatory sandboxes, modernised approvals and streamlined clearances.",
+    "Set up an Empowered Committee on National BioMissions, a National BioData Council and a BioEconomy Investment and Policy Forum.",
+    "Expand biotech education and PhD and post-doctoral programmes, including computational biology and regulatory science."
+  ],
+  recsNote:"Main proposals of the roadmap, in short, as described in the PIB release and ThePrint.",
+  response:["Launched by Dr Jitendra Singh, Minister of State (Independent Charge) for Science and Technology. These are NITI Aayog's recommendations; the government has to decide which to adopt."],
+  timeline:[["2014","Bioeconomy at $10 billion"],["2025","Bioeconomy at $195.3 billion"],["16 Jul 2026","Roadmap launched"],["2035","Target: $691 billion"],["2047","Target: $2.6 trillion"]],
+  glossary:["Bioeconomy","Biosimilar","Synthetic biology","Biofoundry","Deep tech"],
+  exam:{
+    prelims:[
+      "NITI Aayog launched the 'Roadmap for Building India as a Leading Bioeconomy Powerhouse by 2035' on 16 July 2026.",
+      "According to NITI Aayog, India's bioeconomy was $195.3 billion in 2025, contributing 4.8% to GDP.",
+      "The roadmap targets $691 billion by 2035 and $2.6 trillion by 2047.",
+      "It proposes six National BioMissions and a ₹50,000 crore BioEconomy Growth Fund."
+    ],
+    mains:"Discuss the opportunities and constraints in building India's bioeconomy, with reference to NITI Aayog's 2026 roadmap. (15 marks)",
+    quiz:[
+      {q:"What size does NITI Aayog's roadmap target for India's bioeconomy by 2035?", o:["$195.3 billion","$300 billion","$691 billion","$2.6 trillion"], a:2, w:"$691 billion by 2035; $2.6 trillion is the 2047 target."},
+      {q:"Which mission in the roadmap is meant for AI-enabled disease surveillance?", o:["GeneIndia","One Health Grid","BioX Foundry","AgriBio 2.0"], a:1, w:"One Health Grid; GeneIndia covers gene and cell therapies, AgriBio 2.0 crops and BioX Foundry synthetic biology."}
+    ]
+  },
+  related:["niti-manufacturing-hub-2026","niti-st-scoreboard-2026","niti-ayurveda-2026"],
+  src:[["PIB: NITI Aayog launches a ten-year roadmap to build India into a leading bioeconomy powerhouse by 2035","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2285858&reg=48&lang=1","official"],["ThePrint: NITI Aayog unveils roadmap to make India $691 billion bioeconomy by 2035","https://theprint.in/india/niti-aayog-unveils-roadmap-to-make-india-691-billion-bioeconomy-by-2035-seeks-rs-50000-cr-fund/2987915/","news"]],
+  kw:"NITI Aayog bioeconomy biotechnology roadmap 2035 2047 BioMissions GeneIndia AgriBio BioX Foundry One Health Grid Marine Biotechnology BioPharmaNext BioEconomy Growth Fund RDI synthetic biology biosimilars biomanufacturing ABLE DBT"
+},
+/* ---------- CAG · Madhya Pradesh: Jal Jeevan Mission ---------- */
+{
+  id:"cag-mp-jjm-5-2026", body:"CAG", state:"Madhya Pradesh", kind:"Performance audit", reportNo:"Report No. 5 of 2026 (Madhya Pradesh)",
+  title:"Report of the CAG on Performance Audit on Implementation of Jal Jeevan Mission in Madhya Pradesh", short:"Jal Jeevan Mission in Madhya Pradesh", sector:"Social welfare", ministry:"Public Health Engineering Department and MP Jal Nigam, Government of Madhya Pradesh",
+  date:"Jul 2026", dateISO:"2026-07-22", tabled:"Tabled in the Madhya Pradesh Vidhan Sabha on 22 July 2026", period:"2019-20 to 2023-24", flagged:null,
+  tldr:[
+    "Madhya Pradesh had about 69% coverage of tap connections by December 2024, against about 80% nationally and a 100% target for March 2024.",
+    "By September 2024 only 27% of Multi-Village Schemes and 58% of Single-Village Schemes were complete; seven of 28 sites inspected were non-functional.",
+    "Portal figures included 11,94,063 private or own-source connections, and the state received ₹9,297.11 crore less of Central funds than it could have."
+  ],
+  en:"Jal Jeevan Mission aimed to give every rural home a working tap connection by March 2024; the deadline has since moved to March 2028. The CAG checked how it ran in Madhya Pradesh from 2019-20 to 2023-24, testing eight of 55 districts. By December 2024 the state had added 60.90 lakh connections to 13.53 lakh already there, out of 1.11 crore rural households. The CAG put coverage at 69%, against about 80% nationally. By September 2024 only 27% of Multi-Village Schemes and 58% of Single-Village Schemes were complete, and seven of 28 sites inspected were non-functional. The JJM portal counted 11,94,063 private or own-source connections as mission connections. The state received ₹13,609.68 crore from the Centre against ₹22,906.79 crore available, and released ₹13,561 crore of its own share against the same amount. The cost of 853 schemes in eight districts rose from ₹668.67 crore to ₹997.12 crore.",
+  hi:"जल जीवन मिशन का लक्ष्य मार्च 2024 तक हर ग्रामीण घर को चालू नल कनेक्शन देना था; अब यह समय सीमा मार्च 2028 कर दी गई है। CAG ने 2019-20 से 2023-24 तक मध्य प्रदेश में इसके अमल की जाँच की और 55 में से आठ ज़िलों की परख की। दिसंबर 2024 तक राज्य ने 1.11 करोड़ ग्रामीण घरों में से पहले से जुड़े 13.53 लाख कनेक्शनों में 60.90 लाख और जोड़े। CAG के अनुसार कवरेज 69% थी, जबकि राष्ट्रीय स्तर पर लगभग 80%। सितंबर 2024 तक केवल 27% बहु-ग्राम योजनाएँ और 58% एकल-ग्राम योजनाएँ पूरी हुई थीं, और निरीक्षण किए गए 28 स्थलों में से सात काम नहीं कर रहे थे। JJM पोर्टल ने 11,94,063 निजी या अपने स्रोत वाले कनेक्शनों को मिशन के कनेक्शन के रूप में गिना। राज्य को केंद्र से ₹22,906.79 करोड़ के मुकाबले ₹13,609.68 करोड़ मिले, और उसने अपने हिस्से के उतने ही पैसे के मुकाबले ₹13,561 करोड़ जारी किए। आठ ज़िलों की 853 योजनाओं की लागत ₹668.67 करोड़ से बढ़कर ₹997.12 करोड़ हो गई।",
+  context:{
+    what:"A CAG performance audit of Jal Jeevan Mission in Madhya Pradesh, covering the Public Health Engineering Department and MP Jal Nigam.",
+    why:"The mission is the Centre's flagship programme for tap water at every rural home. The audit tests whether connections and schemes in the state actually work.",
+    how:"The audit covered 2019-20 to 2023-24. It picked eight of 55 districts by stratified random sampling, and checked 28 Single-Village Scheme agreements covering 144 villages and four Multi-Village Scheme agreements covering 1,009 villages. A survey covered 629 households across 32 villages."
+  },
+  nums:[["69%","Coverage of rural tap connections, against about 80% nationally",1],["27%","Multi-Village Schemes complete by September 2024 (39 of 147)",1],["₹9,297.11 cr","Central share the scheme missed out on",1],["11,94,063","Private or own-source taps counted as JJM connections",1]],
+  themes:[
+    {name:"Coverage and completion", sev:"high", items:[
+      {t:"By December 2024, 60.90 lakh connections had been added to 13.53 lakh existing ones, out of 1.11 crore households. The CAG put coverage at 69% against about 80% nationally.", amt:""},
+      {t:"By September 2024, 39 of 147 Multi-Village Schemes and 15,739 of 27,336 Single-Village Schemes were complete.", amt:""},
+      {t:"In the eight sampled districts only 2 of 24 Multi-Village Schemes and 1,993 of 4,570 Single-Village Schemes were complete.", amt:""},
+      {t:"In joint inspections, seven of 28 sites were non-functional.", amt:""}]},
+    {name:"Money", sev:"high", items:[
+      {t:"The state received ₹13,609.68 crore of central funds against ₹22,906.79 crore receivable, missing out on ₹9,297.11 crore.", amt:"₹9,297.11 cr"},
+      {t:"It released ₹13,561 crore of its own share against ₹22,906.79 crore, a gap of ₹9,345.79 crore.", amt:"₹9,345.79 cr"},
+      {t:"The cost of 853 Single-Village Schemes in eight districts rose from ₹668.67 crore to ₹997.12 crore.", amt:"₹997.12 cr"},
+      {t:"Community contribution stood at ₹27 lakh against ₹241.74 crore that could be collected.", amt:"₹241.74 cr"}]},
+    {name:"Water quality and reporting", sev:"high", items:[
+      {t:"Of up to 2% of funds earmarked for water quality monitoring and surveillance, the government spent 0.38% and diverted 1.62% to construction.", amt:""},
+      {t:"District labs did 58% to 99% of prescribed tests, the State Lab 22% to 48%, and Jal Nigam plant labs only 11% to 19%.", amt:""},
+      {t:"NABL accreditation for critical parameters such as E. coli and total coliform was missing at district and sub-divisional labs.", amt:""},
+      {t:"The JJM portal counted 11,94,063 private or own-source tap connections as mission connections.", amt:""}]},
+    {name:"Sustainability and people", sev:"med", items:[
+      {t:"Operation and maintenance costs were not recovered from beneficiaries, and water supply remained un-metered.", amt:""},
+      {t:"Only 11,271 people (22%) were trained under the skill scheme against a target of 50,000, using ₹402.10 lakh of ₹1,712.62 lakh approved.", amt:""},
+      {t:"The 100-Days Campaign was extended into the last quarter of 2021-22, delaying standalone schemes by 103 to 402 days across 4,173 projects in eight districts.", amt:""}]}
+  ],
+  charts:[
+    {title:"Funds for the mission, 2019-20 to 2023-24", type:"bars", unit:"₹ crore", data:[["Receivable from Centre",22906.79],["Received from Centre",13609.68],["State share receivable",22906.79],["State share released",13561],["Total spent",27070.13]]},
+    {title:"Schemes completed by September 2024", type:"bars", unit:"%", max:100, data:[["Single-Village Schemes (state)",58],["Multi-Village Schemes (state)",27]]}
+  ],
+  recs:[
+    "Build source sustainability and greywater management into project reports, and aggregate village plans into district and state plans.",
+    "Review communication activities so that communities take part and stay involved.",
+    "Deploy implementation support agencies on time.",
+    "Make the IoT-based monitoring system compulsory, as the guidelines require.",
+    "Ensure tap connections inside homes and priority for public institutions.",
+    "Strengthen labs with NABL accreditation for all parameters, adequate staff and cross-verification."
+  ],
+  recsNote:"Recommendations from the report's executive summary, in short.",
+  response:["At the exit conference on 13 June 2025, the Principal Secretary, Public Health Engineering Department, accepted the recommendations. The report goes to the Madhya Pradesh Vidhan Sabha's Public Accounts Committee."],
+  timeline:[["2019-20","Audit period begins"],["Mar 2024","Original target for tap water at every rural home"],["Aug–Oct 2024","District records examined"],["Dec 2024","Coverage at 69%"],["13 Jun 2025","Exit conference"],["22 Jul 2026","Report tabled in the Madhya Pradesh Vidhan Sabha"]],
+  glossary:["Performance audit","Jal Jeevan Mission","FHTC","NABL","Single Village Scheme","Multi Village Scheme","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 5 of 2026 is a performance audit of Jal Jeevan Mission in Madhya Pradesh for 2019-20 to 2023-24, tabled on 22 July 2026.",
+      "The CAG put Madhya Pradesh's coverage at 69%, against about 80% nationally.",
+      "By September 2024, only 27% of Multi-Village Schemes in the state were complete.",
+      "The JJM portal counted 11,94,063 private or own-source connections as mission connections."
+    ],
+    mains:"Delayed release of funds and weak monitoring undermine flagship water schemes. Examine this with reference to the CAG's 2026 audit of Jal Jeevan Mission in Madhya Pradesh. (15 marks)",
+    quiz:[
+      {q:"What share of Multi-Village Schemes in Madhya Pradesh were complete by September 2024, per the CAG?", o:["8%","27%","44%","58%"], a:1, w:"27% (39 of 147); 58% is the figure for Single-Village Schemes."},
+      {q:"How many private or own-source connections were counted as JJM connections on the portal?", o:["60,90,000","13,53,000","11,94,063","5,74,000"], a:2, w:"11,94,063 connections, which the CAG flagged."},
+      {q:"Of up to 2% of funds earmarked for water quality monitoring, how much was actually spent on it?", o:["0.38%","1.62%","2%","11%"], a:0, w:"0.38% was spent; 1.62% was diverted to construction."}
+    ]
+  },
+  related:["cag-chhattisgarh-jjm-2-2026","cag-kerala-jjm","tn-jjm"],
+  src:[["CAG: Report No. 5 of 2026, Performance Audit on Jal Jeevan Mission in Madhya Pradesh (PDF)","https://saiindia.gov.in/webroot/uploads/download_audit_report/2026/MP-JJM-Report-No.-5-of-2026-Bhopal---English-06a674f93c3faf1.25493877.pdf","official"],["CAG: Report No. 5 of 2026 (report page)","https://cag.gov.in/en/audit-report/details/125728","official"]],
+  kw:"CAG Madhya Pradesh Report 5 2026 Jal Jeevan Mission JJM Har Ghar Jal FHTC tap connections rural water PHED Jal Nigam Single Village Scheme Multi Village Scheme portal private connections water quality NABL performance audit MP"
 }
 
 
@@ -2769,7 +2985,7 @@ Object.assign(window.STATE_FACTS_V2, {
   AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
-  MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"]],
+  MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
