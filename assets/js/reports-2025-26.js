@@ -2,6 +2,16 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Undischarged liabilities": "Money a government owes but has not paid or properly recorded by the end of the year, such as unpaid grants or refunds.",
+  "Ways and Means Advances": "Short-term loans from the Reserve Bank of India that help a government cover temporary gaps between receipts and spending.",
+  "BharatNet": "The government's project to connect gram panchayats with optical fibre broadband.",
+  "Gram panchayat": "The elected village-level local government in India.",
+  "Service-level agreement": "A contract term that sets the quality and speed of service a supplier must meet, such as how fast a fault must be fixed.",
+  "Semiconductor": "A material, usually silicon, used to make the chips that run electronic devices.",
+  "Advanced packaging": "Techniques for connecting and enclosing chips so they work faster and use less power.",
+  "OSAT": "Outsourced Semiconductor Assembly and Test: firms that package and test chips made by others.",
+  "Compound semiconductor": "A chip material made of two or more elements, such as silicon carbide or gallium nitride, used in power electronics and fast communications.",
+  "Design IP": "Reusable, licensable chip design blocks that companies build into their own chips.",
   "Section 115BBE": "An Income Tax Act section that taxes unexplained credits, investments, money or spending at a special high rate, with no deductions allowed.",
   "Surcharge": "An extra tax charged as a percentage of the income tax payable.",
   "Income tax assessment": "The Income Tax Department's process of checking a return and working out the income and tax due.",
@@ -2966,14 +2976,225 @@ window.SPEC_REPORTS.push(
   related:["cag-chhattisgarh-jjm-2-2026","cag-kerala-jjm","tn-jjm"],
   src:[["CAG: Report No. 5 of 2026, Performance Audit on Jal Jeevan Mission in Madhya Pradesh (PDF)","https://saiindia.gov.in/webroot/uploads/download_audit_report/2026/MP-JJM-Report-No.-5-of-2026-Bhopal---English-06a674f93c3faf1.25493877.pdf","official"],["CAG: Report No. 5 of 2026 (report page)","https://cag.gov.in/en/audit-report/details/125728","official"]],
   kw:"CAG Madhya Pradesh Report 5 2026 Jal Jeevan Mission JJM Har Ghar Jal FHTC tap connections rural water PHED Jal Nigam Single Village Scheme Multi Village Scheme portal private connections water quality NABL performance audit MP"
+},
+/* ---------- CAG · BharatNet ---------- */
+{
+  id:"cag-bharatnet-19-2026", body:"CAG", kind:"Performance audit", reportNo:"Report No. 19 of 2026",
+  title:"Report of the CAG on Performance Audit on BharatNet, Union Government, Ministry of Communications, Department of Telecommunications", short:"BharatNet Performance Audit", sector:"Roads & infrastructure", ministry:"Ministry of Communications (Department of Telecommunications)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026", period:"2017-18 to 2022-23, with status updated to November 2025", flagged:null,
+  tldr:[
+    "BharatNet was built to take broadband to every gram panchayat. By November 2025, 96.70% of targeted panchayats were service-ready.",
+    "Only 33.20% of those service-ready panchayats were actually operational.",
+    "Fibre faults caused about 48% of non-operational cases, and a fault took 17 days on average to fix."
+  ],
+  en:"BharatNet is the government's project to take optical fibre broadband to every gram panchayat. The CAG found that by November 2025, 2.19 lakh of the revised 2.26 lakh panchayats were service-ready, at a cost of ₹39,888 crore against ₹42,068 crore approved. But only 33.20% of service-ready panchayats were actually operational. Fibre faults were the largest cause, and a fault took 17 days on average to fix. Only 17.91% of the available bandwidth was used. Results varied sharply by delivery model: private-led projects did far better than those run by central public sector companies.",
+  hi:"BharatNet हर ग्राम पंचायत तक ऑप्टिकल फाइबर ब्रॉडबैंड पहुँचाने की सरकारी परियोजना है। CAG ने पाया कि नवंबर 2025 तक संशोधित 2.26 लाख में से 2.19 लाख पंचायतें सेवा के लिए तैयार थीं, और इस पर ₹42,068 करोड़ की मंज़ूरी के मुकाबले ₹39,888 करोड़ खर्च हुए। लेकिन सेवा के लिए तैयार पंचायतों में से केवल 33.20% ही वास्तव में चालू थीं। सबसे बड़ा कारण फाइबर की खराबी थी और एक खराबी ठीक होने में औसतन 17 दिन लगे। उपलब्ध बैंडविड्थ का केवल 17.91% ही इस्तेमाल हुआ। क्रियान्वयन के तरीके से नतीजों में बड़ा अंतर था: निजी क्षेत्र की अगुवाई वाली परियोजनाएँ केंद्रीय सार्वजनिक उपक्रमों द्वारा चलाई गई परियोजनाओं से कहीं बेहतर रहीं।",
+  context:{
+    what:"A performance audit of BharatNet, the project to connect gram panchayats with optical fibre, run through Bharat Broadband Network Limited (BBNL), since merged into BSNL.",
+    why:"BharatNet is the main public investment in rural broadband, paid for from the Universal Service Obligation Fund, now the Digital Bharat Nidhi. An amended programme has widened its scope to 6.4 lakh villages and panchayats.",
+    how:"The audit covered 2017-18 to 2022-23, with a focus on Phase II. Test audit ran from October 2023 to August 2024, and status was updated to November 2025."
+  },
+  nums:[["33.20%","Service-ready panchayats actually operational",1],["96.70%","Targeted panchayats service-ready by November 2025",0],["₹39,888 cr","Spent, against ₹42,068 crore approved",0],["17 days","Average time to restore a fault",1]],
+  themes:[
+    {name:"Built, but not working", sev:"high", items:[
+      {t:"2.19 lakh of the revised 2.26 lakh panchayats were service-ready by November 2025, but only 33.20% of service-ready panchayats were operational.", amt:""},
+      {t:"Only 17.91% of the available bandwidth was used.", amt:""},
+      {t:"766 of 1.15 lakh planned satellite-based Wi-Fi connections were functional by March 2025.", amt:""}]},
+    {name:"Planning and rollout", sev:"high", items:[
+      {t:"Detailed project reports were based on desktop surveys where physical surveys were required.", amt:""},
+      {t:"Phase II was designed for 20 states and 21 circles but implemented in 13 states and 14 circles.", amt:""},
+      {t:"Six states across seven circles reached 100% service-ready status, with delays of two to six years.", amt:""}]},
+    {name:"Weak maintenance", sev:"high", items:[
+      {t:"Fibre faults accounted for about 48% of non-operational cases.", amt:""},
+      {t:"The mean time to restore a fault was 17 days.", amt:""},
+      {t:"Fibre fault localisation could not be integrated, and maintenance costs were high against limited revenue.", amt:""}]},
+    {name:"Delivery models and money", sev:"med", items:[
+      {t:"The share of service-ready panchayats that were operational was 90.11% under private-led projects, 39.80% under state-led projects and 10.74% under central public sector projects.", amt:""},
+      {t:"BSNL diverted Phase II advances to other uses; coverage reports the money has since been recouped.", amt:"₹2,001.43 cr"},
+      {t:"Milestone-based payments were weakest under the central public sector model and better under the private-led model.", amt:""}]}
+  ],
+  charts:[
+    {title:"Service-ready panchayats that were operational, by delivery model", type:"bars", unit:"%", max:100, data:[["Private-led",90.11],["State-led",39.80],["Central PSU-led",10.74]]},
+    {title:"Money approved and spent", type:"bars", unit:"₹ crore", data:[["Approved budget",42068],["Spent, Phase I",11148],["Spent, Phase II",30920],["Total spent",39888]]}
+  ],
+  recs:[
+    "Prepare detailed project reports from ground surveys.",
+    "Complete GIS mapping of all panchayats.",
+    "Set up fibre fault localisation and remote monitoring with a central network management system.",
+    "Link funding to performance and service-level agreements.",
+    "Test assets before declaring a milestone achieved."
+  ],
+  recsNote:"Summarised from published coverage of the report. The full report PDF could not be opened for this entry.",
+  response:["Coverage reports the Ministry replied during the audit, including on GIS mapping, liquidated damages, technology choice and the ring-based design of the amended programme. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Oct 2011","Project conceived"],["2012","BBNL incorporated"],["Aug 2023","Amended BharatNet Programme approved"],["Oct 2023–Aug 2024","Test audit"],["Nov 2025","96.70% of targeted panchayats service-ready"],["12 Aug 2026","Report No. 19 of 2026 tabled in Parliament"]],
+  glossary:["Performance audit","BharatNet","Gram panchayat","DPR","Service-level agreement","Digital Bharat Nidhi","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 19 of 2026 is a performance audit of BharatNet, tabled on 12 August 2026.",
+      "By November 2025, 96.70% of targeted gram panchayats were service-ready, but only 33.20% of service-ready panchayats were operational.",
+      "BharatNet is funded from the Universal Service Obligation Fund, now the Digital Bharat Nidhi.",
+      "The Amended BharatNet Programme, approved in August 2023, targets 6.4 lakh villages and panchayats."
+    ],
+    mains:"Creating infrastructure is not the same as delivering a service. Examine this with reference to the CAG's 2026 performance audit of BharatNet. (15 marks)",
+    quiz:[
+      {q:"What share of service-ready gram panchayats were operational, per the CAG's BharatNet audit?", o:["96.70%","33.20%","17.91%","10.74%"], a:1, w:"33.20%. 96.70% is the share of targeted panchayats that were service-ready; 17.91% is bandwidth use."},
+      {q:"Which delivery model had the highest share of operational panchayats?", o:["Central PSU-led","State-led","Private-led","All were equal"], a:2, w:"Private-led projects reached 90.11%, against 39.80% for state-led and 10.74% for central PSU-led."},
+      {q:"BharatNet is funded from which fund?", o:["PM CARES","Digital Bharat Nidhi","National Investment Fund","SDRF"], a:1, w:"The Universal Service Obligation Fund, now renamed the Digital Bharat Nidhi."}
+    ]
+  },
+  related:["cag-fin-comm-5-2026","niti-datacentre-2026","bharatmala"],
+  src:[["CAG: Report No. 19 of 2026, Performance Audit on BharatNet (report page)","https://cag.gov.in/en/audit-report/details/125960","official"],["The Policy Edge: BharatNet faces major operational gaps despite near-complete rural fibre coverage","https://www.policyedge.in/p/bharatnet-faces-major-operational-gaps-despite-near-complete-rural-fibre-coverage","analysis"],["tele.net: CAG flags planning and rollout failures as BharatNet falls short","https://tele.net.in/national-news/cag-flags-planning-and-rollout-failures-as-bharatnet-falls-short-of-bridging-digital-divide-12259189","news"],["Blitz India Media: BharatNet CAG Report 2026, infrastructure built, service gap remains","https://blitzindiamedia.com/news/bharatnet-cag-report-2026-infrastructure-service-gap/","news"]],
+  kw:"CAG BharatNet Report 19 2026 broadband optical fibre gram panchayat BBNL BSNL Digital Bharat Nidhi USOF Department of Telecommunications rural connectivity performance audit"
+},
+/* ---------- NITI · Semiconductors ---------- */
+{
+  id:"niti-semiconductor-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Frontier Tech Hub roadmap",
+  title:"Future of India's Semiconductor Industry", short:"Semiconductor Roadmap to 2035", sector:"Other", ministry:"NITI Aayog (Frontier Tech Hub)",
+  date:"May 2026", dateISO:"2026-05-29", tabled:"Released by NITI Aayog on 29 May 2026", period:"Ten-year roadmap to 2035", flagged:null,
+  tldr:[
+    "NITI Aayog's roadmap says India should aim for a $120-150 billion semiconductor value chain by 2035.",
+    "India now imports 90-95% of the chips it uses.",
+    "It advises India to focus on its strengths, such as advanced packaging and compound semiconductors, instead of chasing the most advanced chips."
+  ],
+  en:"NITI Aayog's Frontier Tech Hub has released a ten-year roadmap for India's chip industry. India now imports 90-95% of the chips it uses, and demand is expected to reach about $200 billion by 2035. The roadmap sets a target of a $120-150 billion value chain by 2035, and estimates that $135-180 billion of investment will be needed over the decade, with government committing at least one-third. It advises against trying to copy established chip makers. Instead, India should focus on advanced packaging, compound semiconductors, design and specialised chips.",
+  hi:"नीति आयोग के फ्रंटियर टेक हब ने भारत के चिप उद्योग के लिए दस वर्ष का रोडमैप जारी किया है। भारत अभी अपनी ज़रूरत के 90-95% चिप आयात करता है और 2035 तक माँग लगभग $200 अरब तक पहुँचने का अनुमान है। रोडमैप में 2035 तक $120-150 अरब की वैल्यू चेन का लक्ष्य रखा गया है और अनुमान है कि इस दशक में $135-180 अरब का निवेश चाहिए होगा, जिसमें कम से कम एक-तिहाई सरकार दे। इसमें स्थापित चिप निर्माताओं की नकल करने के बजाय भारत को एडवांस्ड पैकेजिंग, कंपाउंड सेमीकंडक्टर, डिज़ाइन और विशेष चिपों पर ध्यान देने की सलाह दी गई है।",
+  context:{
+    what:"A ten-year roadmap from NITI Aayog's Frontier Tech Hub for India's semiconductor industry, released on 29 May 2026 by the Finance Minister and the Electronics and IT Minister.",
+    why:"Chips are used in nearly every modern product, and India depends on imports for most of them. The roadmap sets out where India can realistically build a strong position by 2035.",
+    how:"The roadmap sets targets for 2035 and organises its advice under five pillars: frontier R&D and design, policy and investment, production, people, and partnerships."
+  },
+  nums:[["$120-150 bn","Value chain target by 2035",0],["90-95%","Chips used in India that are imported",1],["About $200 bn","India's chip demand by 2035",0],["$135-180 bn","Investment needed over the next decade",0]],
+  themes:[
+    {name:"Import dependence", sev:"high", items:[
+      {t:"India imports 90-95% of the semiconductors it uses.", amt:""},
+      {t:"India spent nearly $150 billion on chip imports between FY17 and FY25.", amt:""},
+      {t:"Without domestic capacity, the import bill could reach about $240 billion a year by 2035.", amt:""}]},
+    {name:"Targets for 2035", sev:"low", items:[
+      {t:"Build a $120-150 billion semiconductor value chain and hold 10-13% of the global market.", amt:""},
+      {t:"Become one of the world's top three destinations for advanced packaging and outsourced assembly and test.", amt:""},
+      {t:"Develop more than 100 advanced semiconductor design IP cores.", amt:""}]},
+    {name:"Where to focus", sev:"med", items:[
+      {t:"Do not try to copy established chip makers or replicate the whole value chain.", amt:""},
+      {t:"Prioritise mature logic and mixed-signal nodes, compound semiconductor fabs, advanced packaging and secure manufacturing for defence and aerospace.", amt:""},
+      {t:"Build leadership in silicon carbide and gallium nitride chips.", amt:""}]},
+    {name:"Money and skills", sev:"med", items:[
+      {t:"Cumulative investment of $135-180 billion is needed over the next decade, with government committing at least one-third.", amt:""},
+      {t:"Talent is a critical constraint; the roadmap proposes a National Fab Academy.", amt:""},
+      {t:"Indian engineers are nearly one-fifth of the world's semiconductor design workforce.", amt:""}]}
+  ],
+  charts:[
+    {title:"India's chip demand and import bill", type:"bars", unit:"$ billion", data:[["Demand, 2030",90],["Demand, 2035",200],["Import bill by 2035 without domestic capacity",240]]},
+    {title:"Value chain and investment, 2035 goals (upper end of range)", type:"bars", unit:"$ billion", data:[["Value chain target",150],["Investment needed over the decade",180]]}
+  ],
+  recs:[
+    "Pioneering: invest in frontier R&D and design IP.",
+    "Policy and investment: mobilise long-horizon capital, with government committing at least one-third, and keep policy stable and predictable.",
+    "Production: focus on advanced packaging and compound semiconductors.",
+    "People: build talent across the full semiconductor pyramid, including a National Fab Academy.",
+    "Partnerships: work with trusted nations and global industry, including the US, Japan, South Korea and the EU."
+  ],
+  recsNote:"The five pillars as named by PIB, with detail from published coverage. The full report PDF could not be opened for this entry.",
+  response:["This is an advisory roadmap from NITI Aayog, not an audit, so there is no government reply to it."],
+  timeline:[["29 May 2026","Roadmap released by NITI Aayog"],["2030","India's chip demand projected at about $90 billion"],["2035","Target of a $120-150 billion value chain"]],
+  glossary:["Semiconductor","Advanced packaging","OSAT","Compound semiconductor","Design IP"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Future of India's Semiconductor Industry' on 29 May 2026, through its Frontier Tech Hub.",
+      "The roadmap targets a $120-150 billion semiconductor value chain by 2035.",
+      "India currently imports 90-95% of the semiconductors it uses.",
+      "The roadmap's five pillars are Pioneering, Policy and Investment, Production, People and Partnerships."
+    ],
+    mains:"Should India pursue the most advanced chips or build strength in niches of the semiconductor value chain? Discuss with reference to NITI Aayog's 2026 roadmap. (15 marks)",
+    quiz:[
+      {q:"What value chain does NITI Aayog's roadmap target by 2035?", o:["$20-30 billion","$50-60 billion","$120-150 billion","$500 billion"], a:2, w:"$120-150 billion by 2035."},
+      {q:"About what share of the chips used in India are imported?", o:["30-40%","50-60%","70-75%","90-95%"], a:3, w:"The roadmap puts import dependence at 90-95%."},
+      {q:"Silicon carbide and gallium nitride are examples of:", o:["Compound semiconductors","Rare earth metals","Fossil fuels","Solar coatings"], a:0, w:"Compound semiconductors, used in power electronics."}
+    ]
+  },
+  related:["niti-manufacturing-hub-2026","niti-bioeconomy-2026","niti-datacentre-2026"],
+  src:[["PIB: NITI Aayog releases \"Future of India's Semiconductor Industry\" Roadmap","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2266727&reg=3&lang=1","official"],["Business Today: India eyes top-three global slot in advanced chip packaging","https://businesstoday.in/latest/policy/story/india-eyes-top-three-global-slot-in-advanced-chip-packaging-under-niti-aayogs-2035-roadmap-534050-2026-05-29","news"],["ThePrint: India's running the wrong semiconductor race, NITI Aayog offers stark advice","https://www.theprint.in/india/indias-running-the-wrong-semiconductor-race-time-to-shift-gears-niti-aayog-offers-stark-advice/2945440/","news"],["ETV Bharat: India must rethink chip strategy, focus on strengths","https://www.etvbharat.com/en/technology/india-must-rethink-chip-strategy-focus-on-strengths-niti-aayog-enn26053003574","news"]],
+  kw:"NITI Aayog semiconductor chips roadmap 2035 Frontier Tech Hub India Semiconductor Mission advanced packaging OSAT compound semiconductors silicon carbide gallium nitride design IP fab National Fab Academy imports"
+},
+/* ---------- CAG · Haryana State Finances ---------- */
+{
+  id:"cag-haryana-finances-1-2026", body:"CAG", state:"Haryana", kind:"Financial audit", reportNo:"Report No. 1 of 2026 (Haryana)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Haryana", short:"Haryana State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Haryana",
+  date:"Sep 2026", dateISO:"2026-09-01", tabled:"Placed in the Haryana Legislative Assembly on 1 September 2026", period:"Financial year ended 31 March 2025", flagged:2491.65, flaggedNote:"Cumulative undischarged liabilities at 31 March 2025, equal to 0.21% of GSDP. These are obligations the state had not met or recorded, not confirmed losses.",
+  tldr:[
+    "Haryana's fiscal deficit was ₹34,665.15 crore in 2024-25, or 2.86% of GSDP, below the 3% projected by the 15th Finance Commission.",
+    "Capital spending was only 17.67% of borrowings, and it fell 21.61% from the year before.",
+    "The CAG found undischarged liabilities of ₹2,491.65 crore, and 2,135 delayed utilisation certificates."
+  ],
+  en:"The CAG reviewed Haryana's finances for 2024-25. The fiscal deficit was ₹34,665.15 crore, or 2.86% of GSDP, below the 3% projected by the 15th Finance Commission, though above the budget's own projection. The revenue deficit was ₹19,419.88 crore. Liabilities stood at 29.73% of GSDP and grew 10.52%. Most borrowing went to current spending and repaying old loans: capital spending was only 17.67% of borrowings. The state also carried ₹2,491.65 crore of undischarged liabilities, including grants not passed on to local bodies and pending refunds. Of ₹37,273.13 crore invested in 35 public companies, only four made any return, and the overall return was 0.43%.",
+  hi:"CAG ने 2024-25 के लिए हरियाणा के वित्त की समीक्षा की। राजकोषीय घाटा ₹34,665.15 करोड़ यानी GSDP का 2.86% रहा, जो 15वें वित्त आयोग के 3% के अनुमान से कम, पर बजट के अपने अनुमान से अधिक था। राजस्व घाटा ₹19,419.88 करोड़ रहा। देनदारियाँ GSDP की 29.73% रहीं और इनमें 10.52% की वृद्धि हुई। अधिकांश उधार चालू खर्च और पुराने कर्ज़ चुकाने में गया: पूंजीगत व्यय उधार का केवल 17.67% था। राज्य पर ₹2,491.65 करोड़ की अदायगी-बाकी देनदारियाँ भी थीं, जिनमें स्थानीय निकायों को न दिए गए अनुदान और लंबित रिफंड शामिल हैं। 35 सार्वजनिक कंपनियों में लगे ₹37,273.13 करोड़ में से केवल चार ने कोई प्रतिफल दिया और कुल प्रतिफल 0.43% रहा।",
+  context:{
+    what:"The CAG's annual audit of Haryana's finances for 2024-25, covering revenue, spending, debt, budget management and financial reporting.",
+    why:"It shows whether the state is meeting its fiscal limits, how it uses borrowed money and whether its accounts give a full picture of what it owes.",
+    how:"Review of the state's Finance and Appropriation Accounts for 2024-25. The entry conference was held on 11 November 2025 and the exit meeting with the Additional Chief Secretary, Finance, on 19 February 2026."
+  },
+  nums:[["₹34,665.15 cr","Fiscal deficit, 2.86% of GSDP",0],["₹2,491.65 cr","Undischarged liabilities",1],["29.73%","Liabilities as a share of GSDP",0],["17.67%","Capital spending as a share of borrowings",1]],
+  themes:[
+    {name:"Deficit and debt", sev:"med", items:[
+      {t:"The revenue deficit was ₹19,419.88 crore, 1.60% of GSDP. A report footnote gives a post-audit adjusted figure of ₹21,986.48 crore.", amt:"₹19,419.88 cr"},
+      {t:"The fiscal deficit was ₹34,665.15 crore, 2.86% of GSDP. As a share of GSDP it exceeded the budget's projection.", amt:"₹34,665.15 cr"},
+      {t:"Liabilities grew 10.52% and stood at 29.73% of GSDP.", amt:""},
+      {t:"The state used special Ways and Means Advances for 118 days and ordinary advances for eight days in 2024-25.", amt:""}]},
+    {name:"Use of borrowed money", sev:"high", items:[
+      {t:"Capital spending was only 17.67% of borrowings. Most borrowing went to current spending and repaying earlier loans.", amt:""},
+      {t:"Capital spending fell 21.61% from the previous year.", amt:""},
+      {t:"Interest payments were ₹24,219.24 crore.", amt:"₹24,219.24 cr"}]},
+    {name:"Undischarged liabilities and accounting", sev:"high", items:[
+      {t:"Grants not passed on to local bodies were part of the undischarged liabilities.", amt:"₹1,170.27 cr"},
+      {t:"Pending refund cases.", amt:"₹827.54 cr"},
+      {t:"Unpaid energy charges to power distribution companies.", amt:"₹253.82 cr"},
+      {t:"Excess spending for 2023-24 was still awaiting regularisation by the legislature.", amt:"₹1,335.24 cr"}]},
+    {name:"Public companies and guarantees", sev:"med", items:[
+      {t:"Of ₹37,273.13 crore invested in 35 public companies, only four returned ₹159.60 crore in 2024-25, a return of 0.43%.", amt:"₹159.60 cr"},
+      {t:"Guarantees outstanding at 31 March 2025 stood at ₹23,932 crore, 22.49% of revenue receipts.", amt:"₹23,932 cr"},
+      {t:"Guarantees of ₹3,880.48 crore were given in 2024-25 to three public companies whose net worth was below their guarantees.", amt:"₹3,880.48 cr"}]},
+    {name:"Reporting gaps", sev:"med", items:[
+      {t:"2,135 utilisation certificates were delayed, 884 of them relating to periods before 2019-20.", amt:""},
+      {t:"82 accounts of 40 autonomous bodies were pending as on 30 September 2025.", amt:""},
+      {t:"Funds under the Haryana Rural Development Act, HIDB and HUIDB were kept outside the Government Account, which the report says violates Article 266 of the Constitution.", amt:""}]}
+  ],
+  charts:[
+    {title:"Fiscal deficit as % of GSDP (actual)", type:"bars", unit:"% of GSDP", data:[["2020-21",4.04],["2021-22",3.62],["2022-23",3.18],["2023-24",2.90],["2024-25",2.86]]},
+    {title:"Undischarged liabilities by type", type:"bars", unit:"₹ crore", data:[["Local body grants not transferred",1170.27],["Pending refund cases",827.54],["Power distribution company charges",253.82],["Off-budget borrowings outside the debt stock",146.53],["NPS and statutory fund shortfalls, interest",93.49]]}
+  ],
+  recs:[
+    "Raise revenue, with a non-tax policy for dividends, mining receipts and interest.",
+    "Rationalise revenue spending, target subsidies better and contain interest payments.",
+    "Improve the quality of capital spending and avoid misclassification.",
+    "Adopt a dividend policy for profit-making public companies and tighten monitoring of loans."
+  ],
+  recsNote:"From the recommendations in Chapter 1 of the report, in short. Recommendations in later chapters were not checked for this entry.",
+  response:["The report says the State Government's replies were incorporated where appropriate. It goes to the Haryana Vidhan Sabha's Public Accounts Committee."],
+  timeline:[["31 Mar 2025","Financial year audited ends"],["11 Nov 2025","Entry conference"],["19 Feb 2026","Exit meeting with the Additional Chief Secretary, Finance"],["13 Apr 2026","Report forwarded to the State Government"],["1 Sep 2026","Report placed in the Haryana Legislative Assembly"]],
+  glossary:["Financial audit","GSDP","Fiscal deficit","Revenue deficit","Undischarged liabilities","Ways and Means Advances","Government guarantee","Utilisation certificate","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2026 (Haryana) covers State Finances for 2024-25 and was placed in the Assembly on 1 September 2026.",
+      "Haryana's fiscal deficit in 2024-25 was 2.86% of GSDP.",
+      "Capital spending was only 17.67% of borrowings in 2024-25.",
+      "Undischarged liabilities were ₹2,491.65 crore, 0.21% of GSDP and 7.19% of the fiscal deficit."
+    ],
+    mains:"Meeting a deficit target says little about the quality of a state's borrowing. Discuss with reference to the CAG's report on Haryana's finances for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Haryana's fiscal deficit as a share of GSDP in 2024-25?", o:["1.60%","2.86%","3.62%","4.04%"], a:1, w:"2.86%. 1.60% was the revenue deficit; 3.62% and 4.04% were fiscal deficit figures for earlier years."},
+      {q:"What share of Haryana's borrowings went to capital spending in 2024-25, per the CAG?", o:["17.67%","29.73%","45%","88.94%"], a:0, w:"17.67%. 88.94% is revenue spending as a share of total expenditure."},
+      {q:"Ways and Means Advances are given to states by:", o:["SEBI","Finance Commission","Reserve Bank of India","NABARD"], a:2, w:"The Reserve Bank of India, to meet temporary mismatches in cash flow."}
+    ]
+  },
+  related:["cag-delhi-finances-2-2026","cag-wb-finances-2425","state-finances"],
+  src:[["CAG: Report No. 1 of 2026, State Finances Audit Report, Government of Haryana (report page)","https://cag.gov.in/en/audit-report/details/126203","official"],["CAG: Report No. 1 of 2026, State Finances for 2024-25, Government of Haryana (PDF)","https://cag.gov.in/webroot/uploads/download_audit_report/2026/Haryana_Report-No.-1-of-2026-SFAR-2024-25_English-06a97fa8152f304.74812187.pdf","official"],["Blitz India Media: Haryana State Finances Audit Report, CAG 2026","https://blitzindiamedia.com/news/haryana-state-finances-audit-report-cag-2026/","news"]],
+  kw:"CAG Haryana Report 1 2026 State Finances 2024-25 fiscal deficit revenue deficit GSDP borrowings capital expenditure undischarged liabilities guarantees utilisation certificates Article 266 HIDB HUIDB PSU"
 }
-
-
 
 );
 
 /* map facts for the new state reports */
 Object.assign(window.STATE_FACTS_V2, {
+  HR:[...(window.STATE_FACTS_V2.HR||[]),["Capital spending was only 17.67% of borrowings in 2024-25 (CAG, 2026)","cag-haryana-finances-1-2026"]],
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
   OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
