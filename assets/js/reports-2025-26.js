@@ -128,7 +128,20 @@ Object.assign(window.SITE.glossary, {
   "Social discount rate": "The yearly rate used to convert future costs and benefits of a public project into today's value.",
   "Shadow price": "An adjusted price that reflects the true cost of a resource to the economy, such as labour or foreign exchange, rather than its market price.",
   "Net present value": "The total value today of all a project's future benefits minus its costs, after discounting.",
-  "Social cost of carbon": "The estimated money value of the damage caused by emitting one more tonne of carbon dioxide."
+  "Social cost of carbon": "The estimated money value of the damage caused by emitting one more tonne of carbon dioxide.",
+  "Swachh Bharat Mission-Urban": "The central scheme to make cities free of open defecation and improve the scientific management of solid waste.",
+  "Source segregation": "Separating waste into types, such as wet and dry, at the point where it is produced, usually the home.",
+  "Tipping fee": "A charge paid for each tonne of waste delivered to a processing or disposal facility.",
+  "Sanitary landfill": "An engineered site for the safe final disposal of waste that cannot be processed, built to stop leaks and pollution.",
+  "Construction and demolition waste": "Debris such as concrete, bricks and soil from building, repair and demolition work.",
+  "Library cess": "A small extra charge on property tax that local bodies collect to fund public libraries.",
+  "Concessionaire": "A private company given a contract to build or run a public service, usually for a fixed period.",
+  "GERD": "Gross Expenditure on Research and Development: a country's total spending on R&D, usually shown as a share of GDP.",
+  "Technology transfer office": "A unit in a university or lab that helps turn research into patents, licences and products.",
+  "One Nation One Subscription": "A central scheme that gives government higher education and research institutions access to major international journals through one national subscription.",
+  "Armed Forces Medical Stores Depot": "A depot that buys, stores and supplies medicines and medical stores to military hospitals.",
+  "Military Engineer Services": "The armed forces' agency that builds and maintains their buildings, roads and other works.",
+  "Structural audit": "A check by engineers of whether a building is still safe and sound, usually done regularly for old buildings."
 });
 
 window.SPEC_REPORTS.push(
@@ -3188,6 +3201,206 @@ window.SPEC_REPORTS.push(
   related:["cag-delhi-finances-2-2026","cag-wb-finances-2425","state-finances"],
   src:[["CAG: Report No. 1 of 2026, State Finances Audit Report, Government of Haryana (report page)","https://cag.gov.in/en/audit-report/details/126203","official"],["CAG: Report No. 1 of 2026, State Finances for 2024-25, Government of Haryana (PDF)","https://cag.gov.in/webroot/uploads/download_audit_report/2026/Haryana_Report-No.-1-of-2026-SFAR-2024-25_English-06a97fa8152f304.74812187.pdf","official"],["Blitz India Media: Haryana State Finances Audit Report, CAG 2026","https://blitzindiamedia.com/news/haryana-state-finances-audit-report-cag-2026/","news"]],
   kw:"CAG Haryana Report 1 2026 State Finances 2024-25 fiscal deficit revenue deficit GSDP borrowings capital expenditure undischarged liabilities guarantees utilisation certificates Article 266 HIDB HUIDB PSU"
+},
+/* ---------- CAG · Defence Services (Army) ---------- */
+{
+  id:"cag-army-hospitals-pay-2026", body:"CAG", kind:"Compliance audit", reportNo:"CAG compliance audit report (Union Government, Defence Services – Army, 2026)",
+  title:"Report of the CAG on Union Government (Defence Services – Army)", short:"Army Pay Offices, MES Contracts and Military Hospitals", sector:"Other", ministry:"Ministry of Defence",
+  date:"Mar 2026", dateISO:"2026-03-30", tabled:"Tabled in Parliament on 30 March 2026", period:"Not stated in the coverage cited", flagged:13.52, flaggedNote:"Public money blocked because two Armed Forces Medical Stores Depots did not get expiring medicines replaced or adjusted. This is an amount at issue, not a confirmed loss.",
+  tldr:[
+    "The CAG found that many Army personnel did not get prompt and correct payment of their dues.",
+    "Two medical stores depots let medicines expire without replacement, blocking ₹13.52 crore, and could not meet a third of hospitals' medicine demands.",
+    "Military Hospitals had old buildings without regular structural audits, and part of the Military Hospital at Lansdowne collapsed in June 2022."
+  ],
+  en:"This CAG compliance audit of the Army has three parts: the offices that pay Army personnel, quality control in Military Engineer Services (MES) contracts, and the management of Military Hospitals. The CAG found that many personnel did not get prompt and correct payment of their dues. Reviews of their accounts were not done on time, which led to large one-time recoveries at retirement, and missing business rules in IT systems caused wrong payments. In MES contracts, poor upkeep of site documents weakened contractors' accountability. Two Armed Forces Medical Stores Depots did not get medicines replaced before expiry, blocking ₹13.52 crore, and could not meet about a third of hospitals' demands. Old hospital buildings had no regular structural audits.",
+  hi:"सेना पर CAG के इस अनुपालन ऑडिट के तीन हिस्से हैं: सेना कर्मियों को वेतन देने वाले कार्यालय, मिलिट्री इंजीनियर सर्विसेज़ (MES) के ठेकों में गुणवत्ता नियंत्रण, और सैन्य अस्पतालों का प्रबंधन। CAG ने पाया कि कई कर्मियों को उनके बकाये का समय पर और सही भुगतान नहीं मिला। उनके खातों की समीक्षा समय पर नहीं हुई, जिससे सेवानिवृत्ति के समय एकमुश्त बड़ी वसूली हुई, और IT प्रणालियों में व्यावसायिक नियम न होने से गलत भुगतान हुए। MES ठेकों में साइट दस्तावेज़ों के खराब रखरखाव से ठेकेदारों की जवाबदेही कमज़ोर हुई। दो सशस्त्र सेना चिकित्सा भंडार डिपो ने समाप्ति से पहले दवाएँ नहीं बदलवाईं, जिससे ₹13.52 करोड़ अटक गए, और वे अस्पतालों की लगभग एक-तिहाई माँग पूरी नहीं कर सके। पुराने अस्पताल भवनों का नियमित संरचनात्मक ऑडिट नहीं हुआ।",
+  context:{
+    what:"A CAG compliance audit of the Union Government (Defence Services – Army) in three chapters: pay offices and PCDA (Officers), internal control in MES contracts, and management of Military Hospitals.",
+    why:"Soldiers depend on correct and timely pay, Army works depend on contract quality checks, and Military Hospitals serve personnel and their families.",
+    how:"The audit checked the timeliness and correctness of pay, allowances and other dues paid by Pay and Accounts Offices and PCDA (Officers), and the reasons for shortfalls. It reviewed MES contract controls across seven commands, and the infrastructure, medicine supply and statutory compliance of Military Hospitals."
+  },
+  nums:[["₹13.52 cr","Blocked in expired medicines at two depots",1],["1/3","Hospitals' medicine demands the depots could not meet",1],["7","Commands reviewed for MES contract controls",0],["3","Chapters in the report",0]],
+  themes:[
+    {name:"Pay and dues", sev:"high", items:[
+      {t:"A large number of Army personnel did not get prompt and correct payment of their dues.", amt:""},
+      {t:"Provisional Final Settlement of Accounts reviews were not done on time, leading to large one-time recoveries at retirement.", amt:""},
+      {t:"Business rules were missing from IT systems, which caused incorrect payments.", amt:""},
+      {t:"The report asks for PTOs to be published faster in HRMS and for fewer of them to be rejected.", amt:""}]},
+    {name:"MES contracts", sev:"med", items:[
+      {t:"Site documents were poorly kept, which weakened contractors' accountability and gave little assurance that test results were genuine.", amt:""},
+      {t:"Western Command showed the most non-compliance among the seven commands reviewed.", amt:""}]},
+    {name:"Medicines", sev:"high", items:[
+      {t:"Two Armed Forces Medical Stores Depots did not get unused medicines replaced or adjusted before expiry.", amt:"₹13.52 cr"},
+      {t:"The depots could not meet one-third of Military Hospitals' medicine demands, including Common Drug List medicines.", amt:""},
+      {t:"Storage limits affected how the depots stocked medicines.", amt:""}]},
+    {name:"Hospital buildings and safety", sev:"high", items:[
+      {t:"Delays in modernising buildings held back new specialities and technologies.", amt:""},
+      {t:"Old buildings had no regular structural audits; part of the Military Hospital at Lansdowne collapsed in June 2022.", amt:""},
+      {t:"There were gaps in air-conditioning and fire-fighting systems.", amt:""},
+      {t:"Hospital effluent rules under the Bio-Medical Waste Rules were not followed, and some X-ray machines ran without the required licences.", amt:""}]}
+  ],
+  charts:[
+    {title:"Medicine demands from Military Hospitals met by the depots", type:"split", unit:"thirds of demand", data:[["Not met",1],["Met",2]], note:"The report says the depots could not meet one-third of demands."}
+  ],
+  recs:[
+    "Digitise site records in MES works, with time-bound changes to site-lab and chart rules by type and value of work.",
+    "Cut the time to publish PTOs in HRMS, link the pay applications to one master database with validation checks, and monitor rejected orders automatically.",
+    "Speed up modernisation of hospital buildings, hold regular structural audits and follow fire-safety and effluent rules.",
+    "Keep Common Drug List medicines in stock and get unused medicines replaced free or recover the cost from suppliers."
+  ],
+  recsNote:"From the recommendations as reported in the coverage cited.",
+  response:["News reports say the Ministry of Defence has taken corrective steps on some of the audit observations. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Jun 2022","Part of Military Hospital, Lansdowne collapses"],["30 Mar 2026","Report tabled in Parliament"]],
+  glossary:["Compliance audit","Armed Forces Medical Stores Depot","Military Engineer Services","Structural audit","PAC"],
+  exam:{
+    prelims:[
+      "The CAG's 2026 compliance audit of Defence Services – Army has chapters on pay offices, MES contracts and Military Hospitals.",
+      "Two Armed Forces Medical Stores Depots blocked ₹13.52 crore by not getting expiring medicines replaced.",
+      "The depots could not meet one-third of Military Hospitals' medicine demands.",
+      "Part of the Military Hospital at Lansdowne collapsed in June 2022."
+    ],
+    mains:"Delays in pay and weak upkeep of hospitals affect the morale of soldiers. Discuss with reference to the CAG's 2026 audit of Defence Services – Army. (15 marks)",
+    quiz:[
+      {q:"What amount did the CAG say was blocked because two AFMSDs did not get expiring medicines replaced?", o:["₹1.35 crore","₹13.52 crore","₹135.2 crore","₹313.20 crore"], a:1, w:"₹13.52 crore."},
+      {q:"Which command showed the most non-compliance in MES contract controls?", o:["Northern Command","Eastern Command","Western Command","Southern Command"], a:2, w:"Western Command, among the seven commands reviewed."},
+      {q:"Military Engineer Services (MES) mainly:", o:["Pay salaries to soldiers","Build and maintain works for the armed forces","Supply medicines","Audit defence accounts"], a:1, w:"MES is the construction and maintenance agency of the armed forces."}
+    ]
+  },
+  related:["cag-pension-15-2026","cab-report-9-2026"],
+  src:[["ANI: CAG report calls for digitisation of Army records, flags deficiencies in maintaining Military Hospitals","https://www.aninews.in/news/national/general-news/cag-report-on-calls-for-digitisation-of-army-records-flags-deficiencies-in-maintaining-military-hospitals20260331081550/","news"],["Medical Buyer: CAG report flags military hospital deficiencies","https://medicalbuyer.co.in/cag-report-flags-military-hospital-deficiencies/","news"],["The Focus India: CAG report on Army pay delays and Military Hospitals (Marathi)","https://thefocusindia.com/national-news/cag-report-indian-army-pay-allowance-delays-military-hospitals-2026-300816/","news"]],
+  kw:"CAG Army Defence Services 2026 compliance audit Military Hospitals AFMSD medicines expiry pay allowances PCDA Officers Pay and Accounts Office MES contracts Lansdowne structural audit PTO HRMS Ministry of Defence"
+},
+/* ---------- CAG · Telangana Local Bodies (Solid Waste Management) ---------- */
+{
+  id:"cag-telangana-swm-1-2025", body:"CAG", state:"Telangana", kind:"Performance audit", reportNo:"Report No. 1 of 2025 (Telangana)",
+  title:"Report of the CAG on Local Bodies for the period ended March 2022, Government of Telangana", short:"Telangana Local Bodies and Solid Waste Management", sector:"Environment", ministry:"Urban local bodies, Government of Telangana",
+  date:"Mar 2026", dateISO:"2026-03-30", tabled:"Tabled in the Telangana Legislature on 30 March 2026", period:"Period ended March 2022", flagged:688.22, flaggedNote:"Sum of the amounts reported from the audit: ₹313.20 crore paid for dry waste that was not processed, ₹324.96 crore of library cess short-collected, ₹47.77 crore of tipping fees not collected and ₹2.29 crore of revenue loss. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "GHMC paid a concessionaire ₹313.20 crore for treating dry waste between 2012 and 2020, though the waste was not processed.",
+    "14 test-checked urban local bodies left 37% of their Swachh Bharat Mission-Urban funds unspent as of March 2022.",
+    "Over half the unprocessed waste in test-checked bodies was dumped in open sites for lack of landfills."
+  ],
+  en:"The CAG audited local bodies in Telangana for the period ended March 2022, with a focus on solid waste management in urban local bodies. The state aimed to send no more than 20% of waste to landfills, but only the Greater Hyderabad Municipal Corporation (GHMC) met that goal. In the test-checked bodies, more than half the unprocessed waste was dumped in open sites, and waste was mostly not separated at source. Fourteen test-checked bodies left 37% of their Swachh Bharat Mission-Urban funds unspent. GHMC paid a concessionaire ₹313.20 crore for treating dry waste from 2012 to 2020 even though the waste was not processed, and did not collect ₹47.77 crore of tipping fees. Local bodies also short-collected ₹324.96 crore of library cess.",
+  hi:"CAG ने मार्च 2022 तक की अवधि के लिए तेलंगाना के स्थानीय निकायों का ऑडिट किया, जिसमें शहरी स्थानीय निकायों के ठोस कचरा प्रबंधन पर खास ध्यान दिया गया। राज्य का लक्ष्य था कि 20% से अधिक कचरा लैंडफिल में न जाए, लेकिन केवल ग्रेटर हैदराबाद म्युनिसिपल कॉर्पोरेशन (GHMC) ही यह लक्ष्य पूरा कर सका। जाँचे गए निकायों में आधे से अधिक बिना प्रोसेस हुआ कचरा खुले स्थानों पर फेंका जा रहा था, और कचरे को स्रोत पर ज़्यादातर अलग नहीं किया गया। जाँचे गए 14 निकायों ने स्वच्छ भारत मिशन-शहरी की 37% राशि खर्च नहीं की। GHMC ने 2012 से 2020 तक सूखे कचरे के उपचार के लिए एक रियायतग्राही को ₹313.20 करोड़ का भुगतान किया, जबकि कचरा प्रोसेस नहीं हुआ था, और ₹47.77 करोड़ का टिपिंग शुल्क वसूल नहीं किया। स्थानीय निकायों ने ₹324.96 करोड़ का लाइब्रेरी उपकर भी कम वसूला।",
+  context:{
+    what:"The CAG's report on Telangana's local bodies for the period ended March 2022. Its main part reviews solid waste management in urban local bodies; it also has compliance findings on revenue.",
+    why:"Cities generate growing amounts of waste, and poor handling leads to open dumping and pollution. The audit checks whether local bodies planned, funded and ran waste services as the rules require.",
+    how:"Test check of selected urban local bodies, including GHMC, covering planning, segregation, collection, processing, disposal and the use of Swachh Bharat Mission-Urban funds."
+  },
+  nums:[["₹313.20 cr","Paid for dry waste that was not processed",1],["37%","SBM-U funds unspent in 14 test-checked ULBs",1],["₹324.96 cr","Library cess short-collected by ULBs",1],["₹47.77 cr","Tipping fees GHMC did not collect",0]],
+  themes:[
+    {name:"Processing and disposal", sev:"high", items:[
+      {t:"GHMC paid a concessionaire for treating and disposing of dry waste from 2012 to 2020, even though the waste was not processed.", amt:"₹313.20 cr"},
+      {t:"The state aimed to restrict landfill waste to 20%; only GHMC achieved this.", amt:""},
+      {t:"More than 50% of unprocessed waste in the test-checked bodies was dumped in open sites because there were no landfill facilities.", amt:""},
+      {t:"No construction and demolition waste policy had been notified, and existing processing plants were under-used.", amt:""}]},
+    {name:"Planning and segregation", sev:"high", items:[
+      {t:"Most urban local bodies did not prepare long-term or short-term plans for solid waste management.", amt:""},
+      {t:"There was no full policy framework defining the roles of staff, and reduce-reuse-recycle was not adequately addressed.", amt:""},
+      {t:"Source segregation was not effective; waste was carried and dumped in mixed form.", amt:""}]},
+    {name:"Money and revenue", sev:"high", items:[
+      {t:"14 test-checked bodies left 37% of their Swachh Bharat Mission-Urban funds unspent as of March 2022.", amt:""},
+      {t:"GHMC did not collect tipping fees from several local bodies.", amt:"₹47.77 cr"},
+      {t:"Urban local bodies short-collected library cess.", amt:"₹324.96 cr"},
+      {t:"GHMC levied the environment impact fee wrongly, causing a revenue loss.", amt:"₹2.29 cr"}]},
+    {name:"Monitoring and inclusion", sev:"med", items:[
+      {t:"There were no ward-level committees or dedicated monitoring teams.", amt:""},
+      {t:"There were no guidelines to include and register waste pickers.", amt:""}]}
+  ],
+  charts:[
+    {title:"Amounts flagged in the report", type:"bars", unit:"₹ crore", data:[["Library cess short-collected",324.96],["Paid for unprocessed dry waste (GHMC)",313.20],["Tipping fees not collected (GHMC)",47.77],["Environment impact fee loss (GHMC)",2.29]]},
+    {title:"SBM-U funds in 14 test-checked ULBs, March 2022", type:"split", unit:"% of allocated funds", data:[["Unspent",37],["Spent",63]], note:"'Spent' is 100 minus the 37% reported unspent."}
+  ],
+  recs:[
+    "Prepare long-term and short-term solid waste management plans in every urban local body.",
+    "Enforce segregation of waste at source.",
+    "Build landfill and processing capacity so that waste is not dumped in open sites.",
+    "Notify a construction and demolition waste policy and set up ward-level monitoring."
+  ],
+  recsNote:"Drawn from the gaps the audit found, as reported in the coverage cited. The report's own numbered recommendations were not checked for this entry.",
+  response:["GHMC told auditors that some dry waste was sent to cement and recycling industries and the rest was stored for a proposed plant; news coverage says the CAG was not satisfied with this reply. The report goes to the Telangana Legislature's Public Accounts Committee."],
+  timeline:[["2012 to 2020","Payments to the concessionaire for dry waste treatment"],["Aug 2020","Waste-to-energy plant at Jawaharnagar starts operating"],["Mar 2022","Audit period ends"],["30 Mar 2026","Report tabled in the Telangana Legislature"]],
+  glossary:["Performance audit","Urban Local Body","Swachh Bharat Mission-Urban","Source segregation","Tipping fee","Sanitary landfill","Construction and demolition waste","Library cess","Concessionaire","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2025 on Telangana's Local Bodies, for the period ended March 2022, was tabled in the state legislature on 30 March 2026.",
+      "The audit found 37% of Swachh Bharat Mission-Urban funds unspent in 14 test-checked urban local bodies.",
+      "Only GHMC met Telangana's target of restricting landfill waste to 20%.",
+      "GHMC paid ₹313.20 crore for dry waste treatment from 2012 to 2020 though the waste was not processed."
+    ],
+    mains:"Open dumping persists in Indian cities despite the Swachh Bharat Mission. Examine the institutional gaps in urban solid waste management with reference to the CAG's audit of Telangana's urban local bodies. (15 marks)",
+    quiz:[
+      {q:"Which body was the only one to meet Telangana's 20% landfill target, per the CAG?", o:["Warangal Municipal Corporation","GHMC","Karimnagar Municipal Corporation","None"], a:1, w:"Only the Greater Hyderabad Municipal Corporation (GHMC) met it."},
+      {q:"What share of Swachh Bharat Mission-Urban funds was unspent in the 14 test-checked ULBs as of March 2022?", o:["20%","37%","50%","63%"], a:1, w:"37%. 20% is the landfill target, and over 50% of unprocessed waste was openly dumped."},
+      {q:"A tipping fee in solid waste management is:", o:["A fine on citizens for littering","A charge paid for each tonne of waste delivered to a processing or disposal facility","A tax on plastic bags","A grant from the Finance Commission"], a:1, w:"It is a per-tonne charge for waste delivered to a processing or disposal site."}
+    ]
+  },
+  related:["niti-city-govt-2026","cag-uk-namami-gange"],
+  src:[["CAG: Audit reports, Telangana (listing with Report No. 1 of 2025 on Local Bodies)","https://cag.gov.in/en/audit-report?gt=49&state%5B0%5D=93","official"],["NewsMeter: Unspent funds, open dumping: CAG flags gaps in Telangana's solid waste management","https://newsmeter.in/regional/telangana/unspent-funds-open-dumping-cag-flags-gaps-in-telanganas-solid-waste-management-765493","news"],["The Statesman: CAG flags major lapses in solid waste management in Telangana ULBs","https://www.thestatesman.com/india/cag-lapses-solid-waste-management-telangana-ulbs-1503575802.html","news"],["Metro India: CAG flags Rs 313.20 cr payment to Ramky","https://www.metroindia.net/news/articlenews/cag-flags-rs-cr-payment-to-ramky-46927","news"]],
+  kw:"CAG Telangana Report 1 2025 local bodies solid waste management urban local bodies GHMC Hyderabad Ramky Jawaharnagar dry waste landfill open dumping segregation Swachh Bharat Mission Urban SBM-U tipping fee library cess C&D waste waste pickers 2026"
+},
+/* ---------- NITI · Ease of Doing R&D ---------- */
+{
+  id:"niti-ease-rd-2026", body:"NITI", kind:"Policy report", reportNo:"Two reports: main report and survey report",
+  title:"Ease of Doing Research & Development in India", short:"Ease of Doing R&D in India", sector:"Education & institutions", ministry:"NITI Aayog",
+  date:"Apr 2026", dateISO:"2026-04-09", tabled:"Released by NITI Aayog in New Delhi on 9 April 2026", period:"Study over about nine months", flagged:null,
+  tldr:[
+    "NITI Aayog released two reports on how to make research easier in India: a main report and a survey report.",
+    "They draw on outreach to 400+ institutional leaders and inputs from 850+ scientists and researchers.",
+    "They call for moving from compliance-heavy oversight to trust-based, outcome-focused governance of research."
+  ],
+  en:"NITI Aayog released two reports, 'Ease of Doing Research & Development in India' and a 'Survey Report on Ease of Doing R&D in India'. They are based on about nine months of work, including national surveys, consultations and regional meetings, with outreach to over 400 institutional leaders and inputs from over 850 scientists and researchers. The reports find problems both inside institutions and in the wider system: slow reviews and fund releases, rigid financial rules, delayed fellowships, weak links between research and industry, and oversight focused on paperwork. India spends about 0.65% of GDP on R&D. The reports suggest raising this to at least 2% in phases, a single portal for grants, automated fellowship payments and stronger technology transfer offices.",
+  hi:"नीति आयोग ने दो रिपोर्टें जारी कीं, 'भारत में अनुसंधान और विकास करने में आसानी' और 'भारत में R&D करने में आसानी पर सर्वेक्षण रिपोर्ट'। ये लगभग नौ महीने के काम पर आधारित हैं, जिसमें राष्ट्रीय सर्वेक्षण, परामर्श और क्षेत्रीय बैठकें शामिल थीं, और 400 से अधिक संस्थागत प्रमुखों तक पहुँच तथा 850 से अधिक वैज्ञानिकों और शोधकर्ताओं के सुझाव लिए गए। रिपोर्टें संस्थानों के भीतर और व्यापक व्यवस्था, दोनों में समस्याएँ पाती हैं: प्रस्तावों की धीमी समीक्षा और धन जारी होने में देरी, कठोर वित्तीय नियम, फ़ेलोशिप में देरी, शोध और उद्योग के बीच कमज़ोर संबंध, और कागज़ी कार्रवाई पर केंद्रित निगरानी। भारत R&D पर GDP का लगभग 0.65% खर्च करता है। रिपोर्टें इसे चरणबद्ध तरीके से कम से कम 2% तक बढ़ाने, अनुदानों के लिए एक ही पोर्टल, फ़ेलोशिप के स्वचालित भुगतान और मज़बूत प्रौद्योगिकी हस्तांतरण कार्यालयों का सुझाव देती हैं।",
+  context:{
+    what:"Two NITI Aayog reports on the obstacles researchers and institutions face in doing R&D in India, and how to remove them.",
+    why:"India's spending on research is low compared with major innovation economies, and much of it comes from government. Delays in funding, rigid rules and weak links with industry slow research down.",
+    how:"About nine months of nationwide surveys, stakeholder consultations and regional meetings, with outreach to 400+ institutional leaders and inputs from 850+ scientists and researchers."
+  },
+  nums:[["0.65%","India's R&D spending as a share of GDP",1],["2%","Proposed R&D spending target, in phases",0],["850+","Scientists and researchers who gave inputs",0],["400+","Institutional leaders reached",0]],
+  themes:[
+    {name:"Money for research", sev:"high", items:[
+      {t:"Investment in R&D is low and depends heavily on the public sector; private industry and philanthropy take part relatively little.", amt:""},
+      {t:"Reviews of proposals are slow, financial audits are rigid and funds are released late.", amt:""}]},
+    {name:"People", sev:"med", items:[
+      {t:"Fellowship payments are delayed.", amt:""},
+      {t:"The pipeline of postdoctoral researchers is weak.", amt:""}]},
+    {name:"From lab to market", sev:"med", items:[
+      {t:"Commercialisation of research is low and links between industry and academia are weak.", amt:""},
+      {t:"Access to journals, infrastructure and databases is uneven across regions.", amt:""}]},
+    {name:"Governance", sev:"med", items:[
+      {t:"Oversight is compliance-driven and focused on bureaucratic check-boxes rather than outcomes.", amt:""},
+      {t:"The reports look at both internal institutional processes and external factors such as funding structures, policy and regulation.", amt:""}]}
+  ],
+  charts:[
+    {title:"R&D spending as % of GDP", type:"bars", unit:"% of GDP", data:[["India now",0.65],["Proposed target",2]]}
+  ],
+  recs:[
+    "Raise R&D spending to at least 2% of GDP in phases, and change corporate reporting rules to draw in private money.",
+    "Create a Unified Project Management System, a single-window portal for tracking grants with flexible use of funds.",
+    "Set up a 'Vigyan Nidhi' platform to automate fellowship payments, and expand postdoctoral positions.",
+    "Strengthen technology transfer offices, set up state-level Research, Development and Innovation clusters, extend One Nation One Subscription to private institutions and set up a National Institute for Science Policy and Governance."
+  ],
+  recsNote:"As summarised in The Policy Edge's coverage of the report. The full list in the report was not checked for this entry.",
+  response:["NITI Aayog said the reports are a guidance document and have been shared with the relevant ministries and departments."],
+  timeline:[["Before Apr 2026","About nine months of surveys and consultations"],["9 Apr 2026","Reports released in New Delhi"]],
+  glossary:["GERD","Technology transfer office","One Nation One Subscription","Global Innovation Index"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Ease of Doing Research & Development in India' and a survey report on 9 April 2026.",
+      "The study drew on 400+ institutional leaders and 850+ scientists and researchers.",
+      "India's gross expenditure on R&D is about 0.65% of GDP; the report proposes at least 2% in phases.",
+      "The report proposes a 'Vigyan Nidhi' platform to automate fellowship payments."
+    ],
+    mains:"India's research system is said to be held back more by process than by talent. Discuss with reference to NITI Aayog's report on Ease of Doing Research & Development in India. (15 marks)",
+    quiz:[
+      {q:"What does GERD measure?", o:["Government revenue from digital services","Gross expenditure on research and development","Growth in export receipts","Grants for rural development"], a:1, w:"Gross expenditure on R&D, usually shown as a share of GDP."},
+      {q:"The 'Vigyan Nidhi' platform proposed by NITI Aayog is meant to:", o:["Fund space missions","Automate fellowship payments","Rank universities","Register patents"], a:1, w:"It is proposed to automate fellowship disbursals so researchers are paid on time."},
+      {q:"What R&D spending level does the report propose, in phases?", o:["0.65% of GDP","1% of GDP","At least 2% of GDP","5% of GDP"], a:2, w:"At least 2% of GDP. 0.65% is the current level."}
+    ]
+  },
+  related:["niti-st-scoreboard-2026","niti-bioeconomy-2026","niti-semiconductor-2026"],
+  src:[["PIB: NITI Aayog releases reports on 'Ease of Doing Research & Development in India'","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250965&reg=3&lang=1","official"],["The Policy Edge: NITI Aayog proposes structural reforms to improve India's research ecosystem","https://www.policyedge.in/p/niti-aayog-proposes-structural-reforms-to-improve-indias-research-ecosystem","analysis"],["Indian Pharma Post: NITI Aayog releases reports to improve ease of doing R&D in India","https://www.indianpharmapost.com/policy/niti-aayog-releases-reports-to-improve-ease-of-doing-rd-in-india-19671","news"]],
+  kw:"NITI Aayog Ease of Doing Research Development R&D India 2026 GERD research funding fellowships Vigyan Nidhi UPMS technology transfer office ONOS NISPG science policy innovation researchers survey"
 }
 
 );
@@ -3205,6 +3418,7 @@ Object.assign(window.STATE_FACTS_V2, {
   JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"],["74% of MGNREGS works taken up were incomplete in March 2024 (CAG, 2026)","cag-jk-mgnregs-4-2026"]],
   AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
+  TG:[...(window.STATE_FACTS_V2.TG||[]),["GHMC paid ₹313.20 crore for dry waste that was not processed (CAG, 2026)","cag-telangana-swm-1-2025"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
