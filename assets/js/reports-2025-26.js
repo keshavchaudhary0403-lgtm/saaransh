@@ -2,6 +2,16 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "FAME India": "The Union scheme for Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles, which gave subsidies for electric vehicles and charging stations.",
+  "Demand incentive": "A subsidy that lowers the price a buyer pays for an eligible vehicle, paid to the maker who passes it on to the buyer.",
+  "Phased Manufacturing Programme": "A rule under FAME that required vehicle makers to use parts made in India, step by step, to qualify for incentives.",
+  "OEM": "Original Equipment Manufacturer: the company that makes and sells a product, such as an electric vehicle maker.",
+  "Vahan": "The national online database of vehicle registrations run by the Ministry of Road Transport and Highways.",
+  "IEC": "Information, Education and Communication: public awareness activities run as part of a government scheme.",
+  "Digital Public Infrastructure": "Shared digital systems, such as Aadhaar and UPI, that the government provides and others can build services on.",
+  "Aadhaar": "The 12-digit unique identity number issued to residents of India, based on biometric and demographic data.",
+  "UPI": "Unified Payments Interface: India's real-time system for instant bank-to-bank payments through mobile phones.",
+  "Ayushman Bharat Digital Mission": "The government programme to build digital health records and systems that link patients, doctors and hospitals.",
   "Undischarged liabilities": "Money a government owes but has not paid or properly recorded by the end of the year, such as unpaid grants or refunds.",
   "Ways and Means Advances": "Short-term loans from the Reserve Bank of India that help a government cover temporary gaps between receipts and spending.",
   "BharatNet": "The government's project to connect gram panchayats with optical fibre broadband.",
@@ -3401,6 +3411,141 @@ window.SPEC_REPORTS.push(
   related:["niti-st-scoreboard-2026","niti-bioeconomy-2026","niti-semiconductor-2026"],
   src:[["PIB: NITI Aayog releases reports on 'Ease of Doing Research & Development in India'","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2250965&reg=3&lang=1","official"],["The Policy Edge: NITI Aayog proposes structural reforms to improve India's research ecosystem","https://www.policyedge.in/p/niti-aayog-proposes-structural-reforms-to-improve-indias-research-ecosystem","analysis"],["Indian Pharma Post: NITI Aayog releases reports to improve ease of doing R&D in India","https://www.indianpharmapost.com/policy/niti-aayog-releases-reports-to-improve-ease-of-doing-rd-in-india-19671","news"]],
   kw:"NITI Aayog Ease of Doing Research Development R&D India 2026 GERD research funding fellowships Vigyan Nidhi UPMS technology transfer office ONOS NISPG science policy innovation researchers survey"
+},
+/* ---------- CAG · FAME India (electric vehicles) ---------- */
+{
+  id:"cag-fame-10-2026", body:"CAG", kind:"Performance audit", reportNo:"Report No. 10 of 2026",
+  title:"Performance Audit of the Scheme for Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles in India (FAME India)", short:"FAME India electric vehicle scheme", sector:"Environment", ministry:"Ministry of Heavy Industries",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Placed in Parliament on 12 August 2026", period:"FAME-I and FAME-II, March 2015 to March 2024", flagged:467.96, flaggedNote:"Demand incentives paid to five vehicle makers that broke the scheme's localisation rules. Two of them returned ₹190.90 crore including interest; recovery from the other three was under way. This is an amount at issue, not a confirmed loss.",
+  tldr:[
+    "Five electric vehicle makers got ₹467.96 crore in incentives while breaking localisation rules; the breaches were found only after payment.",
+    "Only 148 of 2,877 planned city charging stations under FAME-II were commissioned, and none of the 8,412 given to oil companies by March 2024.",
+    "5,195 of a targeted 6,862 e-buses under FAME-II were deployed by December 2025."
+  ],
+  en:"The CAG audited both phases of the FAME India scheme, which gave subsidies to make electric vehicles cheaper and to build charging stations, from March 2015 to March 2024. Five vehicle makers received ₹467.96 crore in demand incentives even though they did not meet the rules on using parts made in India. The breaches came to light only after the ministry ordered plant checks, and two makers returned ₹190.90 crore with interest. The online portal for incentive claims was built without a detailed project report and was not linked to the Vahan vehicle registry for most of the scheme. Charging progress was weak: only 148 of 2,877 city stations under FAME-II were commissioned, all 1,576 highway stations were cancelled, and none of the 8,412 stations given to oil companies were working by March 2024. Of ₹48 crore set aside for public awareness, the ministry used ₹7.52 crore.",
+  hi:"CAG ने FAME इंडिया योजना के दोनों चरणों का मार्च 2015 से मार्च 2024 तक ऑडिट किया। यह योजना इलेक्ट्रिक वाहनों को सस्ता बनाने और चार्जिंग स्टेशन बनाने के लिए सब्सिडी देती थी। पाँच वाहन निर्माताओं को ₹467.96 करोड़ के मांग प्रोत्साहन मिले, जबकि वे भारत में बने पुर्ज़ों के इस्तेमाल के नियम पूरे नहीं कर रहे थे। ये उल्लंघन तभी सामने आए जब मंत्रालय ने संयंत्रों की जाँच कराई, और दो निर्माताओं ने ब्याज सहित ₹190.90 करोड़ लौटाए। प्रोत्साहन दावों का ऑनलाइन पोर्टल विस्तृत परियोजना रिपोर्ट के बिना बनाया गया और योजना के ज़्यादातर समय वाहन पंजीकरण प्रणाली वाहन (Vahan) से जुड़ा नहीं था। चार्जिंग में प्रगति कमज़ोर रही: FAME-II में शहरों के 2,877 स्टेशनों में से केवल 148 चालू हुए, राजमार्गों के सभी 1,576 स्टेशन रद्द हो गए, और तेल कंपनियों को दिए गए 8,412 स्टेशनों में से एक भी मार्च 2024 तक चालू नहीं हुआ। जन-जागरूकता के लिए रखे गए ₹48 करोड़ में से मंत्रालय ने ₹7.52 करोड़ ही इस्तेमाल किए।",
+  context:{
+    what:"A CAG performance audit of FAME India, the Union scheme run by the Ministry of Heavy Industries to speed up the use and local manufacture of hybrid and electric vehicles. It covers FAME-I and FAME-II.",
+    why:"FAME was the main central subsidy for electric vehicles, with an outlay that grew to ₹11,500 crore in its second phase. The audit checks whether the money reached eligible vehicles, whether local manufacturing rules were enforced and whether charging stations were built.",
+    how:"Review of both phases from March 2015 to March 2024, including demand incentives and the claims portal, testing and certification, e-bus support, charging projects, technology projects and awareness spending. Auditors also inspected 104 charging stations and chargers between February and July 2023."
+  },
+  nums:[["₹467.96 cr","Incentives to five makers that broke localisation rules",1],["148 of 2,877","FAME-II city charging stations commissioned",1],["0 of 8,412","Oil company charging stations working by March 2024",1],["5,195 of 6,862","FAME-II e-buses deployed by December 2025",0]],
+  themes:[
+    {name:"Incentives and local manufacturing", sev:"high", items:[
+      {t:"Five vehicle makers received demand incentives while breaking the Phased Manufacturing Programme's localisation rules. The breaches were found only after the ministry ordered record checks, plant inspections and strip-down analysis.", amt:"₹467.96 cr"},
+      {t:"Two of the five makers returned the full incentives with interest; recovery or deregistration of the other three was under way.", amt:"₹190.90 cr"},
+      {t:"Incentives were approved for 952 vehicles, other than e-buses, that were not eligible.", amt:"₹6.78 cr"},
+      {t:"Three electric two-wheeler makers sold chargers separately to keep prices under the ₹1.5 lakh limit; they refunded ₹296.52 crore to buyers, and ₹29.45 crore was still due in February 2025.", amt:"₹29.45 cr"}]},
+    {name:"Claims portal and testing", sev:"med", items:[
+      {t:"The portal for incentive claims was built without a detailed project report, deliverables or timelines, and the same vendor was used in Phase II.", amt:""},
+      {t:"The portal was not linked to the Vahan and Sarathi transport databases for most of the scheme period.", amt:""},
+      {t:"No timelines were set for testing vehicles; issuing eligibility reports took up to 497 days.", amt:""},
+      {t:"₹6.18 crore was recovered from one maker for 894 vehicles sold after its eligibility certificate had expired, and ₹1.65 crore was overpaid on 5,198 electric three-wheelers.", amt:""}]},
+    {name:"Charging stations", sev:"high", items:[
+      {t:"There was no formal roadmap for public charging infrastructure.", amt:""},
+      {t:"Phase I: 497 of 539 charging stations were commissioned. A charging project given to Rajasthan Electronics and Instruments Limited in January 2019 was not commissioned.", amt:"₹12.66 cr"},
+      {t:"Phase II: only 148 of 2,877 city stations were commissioned and the rest were cancelled; all 1,576 highway and expressway stations were cancelled.", amt:""},
+      {t:"None of the 8,412 stations awarded to three oil marketing companies was commissioned by 31 March 2024.", amt:""}]},
+    {name:"E-buses, research and awareness", sev:"med", items:[
+      {t:"Phase II deployed 5,195 e-buses against a revised target of 6,862 by 31 December 2025. A central server to monitor e-bus performance, promised for December 2020, was not built.", amt:""},
+      {t:"Of 16 Phase-I technology projects, 9 were completed and 8 of those were delayed; MoUs were not signed for four projects.", amt:""},
+      {t:"No plan was made for awareness (IEC) activities; only ₹7.52 crore of the ₹48 crore set aside was used.", amt:"₹7.52 cr"}]}
+  ],
+  charts:[
+    {title:"Charging stations: planned vs commissioned", type:"pairs", unit:"stations", legend:["Sanctioned or awarded","Commissioned"], data:[["Phase I",539,497],["Phase II, cities",2877,148],["Phase II, oil companies (by Mar 2024)",8412,0],["Phase II, highways (cancelled)",1576,0]]},
+    {title:"Amounts flagged in the report", type:"bars", unit:"₹ crore", data:[["Incentives to makers breaking localisation rules",467.96],["Charging project not commissioned",12.66],["Incentives for ineligible vehicles",6.78],["Recovered for sales after certificate expiry",6.18],["Excess paid on e-three-wheelers",1.65]]},
+    {title:"Awareness (IEC) funds, Phases I and II", type:"split", unit:"₹ crore", data:[["Used",7.52],["Not used",40.48]], note:"'Not used' is ₹48 crore minus the ₹7.52 crore reported as used."}
+  ],
+  recs:[
+    "Give one nodal agency end-to-end responsibility for charging infrastructure.",
+    "Use geospatial planning to decide where charging stations go.",
+    "Settle land and electricity supply in advance, and use standard agreements with implementing agencies.",
+    "Monitor the scheme in real time through a central system."
+  ],
+  recsNote:"As summarised in The Policy Edge's coverage of the report. The report's own numbered recommendations were not checked for this entry.",
+  response:["The press release and coverage cited do not report the ministry's reply. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Apr 2015","FAME-I starts with a ₹795 crore outlay for two years"],["Mar 2019","FAME-I ends after extension; outlay ₹895 crore"],["Apr 2019","FAME-II starts with ₹10,000 crore, later raised to ₹11,500 crore"],["Mar 2024","FAME-II period ends; no oil company charging station commissioned"],["Dec 2025","5,195 of 6,862 Phase II e-buses deployed"],["12 Aug 2026","Report placed in Parliament"]],
+  glossary:["Performance audit","FAME India","Demand incentive","Phased Manufacturing Programme","OEM","Vahan","DPR","Service-level agreement","IEC","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 10 of 2026, a performance audit of the FAME India scheme, was placed in Parliament on 12 August 2026.",
+      "FAME India is run by the Ministry of Heavy Industries; FAME-II's outlay was raised from ₹10,000 crore to ₹11,500 crore.",
+      "The CAG found ₹467.96 crore of incentives paid to five makers that broke localisation rules under the Phased Manufacturing Programme.",
+      "Only 148 of 2,877 FAME-II city charging stations were commissioned; all 1,576 highway stations were cancelled."
+    ],
+    mains:"Subsidies alone cannot build an electric vehicle ecosystem. Discuss with reference to the CAG's findings on the FAME India scheme. (15 marks)",
+    quiz:[
+      {q:"Which ministry runs the FAME India scheme?", o:["Ministry of Power","Ministry of Road Transport and Highways","Ministry of Heavy Industries","Ministry of New and Renewable Energy"], a:2, w:"The Ministry of Heavy Industries runs FAME India."},
+      {q:"How many of the 8,412 charging stations awarded to oil marketing companies were commissioned by 31 March 2024?", o:["None","148","497","1,576"], a:0, w:"None. 148 is the number of city stations commissioned and 1,576 the highway stations cancelled."},
+      {q:"The Phased Manufacturing Programme under FAME sets rules on:", o:["Battery recycling","Use of parts made in India","Electricity tariffs for charging","Road tax on EVs"], a:1, w:"It sets localisation rules: makers had to meet requirements on using Indian-made parts to get incentives."}
+    ]
+  },
+  related:["niti-iemi-2025","niti-netzero-2026"],
+  src:[["CAG press release: Report No. 10 of 2026 on FAME India","https://saiindia.gov.in/uploads/PressRelease/PR-Press-release-Report-No-10-of-2026-English-06a7d40b14c4aa0-02016965.pdf","official"],["Down To Earth: CAG flags Rs 468 crore in FAME incentives to EV makers violating localisation norms","https://www.downtoearth.org.in/energy/cag-flags-rs-468-crore-in-fame-incentives-to-ev-makers-violating-localisation-norms","news"],["The Policy Edge: CAG finds charging and localisation gaps weakened the FAME EV scheme","https://www.policyedge.in/p/cag-finds-charging-and-localisation-gaps-weakened-the-fame-ev-scheme","analysis"]],
+  kw:"CAG Report 10 2026 FAME India FAME-II electric vehicles EV subsidy demand incentive localisation Phased Manufacturing Programme PMP OEM charging stations e-bus oil marketing companies Vahan DIDM portal Ministry of Heavy Industries IEC"
+},
+/* ---------- NITI · DPI@2047 ---------- */
+{
+  id:"niti-dpi-2047-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Frontier Tech Hub roadmap",
+  title:"DPI@2047 for Viksit Bharat: A Strategic Roadmap to Enable Non-linear Inclusive Socio-economic Growth", short:"DPI@2047 roadmap for digital public infrastructure", sector:"Other", ministry:"NITI Aayog",
+  date:"Apr 2026", dateISO:"2026-04-27", tabled:"Released by NITI Aayog in New Delhi on 27 April 2026", period:"Roadmap to 2047; DPI 2.0 covers 2025–2035", flagged:null,
+  tldr:[
+    "NITI Aayog's roadmap says digital public infrastructure (DPI) adds nearly 1% to GDP now and could reach 4% by 2030.",
+    "It sets out 'DPI 2.0' for 2025–2035, built around eight changes in areas such as MSMEs, farming, education, health, credit and energy.",
+    "It wants states to lead, with two-year cycles starting with MSMEs and agriculture in six champion states or UTs."
+  ],
+  en:"NITI Aayog's Frontier Tech Hub released a roadmap for the next stage of India's digital public infrastructure, the shared digital systems such as Aadhaar and UPI that others can build on. The report says these systems already add nearly 1% to GDP and could add 4% by 2030. It links DPI to the goal of a $30 trillion economy with a per capita income of $18,000 by 2047. The first stage gave over a billion people a digital identity. The next stage, DPI 2.0 for 2025 to 2035, is meant to raise livelihoods through eight changes: wider markets and hiring for MSMEs, better incomes for small farmers, learner-centred education, universal health coverage, credit access, decentralised energy markets and benefits reaching the right people. The report asks states to lead, working in two-year cycles, with the first cycle in 2026-27 on MSMEs and agriculture.",
+  hi:"नीति आयोग के फ्रंटियर टेक हब ने भारत के डिजिटल सार्वजनिक बुनियादी ढाँचे (DPI) के अगले चरण के लिए एक रोडमैप जारी किया। DPI का मतलब Aadhaar और UPI जैसी साझा डिजिटल प्रणालियाँ हैं, जिन पर दूसरे लोग अपनी सेवाएँ बना सकते हैं। रिपोर्ट कहती है कि ये प्रणालियाँ अभी GDP में लगभग 1% का योगदान देती हैं और 2030 तक 4% तक पहुँच सकती हैं। यह DPI को 2047 तक $30 ट्रिलियन की अर्थव्यवस्था और $18,000 प्रति व्यक्ति आय के लक्ष्य से जोड़ती है। पहले चरण ने एक अरब से अधिक लोगों को डिजिटल पहचान दी। अगला चरण, 2025 से 2035 तक का DPI 2.0, आठ बदलावों के ज़रिए आजीविका बढ़ाने के लिए है: MSME के लिए बड़े बाज़ार और भर्ती, छोटे किसानों की बेहतर आय, विद्यार्थी-केंद्रित शिक्षा, सार्वभौमिक स्वास्थ्य कवरेज, कर्ज़ तक पहुँच, विकेंद्रीकृत ऊर्जा बाज़ार और लाभों का सही लोगों तक पहुँचना। रिपोर्ट राज्यों से अगुवाई करने को कहती है, दो-दो साल के चक्रों में, जिसमें पहला चक्र 2026-27 में MSME और कृषि पर होगा।",
+  context:{
+    what:"A NITI Aayog roadmap, prepared by its Frontier Tech Hub, on how India's digital public infrastructure should grow up to 2047. EkStep Foundation and Deloitte South Asia were lead contributors.",
+    why:"Systems such as Aadhaar and UPI already run at very large scale. The report asks how the same approach can raise productivity and incomes in sectors like small business, farming, education and health.",
+    how:"A strategy roadmap with an expert council and contributions from several DPI organisations. It sets phases, sector goals, execution priorities and recommendations for the Centre and states."
+  },
+  nums:[["4%","Possible DPI contribution to GDP by 2030",0],["~1%","DPI contribution to GDP now",0],["$30 trillion","Economy size targeted by 2047",0],["8","Sector transformations proposed for DPI 2.0",0]],
+  themes:[
+    {name:"Phases", sev:"low", items:[
+      {t:"DPI 1.0 gave digital identity to over a billion people.", amt:""},
+      {t:"DPI 2.0 (2025–2035) is meant to build a broad base of capable citizens and livelihood-led growth.", amt:""},
+      {t:"DPI 3.0 is meant to follow, aiming at broad-based prosperity through grassroots innovation.", amt:""}]},
+    {name:"Eight sector transformations", sev:"med", items:[
+      {t:"For MSMEs: wider market access, and helping small firms find local talent.", amt:""},
+      {t:"Better livelihoods for smallholder farmers, and safe, learner-centred education.", amt:""},
+      {t:"Universal health coverage, including a stronger Ayushman Bharat Digital Mission.", amt:""},
+      {t:"System-wide enablers: credit access for a billion Indians, decentralised energy markets, and benefits reaching the right beneficiaries.", amt:""}]},
+    {name:"How to carry it out", sev:"med", items:[
+      {t:"Four execution priorities: aggregate demand through district programmes, scale tech entrepreneurship, use the momentum in AI, and deploy cross-sector 'unlocks'.", amt:""},
+      {t:"The four unlocks are better use of data, democratising AI, building human capacity and expanding digital transactions.", amt:""}]}
+  ],
+  charts:[
+    {title:"DPI's contribution to India's GDP", type:"bars", unit:"% of GDP", data:[["2022",0.9],["2030 (projected)",4.2]], note:"Figures from the report's Chapter 1. Elsewhere it rounds these to 'nearly 1%' now and '4% by 2030'."}
+  ],
+  recs:[
+    "Execute DPI 2.0 mainly through decentralised, state-led efforts, with the Centre and NITI Aayog as catalysts.",
+    "Work in two-year cycles: pilot in a few states first, then build capacity and scale up.",
+    "Focus the first cycle (2026–2027) on MSMEs and agriculture, with six champion States/UTs running lighthouse pilots.",
+    "Set up a neutral ecosystem body for global engagement in 2027."
+  ],
+  recsNote:"From the report's Call to Action as read for this entry.",
+  response:["No government response is reported. The report is a NITI Aayog roadmap with recommendations for the Centre and the states."],
+  timeline:[["2025","DPI 2.0 phase begins (to 2035)"],["27 Apr 2026","Report released in New Delhi"],["2026–2027","Proposed first two-year cycle on MSMEs and agriculture"],["2030","DPI contribution could reach 4% of GDP"],["2047","Target of a $30 trillion economy"]],
+  glossary:["Digital Public Infrastructure","Aadhaar","UPI","Ayushman Bharat Digital Mission","MSME"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'DPI@2047 for Viksit Bharat', prepared by its Frontier Tech Hub, on 27 April 2026.",
+      "The report says DPI contributes nearly 1% of GDP and could reach 4% by 2030.",
+      "DPI 2.0 covers 2025–2035 and is built around eight sector transformations.",
+      "It proposes that the first two-year cycle (2026–2027) focus on MSMEs and agriculture in six champion States/UTs."
+    ],
+    mains:"India's digital public infrastructure has achieved scale in identity and payments. Discuss how NITI Aayog's DPI@2047 roadmap proposes to use DPI to raise productivity and livelihoods. (15 marks)",
+    quiz:[
+      {q:"Which unit of NITI Aayog prepared the DPI@2047 roadmap?", o:["Development Monitoring and Evaluation Office","Frontier Tech Hub","Atal Innovation Mission","Women Entrepreneurship Platform"], a:1, w:"It was prepared by the NITI Frontier Tech Hub."},
+      {q:"According to the report, DPI's contribution to GDP could reach what level by 2030?", o:["1%","2%","4%","10%"], a:2, w:"About 4%, up from nearly 1% now."},
+      {q:"Which sectors does the report suggest for the first two-year cycle?", o:["Defence and space","MSMEs and agriculture","Banking and insurance","Mining and power"], a:1, w:"MSMEs and agriculture, with six champion States/UTs."}
+    ]
+  },
+  related:["niti-ai-2025","niti-datacentre-2026","niti-women-credit-2026"],
+  src:[["NITI Aayog: DPI@2047 for Viksit Bharat (report page)","https://niti.gov.in/node/2272","official"],["NITI Aayog: DPI@2047 report (PDF)","https://niti.gov.in/sites/default/files/2026-04/DPI-2047-for-Viksit-Bharat-A-Strategic-Roadmap-to-Enable-Non-linear-Inclusive-Socio-economic-Growth.pdf","official"],["All India Radio: NITI Aayog releases report DPI @2047","https://www.newsonair.gov.in/niti-aayog-releases-report-dpi-2047-strategic-roadmap-to-enable-non-linear-inclusive-socioeconomic-growth/","news"],["YourStory: Digital Public Infra initiatives may contribute 4% of GDP by 2030: NITI report","https://yourstory.com/2026/04/digital-public-infra-initiatives-contribute-4-pc-gdp-2030-niti-report","news"],["The Statesman: NITI Aayog launches DPI@2047 roadmap","https://www.thestatesman.com/india/niti-aayog-launches-dpi2047-roadmap-to-advance-inclusive-productivity-led-growth-1503587115.html","news"]],
+  kw:"NITI Aayog DPI@2047 digital public infrastructure DPI 2.0 DPI 3.0 Viksit Bharat Frontier Tech Hub Aadhaar UPI ABDM MSME agriculture credit decentralised energy AI EkStep Deloitte roadmap 2026"
 }
 
 );
