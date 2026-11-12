@@ -2,6 +2,18 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "PMUY": "Pradhan Mantri Ujjwala Yojana: the Union scheme that gives free LPG connections to women in poor households.",
+  "De-duplication": "Checking records to find and remove entries for the same person or household that appear more than once.",
+  "Oil marketing company": "A company, such as Indian Oil, BPCL or HPCL, that sells fuel and LPG to consumers through its dealers.",
+  "DDA": "Delhi Development Authority: the Union body that plans land use and builds and sells housing in Delhi.",
+  "EWS": "Economically Weaker Section: a category of low-income households for whom some housing and other benefits are reserved.",
+  "CPWD": "Central Public Works Department: the Union agency that builds and maintains most central government buildings and works.",
+  "Revenue surplus": "When a government's revenue receipts, such as taxes and grants, are more than its revenue spending, such as salaries and interest.",
+  "Revenue buoyancy": "How much revenue grows for each 1% growth in the economy; a value below 1 means revenue grows slower than the economy.",
+  "Personal Deposit account": "A government account outside the main budget heads, where money drawn from the treasury is kept by an administrator for later use.",
+  "Multidisciplinary practice": "A firm in which members of different professions, such as lawyers and accountants, work together and share ownership.",
+  "LLP": "Limited Liability Partnership: a business form in which partners are not personally liable beyond their agreed share.",
+  "Continuing professional development": "Ongoing training that professionals must keep doing after qualifying, to keep their skills up to date.",
   "FAME India": "The Union scheme for Faster Adoption and Manufacturing of (Hybrid &) Electric Vehicles, which gave subsidies for electric vehicles and charging stations.",
   "Demand incentive": "A subsidy that lowers the price a buyer pays for an eligible vehicle, paid to the maker who passes it on to the buyer.",
   "Phased Manufacturing Programme": "A rule under FAME that required vehicle makers to use parts made in India, step by step, to qualify for incentives.",
@@ -3546,6 +3558,208 @@ window.SPEC_REPORTS.push(
   related:["niti-ai-2025","niti-datacentre-2026","niti-women-credit-2026"],
   src:[["NITI Aayog: DPI@2047 for Viksit Bharat (report page)","https://niti.gov.in/node/2272","official"],["NITI Aayog: DPI@2047 report (PDF)","https://niti.gov.in/sites/default/files/2026-04/DPI-2047-for-Viksit-Bharat-A-Strategic-Roadmap-to-Enable-Non-linear-Inclusive-Socio-economic-Growth.pdf","official"],["All India Radio: NITI Aayog releases report DPI @2047","https://www.newsonair.gov.in/niti-aayog-releases-report-dpi-2047-strategic-roadmap-to-enable-non-linear-inclusive-socioeconomic-growth/","news"],["YourStory: Digital Public Infra initiatives may contribute 4% of GDP by 2030: NITI report","https://yourstory.com/2026/04/digital-public-infra-initiatives-contribute-4-pc-gdp-2030-niti-report","news"],["The Statesman: NITI Aayog launches DPI@2047 roadmap","https://www.thestatesman.com/india/niti-aayog-launches-dpi2047-roadmap-to-advance-inclusive-productivity-led-growth-1503587115.html","news"]],
   kw:"NITI Aayog DPI@2047 digital public infrastructure DPI 2.0 DPI 3.0 Viksit Bharat Frontier Tech Hub Aadhaar UPI ABDM MSME agriculture credit decentralised energy AI EkStep Deloitte roadmap 2026"
+},
+/* ---------- CAG · Economic and Service Ministries (Report 11 of 2026) ---------- */
+{
+  id:"cag-econ-service-11-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 11 of 2026",
+  title:"Report of the CAG on Union Government, Economic and Service Ministries (Compliance Audit – Civil) for the period ended March 2024", short:"Economic and Service Ministries: Ujjwala, DDA housing, CPWD", sector:"Social welfare", ministry:"Six Union ministries (Commerce and Industry, Housing and Urban Affairs, MSME, Petroleum and Natural Gas, Textiles, Tourism)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Presented in Parliament on 12 August 2026", period:"Mainly 2022-23 and 2023-24, for the period ended March 2024", flagged:4983, flaggedNote:"Approximate cost blocked in 39,904 DDA flats lying vacant on 31 March 2024. The report also flags other amounts, such as ₹21.41 crore misappropriated at the Export Inspection Agency, Chennai. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "Under the extended Ujjwala scheme, 4.28 crore LPG connections were issued without complete family Aadhaar seeding, and 1.64 lakh duplicate connections were released.",
+    "39,904 DDA flats lay vacant on 31 March 2024, blocking about ₹4,983 crore; 96.7% of them were LIG or EWS flats.",
+    "Public money of ₹21.41 crore was misappropriated at the Export Inspection Agency, Chennai, through cheques issued without any goods or services received."
+  ],
+  en:"This CAG compliance audit has 14 paragraphs on six Union ministries and their autonomous bodies, for the period ended March 2024. The largest chapter is on the extended Pradhan Mantri Ujjwala Yojana, which gives free LPG connections to poor households. The CAG found that 4.28 crore connections were issued without Aadhaar numbers for the whole family, and that oil companies released 1.64 lakh duplicate connections. 5,50,446 PMUY connections went to homes that already had a regular LPG connection. In Delhi, 39,904 DDA flats, almost all for low-income and poor buyers, were lying vacant, blocking about ₹4,983 crore. In the 2017 housing scheme, 75.31% of flats offered were surrendered or cancelled. At the Export Inspection Agency in Chennai, ₹21.41 crore of public money was misappropriated through cheques paid for goods and services never received. The report also points to avoidable spending by CPWD, slow settlement of textile subsidy claims and wasteful spending on tourism projects.",
+  hi:"CAG की इस अनुपालन ऑडिट रिपोर्ट में छह केंद्रीय मंत्रालयों और उनके स्वायत्त निकायों पर 14 पैराग्राफ हैं, जो मार्च 2024 तक की अवधि से जुड़े हैं। सबसे बड़ा अध्याय विस्तारित प्रधानमंत्री उज्ज्वला योजना पर है, जो गरीब परिवारों को मुफ़्त LPG कनेक्शन देती है। CAG ने पाया कि 4.28 करोड़ कनेक्शन पूरे परिवार के Aadhaar नंबर के बिना दिए गए, और तेल कंपनियों ने 1.64 लाख डुप्लिकेट कनेक्शन जारी किए। 5,50,446 PMUY कनेक्शन ऐसे घरों को दिए गए जिनके पास पहले से सामान्य LPG कनेक्शन था। दिल्ली में DDA के 39,904 फ्लैट खाली पड़े थे, जिनमें लगभग सभी कम आय और गरीब खरीदारों के लिए थे, और इनमें लगभग ₹4,983 करोड़ फँसे हुए थे। 2017 की आवास योजना में दिए गए 75.31% फ्लैट लौटा दिए गए या रद्द हो गए। चेन्नई की निर्यात निरीक्षण एजेंसी में ऐसे सामान और सेवाओं के नाम पर चेक जारी करके ₹21.41 करोड़ सरकारी धन का दुरुपयोग हुआ, जो कभी मिले ही नहीं। रिपोर्ट CPWD के टाले जा सकने वाले खर्च, कपड़ा सब्सिडी दावों के धीमे निपटारे और पर्यटन परियोजनाओं पर बेकार खर्च की ओर भी इशारा करती है।",
+  context:{
+    what:"A CAG compliance audit of six Union ministries and their autonomous bodies: Commerce and Industry, Housing and Urban Affairs, MSME, Petroleum and Natural Gas, Textiles, and Tourism. It has 14 audit paragraphs.",
+    why:"These ministries run large schemes and bodies that touch households directly, such as Ujjwala LPG connections and DDA housing in Delhi. The audit checks whether rules were followed and money was used properly.",
+    how:"Test-check of records mainly for 2022-23 and 2023-24, with later matters included where needed. The Ujjwala chapter used data analysis of connection and ration card records, and a follow-up audit of duplicate connections."
+  },
+  nums:[["4.28 crore","Ujjwala connections without complete family Aadhaar seeding",1],["39,904","DDA flats vacant on 31 March 2024",1],["₹21.41 cr","Misappropriated at Export Inspection Agency, Chennai",1],["75.31%","Flats offered in DDA Housing Scheme 2017 surrendered or cancelled",0]],
+  themes:[
+    {name:"Ujjwala LPG connections (Petroleum and Natural Gas)", sev:"high", items:[
+      {t:"4.28 crore (87%) LPG connections under the extended scheme were issued without complete family Aadhaar seeding, and 2.14 crore connections were not properly de-duplicated.", amt:""},
+      {t:"Oil marketing companies released 1.64 lakh duplicate LPG connections on the same Aadhaar numbers.", amt:""},
+      {t:"5,50,446 PMUY connections were given to households that already had a non-PMUY connection. The oil companies later decided to block the older connections.", amt:"₹326.61 cr"},
+      {t:"2,61,169 connections meant for Antyodaya ration card holders went to people with other ration cards, and 2,141 connections were given to men although the scheme is for women.", amt:""}]},
+    {name:"DDA housing in Delhi (Housing and Urban Affairs)", sev:"high", items:[
+      {t:"39,904 flats were vacant on 31 March 2024; 38,576 of them (96.7%) were LIG or EWS flats.", amt:"₹4,983 cr"},
+      {t:"In Housing Scheme 2017, 9,502 of 12,617 flats offered (75.31%) were surrendered or cancelled. In Housing Scheme 2014, 12,837 of 25,040 (51.27%) were surrendered.", amt:""},
+      {t:"Excess land cost was charged on 14,112 flats.", amt:"₹159.95 cr"},
+      {t:"A contractor was paid extra for hollow units instead of 616 dwelling units.", amt:"₹42.82 cr"}]},
+    {name:"CPWD works", sev:"med", items:[
+      {t:"In nine of 34 Delhi construction works checked, avoidable expenditure was found, and four works were awarded without proper detailed estimates, drawings and layout plans.", amt:"₹44.28 cr"},
+      {t:"Electricity duty was paid irregularly.", amt:"₹6.91 cr"},
+      {t:"Faulty rate calculations in CPWD's Schedule of Rates between July 2017 and July 2024.", amt:""}]},
+    {name:"Other ministries", sev:"med", items:[
+      {t:"Export Inspection Agency, Chennai: cheques were issued to private parties though no goods or services were received.", amt:"₹21.41 cr"},
+      {t:"Tourism: wasteful, unfruitful or irregular spending under the scheme for tourism infrastructure by central agencies, with some facilities idle for over five years.", amt:"₹15.55 cr"},
+      {t:"Textiles: only about 41% of funds allocated under the Amended Technology Upgradation Fund Scheme were disbursed, and only 6% of 8,453 older pending cases were settled by January 2025.", amt:""},
+      {t:"Coir Board: nine research projects were incomplete and 22 completed projects were not commercialised; ₹4.52 crore of market assistance went to ineligible units.", amt:"₹4.52 cr"}]}
+  ],
+  charts:[
+    {title:"Amounts flagged in the report", type:"bars", unit:"₹ crore", data:[["DDA flats lying vacant",4983],["Ujjwala connections to homes with LPG",326.61],["Excess land cost on DDA flats",159.95],["CPWD avoidable expenditure",44.28],["EIA Chennai misappropriation",21.41],["Tourism infrastructure",15.55]]},
+    {title:"DDA flats surrendered or cancelled", type:"pairs", unit:"flats", legend:["Offered","Surrendered or cancelled"], data:[["Housing Scheme 2014",25040,12837],["Housing Scheme 2017",12617,9502]]}
+  ],
+  recs:[],
+  recsNote:"The CAG press release does not list recommendations, and paragraph-wise recommendations in the full report were not checked for this entry.",
+  response:["The Petroleum Ministry told the CAG in January 2025 that of the 2,141 connections given to men, 2,094 were genuine and 24 were blocked. The oil companies decided to block or end the older non-PMUY connections in homes that also had a PMUY connection.","On DDA's unsold flats, the Housing Ministry said 23,955 flats were newly built and not part of unsold stock. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["2014","DDA Housing Scheme 2014 offers 25,040 flats"],["2017","DDA Housing Scheme 2017 offers 12,617 flats"],["31 Mar 2024","39,904 DDA flats lying vacant"],["Jan 2025","Petroleum Ministry replies on Ujjwala findings"],["12 Aug 2026","Report presented in Parliament"]],
+  glossary:["Compliance audit","PMUY","Aadhaar","De-duplication","Oil marketing company","DDA","EWS","CPWD","Central Autonomous Body","Avoidable expenditure","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 11 of 2026 covers six Union ministries in 14 audit paragraphs and was presented in Parliament on 12 August 2026.",
+      "It found 4.28 crore extended Ujjwala (PMUY) LPG connections issued without complete family Aadhaar seeding.",
+      "39,904 DDA flats were vacant on 31 March 2024, 96.7% of them LIG or EWS flats.",
+      "₹21.41 crore was misappropriated at the Export Inspection Agency, Chennai, under the Ministry of Commerce and Industry."
+    ],
+    mains:"Weak beneficiary verification undermines targeted welfare schemes. Discuss with reference to the CAG's findings on the extended Pradhan Mantri Ujjwala Yojana. (15 marks)",
+    quiz:[
+      {q:"How many DDA flats did the CAG find vacant on 31 March 2024?", o:["9,502","12,837","39,904","5,50,446"], a:2, w:"39,904 flats were vacant. 9,502 and 12,837 are surrendered flats in the 2017 and 2014 schemes; 5,50,446 is an Ujjwala figure."},
+      {q:"The ₹21.41 crore misappropriation in CAG Report No. 11 of 2026 was found at:", o:["Coir Board","Export Inspection Agency, Chennai","CPWD","Spices Board, Kochi"], a:1, w:"Cheques were issued to private parties at the Export Inspection Agency, Chennai, with no goods or services received."},
+      {q:"Which ministry runs the Pradhan Mantri Ujjwala Yojana?", o:["Rural Development","Consumer Affairs","Petroleum and Natural Gas","Women and Child Development"], a:2, w:"PMUY is run by the Ministry of Petroleum and Natural Gas through the oil marketing companies."}
+    ]
+  },
+  related:["cag-fin-comm-5-2026","cab-report-9-2026","cag-unexplained-tax-32-2026"],
+  src:[["CAG press release: Report No. 11 of 2026","https://saiindia.gov.in/uploads/PressRelease/PR-Press-release-Report-No-11-of-2026-Eng-06a7d40e53aa263-92755144.pdf","official"],["CAG: Report No. 11 of 2026 (full report)","https://saiindia.gov.in/pt/delhi/en/audit-report/download/125967","official"]],
+  kw:"CAG Report 11 2026 compliance audit economic service ministries Ujjwala PMUY E-PMUY LPG duplicate connections Aadhaar DDA housing vacant flats EWS LIG CPWD Schedule of Rates Export Inspection Agency Chennai misappropriation Coir Board ATUFS textiles tourism"
+},
+/* ---------- CAG · Odisha State Finances 2024-25 ---------- */
+{
+  id:"cag-odisha-finances-3-2026", body:"CAG", state:"Odisha", kind:"Financial audit", reportNo:"Report No. 3 of 2026 (Odisha)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Odisha", short:"Odisha State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Odisha",
+  date:"Mar 2026", dateISO:"2026-03-31", tabled:"Tabled in the Odisha Legislative Assembly on 31 March 2026", period:"Financial year ended 31 March 2025", flagged:16585.45, flaggedNote:"Grants for which 12,050 utilisation certificates were pending. This is money not yet accounted for, not a confirmed loss.",
+  tldr:[
+    "Odisha had a revenue surplus of ₹22,651 crore and a fiscal deficit of 2.81% of GSDP in 2024-25, within the 3% ceiling.",
+    "₹56,157 crore (19.50%) of the budget was not spent, and utilisation certificates for ₹16,585.45 crore were pending.",
+    "₹76,642 crore, 56% of the state's borrowings, falls due for repayment within seven years."
+  ],
+  en:"The CAG's report on Odisha's finances for 2024-25 finds the state in good fiscal shape but with weak budget and accounting practice. The economy grew 11.40% in the year. The state ran a revenue surplus of ₹22,651 crore, and its fiscal deficit was 2.81% of GSDP, within the 3% limit. Debt was 15.48% of GSDP, well below the 25% limit. But revenue receipts grew only 2.43%, and ₹56,157 crore, or 19.50% of the budget, was not spent. Utilisation certificates were pending for ₹16,585.45 crore of grants, 34% more than a year earlier. 27 profit-making state companies did not pay ₹5,146.76 crore in dividends due under the state's policy. ₹721 crore of day-to-day spending was shown as capital spending. ₹76,642 crore of borrowings must be repaid within seven years.",
+  hi:"2024-25 के लिए ओडिशा के वित्त पर CAG की रिपोर्ट बताती है कि राज्य की राजकोषीय स्थिति अच्छी है, लेकिन बजट और लेखा व्यवहार कमज़ोर है। साल में अर्थव्यवस्था 11.40% बढ़ी। राज्य का राजस्व अधिशेष ₹22,651 करोड़ रहा और राजकोषीय घाटा GSDP का 2.81% रहा, जो 3% की सीमा के भीतर है। कर्ज़ GSDP का 15.48% था, जो 25% की सीमा से काफ़ी कम है। लेकिन राजस्व प्राप्तियाँ केवल 2.43% बढ़ीं, और ₹56,157 करोड़, यानी बजट का 19.50%, खर्च नहीं हुआ। ₹16,585.45 करोड़ के अनुदानों के उपयोग प्रमाणपत्र लंबित थे, जो एक साल पहले से 34% ज़्यादा है। मुनाफ़े वाली 27 राज्य कंपनियों ने राज्य की नीति के तहत बनने वाला ₹5,146.76 करोड़ का लाभांश नहीं दिया। ₹721 करोड़ के रोज़मर्रा के खर्च को पूंजीगत खर्च के रूप में दिखाया गया। ₹76,642 करोड़ का उधार सात साल के भीतर चुकाना है।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report for Odisha for 2024-25. It reviews the state's receipts, spending, deficits, debt, budget management and the quality of its accounts.",
+    why:"It shows how well the state keeps to its fiscal rules, how much of its budget it actually spends and whether its accounts give a true picture. It is the base for the Assembly's Public Accounts Committee to question the government.",
+    how:"Analysis of the state's Finance Accounts and Appropriation Accounts for 2024-25, with trends over 2020-21 to 2024-25. Two grants, Sports and Youth Services and Panchayati Raj and Drinking Water, were reviewed in detail."
+  },
+  nums:[["2.81%","Fiscal deficit as a share of GSDP",0],["₹56,157 cr","Budget not spent (19.50%)",1],["₹16,585.45 cr","Grants with pending utilisation certificates",1],["₹5,146.76 cr","Dividends not paid by 27 state companies",1]],
+  themes:[
+    {name:"Deficits and debt", sev:"low", items:[
+      {t:"Revenue surplus of ₹22,651 crore (2.54% of GSDP) and fiscal deficit of ₹25,042 crore (2.81% of GSDP), within the 3% ceiling.", amt:""},
+      {t:"Outstanding liabilities were ₹1,37,784 crore in March 2025. The debt-GSDP ratio fell from 22.02% in 2020-21 to 15.48%, against a 25% limit.", amt:""},
+      {t:"₹76,642 crore, 56% of total borrowings, is due for repayment within seven years.", amt:"₹76,642 cr"}]},
+    {name:"Revenue", sev:"med", items:[
+      {t:"Revenue receipts were ₹1,83,963 crore and grew only 2.43%. Revenue buoyancy was 0.21, and own revenue buoyancy was 0.02.", amt:""},
+      {t:"Non-tax revenue fell by ₹1,790 crore to ₹51,221 crore.", amt:""},
+      {t:"27 state public sector companies that made profits did not pay dividends due under the state's dividend policy.", amt:"₹5,146.76 cr"}]},
+    {name:"Budget and spending", sev:"high", items:[
+      {t:"Of a total budget of ₹2,87,770 crore, ₹2,31,613 crore was spent; ₹56,157 crore (19.50%) remained unspent.", amt:"₹56,157 cr"},
+      {t:"Subsidies were ₹9,134 crore against a budget of ₹8,068 crore, including ₹5,848.70 crore for Samrudh Krushak Yojana.", amt:""},
+      {t:"Capital spending was ₹45,481 crore.", amt:""}]},
+    {name:"Accounts and transparency", sev:"high", items:[
+      {t:"12,050 utilisation certificates were pending, up 34% from ₹12,361.26 crore a year earlier.", amt:"₹16,585.45 cr"},
+      {t:"₹721 crore of revenue spending was booked as capital spending.", amt:"₹721 cr"},
+      {t:"1,490 abstract contingent bills were pending adjustment.", amt:"₹221.47 cr"},
+      {t:"₹11,417.84 crore was held in Personal Deposit accounts across 392 administrators.", amt:"₹11,417.84 cr"}]}
+  ],
+  charts:[
+    {title:"Budget used in 2024-25", type:"split", unit:"₹ crore", data:[["Spent",231613],["Not spent",56157]], note:"Total budget ₹2,87,770 crore."},
+    {title:"Debt as a share of GSDP", type:"bars", unit:"%", data:[["2020-21",22.02],["2024-25",15.48],["Limit",25]]},
+    {title:"Pending utilisation certificates", type:"bars", unit:"₹ crore", data:[["2023-24",12361.26],["2024-25",16585.45]]}
+  ],
+  recs:[
+    "Broaden the tax base and strengthen recovery of tax arrears.",
+    "Enforce the dividend policy for state public sector companies.",
+    "Rationalise subsidies and manage salary and pension spending.",
+    "Prepare realistic budgets and stop misclassifying revenue spending as capital spending."
+  ],
+  recsNote:"In short, from the report's Chapter 1 and coverage in OdishaBytes. The full list of recommendations was not checked for this entry.",
+  response:["The coverage cited does not report the state government's reply. The report goes to the Odisha Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2020-21","Debt-GSDP ratio at 22.02%"],["23 Mar 2026","Report sent to the state government"],["31 Mar 2026","Report tabled in the Odisha Legislative Assembly"]],
+  glossary:["GSDP","Fiscal deficit","Revenue surplus","Revenue buoyancy","Utilisation certificate","Committed expenditure","Personal Deposit account","Capital expenditure","FRBM","PAC"],
+  exam:{
+    prelims:[
+      "CAG's State Finances Audit Report of Odisha for 2024-25 (Report No. 3 of 2026) was tabled on 31 March 2026.",
+      "Odisha's fiscal deficit was 2.81% of GSDP and it had a revenue surplus of ₹22,651 crore in 2024-25.",
+      "Odisha's debt-GSDP ratio was 15.48% in 2024-25, down from 22.02% in 2020-21.",
+      "Utilisation certificates for ₹16,585.45 crore were pending at the end of 2024-25."
+    ],
+    mains:"A state can meet its fiscal targets and still manage its budget poorly. Examine with reference to the CAG's State Finances Audit Report of Odisha for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Odisha's debt-GSDP ratio in 2024-25 according to the CAG?", o:["15.48%","22.02%","25%","2.81%"], a:0, w:"15.48%. 22.02% was the 2020-21 ratio, 25% the limit and 2.81% the fiscal deficit."},
+      {q:"How much of Odisha's 2024-25 budget was not spent?", o:["₹5,146.76 crore","₹16,585.45 crore","₹56,157 crore","₹76,642 crore"], a:2, w:"₹56,157 crore, or 19.50% of the budget. ₹76,642 crore is debt due within seven years."},
+      {q:"A revenue surplus means that:", o:["Revenue receipts exceed revenue spending","Total receipts exceed total spending","The state has no debt","Capital spending exceeds borrowing"], a:0, w:"A revenue surplus is when revenue receipts are higher than revenue expenditure."}
+    ]
+  },
+  related:["cag-odisha-dmf-2026","cag-odisha-tourism-transport-2026","cag-haryana-finances-1-2026","state-finances"],
+  src:[["CAG: Report No. 3 of 2026, State Finances 2024-25, Government of Odisha (report page)","https://cag.gov.in/en/audit-report/details/125084","official"],["CAG: Executive Summary, Odisha State Finances 2024-25","https://saiindia.gov.in/uploads/download_audit_report/2025/6-Executive-Summary-069cbaed211dbc5.47594682.pdf","official"],["CAG digital report: SFAR Odisha 2024-25, Chapter 1","https://www.digitalreports.cag.gov.in/odisha/chapter/1","official"],["OdishaBytes: Odisha economy grows 11.4%, maintains revenue surplus, but serious lapses in PSU dividends and budget execution","https://odishabytes.com/odisha-economy-grows-11-4-maintains-revenue-surplus-but-serious-lapses-in-psu-dividends-budget-execution-cag/","news"],["Lokmat Times (IANS): CAG raises fiscal stress risk concerns amid moderate growth in Odisha","https://www.lokmattimes.com/national/cag-raises-fiscal-stress-risk-concerns-amid-moderate-growth-in-odisha/amp/","news"]],
+  kw:"CAG Odisha State Finances Audit Report 2024-25 SFAR Report 3 2026 fiscal deficit revenue surplus GSDP debt utilisation certificates PSU dividends budget savings misclassification capital expenditure Samrudh Krushak Yojana personal deposit"
+},
+/* ---------- NITI · Professional services ---------- */
+{
+  id:"niti-professional-services-2026", body:"NITI", kind:"Policy report", reportNo:"Services Thematic Series, third report",
+  title:"India's Services Sector: Insights on Regulatory Regime in Professional Services", short:"Regulation of professional services", sector:"Other", ministry:"NITI Aayog",
+  date:"Aug 2026", dateISO:"2026-08-10", tabled:"Released by NITI Aayog in August 2026 (launch reported on 10 August 2026)", period:"Data mainly 2005 to 2024-25", flagged:null,
+  tldr:[
+    "NITI Aayog reviewed how India regulates legal, accounting, architecture, engineering and health professionals.",
+    "India was the world's seventh-largest services exporter in 2024, with a 4.3% share; professional services were nearly one-fifth of services exports in 2024-25.",
+    "It proposes reforms for each profession and four common priorities, including continuous professional development and better regulatory practice."
+  ],
+  en:"NITI Aayog's third report in its services series looks at the rules that govern professional services in India: legal, accounting and auditing, architecture, engineering and health care. India's share of world services exports rose from 2% in 2005 to 4.3% in 2024, making it the seventh-largest exporter. Professional services were nearly one-fifth of services exports in 2024-25 and grew about 18% a year between FY2015 and FY2025. Engineering service exports rose from about $1.77 billion to $13.77 billion in ten years. The report finds that regulation is uneven. Law, medicine and accounting have detailed rules, but engineering and some other fields have little formal oversight. Some rules also limit growth, such as bans on advertising by lawyers and on firms that combine several professions. The report suggests changes for each profession and four common priorities. These are continuous professional development, good regulatory practice, moving into higher-value work and building skills in areas such as AI.",
+  hi:"नीति आयोग की सेवा श्रृंखला की तीसरी रिपोर्ट भारत में पेशेवर सेवाओं पर लागू नियमों की पड़ताल करती है: कानूनी, लेखा और ऑडिट, वास्तुकला, इंजीनियरिंग और स्वास्थ्य सेवा। दुनिया के सेवा निर्यात में भारत का हिस्सा 2005 में 2% से बढ़कर 2024 में 4.3% हो गया, जिससे वह सातवाँ सबसे बड़ा निर्यातक बन गया। 2024-25 में पेशेवर सेवाएँ सेवा निर्यात का लगभग पाँचवाँ हिस्सा थीं, और FY2015 से FY2025 के बीच हर साल लगभग 18% बढ़ीं। इंजीनियरिंग सेवाओं का निर्यात दस साल में लगभग $1.77 बिलियन से बढ़कर $13.77 बिलियन हो गया। रिपोर्ट पाती है कि नियमन असमान है। कानून, चिकित्सा और लेखा के लिए विस्तृत नियम हैं, लेकिन इंजीनियरिंग और कुछ अन्य क्षेत्रों पर औपचारिक निगरानी कम है। कुछ नियम विकास को भी रोकते हैं, जैसे वकीलों के विज्ञापन पर रोक और कई पेशों को मिलाने वाली फर्मों पर रोक। रिपोर्ट हर पेशे के लिए बदलाव और चार साझा प्राथमिकताएँ सुझाती है। ये हैं निरंतर पेशेवर विकास, अच्छा नियामक व्यवहार, ऊँचे मूल्य वाले काम की ओर बढ़ना और AI जैसे क्षेत्रों में कौशल बनाना।",
+  context:{
+    what:"A NITI Aayog report, the third in its Services Thematic Series, on the laws, licensing rules and limits on practice for five professional services: legal, accounting and auditing, architecture, engineering and health care.",
+    why:"Services make up a large and growing part of India's economy and exports, and professional services are among the fastest-growing. How these professions are regulated affects their quality, jobs and ability to compete abroad.",
+    how:"A review of each profession under three heads: laws that govern practice, qualifications and licensing, and limits on how services are supplied (such as legal form of firms, advertising and fees). It uses trade data and compares with global practice."
+  },
+  nums:[["4.3%","India's share of world services exports, 2024",0],["7th","India's rank among services exporters, 2024",0],["~18%","Yearly growth of professional services exports, FY2015 to FY2025",0],["$13.77 bn","Engineering services exports, 2024-25",0]],
+  themes:[
+    {name:"Trade and growth", sev:"low", items:[
+      {t:"India's share of world services exports rose from 2% in 2005 to 4.3% in 2024.", amt:""},
+      {t:"Professional services were nearly one-fifth of services exports in 2024-25.", amt:""},
+      {t:"Accounting, auditing and bookkeeping exports rose from $617 million to about $3.32 billion, and engineering exports from about $1.77 billion to $13.77 billion, between 2014-15 and 2024-25.", amt:""}]},
+    {name:"Gaps in regulation", sev:"med", items:[
+      {t:"There is no uniform regime: medicine, law, accounting and auditing have detailed rules, while engineering, landscape architecture and urban planning are lightly regulated.", amt:""},
+      {t:"The Advocates Act, 1961 recognises only advocates, leaving out in-house counsel and legal consultants. Multidisciplinary practices are not allowed.", amt:""},
+      {t:"Architecture has no separate licensing exam, and engineering has no central law for engineers in construction work.", amt:""},
+      {t:"In health care, paperwork limits doctors' and other professionals' ability to work across states.", amt:""}]},
+    {name:"Suggested reforms", sev:"low", items:[
+      {t:"Legal: recognise allied legal professionals, allow responsible digital advertising, and allow multidisciplinary practices with safeguards.", amt:""},
+      {t:"Accounting: expand mutual recognition agreements and set standards for bookkeepers.", amt:""},
+      {t:"Architecture: add a competency test, simplify registration and allow LLPs. Engineering: set rules where public safety is at stake.", amt:""},
+      {t:"Health care: make licences portable across states and fully implement the National Commission for Allied and Healthcare Professions Act, 2021.", amt:""}]}
+  ],
+  charts:[
+    {title:"India's share of world services exports", type:"bars", unit:"%", data:[["2005",2],["2024",4.3]]},
+    {title:"Exports of selected professional services", type:"pairs", unit:"US$ billion", legend:["2014-15","2024-25"], data:[["Engineering",1.77,13.77],["Accounting, auditing and bookkeeping",0.617,3.32]]}
+  ],
+  recs:[
+    "Make continuous professional development a regular part of each profession.",
+    "Adopt good regulatory practices: clear licensing criteria, timelines, consultation and appeals.",
+    "Move into higher-value services such as research, design, analytics and strategic advice.",
+    "Build skills in emerging areas such as AI-enabled services, ESG reporting and carbon accounting."
+  ],
+  recsNote:"The four common priorities as summarised in The Policy Edge and Business Today. They are suggestions, not adopted policy.",
+  response:["No government response is reported. The report offers suggestions for regulators and professional bodies."],
+  timeline:[["2005","India's share of world services exports at 2%"],["2014-15","Engineering services exports about $1.77 billion"],["2024","India becomes seventh-largest services exporter (4.3%)"],["Aug 2026","Report released by NITI Aayog"]],
+  glossary:["Mutual Recognition Arrangement","Multidisciplinary practice","LLP","Continuing professional development","CAGR"],
+  exam:{
+    prelims:[
+      "NITI Aayog's report 'India's Services Sector: Insights on Regulatory Regime in Professional Services' was released in August 2026 as the third report in its Services Thematic Series.",
+      "India was the seventh-largest services exporter in 2024, with a 4.3% share of world services exports.",
+      "Professional services were nearly one-fifth of India's services exports in 2024-25.",
+      "The report covers legal, accounting and auditing, architecture, engineering and health care services."
+    ],
+    mains:"Uneven regulation holds back India's professional services. Discuss in light of NITI Aayog's 2026 report on the regulatory regime in professional services. (15 marks)",
+    quiz:[
+      {q:"What was India's rank among services exporters in 2024, as cited in NITI Aayog's report?", o:["3rd","5th","7th","10th"], a:2, w:"India was the seventh-largest services exporter, with a 4.3% share."},
+      {q:"Which law currently recognises only advocates as legal professionals?", o:["Legal Services Authorities Act, 1987","Advocates Act, 1961","Bar Council Act, 1926","Code of Civil Procedure, 1908"], a:1, w:"The report notes that the Advocates Act, 1961 recognises only advocates."},
+      {q:"Which of these is NOT one of the report's four common priorities?", o:["Continuous professional development","Good regulatory practices","Nationalising professional firms","Moving into higher-value services"], a:2, w:"The four priorities are professional development, good regulatory practice, higher-value services and emerging capabilities."}
+    ]
+  },
+  related:["niti-manufacturing-hub-2026","skilling-viksit-2047","niti-ease-rd-2026"],
+  src:[["The Policy Edge: NITI Aayog maps regulatory reforms to scaling high-value professional services","https://www.policyedge.in/p/niti-aayog-maps-regulatory-reforms-to-scaling-high-value-professional-services","analysis"],["Business Today: NITI Aayog unveils 4-pronged roadmap to boost India's professional services","https://businesstoday.in/india/story/niti-aayog-unveils-4-pronged-roadmap-to-boost-indias-professional-services-what-it-proposes-549346-2026-08-14","news"],["Outlook Money: NITI Aayog report outlines roadmap to boost India's professional services sector","https://www.outlookmoney.com/news/niti-aayog-report-outlines-roadmap-to-boost-indias-professional-services-sector","news"],["Indian Masterminds: NITI Aayog services sector report on professional services regulation","https://indianmasterminds.com/news/niti-aayog-services-sector-report-professional-services-regulation-224595/","news"]],
+  kw:"NITI Aayog professional services regulation services sector thematic series 2026 legal accounting auditing architecture engineering healthcare Advocates Act multidisciplinary practice mutual recognition LLP continuing professional development services exports"
 }
 
 );
@@ -3555,7 +3769,7 @@ Object.assign(window.STATE_FACTS_V2, {
   HR:[...(window.STATE_FACTS_V2.HR||[]),["Capital spending was only 17.67% of borrowings in 2024-25 (CAG, 2026)","cag-haryana-finances-1-2026"]],
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
-  OD:[...(window.STATE_FACTS_V2.OD||[]),["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
+  OD:[...(window.STATE_FACTS_V2.OD||[]),["Utilisation certificates for ₹16,585.45 crore pending at end of 2024-25 (CAG, 2026)","cag-odisha-finances-3-2026"],["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
   NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
