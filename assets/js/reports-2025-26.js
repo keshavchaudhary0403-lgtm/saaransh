@@ -163,7 +163,19 @@ Object.assign(window.SITE.glossary, {
   "One Nation One Subscription": "A central scheme that gives government higher education and research institutions access to major international journals through one national subscription.",
   "Armed Forces Medical Stores Depot": "A depot that buys, stores and supplies medicines and medical stores to military hospitals.",
   "Military Engineer Services": "The armed forces' agency that builds and maintains their buildings, roads and other works.",
-  "Structural audit": "A check by engineers of whether a building is still safe and sound, usually done regularly for old buildings."
+  "Structural audit": "A check by engineers of whether a building is still safe and sound, usually done regularly for old buildings.",
+  "PLI": "Production Linked Incentive: a central scheme that pays firms a share of their extra sales of goods made in India, to boost domestic manufacturing.",
+  "Domestic value addition": "The share of a product's value that is created inside the country, rather than in imported parts and materials.",
+  "Advanced chemistry cell": "A new generation of battery cell, such as lithium-ion, used to store electricity in electric vehicles and power grids.",
+  "DDUGJY": "Deen Dayal Upadhyaya Gram Jyoti Yojana: a central scheme launched in 2014 to strengthen rural power networks and separate farm feeders.",
+  "SAUBHAGYA": "Pradhan Mantri Sahaj Bijli Har Ghar Yojana: a central scheme launched in 2017 to give electricity connections to all willing un-electrified households.",
+  "REC Limited": "A government-owned company that finances power projects and acted as the nodal agency for central rural electrification schemes.",
+  "Discom": "A power distribution company that supplies electricity to homes and businesses and collects bills in its area.",
+  "Feeder separation": "Running separate power lines for farm pumps and for homes in villages, so each can be supplied and managed on its own.",
+  "Extra-budgetary resources": "Money raised for government schemes through loans by public bodies, outside the Union budget.",
+  "Black spot": "A stretch of road where serious crashes happen again and again, which needs to be identified and fixed.",
+  "Crash barrier": "A guard rail or wall along the edge or middle of a road that stops vehicles from leaving the road or crossing over.",
+  "Optical hazard marking": "Bright reflective signs or marks that warn drivers of a hazard, such as a sharp turn or an obstacle, especially at night."
 });
 
 window.SPEC_REPORTS.push(
@@ -3760,6 +3772,208 @@ window.SPEC_REPORTS.push(
   related:["niti-manufacturing-hub-2026","skilling-viksit-2047","niti-ease-rd-2026"],
   src:[["The Policy Edge: NITI Aayog maps regulatory reforms to scaling high-value professional services","https://www.policyedge.in/p/niti-aayog-maps-regulatory-reforms-to-scaling-high-value-professional-services","analysis"],["Business Today: NITI Aayog unveils 4-pronged roadmap to boost India's professional services","https://businesstoday.in/india/story/niti-aayog-unveils-4-pronged-roadmap-to-boost-indias-professional-services-what-it-proposes-549346-2026-08-14","news"],["Outlook Money: NITI Aayog report outlines roadmap to boost India's professional services sector","https://www.outlookmoney.com/news/niti-aayog-report-outlines-roadmap-to-boost-indias-professional-services-sector","news"],["Indian Masterminds: NITI Aayog services sector report on professional services regulation","https://indianmasterminds.com/news/niti-aayog-services-sector-report-professional-services-regulation-224595/","news"]],
   kw:"NITI Aayog professional services regulation services sector thematic series 2026 legal accounting auditing architecture engineering healthcare Advocates Act multidisciplinary practice mutual recognition LLP continuing professional development services exports"
+},
+/* ---------- NITI · Impact Assessment of PLI Schemes ---------- */
+{
+  id:"niti-pli-impact-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog impact assessment (with IIM Ahmedabad as knowledge partner)",
+  title:"Impact Assessment of PLI Schemes", short:"How the PLI schemes have performed", sector:"Other", ministry:"NITI Aayog",
+  date:"Nov 2026", dateISO:"2026-11-12", tabled:"Released by NITI Aayog in New Delhi on 12 November 2026", period:"Scheme data up to March 2026 (2025-26)", flagged:null,
+  tldr:[
+    "NITI Aayog's assessment of the Production Linked Incentive (PLI) schemes across 14 sectors finds that nearly 70% of targeted segments are broadly on track.",
+    "By March 2026, investment reached about ₹2.4 lakh crore (76% of target) and production about ₹22.66 lakh crore (64% of target), with 58% of the scheme period over.",
+    "Jobs lag most: 8,49,069 jobs were created, only 28% of the target of about 30 lakh."
+  ],
+  en:"NITI Aayog, with IIM Ahmedabad as its knowledge partner, has assessed the Production Linked Incentive (PLI) schemes, which pay firms an incentive for extra production in India. The schemes cover 14 sectors. By March 2026, 578 of 996 months, or 58%, of the total scheme period had passed. Investment was about ₹2.4 lakh crore, 76% of the ₹3.15 lakh crore target. Production and sales were about ₹22.66 lakh crore, 64% of the ₹35.38 lakh crore target. Jobs did worst: 8,49,069 jobs were created, only 28% of the target of about 30 lakh. Jobs were above the yearly target in 2024-25 at 156%, but fell to 31% in 2025-26. The report says nearly 70% of targeted segments are broadly on track. Mobile phones and electronics, pharmaceuticals, telecom and food products did well. Bulk drugs were weak on exports, medical devices on jobs and IT hardware on investment. It suggests adding demand-side support, such as government buying and help to find export markets.",
+  hi:"नीति आयोग ने IIM अहमदाबाद को ज्ञान भागीदार बनाकर उत्पादन से जुड़ी प्रोत्साहन (PLI) योजनाओं का आकलन किया है। ये योजनाएँ भारत में अतिरिक्त उत्पादन करने पर कंपनियों को प्रोत्साहन राशि देती हैं। योजनाएँ 14 क्षेत्रों में चल रही हैं। मार्च 2026 तक योजनाओं की कुल अवधि के 996 में से 578 महीने, यानी 58%, बीत चुके थे। निवेश लगभग ₹2.4 लाख करोड़ रहा, जो ₹3.15 लाख करोड़ के लक्ष्य का 76% है। उत्पादन और बिक्री लगभग ₹22.66 लाख करोड़ रही, जो ₹35.38 लाख करोड़ के लक्ष्य का 64% है। रोज़गार में प्रदर्शन सबसे कमज़ोर रहा: 8,49,069 नौकरियाँ बनीं, जो लगभग 30 लाख के लक्ष्य का केवल 28% है। 2024-25 में नौकरियाँ सालाना लक्ष्य से ऊपर, 156% रहीं, लेकिन 2025-26 में घटकर 31% रह गईं। रिपोर्ट कहती है कि लक्षित खंडों में से लगभग 70% मोटे तौर पर सही रास्ते पर हैं। मोबाइल फ़ोन और इलेक्ट्रॉनिक्स, दवाएँ, दूरसंचार और खाद्य उत्पादों ने अच्छा प्रदर्शन किया। बल्क ड्रग्स निर्यात में, चिकित्सा उपकरण रोज़गार में और IT हार्डवेयर निवेश में कमज़ोर रहे। रिपोर्ट माँग बढ़ाने वाले उपाय जोड़ने का सुझाव देती है, जैसे सरकारी खरीद और निर्यात बाज़ार खोजने में मदद।",
+  context:{
+    what:"NITI Aayog's assessment of the Production Linked Incentive schemes in 14 sectors, prepared with IIM Ahmedabad as knowledge partner. It compares investment, production, jobs and exports with the targets set for each scheme.",
+    why:"PLI is the government's main tool to grow manufacturing in India. The schemes are more than half way through their run, so this is a chance to see what works and to change schemes that are falling behind.",
+    how:"Analysis of beneficiary-level data up to March 2026, sector by sector. Segments were grouped as on track, partial impact, insignificant evidence of impact, or data unavailable."
+  },
+  nums:[["28%","Jobs target met (8,49,069 jobs)",1],["76%","Investment target met (about ₹2.4 lakh crore)",0],["64%","Production target met (about ₹22.66 lakh crore)",0],["58%","Share of the scheme period over by March 2026",0]],
+  themes:[
+    {name:"Overall progress", sev:"med", items:[
+      {t:"Investment was about ₹2.4 lakh crore against a target of ₹3.15 lakh crore (76%).", amt:""},
+      {t:"Production and sales were about ₹22.66 lakh crore, 64% of the ₹35.38 lakh crore target.", amt:""},
+      {t:"578 of 996 months (58%) of the total implementation period had passed by March 2026.", amt:""},
+      {t:"Nearly 70% of targeted segments across the 14 sectors were broadly on track.", amt:""}]},
+    {name:"Jobs", sev:"high", items:[
+      {t:"8,49,069 jobs were created by 2025-26, only 28% of the target of about 30 lakh.", amt:""},
+      {t:"Jobs as a share of the yearly target were 86% up to 2022-23, about 85% in 2023-24, 156% in 2024-25 and 31% in 2025-26.", amt:""},
+      {t:"In autos, 67,820 jobs were created against a projected 1,48,147.", amt:""}]},
+    {name:"Sectors doing well", sev:"low", items:[
+      {t:"Four sectors were on track: large-scale electronics manufacturing (mainly mobile phones), pharmaceuticals, telecom and networking, and food products.", amt:""},
+      {t:"In white goods, domestic value addition rose from 20% to 55%.", amt:""},
+      {t:"Medical devices recorded sales of ₹14,945 crore by March 2026.", amt:""}]},
+    {name:"Sectors lagging", sev:"high", items:[
+      {t:"Bulk drugs were weak on exports, medical devices on jobs, and IT hardware on investment.", amt:""},
+      {t:"In autos, extra sales were ₹52,414 crore against a projected ₹2,31,500 crore, though investment of ₹44,326 crore was above the projected ₹42,500 crore.", amt:""},
+      {t:"In advanced chemistry cell (ACC) batteries, only 1.4 GWh of capacity was built against a 50 GWh target, with no commercial production or incentives paid.", amt:""}]}
+  ],
+  charts:[
+    {title:"Share of full-scheme targets achieved by March 2026", type:"bars", unit:"%", data:[["Investment",76],["Production and sales",64],["Time elapsed",58],["Jobs",28]]},
+    {title:"Targets and achievement", type:"pairs", unit:"₹ lakh crore", legend:["Target","Achieved"], data:[["Investment",3.15,2.4],["Production and sales",35.38,22.66]]},
+    {title:"Jobs as a share of the yearly target", type:"bars", unit:"%", data:[["Up to 2022-23",86],["2023-24",85],["2024-25",156],["2025-26",31]]}
+  ],
+  recs:[
+    "Study the specific constraints holding back each sector.",
+    "Add demand-side support, such as government buying, domestic procurement and help with export markets.",
+    "Standardise how ministries collect and report scheme data.",
+    "Involve industry in setting targets, and judge schemes patiently, since jobs and exports follow investment with a lag."
+  ],
+  recsNote:"In short, from the report's conclusions as summarised by the NITI Aayog page and press coverage. They are suggestions, not adopted policy.",
+  response:["NITI Aayog CEO Anurag Jain said schemes that need changes would be reviewed with the line ministries. No formal government response is reported."],
+  timeline:[["2025-26","Data cut-off for the assessment (March 2026)"],["12 Nov 2026","Report released by NITI Aayog"]],
+  glossary:["PLI","Domestic value addition","Advanced chemistry cell"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Impact Assessment of PLI Schemes' on 12 November 2026, with IIM Ahmedabad as knowledge partner.",
+      "PLI schemes cover 14 sectors; nearly 70% of targeted segments were broadly on track.",
+      "By March 2026, PLI schemes had created 8,49,069 jobs, about 28% of the target.",
+      "Investment under PLI was about ₹2.4 lakh crore (76% of target) and production about ₹22.66 lakh crore (64% of target)."
+    ],
+    mains:"Supply-side incentives alone may not be enough to build manufacturing jobs. Examine in light of NITI Aayog's 2026 impact assessment of the PLI schemes. (15 marks)",
+    quiz:[
+      {q:"What share of the PLI employment target had been met by March 2026?", o:["28%","58%","64%","76%"], a:0, w:"28%. 58% is the share of the scheme period over, 64% the production target met and 76% the investment target met."},
+      {q:"Which institution was NITI Aayog's knowledge partner for the PLI impact assessment?", o:["IIT Delhi","IIM Ahmedabad","NCAER","ICRIER"], a:1, w:"IIM Ahmedabad analysed beneficiary-level data as knowledge partner."},
+      {q:"In which sector did the report find only 1.4 GWh built against a 50 GWh target?", o:["Solar PV modules","Advanced chemistry cell batteries","White goods","Drones"], a:1, w:"ACC battery capacity of 1.4 GWh had been built against a 50 GWh target."}
+    ]
+  },
+  related:["niti-manufacturing-hub-2026","niti-semiconductor-2026","cag-fame-10-2026"],
+  src:[["NITI Aayog: Impact Assessment of PLI Schemes (report page)","https://www.niti.gov.in/node/2454","official"],["Business Standard: Only 28% of PLI employment target met by FY26, says NITI Aayog report","https://www.business-standard.com/economy/news/pli-schemes-meet-just-28-of-employment-target-by-fy26-niti-aayog-report-126111201783_1.html","news"],["NEXT IAS: NITI Aayog report on PLI schemes","https://www.nextias.com/ca/current-affairs/13-11-2026/niti-aayog-report-on-pli-schemes","analysis"],["The People's Board: NITI Aayog flags PLI jobs gap","https://www.thepeoplesboard.com/news/niti-aayog-pli-schemes-28-percent-jobs-target-fy26-impact-assessment/","news"]],
+  kw:"NITI Aayog PLI production linked incentive impact assessment 2026 IIM Ahmedabad manufacturing jobs employment target investment production electronics mobile phones pharmaceuticals telecom food processing bulk drugs medical devices IT hardware ACC battery autos white goods domestic value addition"
+},
+/* ---------- CAG · DDUGJY and SAUBHAGYA (Union, Ministry of Power) ---------- */
+{
+  id:"cag-ddugjy-saubhagya-2025", body:"CAG", kind:"Performance audit", reportNo:"CAG performance audit (Union Government, Ministry of Power, 2025)",
+  title:"Performance Audit of Deen Dayal Upadhyaya Gram Jyoti Yojana (DDUGJY) and Pradhan Mantri Sahaj Bijli Har Ghar Yojana (SAUBHAGYA)", short:"Rural electrification: DDUGJY and SAUBHAGYA", sector:"Roads & infrastructure", ministry:"Ministry of Power (with REC Limited as nodal agency)",
+  date:"Dec 2025", dateISO:"2025-12-18", tabled:"Tabled in Parliament in the 2025 Winter Session; released on 18 December 2025", period:"DDUGJY from 2014 and SAUBHAGYA from October 2017, with follow-up to 2021-2023", flagged:1603.81, flaggedNote:"Early payments by REC to six states made without timely state contributions. The report also flags other amounts, such as ₹404.35 crore of borrowed funds left unused. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "SAUBHAGYA's dashboard showed 262.84 lakh households electrified by March 2019, but the CAG found only 151.60 lakh were electrified under the scheme.",
+    "Award of work was delayed in 494 of 605 DDUGJY projects (81.65%), and only 7,833 of 16,500 approved farm feeders were separated by March 2022.",
+    "REC borrowed ₹500 crore in March 2020 but spent only ₹95.65 crore by March 2021, adding an interest burden of ₹15.97 crore."
+  ],
+  en:"This CAG performance audit looks at two central schemes to bring electricity to villages and homes. DDUGJY, launched in 2014, strengthened rural power networks. SAUBHAGYA, launched in October 2017, aimed to connect every un-electrified home. REC Limited ran both for the Ministry of Power. Under DDUGJY, ₹64,495 crore was spent against an approved outlay of ₹75,893 crore. Work was awarded late in 494 of 605 projects. Only 7,833 farm feeders were separated by March 2022, against 16,500 approved. SAUBHAGYA began with a target of 300 lakh homes. All 25 states declared full household electrification between November 2018 and March 2019. The scheme dashboard showed 262.84 lakh homes electrified, but the CAG found only 151.60 lakh were done under SAUBHAGYA. Seven states later reported 19.10 lakh homes still without power. 16,728 homes in two states got connections under both schemes. REC borrowed ₹500 crore in March 2020 and left ₹404.35 crore unused a year later.",
+  hi:"CAG की यह निष्पादन ऑडिट गाँवों और घरों तक बिजली पहुँचाने वाली दो केंद्रीय योजनाओं की जाँच करती है। 2014 में शुरू हुई DDUGJY ने ग्रामीण बिजली नेटवर्क को मज़बूत किया। अक्टूबर 2017 में शुरू हुई SAUBHAGYA का लक्ष्य हर बिना बिजली वाले घर को जोड़ना था। बिजली मंत्रालय की ओर से REC लिमिटेड ने दोनों योजनाएँ चलाईं। DDUGJY में ₹75,893 करोड़ के स्वीकृत परिव्यय के मुकाबले ₹64,495 करोड़ खर्च हुए। 605 में से 494 परियोजनाओं में काम देर से सौंपा गया। मार्च 2022 तक केवल 7,833 कृषि फीडर अलग किए गए, जबकि 16,500 स्वीकृत थे। SAUBHAGYA की शुरुआत 300 लाख घरों के लक्ष्य से हुई। सभी 25 राज्यों ने नवंबर 2018 से मार्च 2019 के बीच पूरे घरेलू विद्युतीकरण की घोषणा कर दी। योजना के डैशबोर्ड पर 262.84 लाख घरों का विद्युतीकरण दिखाया गया, लेकिन CAG ने पाया कि SAUBHAGYA के तहत केवल 151.60 लाख घर ही जोड़े गए। बाद में सात राज्यों ने बताया कि 19.10 लाख घर अब भी बिना बिजली के थे। दो राज्यों में 16,728 घरों को दोनों योजनाओं के तहत कनेक्शन मिले। REC ने मार्च 2020 में ₹500 करोड़ उधार लिए और एक साल बाद ₹404.35 करोड़ बिना इस्तेमाल के पड़े रहे।",
+  context:{
+    what:"A CAG performance audit of two Union rural electrification schemes run by the Ministry of Power through REC Limited: DDUGJY, for rural power networks and feeder separation, and SAUBHAGYA, for household connections.",
+    why:"The government declared that all willing households had been electrified by March 2019. The audit checks whether that claim, the money spent and the quality of the work stand up.",
+    how:"Review of scheme records, project reports, the SAUBHAGYA dashboard and fund flows across participating states, discoms and REC."
+  },
+  nums:[["151.60 lakh","Homes actually electrified under SAUBHAGYA (dashboard claimed 262.84 lakh)",1],["81.65%","DDUGJY projects with delayed award of work (494 of 605)",1],["7,833","Farm feeders separated by March 2022, of 16,500 approved",1],["₹404.35 cr","REC borrowing left unused by March 2021",1]],
+  themes:[
+    {name:"SAUBHAGYA claims and data", sev:"high", items:[
+      {t:"The initial target was 300 lakh households; the dashboard target was later cut to 248.48 lakh.", amt:""},
+      {t:"The dashboard showed 262.84 lakh homes electrified by March 2019, but only 151.60 lakh were electrified under SAUBHAGYA.", amt:""},
+      {t:"All 25 participating states declared 100% household electrification between November 2018 and March 2019, yet seven states later reported 19.10 lakh un-electrified homes as of 31 March 2019. The CAG could not confirm the genuineness of electrification.", amt:""}]},
+    {name:"DDUGJY delays and outcomes", sev:"high", items:[
+      {t:"Award of work was delayed in 494 of 605 projects (81.65%) in 24 states and two UTs.", amt:""},
+      {t:"All 36 participating discoms in 24 states submitted project reports late, by 71 to 418 days.", amt:""},
+      {t:"Only 7,833 agricultural feeders were separated by March 2022, against 9,019 sanctioned and 16,500 approved by the Cabinet.", amt:""},
+      {t:"Of 6.13 lakh defects flagged in REC inspections, 1.09 lakh were not fixed on time.", amt:""}]},
+    {name:"Fund management", sev:"high", items:[
+      {t:"REC paid six states early without making sure their own share was put in on time.", amt:"₹1,603.81 cr"},
+      {t:"REC released first-instalment grants 13 to 360 days before agreements were signed and project management agencies appointed.", amt:"₹541.56 cr"},
+      {t:"REC raised ₹500 crore through extra-budgetary borrowing in March 2020, though ₹352.32 crore was already with it; only ₹95.65 crore was spent by March 2021.", amt:"₹404.35 cr"},
+      {t:"Poor assessment of fund needs put an interest burden on the Ministry of Power.", amt:"₹15.97 cr"}]},
+    {name:"Double claims and overpayments", sev:"med", items:[
+      {t:"16,728 households in two states got connections under both DDUGJY and SAUBHAGYA, and discoms claimed extra money from REC for them.", amt:"₹7.53 cr"},
+      {t:"Undue benefits were given to contractors.", amt:"₹2.24 cr"},
+      {t:"Project management charges were allowed at 5.43% of project cost in Uttar Pradesh, 1.70% in Rajasthan and 1.76% in Assam, against a 0.5% limit.", amt:""}]}
+  ],
+  charts:[
+    {title:"SAUBHAGYA households", type:"bars", unit:"lakh households", data:[["Initial target",300],["Shown electrified on dashboard (Mar 2019)",262.84],["Revised dashboard target",248.48],["Electrified under SAUBHAGYA (audit)",151.60]]},
+    {title:"Outlay and spending", type:"pairs", unit:"₹ crore", legend:["Approved or sanctioned outlay","Actual spending"], data:[["DDUGJY",75893,64495],["SAUBHAGYA",14082,9246]]},
+    {title:"Agricultural feeder separation (DDUGJY)", type:"bars", unit:"feeders", data:[["Approved by Cabinet",16500],["Sanctioned",9019],["Separated by March 2022",7833]]}
+  ],
+  recs:[
+    "Do feasibility studies and detailed field surveys before sanctioning work and preparing project reports.",
+    "Collect accurate beneficiary data before a scheme starts, and plan funds on verified household lists.",
+    "Enforce quality assurance and monitoring at discom and REC level in future schemes.",
+    "Raise extra-budgetary funds only as per assessed need."
+  ],
+  recsNote:"In short, as summarised by PRS Legislative Research. The full list in the CAG report was not checked for this entry.",
+  response:["The Ministry of Power said SAUBHAGYA was a time-bound scheme that covered willing households in the reference period and did not cover new households after March 2019. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["2014","DDUGJY launched"],["Oct 2017","SAUBHAGYA launched"],["Nov 2018 – Mar 2019","All 25 states declare 100% household electrification"],["Mar 2020","REC raises ₹500 crore through extra-budgetary borrowing"],["Mar 2022","7,833 farm feeders separated"],["18 Dec 2025","CAG report released"]],
+  glossary:["Performance audit","DDUGJY","SAUBHAGYA","REC Limited","Discom","Feeder separation","Extra-budgetary resources","DPR","PAC"],
+  exam:{
+    prelims:[
+      "SAUBHAGYA (Pradhan Mantri Sahaj Bijli Har Ghar Yojana) was launched in October 2017 to electrify all willing households; DDUGJY was launched in 2014.",
+      "REC Limited was the nodal agency for both DDUGJY and SAUBHAGYA under the Ministry of Power.",
+      "The CAG found only 151.60 lakh households electrified under SAUBHAGYA, against 262.84 lakh shown on the dashboard by March 2019.",
+      "Under DDUGJY, only 7,833 agricultural feeders were separated by March 2022, against 16,500 approved."
+    ],
+    mains:"Saturation claims in welfare schemes need independent verification. Discuss with reference to the CAG's audit of SAUBHAGYA and DDUGJY. (15 marks)",
+    quiz:[
+      {q:"Which body was the nodal agency for DDUGJY and SAUBHAGYA?", o:["NTPC","Power Grid Corporation","REC Limited","Power Finance Corporation"], a:2, w:"REC Limited ran both schemes for the Ministry of Power."},
+      {q:"How many households did the CAG find were electrified under SAUBHAGYA?", o:["300 lakh","262.84 lakh","248.48 lakh","151.60 lakh"], a:3, w:"151.60 lakh. 300 lakh was the initial target, 248.48 lakh the revised target and 262.84 lakh the dashboard figure."},
+      {q:"Feeder separation under DDUGJY mainly aims to:", o:["Separate farm power supply from rural household supply","Split power generation from distribution","Connect rural homes to solar mini-grids","Separate transmission lines by voltage"], a:0, w:"Separate agricultural feeders let discoms manage farm supply apart from supply to rural homes."}
+    ]
+  },
+  related:["cag-tn-tangedco-2026","cag-bharatnet-19-2026","cag-econ-service-11-2026"],
+  src:[["PRS Legislative Research: Summary of the CAG audit of DDUGJY and SAUBHAGYA","https://prsindia.org/policy/report-summaries/deen-dayal-upadhyaya-gram-jyoti-yojana-and-pradhan-mantri-sahaj-bijli-har-ghar-yojana","analysis"],["Deccan Herald: CAG finds shortcomings in implementation of rural electrification schemes DDUGJY, SAUBHAGYA","https://www.deccanherald.com/amp/story/india%2Fcag-finds-shortcomings-in-implementation-of-rural-electrification-schemes-ddugjy-saubhagya-3837032","news"],["PSU Watch: CAG flags delays, financial lapses in SAUBHAGYA and DDUGJY implementation, pulls up REC","https://psuwatch.com/newsupdates/cag-flags-delays-financial-lapses-in-saubhagya-and-ddugjy-implementation-pulls-up-rec","news"],["NewsGram: CAG questions Centre's claim of 100% rural electrification","https://www.newsgram.com/administration/2026/01/13/cag-flags-100-percent-rural-electrification","news"]],
+  kw:"CAG performance audit DDUGJY Deen Dayal Upadhyaya Gram Jyoti Yojana SAUBHAGYA Pradhan Mantri Sahaj Bijli Har Ghar Yojana rural electrification household electrification REC Limited Ministry of Power discoms feeder separation extra budgetary borrowing dashboard 100% electrification 2025"
+},
+/* ---------- CAG · Rajasthan Road Safety System (Report 1 of 2026) ---------- */
+{
+  id:"cag-rajasthan-road-safety-1-2026", body:"CAG", state:"Rajasthan", kind:"Performance audit", reportNo:"Report No. 1 of 2026 (Rajasthan)",
+  title:"Report of the CAG on Performance Audit on Road Safety System in Rajasthan for the year ended March 2025, Government of Rajasthan", short:"Rajasthan road safety system", sector:"Roads & infrastructure", ministry:"Transport and Road Safety Department, Government of Rajasthan",
+  date:"Aug 2026", dateISO:"2026-08-21", tabled:"Tabled on 21 August 2026 (sent to the state government on 24 February 2026)", period:"2018-19 to 2024-25", flagged:null,
+  tldr:[
+    "On inspected highways, the CAG found mandatory signs, such as speed limits, missing at 506 locations and warning signs missing at 825 locations.",
+    "Crash barriers were missing or damaged at 205 locations on 14 National and five State Highways, and there were 67 unauthorised gaps in medians.",
+    "A Black Spot Management System to track accident-prone spots had still not been developed."
+  ],
+  en:"This CAG performance audit checks how Rajasthan's Transport and Road Safety Department and road agencies managed road safety from 2018-19 to 2024-25. Auditors physically inspected National Highways, State Highways and city roads. Mandatory and regulatory signs were missing at 506 locations, including 294 speed-limit signs. Cautionary and warning signs were missing at 825 locations, mostly optical hazard markings. Road markings were missing at 148 locations on 13 National and 13 State Highways. Crash barriers were missing or damaged at 205 locations. There were 67 unauthorised gaps in highway medians, and junction warning signs were missing at 87 places. All six city roads inspected also lacked signs. The state told the CAG in 2025 that a Black Spot Management System was being built under a World Bank-funded highway project, but the audit found it had not been developed.",
+  hi:"CAG की यह निष्पादन ऑडिट जाँचती है कि 2018-19 से 2024-25 के बीच राजस्थान के परिवहन और सड़क सुरक्षा विभाग तथा सड़क एजेंसियों ने सड़क सुरक्षा को कैसे संभाला। ऑडिटरों ने राष्ट्रीय राजमार्गों, राज्य राजमार्गों और शहर की सड़कों का भौतिक निरीक्षण किया। 506 स्थानों पर अनिवार्य और नियामक संकेत नहीं थे, जिनमें गति सीमा के 294 संकेत शामिल हैं। 825 स्थानों पर सावधानी और चेतावनी के संकेत नहीं थे, जिनमें ज़्यादातर ऑप्टिकल हैज़र्ड मार्किंग थीं। 13 राष्ट्रीय और 13 राज्य राजमार्गों पर 148 स्थानों पर सड़क पर निशान नहीं थे। 205 स्थानों पर क्रैश बैरियर नहीं थे या टूटे हुए थे। राजमार्गों के डिवाइडर में 67 अनधिकृत कट थे, और 87 जगह जंक्शन की चेतावनी के संकेत नहीं थे। जाँची गई शहर की सभी छह सड़कों पर भी संकेतों की कमी थी। राज्य ने 2025 में CAG को बताया कि विश्व बैंक की मदद वाली राजमार्ग परियोजना के तहत ब्लैक स्पॉट प्रबंधन प्रणाली बनाई जा रही है, लेकिन ऑडिट में पाया गया कि यह प्रणाली विकसित नहीं हुई थी।",
+  context:{
+    what:"A CAG performance audit of the road safety system in Rajasthan, run by the Transport and Road Safety Department with the agencies that own and maintain roads.",
+    why:"Road crashes kill many people in India every year. Missing signs, markings and barriers on fast roads raise the risk of crashes, and a working system to find and fix accident-prone spots is basic to road safety.",
+    how:"Review of records for 2018-19 to 2024-25 and physical inspections of selected National Highways, State Highways and six city roads, with some fatal accidents up to November 2025 referred to."
+  },
+  nums:[["825","Locations missing cautionary and warning signs",1],["506","Locations missing mandatory signs (294 speed-limit)",1],["205","Locations with missing or damaged crash barriers",1],["67","Unauthorised gaps in highway medians",0]],
+  themes:[
+    {name:"Road signs", sev:"high", items:[
+      {t:"Mandatory and regulatory signs were missing at 506 locations: 294 speed-limit, 111 curve, 92 overtaking and 9 U-turn signs.", amt:""},
+      {t:"Cautionary and warning signs were missing at 825 locations, including 694 optical hazard markings, 33 school-location and 23 merging signs.", amt:""},
+      {t:"Junction warning signs were missing at 87 locations on seven National and six State Highways.", amt:""}]},
+    {name:"Markings, barriers and medians", sev:"high", items:[
+      {t:"Road markings were missing at 148 locations on 13 National and 13 State Highways: 85 road markings, 49 merging and diverging markings and 14 kerb markings.", amt:""},
+      {t:"Road-edge or crash barriers were missing or damaged at 205 locations on 14 National and five State Highways.", amt:""},
+      {t:"There were 67 unauthorised access points or median gaps on 10 National Highways and one State Highway.", amt:""}]},
+    {name:"City roads", sev:"med", items:[
+      {t:"Various signs were missing at 23 locations across all six city roads inspected.", amt:""},
+      {t:"Optical hazard markings were absent at 51 locations.", amt:""}]},
+    {name:"Black spot management", sev:"med", items:[
+      {t:"In April 2025 the state said a Black Spot Management System was being developed under the World Bank-funded Rajasthan Highways Modernization Project.", amt:""},
+      {t:"In September 2025 it said road-owning agencies would run the system, with a Lead Agency to coordinate. The audit found the system had not been developed.", amt:""}]}
+  ],
+  charts:[
+    {title:"Safety gaps found in physical inspections", type:"bars", unit:"locations", data:[["Warning signs missing",825],["Mandatory signs missing",506],["Crash barriers missing or damaged",205],["Road markings missing",148],["Junction warning signs missing",87],["Unauthorised median gaps",67]]},
+    {title:"Missing mandatory and regulatory signs", type:"bars", unit:"locations", data:[["Speed limit",294],["Curve",111],["Overtaking",92],["U-turn",9]]}
+  ],
+  recs:[],
+  recsNote:"The coverage checked for this entry does not list the CAG's recommendations, and the full report was not checked.",
+  response:["The state government told the CAG in April and September 2025 how the Black Spot Management System would be built and run. The report goes to the Rajasthan Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2018-19","Start of audit period"],["Apr 2025","State says black spot system being built under World Bank-funded project"],["Sep 2025","State says road-owning agencies will run the system"],["24 Feb 2026","Report sent to the state government"],["21 Aug 2026","Report tabled"]],
+  glossary:["Performance audit","Black spot","Crash barrier","Optical hazard marking","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2026 (Rajasthan) is a performance audit of the Road Safety System in Rajasthan, covering 2018-19 to 2024-25.",
+      "It was tabled on 21 August 2026.",
+      "Mandatory signs were missing at 506 locations and warning signs at 825 locations on inspected roads.",
+      "Rajasthan's Black Spot Management System, planned under the World Bank-funded Rajasthan Highways Modernization Project, had not been developed."
+    ],
+    mains:"Road engineering gaps are a major but neglected cause of road deaths in India. Discuss with reference to the CAG's 2026 audit of the road safety system in Rajasthan. (15 marks)",
+    quiz:[
+      {q:"In the CAG's Rajasthan road safety audit, at how many locations were speed-limit signs missing?", o:["67","148","294","825"], a:2, w:"294 speed-limit signs were missing, out of 506 mandatory signs missing in total."},
+      {q:"A 'black spot' in road safety means:", o:["A stretch with no street lighting","A place where road crashes happen repeatedly","An unpaved section of a highway","A toll plaza with long queues"], a:1, w:"A black spot is an accident-prone location where crashes keep occurring."},
+      {q:"The Black Spot Management System in Rajasthan was to be built under:", o:["Bharatmala Pariyojana","PMGSY","The World Bank-funded Rajasthan Highways Modernization Project","Smart Cities Mission"], a:2, w:"The state said it was being developed under the World Bank-funded Rajasthan Highways Modernization Project."}
+    ]
+  },
+  related:["bharatmala-2023","cag-odisha-tourism-transport-2026","delhi-air"],
+  src:[["CAG: Report No. 1 of 2026, Road Safety System in Rajasthan (report page)","https://cag.gov.in/en/audit-report/details/126097","official"],["NBM&CW: CAG reports major road safety gaps on Rajasthan highways","https://www.nbmcw.com/news/roads-highways/cag-reports-major-road-safety-gaps-on-rajasthan-highways.html","news"]],
+  kw:"CAG Rajasthan road safety performance audit Report 1 2026 Transport and Road Safety Department highways road signs speed limit crash barriers road markings median gaps black spot management system World Bank Rajasthan Highways Modernization Project accidents"
 }
 
 );
@@ -3781,5 +3995,6 @@ Object.assign(window.STATE_FACTS_V2, {
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
+  RJ:[...(window.STATE_FACTS_V2.RJ||[]),["Mandatory road signs missing at 506 locations on inspected roads (CAG, 2026)","cag-rajasthan-road-safety-1-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
