@@ -2,6 +2,10 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Vivad se Vishwas": "A one-time Union scheme under a 2020 law that let taxpayers settle pending direct tax appeals by paying the disputed tax, with interest and penalty waived.",
+  "Section 244A interest": "Interest the government pays a taxpayer on an income tax refund under Section 244A of the Income Tax Act.",
+  "Labour budget": "Under MGNREGS, the yearly estimate of how much work will be demanded and the works planned to meet it, meant to be prepared with Gram Sabhas.",
+  "Global value chain": "The spread of the steps of making a product, from design and parts to assembly and sale, across firms in many countries.",
   "PMUY": "Pradhan Mantri Ujjwala Yojana: the Union scheme that gives free LPG connections to women in poor households.",
   "De-duplication": "Checking records to find and remove entries for the same person or household that appear more than once.",
   "Oil marketing company": "A company, such as Indian Oil, BPCL or HPCL, that sells fuel and LPG to consumers through its dealers.",
@@ -3974,6 +3978,196 @@ window.SPEC_REPORTS.push(
   related:["bharatmala-2023","cag-odisha-tourism-transport-2026","delhi-air"],
   src:[["CAG: Report No. 1 of 2026, Road Safety System in Rajasthan (report page)","https://cag.gov.in/en/audit-report/details/126097","official"],["NBM&CW: CAG reports major road safety gaps on Rajasthan highways","https://www.nbmcw.com/news/roads-highways/cag-reports-major-road-safety-gaps-on-rajasthan-highways.html","news"]],
   kw:"CAG Rajasthan road safety performance audit Report 1 2026 Transport and Road Safety Department highways road signs speed limit crash barriers road markings median gaps black spot management system World Bank Rajasthan Highways Modernization Project accidents"
+},
+/* ---------- CAG · Direct Tax Vivad se Vishwas Scheme, 2020 (Report 8 of 2026) ---------- */
+{
+  id:"cag-vivad-se-vishwas-8-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 8 of 2026",
+  title:"Subject Specific Compliance Audit on Direct Tax Vivad se Vishwas Scheme, 2020, Union Government (Department of Revenue – Direct Taxes)", short:"Vivad se Vishwas tax settlement audit", sector:"Public finance", ministry:"Ministry of Finance, Department of Revenue (CBDT)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Presented in Parliament on 12 August 2026", period:"Audit done July 2023 to February 2024; IT issues checked March to September 2024", flagged:1591.74,
+  flaggedNote:"Tax effect of two findings: amount payable wrongly worked out in 208 cases (₹423.47 crore) and Section 244A interest not withdrawn in 55 cases (₹1,168.27 crore). These are amounts flagged by audit, not confirmed losses.",
+  tldr:[
+    "The 2020 scheme let taxpayers settle disputed tax cases by paying the tax, with interest and penalty waived. It settled 1.06 lakh cases and collected ₹71,924 crore by July 2022.",
+    "In 208 cases the amount payable was worked out wrongly (tax effect ₹423.47 crore), and in 55 cases interest already paid to taxpayers was not taken back (₹1,168.27 crore).",
+    "Forms and orders were issued very late: Form-5 was late in 45% of finalised cases, with gaps of up to 954 days."
+  ],
+  en:"The Direct Tax Vivad se Vishwas Act, 2020 let taxpayers end disputes pending in appeal by paying the disputed tax, with interest and penalty waived. In January 2020, 4.15 lakh appeal cases were pending, with ₹10.09 lakh crore of disputed tax. The scheme got 1.32 lakh applications covering ₹0.99 lakh crore. By 22 July 2022, 1.06 lakh cases were settled and ₹71,924 crore was collected. The CAG checked 5,212 cases. In 208 cases in 21 states, the Designated Authority worked out the amount payable wrongly, with a tax effect of ₹423.47 crore. In 55 cases in 13 states, interest paid to taxpayers under Section 244A was not taken back, with a tax effect of ₹1,168.27 crore. Form-3 was issued late in 63% of sampled cases, with delays of up to 868 days. Form-5 was late in 2,044 of 4,558 finalised cases. Ten eligible applicants were rejected without checking. Internal audit was done in only 2 of the 91 tax charges that replied.",
+  hi:"प्रत्यक्ष कर विवाद से विश्वास अधिनियम, 2020 ने करदाताओं को अपील में लंबित विवाद ख़त्म करने का मौक़ा दिया: वे विवादित कर चुकाएँ और ब्याज व जुर्माना माफ़ हो जाए। जनवरी 2020 में 4.15 लाख अपील मामले लंबित थे, जिनमें ₹10.09 लाख करोड़ का कर विवाद में था। योजना में 1.32 लाख आवेदन आए, जिनमें ₹0.99 लाख करोड़ शामिल थे। 22 जुलाई 2022 तक 1.06 लाख मामले निपटे और ₹71,924 करोड़ वसूले गए। CAG ने 5,212 मामलों की जाँच की। 21 राज्यों के 208 मामलों में नामित प्राधिकारी ने देय राशि ग़लत निकाली, जिसका कर प्रभाव ₹423.47 करोड़ है। 13 राज्यों के 55 मामलों में करदाताओं को धारा 244A के तहत दिया गया ब्याज वापस नहीं लिया गया, जिसका कर प्रभाव ₹1,168.27 करोड़ है। जाँचे गए 63% मामलों में फ़ॉर्म-3 देर से जारी हुआ, जिसमें 868 दिन तक की देरी थी। 4,558 निपटाए गए मामलों में से 2,044 में फ़ॉर्म-5 देर से जारी हुआ। दस पात्र आवेदकों को बिना जाँच के ख़ारिज कर दिया गया। जवाब देने वाले 91 कर प्रभारों में से सिर्फ़ 2 में आंतरिक ऑडिट हुआ।",
+  context:{
+    what:"A CAG compliance audit of how the Income Tax Department ran the Direct Tax Vivad se Vishwas Scheme, 2020, a one-time scheme to settle tax disputes.",
+    why:"Lakhs of tax appeals were stuck, with disputed tax of ₹10.09 lakh crore, equal to 88.7% of direct tax collected in 2018-19. The scheme aimed to end disputes and bring in money quickly, so it had to be run correctly and on time.",
+    how:"Audit of 5,212 cases across categories such as settled cases, rejected applications, cases with short or excess payment and high-value cases, covering 174 Designated Authorities; IT systems were also examined."
+  },
+  nums:[["₹1,168.27 cr","Tax effect: Section 244A interest not withdrawn (55 cases)",1],["₹423.47 cr","Tax effect: amount payable worked out wrongly (208 cases)",1],["₹71,924 cr","Collected under the scheme by July 2022",0],["1.06 lakh","Cases settled by July 2022",0]],
+  themes:[
+    {name:"Wrong computation and lost revenue", sev:"high", items:[
+      {t:"In 208 cases in 21 states, the Designated Authority worked out the amount payable under the Act wrongly.", amt:"₹423.47 cr"},
+      {t:"In 55 cases in 13 states, interest paid to taxpayers under Section 244A was not withdrawn when the cases were settled.", amt:"₹1,168.27 cr"},
+      {t:"In Gujarat, refunds for other years were adjusted against disputed demands in 11 cases, and in 3 more cases even after final settlement; the IT system had no check to stop this.", amt:""}]},
+    {name:"Delays in forms and orders", sev:"high", items:[
+      {t:"Form-3, which tells the taxpayer how much to pay, was issued after the 15-day limit in 63% of sampled cases in 24 states, with delays of up to 868 days.", amt:""},
+      {t:"Form-5, the final settlement order, was late in 2,044 of 4,558 finalised cases (45%), with gaps of up to 954 days. In 21 cases it was not issued at all after the taxpayer filed Form-4.", amt:""},
+      {t:"Of 2,037 cases where the follow-up order (Consequential Effect Order) was shown to audit, 1,546 were issued late, with gaps of up to 1,398 days.", amt:""},
+      {t:"More than 13,000 cases where the taxpayer had paid and filed Form-4 were not settled in time.", amt:""}]},
+    {name:"Wrong rejections", sev:"med", items:[
+      {t:"Out of 327 rejected cases checked, 10 cases in 3 states were eligible but were rejected without verification.", amt:""}]},
+    {name:"Weak internal controls", sev:"med", items:[
+      {t:"Of 91 tax charges (PCsIT) that replied, internal audit of the scheme was done in only 2, both in Tamil Nadu.", amt:""},
+      {t:"Of 83 charges that replied, 20 said they had not received any standard operating procedure for handling cases.", amt:""}]}
+  ],
+  charts:[
+    {title:"Tax effect of the two main findings", type:"bars", unit:"₹ crore", data:[["Section 244A interest not withdrawn",1168.27],["Amount payable worked out wrongly",423.47]]},
+    {title:"Form-5 in finalised cases", type:"bars", unit:"cases", data:[["Finalised cases with Form-5 issued",4558],["Form-5 issued late",2044]]}
+  ],
+  recs:[
+    "CBDT should fix clear timelines for issuing the forms and the Consequential Effect Order.",
+    "Fill forms automatically from old Income Tax Department data to cut manual errors, and strengthen IT system checks for correct tax computation.",
+    "Find cases where undue benefits were already allowed and recover the revenue.",
+    "Make assessing officers check all assessment records before deciding a refund, and run internal audit of high-value cases.",
+    "Issue standard instructions so similar cases are handled the same way everywhere."
+  ],
+  response:["The CAG discussed its findings with CBDT in September 2025. The coverage checked does not give the department's reply. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["31 Jan 2020","4.15 lakh appeals pending with ₹10.09 lakh crore disputed"],["22 Jul 2022","1.06 lakh cases settled, ₹71,924 crore collected"],["Jul 2023 - Feb 2024","Audit carried out"],["Sep 2025","Findings discussed with CBDT"],["12 Aug 2026","Report presented in Parliament"]],
+  glossary:["Compliance audit","CBDT","Vivad se Vishwas","Section 244A interest","Internal audit","PAC"],
+  exam:{
+    prelims:[
+      "The Direct Tax Vivad se Vishwas Act, 2020 let taxpayers settle pending direct tax appeals by paying the disputed tax, with interest and penalty waived.",
+      "CAG Report No. 8 of 2026 audited the scheme; it was presented in Parliament on 12 August 2026.",
+      "By 22 July 2022, 1.06 lakh cases were settled and ₹71,924 crore collected under the scheme.",
+      "Section 244A of the Income Tax Act provides for interest paid by the government on income tax refunds."
+    ],
+    mains:"Dispute settlement schemes can unlock revenue but carry risks of error and revenue loss. Discuss with reference to the CAG's 2026 audit of the Direct Tax Vivad se Vishwas Scheme, 2020. (15 marks)",
+    quiz:[
+      {q:"Under the Vivad se Vishwas Scheme, 2020, what did taxpayers get in return for paying the disputed tax?", o:["A cut in the tax rate for five years","Waiver of interest and penalty","Exemption from audit","A refund of earlier taxes"], a:1, w:"Taxpayers paid the disputed tax and the interest and penalty were waived."},
+      {q:"In the CAG audit, which finding had the largest tax effect?", o:["Wrong rejection of eligible applicants","Section 244A interest not withdrawn","Late issue of Form-3","Refund adjustment in Gujarat"], a:1, w:"Section 244A interest not withdrawn in 55 cases had a tax effect of ₹1,168.27 crore."},
+      {q:"About how much disputed direct tax was stuck in appeals in January 2020?", o:["₹0.99 lakh crore","₹71,924 crore","₹10.09 lakh crore","₹1.32 lakh crore"], a:2, w:"4.15 lakh appeals involved ₹10.09 lakh crore; applications under the scheme covered ₹0.99 lakh crore."}
+    ]
+  },
+  related:["cag-unexplained-tax-32-2026","cag-banks-nbfc-tax-40-2025","cag-fin-comm-5-2026"],
+  src:[["CAG press brief: Report No. 8 of 2026 on the Direct Tax Vivad se Vishwas Scheme, 2020","https://cag.gov.in/uploads/PressRelease/PR-Press-brief-English-Report-no-8-of-2026-06a7d3fffdc51b4-49435596.pdf","official"],["TaxGuru: CAG audit flags delays and errors in Vivad se Vishwas Scheme","https://taxguru.in/income-tax/cag-audit-flags-delays-errors-vivad-se-vishwas-scheme.html","news"]],
+  kw:"CAG Report 8 2026 Vivad se Vishwas Direct Tax dispute resolution scheme 2020 CBDT income tax appeals Designated Authority Form-3 Form-5 Section 244A interest refund settlement compliance audit Department of Revenue"
+},
+/* ---------- CAG · MGNREGA in Madhya Pradesh (Report 4 of 2026) ---------- */
+{
+  id:"cag-mp-mgnrega-4-2026", body:"CAG", state:"Madhya Pradesh", kind:"Performance audit", reportNo:"Report No. 4 of 2026 (Madhya Pradesh)",
+  title:"Report of the CAG on Implementation of Mahatma Gandhi National Rural Employment Guarantee Act in Madhya Pradesh", short:"MGNREGA in Madhya Pradesh", sector:"Social welfare", ministry:"Panchayat and Rural Development Department, Government of Madhya Pradesh",
+  date:"Jul 2026", dateISO:"2026-07-22", tabled:"Placed on the CAG website on 22 July 2026", period:"2019-20 to 2023-24", flagged:307.41,
+  flaggedNote:"Sum of payments beyond the approved labour budget (₹295.59 crore), penal interest for late fund transfers (₹10.36 crore) and irregular payments through duplicate, fake or wrong job cards (₹1.46 crore). These are amounts flagged by audit, not confirmed losses.",
+  tldr:[
+    "Only 1.95% to 5.83% of households got the full 100 days of work the law promises; many got fewer than 40 days.",
+    "Liabilities of ₹1,217.05 crore were pending, and ₹295.59 crore was paid beyond approved labour budgets in 2020-23.",
+    "Basic planning, such as household surveys and village shelves of projects, was not done, and oversight bodies were weak or missing."
+  ],
+  en:"This CAG audit checks how Madhya Pradesh ran the rural job guarantee scheme, MGNREGA, from 2019-20 to 2023-24. Auditors looked at 8 districts, 16 Janpad Panchayats, 64 Gram Panchayats and 384 works. Only 21% of work records were fully produced, and 46% were not produced at all. Baseline surveys, district plans and village shelves of projects were not prepared, and labour budgets were made without Gram Sabhas. ₹295.59 crore was paid beyond approved labour budgets in 2020-23. Pending liabilities reached ₹1,217.05 crore, and late fund transfers led to ₹10.36 crore of penal interest. Only 1.95% to 5.83% of households got the full 100 days of work. ₹1.46 crore was paid through duplicate, fake or wrong job cards, and Aadhaar problems held up ₹54.79 crore of wages. Ombudsmen, social audits and quality checks were missing or weak.",
+  hi:"CAG की यह ऑडिट जाँचती है कि मध्य प्रदेश ने 2019-20 से 2023-24 के बीच ग्रामीण रोज़गार गारंटी योजना MGNREGA को कैसे चलाया। ऑडिटरों ने 8 ज़िलों, 16 जनपद पंचायतों, 64 ग्राम पंचायतों और 384 कामों की जाँच की। कामों के सिर्फ़ 21% रिकॉर्ड पूरे दिखाए गए, और 46% रिकॉर्ड बिल्कुल नहीं दिखाए गए। बेसलाइन सर्वे, ज़िला योजनाएँ और गाँवों की परियोजना सूची (शेल्फ़ ऑफ़ प्रोजेक्ट्स) तैयार नहीं की गईं, और श्रम बजट ग्राम सभाओं के बिना बनाए गए। 2020-23 में स्वीकृत श्रम बजट से ₹295.59 करोड़ ज़्यादा भुगतान हुआ। लंबित देनदारियाँ ₹1,217.05 करोड़ तक पहुँचीं, और फ़ंड देर से भेजने पर ₹10.36 करोड़ का दंडात्मक ब्याज लगा। सिर्फ़ 1.95% से 5.83% परिवारों को पूरे 100 दिन का काम मिला। डुप्लीकेट, फ़र्ज़ी या ग़लत जॉब कार्ड के ज़रिए ₹1.46 करोड़ का भुगतान हुआ, और आधार से जुड़ी दिक़्क़तों के कारण ₹54.79 करोड़ की मज़दूरी अटकी रही। लोकपाल, सामाजिक ऑडिट और गुणवत्ता जाँच नहीं थीं या कमज़ोर थीं।",
+  context:{
+    what:"A CAG audit of how the Mahatma Gandhi National Rural Employment Guarantee Act was carried out in Madhya Pradesh.",
+    why:"MGNREGA gives every rural household a legal right to up to 100 days of paid manual work a year. More than one crore workers registered in the state over these years, so planning, payments and oversight matter to many poor families.",
+    how:"Test check of records for 2019-20 to 2023-24 in 8 districts (Betul, Burhanpur, Chhindwara, Mandla, Raisen, Sagar, Umaria and Vidisha), 16 Janpad Panchayats, 64 Gram Panchayats and 384 works, with site visits."
+  },
+  nums:[["1.95-5.83%","Households that got the full 100 days of work",1],["₹1,217.05 cr","Pending liabilities",1],["₹295.59 cr","Paid beyond approved labour budgets, 2020-23",1],["46%","Work records not produced to audit",1]],
+  themes:[
+    {name:"Planning", sev:"high", items:[
+      {t:"Baseline surveys, annual household surveys, District Perspective Plans and Gram Panchayat shelves of projects were not prepared in the sampled areas.", amt:""},
+      {t:"Labour budgets were prepared without Gram Sabhas taking part.", amt:""},
+      {t:"Payments went beyond approved labour budget limits during 2020-23.", amt:"₹295.59 cr"}]},
+    {name:"Funds and liabilities", sev:"high", items:[
+      {t:"Liabilities for wages and material were pending.", amt:"₹1,217.05 cr"},
+      {t:"Late transfer of funds led to penal interest.", amt:"₹10.36 cr"}]},
+    {name:"Work and wages", sev:"high", items:[
+      {t:"Only 1.95% to 5.83% of households got the full 100 days of work; many got fewer than 40 days.", amt:""},
+      {t:"Payments were made through duplicate, fake or wrong job cards.", amt:"₹1.46 cr"},
+      {t:"Aadhaar-related problems held up wage payments.", amt:"₹54.79 cr"},
+      {t:"Site visits found assets that did not match records: a pond shown as built in Jhiriyadeh (Betul) had paddy growing on the site, and a pond in Sandaskala (Burhanpur) on which ₹13.79 lakh was shown as spent was dry even in the monsoon.", amt:""}]},
+    {name:"Records and oversight", sev:"med", items:[
+      {t:"Only 21% of work records were fully produced for audit, and 46% were not produced at all.", amt:""},
+      {t:"Quality monitoring cells, district Ombudsmen, regular social audits and meetings of the State Employment Guarantee Council were missing or not working properly.", amt:""},
+      {t:"Vacancies and staff holding two posts weakened administration.", amt:""}]}
+  ],
+  charts:[
+    {title:"Money flagged and pending", type:"bars", unit:"₹ crore", data:[["Pending liabilities",1217.05],["Paid beyond labour budget (2020-23)",295.59],["Wages held up by Aadhaar issues",54.79],["Penal interest",10.36],["Paid via duplicate, fake or wrong job cards",1.46]]}
+  ],
+  recs:[],
+  recsNote:"The coverage checked for this entry does not list the CAG's own recommendations, and the full report was not checked.",
+  response:["The coverage checked does not give the state government's reply. The report goes to the Madhya Pradesh Vidhan Sabha's Public Accounts Committee."],
+  timeline:[["2019-20","Start of audit period"],["31 Mar 2024","Pending liabilities of ₹1,217.05 crore"],["22 Jul 2026","Report placed on the CAG website"]],
+  glossary:["Performance audit","MGNREGS","Job card","Labour budget","Social audit","Aadhaar","Gram panchayat","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 4 of 2026 (Madhya Pradesh) covers the implementation of MGNREGA in the state from 2019-20 to 2023-24.",
+      "The audit sampled 8 districts, 16 Janpad Panchayats, 64 Gram Panchayats and 384 works.",
+      "Only 1.95% to 5.83% of households got the full 100 days of work guaranteed under the Act.",
+      "Pending MGNREGA liabilities in the state were ₹1,217.05 crore."
+    ],
+    mains:"Weak planning and delayed payments undermine the rights-based design of MGNREGA. Examine with reference to the CAG's 2026 audit of the scheme in Madhya Pradesh. (15 marks)",
+    quiz:[
+      {q:"How many days of paid work a year does MGNREGA guarantee to a rural household?", o:["50","100","150","200"], a:1, w:"The Act guarantees up to 100 days of unskilled manual work a year to every rural household that asks."},
+      {q:"In Madhya Pradesh, what share of households got the full 100 days, as per the CAG audit?", o:["1.95% to 5.83%","20% to 25%","About 40%","More than 60%"], a:0, w:"Only 1.95% to 5.83% of households got the full 100 days."},
+      {q:"Under MGNREGA, the labour budget is meant to be based on:", o:["The state's GSDP target","Demand for work estimated with Gram Sabhas","The number of job cards issued nationally","The previous year's Union allocation only"], a:1, w:"The labour budget estimates demand for work and should be prepared with Gram Sabha participation; the audit found this was not done."}
+    ]
+  },
+  related:["cag-maharashtra-mgnregs-2026","cag-jk-mgnregs-4-2026","cag-mp-jjm-5-2026"],
+  src:[["CAG: Audit reports listing (Report No. 4 of 2026, Madhya Pradesh, MGNREGA)","https://cag.gov.in/en/audit-report","official"],["The Policy Edge: CAG audit finds systemic gaps in MGNREGA planning, payments and oversight in Madhya Pradesh","https://www.policyedge.in/p/cag-audit-finds-systemic-gaps-in-mgnrega-planning-payments-and-oversight-in-madhya-pradesh","analysis"],["The Sootr (Hindi): एमपी मनरेगा में खुलासा, 1 करोड़ मजदूरों में सिर्फ 2% को मिला 100 दिन का काम","https://thesootr.com/state/madhya-pradesh/mp-mgnrega-cag-report-irregularities-12189473","news"]],
+  kw:"CAG Madhya Pradesh MGNREGA MGNREGS Report 4 2026 rural employment guarantee 100 days labour budget job cards pending liabilities penal interest Aadhaar wages social audit Ombudsman Gram Sabha Janpad Panchayat Betul Burhanpur Chhindwara Mandla Raisen Sagar Umaria Vidisha"
+},
+/* ---------- NITI · Export Preparedness Index 2024 ---------- */
+{
+  id:"niti-epi-2024", body:"NITI", kind:"Index", reportNo:"Fourth edition",
+  title:"Export Preparedness Index (EPI) 2024", short:"Export Preparedness Index 2024", sector:"Other", ministry:"NITI Aayog",
+  date:"Jan 2026", dateISO:"2026-01-14", tabled:"Released on 14 January 2026", period:"Latest available state data", flagged:null,
+  tldr:[
+    "Maharashtra leads the large states, followed by Tamil Nadu, Gujarat, Uttar Pradesh and Andhra Pradesh.",
+    "Uttarakhand leads the small, north-eastern states and UTs, followed by Jammu and Kashmir, Nagaland, Dadra and Nagar Haveli & Daman and Diu, and Goa.",
+    "The index scores states on 4 pillars, 13 sub-pillars and 70 indicators, with business ecosystem carrying 40% of the weight."
+  ],
+  en:"The Export Preparedness Index ranks states and union territories on how ready they are to export. This fourth edition, for 2024, was released by NITI Aayog on 14 January 2026. It uses 4 pillars, 13 sub-pillars and 70 indicators. The pillars are export infrastructure (20% weight), business ecosystem (40%), policy and governance (20%) and export performance (20%). New areas this time include macroeconomic stability, cost competitiveness, human capital, access to finance and the MSME ecosystem. States are compared within two groups and placed as Leaders, Challengers or Aspirers. Among large states, Maharashtra, Tamil Nadu, Gujarat, Uttar Pradesh and Andhra Pradesh lead. Among small states, north-eastern states and UTs, Uttarakhand, Jammu and Kashmir, Nagaland, Dadra and Nagar Haveli & Daman and Diu, and Goa lead. The index treats districts as key units for export growth and is linked to the goal of USD 1 trillion of merchandise exports by 2030.",
+  hi:"निर्यात तैयारी सूचकांक राज्यों और केंद्र शासित प्रदेशों को इस आधार पर रैंक करता है कि वे निर्यात के लिए कितने तैयार हैं। 2024 का यह चौथा संस्करण नीति आयोग ने 14 जनवरी 2026 को जारी किया। इसमें 4 स्तंभ, 13 उप-स्तंभ और 70 संकेतक हैं। स्तंभ हैं: निर्यात बुनियादी ढाँचा (20% भार), कारोबारी माहौल (40%), नीति और शासन (20%) और निर्यात प्रदर्शन (20%)। इस बार नए पहलुओं में व्यापक आर्थिक स्थिरता, लागत प्रतिस्पर्धा, मानव पूँजी, वित्त तक पहुँच और MSME इकोसिस्टम शामिल हैं। राज्यों की तुलना दो समूहों में होती है और उन्हें अग्रणी (Leaders), चुनौतीकर्ता (Challengers) या आकांक्षी (Aspirers) में रखा जाता है। बड़े राज्यों में महाराष्ट्र, तमिलनाडु, गुजरात, उत्तर प्रदेश और आंध्र प्रदेश आगे हैं। छोटे राज्यों, पूर्वोत्तर राज्यों और केंद्र शासित प्रदेशों में उत्तराखंड, जम्मू और कश्मीर, नागालैंड, दादरा और नगर हवेली व दमन और दीव, और गोवा आगे हैं। सूचकांक ज़िलों को निर्यात बढ़ाने की अहम इकाई मानता है और 2030 तक 1 लाख करोड़ डॉलर (USD 1 ट्रिलियन) के वस्तु निर्यात के लक्ष्य से जुड़ा है।",
+  context:{
+    what:"NITI Aayog's index that ranks states and UTs on their readiness to export, first published in August 2020. This is the fourth edition.",
+    why:"Exports grow from factories, ports and firms located in states and districts. A common yardstick shows each state where it is strong and where policy, infrastructure or finance holds it back.",
+    how:"Scores on 70 indicators grouped into 13 sub-pillars under four pillars: export infrastructure (20%), business ecosystem (40%), policy and governance (20%) and export performance (20%). States are compared in two groups: large states, and small states, north-eastern states and UTs."
+  },
+  nums:[["70","Indicators used",0],["4","Pillars scored",0],["40%","Weight of the business ecosystem pillar",0],["4th","Edition of the index",0]],
+  themes:[
+    {name:"Large states", sev:"low", items:[
+      {t:"Leading performers, in order: Maharashtra, Tamil Nadu, Gujarat, Uttar Pradesh and Andhra Pradesh.", amt:""}]},
+    {name:"Small states, north-eastern states and UTs", sev:"low", items:[
+      {t:"Leading performers, in order: Uttarakhand, Jammu and Kashmir, Nagaland, Dadra and Nagar Haveli & Daman and Diu, and Goa.", amt:""}]},
+    {name:"What the index measures", sev:"med", items:[
+      {t:"Export infrastructure (utilities and logistics) and policy and governance carry 20% each.", amt:""},
+      {t:"Business ecosystem carries 40%: macroeconomy, cost competitiveness, human capital, finance and credit access, MSME ecosystem, and industrial and innovation environment.", amt:""},
+      {t:"Export performance carries 20%: state exports and trends, export promotion, and export portfolio and market access.", amt:""}]},
+    {name:"Focus areas", sev:"med", items:[
+      {t:"The report calls for better export infrastructure, lower costs, strong institutions and predictable, transparent policy.", amt:""},
+      {t:"It treats districts as the core units of export competitiveness and backs place-based strategies.", amt:""}]}
+  ],
+  charts:[
+    {title:"Weight of each pillar", type:"bars", unit:"% of total score", max:100, data:[["Business ecosystem",40],["Export infrastructure",20],["Policy and governance",20],["Export performance",20]]}
+  ],
+  recs:[
+    "Strengthen export infrastructure and improve cost competitiveness.",
+    "Build strong institutions and keep policy predictable and transparent.",
+    "Use district-level, place-based strategies to grow exports."
+  ],
+  response:["NITI Aayog says detailed scores, indicator-level results and state profiles are given in the full report."],
+  timeline:[["Aug 2020","First edition published"],["14 Jan 2026","Fourth edition (EPI 2024) released"]],
+  glossary:["Composite index","MSME","Global value chain"],
+  exam:{
+    prelims:[
+      "The Export Preparedness Index is published by NITI Aayog; its first edition came out in August 2020.",
+      "EPI 2024, the fourth edition, was released on 14 January 2026.",
+      "EPI 2024 uses 4 pillars, 13 sub-pillars and 70 indicators; the business ecosystem pillar has the highest weight (40%).",
+      "Maharashtra topped the large states and Uttarakhand topped the small, north-eastern states and UTs."
+    ],
+    mains:"India's export ambitions depend on the preparedness of states and districts. Discuss in light of NITI Aayog's Export Preparedness Index 2024. (15 marks)",
+    quiz:[
+      {q:"Which state led the large-states group in NITI Aayog's Export Preparedness Index 2024?", o:["Gujarat","Tamil Nadu","Maharashtra","Uttar Pradesh"], a:2, w:"Maharashtra led, followed by Tamil Nadu, Gujarat, Uttar Pradesh and Andhra Pradesh."},
+      {q:"Which pillar carries the highest weight in EPI 2024?", o:["Export infrastructure","Business ecosystem","Policy and governance","Export performance"], a:1, w:"Business ecosystem carries 40%; the other three pillars carry 20% each."},
+      {q:"Which of these led the small, north-eastern states and UTs group in EPI 2024?", o:["Goa","Uttarakhand","Nagaland","Jammu and Kashmir"], a:1, w:"Uttarakhand led, followed by Jammu and Kashmir, Nagaland, Dadra and Nagar Haveli & Daman and Diu, and Goa."}
+    ]
+  },
+  related:["niti-ifi-2026","niti-manufacturing-hub-2026","cag-project-imports-27-2026"],
+  src:[["PIB: NITI Aayog releases Export Preparedness Index (EPI) 2024","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2214514&reg=3&lang=1","official"],["Business Standard: NITI Aayog releases export preparedness index for states, Maharashtra tops list","https://www.business-standard.com/markets/capital-market-news/niti-aayog-releases-export-preparedness-index-for-states-maharashtra-tops-list-126011400782_1.html","news"],["The Statesman: Maharashtra tops NITI Aayog's Export Preparedness Index","https://www.thestatesman.com/india/maharashtra-tops-niti-aayogs-export-preparedness-index-1503540430.html","news"]],
+  kw:"NITI Aayog Export Preparedness Index EPI 2024 fourth edition exports states ranking Maharashtra Tamil Nadu Gujarat Uttar Pradesh Andhra Pradesh Uttarakhand Jammu Kashmir Nagaland Goa export infrastructure business ecosystem policy governance export performance districts USD 1 trillion merchandise exports 2030"
 }
 
 );
@@ -3993,7 +4187,7 @@ Object.assign(window.STATE_FACTS_V2, {
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
   TG:[...(window.STATE_FACTS_V2.TG||[]),["GHMC paid ₹313.20 crore for dry waste that was not processed (CAG, 2026)","cag-telangana-swm-1-2025"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
-  MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
+  MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 1.95% to 5.83% of households got 100 days of MGNREGA work (CAG, 2026)","cag-mp-mgnrega-4-2026"],["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
   RJ:[...(window.STATE_FACTS_V2.RJ||[]),["Mandatory road signs missing at 506 locations on inspected roads (CAG, 2026)","cag-rajasthan-road-safety-1-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
