@@ -2,6 +2,13 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "Administrative Approval": "The formal sanction by the competent authority to take up a works project at an estimated cost, after which it can be designed and put to tender.",
+  "SFMS": "Structured Financial Messaging System: a secure banking message system used, among other things, to send and confirm bank guarantees electronically.",
+  "Rush of expenditure": "Spending a large share of the year's budget in the last few months, especially March, which can lead to hasty or wasteful spending.",
+  "Frontier Tech Hub": "A NITI Aayog unit that prepares roadmaps on new technologies such as AI, semiconductors and digital public infrastructure.",
+  "NASSCOM": "National Association of Software and Service Companies: the industry body for India's technology and business services sector.",
+  "Reskilling": "Training workers in new skills so they can move to a different role when their current work changes or disappears.",
+  "GCC": "Global Capability Centre: an office in India that a multinational company sets up to do its own technology, research or business work.",
   "Vivad se Vishwas": "A one-time Union scheme under a 2020 law that let taxpayers settle pending direct tax appeals by paying the disputed tax, with interest and penalty waived.",
   "Section 244A interest": "Interest the government pays a taxpayer on an income tax refund under Section 244A of the Income Tax Act.",
   "Labour budget": "Under MGNREGS, the yearly estimate of how much work will be demanded and the works planned to meet it, meant to be prepared with Gram Sabhas.",
@@ -4168,6 +4175,219 @@ window.SPEC_REPORTS.push(
   related:["niti-ifi-2026","niti-manufacturing-hub-2026","cag-project-imports-27-2026"],
   src:[["PIB: NITI Aayog releases Export Preparedness Index (EPI) 2024","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2214514&reg=3&lang=1","official"],["Business Standard: NITI Aayog releases export preparedness index for states, Maharashtra tops list","https://www.business-standard.com/markets/capital-market-news/niti-aayog-releases-export-preparedness-index-for-states-maharashtra-tops-list-126011400782_1.html","news"],["The Statesman: Maharashtra tops NITI Aayog's Export Preparedness Index","https://www.thestatesman.com/india/maharashtra-tops-niti-aayogs-export-preparedness-index-1503540430.html","news"]],
   kw:"NITI Aayog Export Preparedness Index EPI 2024 fourth edition exports states ranking Maharashtra Tamil Nadu Gujarat Uttar Pradesh Andhra Pradesh Uttarakhand Jammu Kashmir Nagaland Goa export infrastructure business ecosystem policy governance export performance districts USD 1 trillion merchandise exports 2030"
+},
+/* ---------- CAG · Works Management in Indian Navy (Report 30 of 2025) ---------- */
+{
+  id:"cag-navy-works-30-2025", body:"CAG", kind:"Performance audit", reportNo:"Report No. 30 of 2025",
+  title:"Performance Audit on Works Management in Indian Navy, Union Government (Defence Services – Navy)", short:"Indian Navy works management", sector:"Other", ministry:"Ministry of Defence (Navy)",
+  date:"Dec 2025", dateISO:"2025-12-18", tabled:"Laid in the Lok Sabha and Rajya Sabha on 18 December 2025", period:"Works approved from 2018-19 to 2022-23; project status as of May 2025", flagged:173.75,
+  flaggedNote:"Sum of two findings: contracts of ₹78.03 crore awarded after ineligible bidders were qualified in three tenders, and a cost overrun of ₹95.72 crore on Special Project 'S2'. These are amounts flagged by audit, not confirmed losses.",
+  tldr:[
+    "In three tenders, ineligible bidders were qualified and contracts worth ₹78.03 crore were awarded, against the rules for fair tender evaluation.",
+    "Special Project 'S2', due by December 2023, was still incomplete in May 2025, with a cost overrun of ₹95.72 crore on an original approval of ₹235.92 crore.",
+    "Contracts were signed late in 13 of 14 technical works and in all 47 major works checked, with delays of up to 52 and 64 months."
+  ],
+  en:"This CAG performance audit checks how the Indian Navy plans, contracts and monitors its building works. It covers works approved between 2018-19 and 2022-23 under two programmes: the Annual Technical Works Programme (ATWP) and the Annual Major Works Programme (AMWP). Only 36% of sanctioned ATWP works matched the Navy's long-term plan, 'Plan 1'. In 57 of 69 works, approvals came late. In three tenders, ineligible bidders were qualified and contracts worth ₹78.03 crore were awarded. Of 14 ATWP contracts, 13 were signed late, with delays of up to 52 months. All 47 AMWP contracts checked were also signed late, with delays of up to 64 months. In most contracts, completion dates went beyond the planned dates by up to 231 weeks without approval from the competent financial authority. Special Project 'S2' was still not complete in May 2025, with a cost overrun of ₹95.72 crore. The online project monitoring system was not fully used.",
+  hi:"CAG का यह परफ़ॉर्मेंस ऑडिट जाँचता है कि भारतीय नौसेना अपने निर्माण कार्यों की योजना, ठेके और निगरानी कैसे करती है। इसमें 2018-19 से 2022-23 के बीच दो कार्यक्रमों के तहत मंज़ूर काम शामिल हैं: वार्षिक तकनीकी निर्माण कार्यक्रम (ATWP) और वार्षिक प्रमुख निर्माण कार्यक्रम (AMWP)। मंज़ूर ATWP कामों में से सिर्फ़ 36% नौसेना की दीर्घकालिक योजना 'Plan 1' के अनुरूप थे। 69 में से 57 कामों में मंज़ूरी देर से मिली। तीन निविदाओं में अयोग्य बोलीदाताओं को योग्य माना गया और ₹78.03 करोड़ के ठेके दे दिए गए। 14 ATWP ठेकों में से 13 देर से हुए, जिनमें 52 महीने तक की देरी थी। जाँचे गए सभी 47 AMWP ठेके भी देर से हुए, जिनमें 64 महीने तक की देरी थी। ज़्यादातर ठेकों में पूरा होने की तारीख़ तय तारीख़ से 231 हफ़्ते तक आगे चली गई, और इसके लिए सक्षम वित्तीय प्राधिकारी की मंज़ूरी नहीं ली गई। विशेष परियोजना 'S2' मई 2025 तक पूरी नहीं हुई थी, और उसकी लागत ₹95.72 करोड़ बढ़ गई। ऑनलाइन परियोजना निगरानी प्रणाली का पूरा इस्तेमाल नहीं हुआ।",
+  context:{
+    what:"A CAG performance audit of how the Indian Navy manages its works projects, from planning and approval to contracts and monitoring.",
+    why:"The Navy builds technical and operational facilities, such as berths and support buildings, through these works. Delays and weak contract checks raise costs and hold up facilities the fleet needs.",
+    how:"Test check of works given Administrative Approval from 2018-19 to 2022-23 under the ATWP and the AMWP, with project status followed up to May 2025."
+  },
+  nums:[["₹78.03 cr","Contracts awarded after ineligible bidders were qualified (3 tenders)",1],["₹95.72 cr","Cost overrun on Special Project 'S2'",1],["57 of 69","Works where approvals were delayed",1],["36%","Sanctioned ATWP works in line with 'Plan 1'",1]],
+  themes:[
+    {name:"Planning and approval", sev:"med", items:[
+      {t:"Only 36% of sanctioned ATWP works were in line with the long-term plan, 'Plan 1'. For AMWP works, audit could not confirm alignment with 'Plan 2' for lack of information.", amt:""},
+      {t:"In 57 of 69 works, Administrative Approvals came late, due to late Board Proceedings or estimates and the complexity of works.", amt:""},
+      {t:"Planned completion dates, estimates and the engineer appreciation format for ATWP works had shortcomings.", amt:""}]},
+    {name:"Contracts", sev:"high", items:[
+      {t:"In three competitive tenders, ineligible bidders were qualified and contracts were awarded.", amt:"₹78.03 cr"},
+      {t:"13 of 14 ATWP contracts were signed late, with delays of up to 52 months (24.5 months on average).", amt:""},
+      {t:"All 47 AMWP contracts checked were signed late, with delays of up to 64 months (13 months on average).", amt:""},
+      {t:"In 13 of 14 ATWP and 34 of 47 AMWP contracts, contract completion dates went beyond the planned dates by up to 231 weeks, without approval from the competent financial authority.", amt:""}]},
+    {name:"Special Project 'S2'", sev:"high", items:[
+      {t:"Due by December 2023, the project was still incomplete in May 2025 and waiting for a revised approval. Its cost overran the original approval of ₹235.92 crore.", amt:"₹95.72 cr"},
+      {t:"Planning had gaps, including a revised layout, splitting of a combined land and marine tender, and eligibility criteria not followed.", amt:""}]},
+    {name:"Monitoring and controls", sev:"med", items:[
+      {t:"A March 2016 Finance Ministry instruction to verify bank guarantees through SFMS had not been adopted for Navy works.", amt:""},
+      {t:"The online project monitoring system (IPBMS) was not used well, and there was no timeline for setting up Project Monitoring Groups.", amt:""},
+      {t:"Different offices used different progress-report formats; after audit pointed this out, a standard format was issued.", amt:""}]}
+  ],
+  charts:[
+    {title:"Money flagged", type:"bars", unit:"₹ crore", data:[["Original approval of Special Project 'S2'",235.92],["Cost overrun on 'S2'",95.72],["Contracts to ineligible bidders",78.03]]},
+    {title:"Contracts signed late", type:"pairs", legend:["Checked","Signed late"], data:[["ATWP contracts",14,13],["AMWP contracts",47,47]]}
+  ],
+  recs:[
+    "Make sure AMWP works are in line with the long-term plan, 'Plan 2'.",
+    "Set realistic timelines for approvals, contracts and completion, based on how complex each work is.",
+    "Make clear who can enlist contractors for ATWP works.",
+    "Issue guidelines for checking bank guarantees through SFMS.",
+    "Set a timeline for full use of the IPBMS monitoring system, and form Project Monitoring Groups right after approval."
+  ],
+  recsNote:"In short; the CAG press brief lists 10 recommendations to the Ministry of Defence.",
+  response:["The press brief notes that a standard progress-report format was issued after audit raised the issue. It does not give the Ministry's full reply. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["2018-19","Start of the period of approved works covered"],["Dec 2023","Original completion target for Special Project 'S2'"],["May 2025","'S2' still incomplete"],["18 Dec 2025","Report laid in Parliament"]],
+  glossary:["Performance audit","Administrative Approval","Bank guarantee","SFMS","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 30 of 2025 is a performance audit of works management in the Indian Navy; it was laid in Parliament on 18 December 2025.",
+      "It covers works under the Annual Technical Works Programme (ATWP) and the Annual Major Works Programme (AMWP) approved from 2018-19 to 2022-23.",
+      "Only 36% of sanctioned ATWP works were in line with the Navy's long-term plan, 'Plan 1'.",
+      "Special Project 'S2' had a cost overrun of ₹95.72 crore on an original approval of ₹235.92 crore."
+    ],
+    mains:"Delays in defence infrastructure works raise costs and affect preparedness. Discuss with reference to the CAG's 2025 audit of works management in the Indian Navy. (15 marks)",
+    quiz:[
+      {q:"In how many of the 47 AMWP contracts checked did the CAG find late signing?", o:["13","34","47","57"], a:2, w:"All 47 AMWP contracts checked were signed late, with delays of up to 64 months."},
+      {q:"What was the cost overrun on Special Project 'S2'?", o:["₹78.03 crore","₹95.72 crore","₹235.92 crore","₹173.75 crore"], a:1, w:"₹95.72 crore over the original approval of ₹235.92 crore. ₹78.03 crore is the value of contracts awarded to ineligible bidders."},
+      {q:"SFMS, which the CAG wants used for Navy works, is meant to:", o:["Track ship maintenance","Verify bank guarantees electronically","Pay contractors' wages","Approve defence budgets"], a:1, w:"A 2016 Finance Ministry instruction asks for bank guarantees to be verified through SFMS; the Navy had not adopted it for works."}
+    ]
+  },
+  related:["cag-army-hospitals-pay-2026","cag-econ-service-11-2026"],
+  src:[["CAG press brief: Report No. 30 of 2025, Works Management in Indian Navy","https://saiindia.gov.in/uploads/PressRelease/PR-PRESS-BRIEF-ENGLISH-30-OF-2025-0694e1a2e9f2b78-42538974.pdf","official"],["RNA Media: CAG flags delays, cost overruns in Indian Navy infrastructure projects","https://www.rnamedia.in/navy/cag-audit-indian-navy-infrastructure-delays-cost-overruns-works-management/12031","news"]],
+  kw:"CAG Report 30 2025 Indian Navy works management defence infrastructure ATWP AMWP Annual Technical Works Programme Annual Major Works Programme Plan 1 Plan 2 Special Project S2 cost overrun ineligible bidders contracts delays IPBMS SFMS bank guarantee Project Monitoring Group Ministry of Defence performance audit"
+},
+/* ---------- CAG · Sikkim State Finances 2024-25 (Report 1 of 2026) ---------- */
+{
+  id:"cag-sikkim-finances-1-2026", body:"CAG", state:"Sikkim", kind:"Financial audit", reportNo:"Report No. 1 of 2026 (Sikkim)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Sikkim", short:"Sikkim State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Sikkim",
+  date:"Jul 2026", dateISO:"2026-07-23", tabled:"Tabled on 23 July 2026, as shown on the CAG report page (sent to the state government on 15 June 2026)", period:"Financial year ended 31 March 2025", flagged:274.30,
+  flaggedNote:"Revenue-type spending booked as capital spending (₹259.43 crore for houses and ₹14.87 crore for operation and maintenance), which overstated the revenue surplus. This is an amount flagged by audit, not a loss.",
+  tldr:[
+    "Sikkim's fiscal deficit was 5.59% of GSDP in 2024-25, well above the 3% limit, and public debt was 28.09% of GSDP against a 28% ceiling.",
+    "The state showed a revenue surplus of ₹482.43 crore, but ₹274.30 crore of revenue spending was booked as capital spending, overstating the surplus.",
+    "71.17% of revenue came from the Union, and committed spending took 73.40% of revenue expenditure."
+  ],
+  en:"The CAG's report on Sikkim's finances for 2024-25 finds a state that relies heavily on the Union and is over its borrowing limits. The economy (GSDP) grew 11.15% to ₹53,340 crore. Revenue receipts rose 13.17% to ₹9,451.25 crore, but 71.17% came from Union tax shares and grants. The state showed a revenue surplus of ₹482.43 crore. However, ₹274.30 crore of revenue spending was booked as capital spending, so the real surplus was smaller. The fiscal deficit was ₹2,980 crore, or 5.59% of GSDP, against a limit of 3%. Public debt was 28.09% of GSDP, just above the 28% ceiling. Off-budget borrowings stood at ₹1,208.14 crore. Salaries, pensions and interest took 73.40% of revenue spending. Capital spending rose to ₹3,462.80 crore. Of the total budget of ₹16,198.47 crore, ₹2,971.23 crore was not used, and most of the savings were surrendered on the last day of the year. Revenue from sale of power was kept outside the government account.",
+  hi:"2024-25 के लिए सिक्किम के वित्त पर CAG की रिपोर्ट बताती है कि राज्य केंद्र पर बहुत निर्भर है और अपनी उधारी सीमाओं से ऊपर है। राज्य की अर्थव्यवस्था (GSDP) 11.15% बढ़कर ₹53,340 करोड़ हो गई। राजस्व प्राप्तियाँ 13.17% बढ़कर ₹9,451.25 करोड़ हुईं, लेकिन इनमें से 71.17% केंद्रीय करों में हिस्से और अनुदानों से आईं। राज्य ने ₹482.43 करोड़ का राजस्व अधिशेष दिखाया। लेकिन ₹274.30 करोड़ का राजस्व ख़र्च पूँजीगत ख़र्च के रूप में दर्ज किया गया, इसलिए असली अधिशेष इससे कम था। राजकोषीय घाटा ₹2,980 करोड़ यानी GSDP का 5.59% रहा, जबकि सीमा 3% है। सार्वजनिक ऋण GSDP का 28.09% था, जो 28% की सीमा से थोड़ा ऊपर है। बजट से बाहर की उधारी ₹1,208.14 करोड़ थी। वेतन, पेंशन और ब्याज ने राजस्व ख़र्च का 73.40% ले लिया। पूँजीगत ख़र्च बढ़कर ₹3,462.80 करोड़ हो गया। ₹16,198.47 करोड़ के कुल बजट में से ₹2,971.23 करोड़ इस्तेमाल नहीं हुए, और ज़्यादातर बचत साल के आख़िरी दिन लौटाई गई। बिजली बिक्री से मिला राजस्व सरकारी खाते से बाहर रखा गया।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report for Sikkim for 2024-25. It reviews the state's receipts, spending, deficits, debt, budget management and the quality of its accounts.",
+    why:"Sikkim is a small Himalayan state that depends largely on money from the Union. The report shows whether it keeps to its fiscal rules and whether its accounts give a true picture, and it is the base for the Assembly's Public Accounts Committee.",
+    how:"Analysis of the state's Finance Accounts and Appropriation Accounts for 2024-25, with comparison to earlier years."
+  },
+  nums:[["5.59%","Fiscal deficit as a share of GSDP (limit 3%)",1],["28.09%","Public debt as a share of GSDP (ceiling 28%)",1],["₹482.43 cr","Revenue surplus shown, before audit adjustment",0],["71.17%","Share of revenue receipts from the Union",0]],
+  themes:[
+    {name:"Deficits and debt", sev:"high", items:[
+      {t:"The fiscal deficit was ₹2,980 crore, or 5.59% of GSDP, against a limit of 3%. It was ₹2,529.98 crore in 2023-24.", amt:""},
+      {t:"Public debt was 28.09% of GSDP, above the ceiling of 28%.", amt:""},
+      {t:"Off-budget borrowings outstanding at 31 March 2025.", amt:"₹1,208.14 cr"},
+      {t:"Undischarged liabilities were 10.42% of total spending.", amt:"₹1,295.42 cr"}]},
+    {name:"Revenue", sev:"med", items:[
+      {t:"Revenue receipts grew 13.17% to ₹9,451.25 crore. The state's share of Union taxes was ₹5,090.10 crore and Union grants ₹1,636.23 crore, together 71.17% of revenue receipts.", amt:""},
+      {t:"The state's own tax revenue was ₹1,814.87 crore and own non-tax revenue ₹910.05 crore; own revenue grew only 3.90%.", amt:""},
+      {t:"The revenue surplus rose to ₹482.43 crore from ₹130.84 crore in 2023-24.", amt:""}]},
+    {name:"Spending and budget", sev:"med", items:[
+      {t:"Committed spending (salaries, pensions and interest) was ₹6,582.95 crore, 73.40% of revenue spending.", amt:""},
+      {t:"Capital spending rose to ₹3,462.80 crore (6.49% of GSDP) from ₹2,660.66 crore.", amt:""},
+      {t:"Of a total budget of ₹16,198.47 crore, ₹2,971.23 crore was saved; ₹2,762.00 crore was surrendered on 31 March 2025.", amt:"₹2,971.23 cr"},
+      {t:"Supplementary provisions of ₹115.23 crore in 18 cases proved unnecessary, and 34.69% of spending came in January to March 2025.", amt:"₹115.23 cr"}]},
+    {name:"Accounts and transparency", sev:"high", items:[
+      {t:"Revenue-type spending was booked as capital spending: ₹259.43 crore for houses and ₹14.87 crore for operation and maintenance. This overstated the revenue surplus.", amt:"₹274.30 cr"},
+      {t:"Revenue from the sale of power was kept outside the government account, against Article 266 of the Constitution.", amt:""},
+      {t:"Excess spending of earlier years was still to be regularised by the legislature.", amt:"₹16.82 cr"},
+      {t:"Utilisation certificates were pending, some dating back to 2002-03, and receipts and spending were booked under Minor Head 800.", amt:""}]}
+  ],
+  charts:[
+    {title:"Fiscal deficit against the limit", type:"bars", unit:"% of GSDP", data:[["Actual, 2024-25",5.59],["FRBM limit",3]]},
+    {title:"Public debt against the ceiling", type:"bars", unit:"% of GSDP", data:[["Actual, 2024-25",28.09],["Ceiling",28]]},
+    {title:"Where revenue came from, 2024-25", type:"split", unit:"₹ crore", data:[["Share of Union taxes",5090.10],["Union grants",1636.23],["Own tax revenue",1814.87],["Own non-tax revenue",910.05]], note:"Total revenue receipts ₹9,451.25 crore."},
+    {title:"Budget used in 2024-25", type:"split", unit:"₹ crore", data:[["Spent",13227.23],["Saved",2971.23]], note:"Total budget ₹16,198.47 crore."}
+  ],
+  recs:[
+    "Raise the state's own revenue and control spending better.",
+    "Be transparent about off-budget borrowing.",
+    "Prepare realistic budgets, seek supplementary grants only after original funds are used, and surrender unused funds in time.",
+    "Keep accounts on time and classify spending correctly."
+  ],
+  recsNote:"In short, from the report's executive summary and Chapter II. The full list was not checked for this entry.",
+  response:["The coverage checked does not give the state government's reply. The report goes to the Sikkim Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2023-24","Revenue surplus of ₹130.84 crore"],["31 Mar 2025","₹2,762 crore of savings surrendered on the last day of the year"],["15 Jun 2026","Report sent to the state government"],["23 Jul 2026","Report tabled"]],
+  glossary:["Financial audit","GSDP","Fiscal deficit","Revenue surplus","FRBM","Committed expenditure","Capital expenditure","Extra-budgetary resources","Undischarged liabilities","Supplementary grant","Utilisation certificate","Minor Head 800","Rush of expenditure","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 1 of 2026 (Sikkim) is the State Finances Audit Report for 2024-25.",
+      "Sikkim's fiscal deficit in 2024-25 was 5.59% of GSDP, against a limit of 3%.",
+      "Sikkim's public debt was 28.09% of GSDP, against a ceiling of 28%.",
+      "Union tax shares and grants made up 71.17% of Sikkim's revenue receipts in 2024-25."
+    ],
+    mains:"A revenue surplus can hide fiscal stress in states that depend on Union transfers. Examine with reference to the CAG's State Finances Audit Report of Sikkim for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Sikkim's fiscal deficit in 2024-25 as a share of GSDP, according to the CAG?", o:["0.90%","3%","5.59%","28.09%"], a:2, w:"5.59%, against a limit of 3%. 0.90% was the revenue surplus and 28.09% the debt ratio."},
+      {q:"Why did the CAG say Sikkim's revenue surplus was overstated?", o:["Union grants were counted twice","₹274.30 crore of revenue spending was booked as capital spending","Tax arrears were counted as revenue","Loans were counted as grants"], a:1, w:"Revenue-type spending of ₹274.30 crore was classified as capital spending, which made the revenue surplus look bigger."},
+      {q:"Under Article 266 of the Constitution, a state's receipts should be credited to:", o:["A Personal Deposit account","Its Consolidated Fund or Public Account","The Contingency Fund of India","A state PSU account"], a:1, w:"The CAG found revenue from sale of power kept outside the government account, against Article 266."}
+    ]
+  },
+  related:["cag-odisha-finances-3-2026","cag-haryana-finances-1-2026","cag-delhi-finances-2-2026","state-finances"],
+  src:[["CAG: Report No. 1 of 2026, State Finances 2024-25, Government of Sikkim (report page)","https://cag.gov.in/en/audit-report/details/125624","official"],["CAG: Full report, Sikkim State Finances 2024-25 (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2026/Report-of-the-Comptroller-and-Auditor-General-of-India-on-State-Finances-for-the-year-2024-25-(Report-No.-1-of-2026)-English-06a61f5a988c626.20176437.pdf","official"],["The Policy Edge: CAG report: Sikkim's revenue surplus masks growing fiscal pressures","https://www.policyedge.in/p/cag-report-sikkims-revenue-surplus-masks-growing-fiscal-pressures","analysis"],["EastMojo: Himalayan headache: why Sikkim's fiscal deficit is a problem","https://eastmojo.com/premium/2026/07/27/himalayan-headache-why-sikkims-fiscal-deficit-is-a-problem/","news"]],
+  kw:"CAG Sikkim State Finances Audit Report 2024-25 SFAR Report 1 2026 fiscal deficit FRBM revenue surplus GSDP public debt off-budget borrowing central transfers committed expenditure capital expenditure misclassification budget savings surrender power revenue Article 266 utilisation certificates"
+},
+/* ---------- NITI · Roadmap for Job Creation in the AI Economy ---------- */
+{
+  id:"niti-ai-jobs-2025", body:"NITI", kind:"Policy report", reportNo:"NITI Frontier Tech Hub roadmap (with BCG and NASSCOM)",
+  title:"Roadmap for Job Creation in the AI Economy", short:"AI jobs roadmap", sector:"Skilling & employment", ministry:"NITI Aayog",
+  date:"Oct 2025", dateISO:"2025-10-10", tabled:"Released on 10 October 2025 by NITI Aayog CEO B.V.R. Subrahmanyam", period:"Outlook to 2031", flagged:null,
+  tldr:[
+    "AI could cut India's tech services jobs from 7.5-8 million in 2023 to 6 million by 2031, or, with the right action, take them to 10 million.",
+    "Put simply, India could lose 1.5 million jobs or create up to 4 million new ones in tech and customer experience work.",
+    "The report proposes an India AI Talent Mission to build AI skills in schools and colleges, attract AI talent and reskill workers at scale."
+  ],
+  en:"NITI Aayog's roadmap looks at how artificial intelligence will change jobs in India's technology and customer experience (CX) sectors, which employ over 9 million people. It was prepared by NITI's Frontier Tech Hub with BCG and NASSCOM, and released on 10 October 2025. AI can raise productivity in tech work by 10-20%, so fewer people may be needed for the same work. Entry-level roles, such as junior testers and first-line support staff, are the most exposed. If nothing changes, tech services jobs could fall from 7.5-8 million in 2023 to 6 million by 2031, and CX jobs to 1.8 million. With strong action, tech jobs could rise to 10 million and CX jobs to 3.1 million. India's AI talent supply is only about half of current demand. The report proposes an India AI Talent Mission with three pillars: AI learning across the education system, making India a magnet for AI talent, and a large reskilling drive for today's workers.",
+  hi:"नीति आयोग का यह रोडमैप देखता है कि आर्टिफ़िशियल इंटेलिजेंस (AI) भारत के प्रौद्योगिकी और ग्राहक अनुभव (CX) क्षेत्रों में नौकरियों को कैसे बदलेगा, जिनमें 90 लाख से ज़्यादा लोग काम करते हैं। इसे नीति आयोग के फ़्रंटियर टेक हब ने BCG और NASSCOM के साथ तैयार किया और 10 अक्टूबर 2025 को जारी किया। AI तकनीकी काम में उत्पादकता 10-20% बढ़ा सकता है, इसलिए उतने ही काम के लिए कम लोगों की ज़रूरत पड़ सकती है। शुरुआती स्तर की भूमिकाएँ, जैसे जूनियर टेस्टर और पहली पंक्ति के सपोर्ट कर्मचारी, सबसे ज़्यादा जोखिम में हैं। अगर कुछ नहीं बदला, तो टेक सेवाओं की नौकरियाँ 2023 के 75-80 लाख से घटकर 2031 तक 60 लाख रह सकती हैं, और CX नौकरियाँ 18 लाख। मज़बूत क़दमों से टेक नौकरियाँ 1 करोड़ और CX नौकरियाँ 31 लाख तक पहुँच सकती हैं। भारत में AI प्रतिभा की आपूर्ति मौजूदा माँग की लगभग आधी ही है। रिपोर्ट एक इंडिया AI टैलेंट मिशन का प्रस्ताव रखती है, जिसके तीन स्तंभ हैं: पूरी शिक्षा व्यवस्था में AI की पढ़ाई, भारत को AI प्रतिभा का आकर्षण केंद्र बनाना, और आज के कामगारों के लिए बड़े पैमाने पर रीस्किलिंग।",
+  context:{
+    what:"A NITI Aayog roadmap, prepared by its Frontier Tech Hub with BCG and NASSCOM, on how AI will affect jobs in India's technology and customer experience sectors and how India can create more jobs from it.",
+    why:"India's $245 billion tech and CX sectors are a major source of white-collar jobs. AI tools can do much of the routine coding, testing and support work, so the sector's hiring could shrink unless workers move into new roles.",
+    how:"Scenario estimates of jobs to 2031 in a business-as-usual case and an action case, based on productivity gains from AI, with inputs from an expert council of industry leaders."
+  },
+  nums:[["4 million","New jobs possible by 2031 with strong action",0],["1.5 million","Jobs that could be lost in tech services",1],["50%","AI talent supply as a share of current demand",1],["10-20%","Productivity gain from AI in tech work",0]],
+  themes:[
+    {name:"Jobs at risk", sev:"high", items:[
+      {t:"In a business-as-usual case, tech services jobs could fall from 7.5-8 million in 2023 to 6 million by 2031, and CX jobs from 2-2.5 million to 1.8 million.", amt:""},
+      {t:"Entry-level roles, such as junior quality testers and first-line support agents, are the most exposed.", amt:""},
+      {t:"AI is expected to raise overall productivity in tech work by 10-20%, and by 50-60% for simple applications.", amt:""}]},
+    {name:"Jobs that could be created", sev:"low", items:[
+      {t:"With strong action, tech jobs could rise to 10 million and CX jobs to 3.1 million by 2031.", amt:""},
+      {t:"New roles named include AI prompt engineers, AI architects, AIOps engineers and ethical AI specialists.", amt:""},
+      {t:"About 70% of new Global Capability Centres list AI/ML among their top three skill needs.", amt:""}]},
+    {name:"Talent gap", sev:"high", items:[
+      {t:"AI talent supply in India is about 50% of current demand.", amt:""},
+      {t:"Demand for AI talent is expected to grow from 800,000-850,000 to over 1,250,000 over 2024-26, about 25% a year, while the talent pool grows only 15% a year.", amt:""},
+      {t:"About 400 million Indians work in the informal sector and have little access to formal training.", amt:""}]},
+    {name:"Proposed India AI Talent Mission", sev:"med", items:[
+      {t:"Build AI fluency across education, from schools to universities.", amt:""},
+      {t:"Make India a magnet for AI talent from around the world.", amt:""},
+      {t:"Run a large AI skilling drive to reskill and upskill today's workforce.", amt:""},
+      {t:"Support these with an India Open-Source AI Commons and a shared national computing and innovation grid.", amt:""}]}
+  ],
+  charts:[
+    {title:"Tech services jobs by 2031: two scenarios", type:"bars", unit:"million jobs", data:[["With strong action",10],["Business as usual",6]], note:"Tech services employed 7.5-8 million people in 2023."},
+    {title:"Customer experience (CX) jobs by 2031: two scenarios", type:"bars", unit:"million jobs", data:[["With strong action",3.1],["Business as usual",1.8]], note:"CX employed 2-2.5 million people in 2023."}
+  ],
+  recs:[
+    "Set up an India AI Talent Mission as a nationwide, all-of-government effort.",
+    "Embed AI learning at every level of education, from schools to universities.",
+    "Make India a destination for AI talent and skills.",
+    "Launch a large AI skilling engine to reskill and upskill current workers.",
+    "Build an India Open-Source AI Commons and a federated national compute and innovation grid, working with the IndiaAI Mission."
+  ],
+  response:["This is a NITI Aayog policy roadmap, not a Cabinet-approved scheme. At the launch, NITI Aayog said the aim is for India to become the global centre of AI talent by 2035."],
+  timeline:[["2023","Tech services employ 7.5-8 million people"],["10 Oct 2025","Roadmap released by NITI Aayog"],["2031","Horizon of the job scenarios"]],
+  glossary:["Frontier Tech Hub","NASSCOM","Reskilling","GCC"],
+  exam:{
+    prelims:[
+      "NITI Aayog released the 'Roadmap for Job Creation in the AI Economy' on 10 October 2025; it was prepared by the NITI Frontier Tech Hub with BCG and NASSCOM.",
+      "It estimates India could lose 1.5 million jobs or create up to 4 million new jobs in tech and customer experience work by 2031.",
+      "It finds India's AI talent supply is about 50% of current demand.",
+      "It proposes an India AI Talent Mission with three pillars: AI in education, an AI talent magnet and an AI skilling engine."
+    ],
+    mains:"Artificial intelligence could both displace and create jobs in India's technology sector. Discuss with reference to NITI Aayog's 2025 roadmap for job creation in the AI economy. (15 marks)",
+    quiz:[
+      {q:"According to NITI Aayog's AI jobs roadmap, tech services jobs could fall to how many by 2031 in a business-as-usual case?", o:["4 million","6 million","8 million","10 million"], a:1, w:"6 million, down from 7.5-8 million in 2023. With strong action they could rise to 10 million."},
+      {q:"Which body prepared the roadmap with BCG and NASSCOM?", o:["NITI Frontier Tech Hub","MeitY's IndiaAI Mission","National Skill Development Corporation","Department of Higher Education"], a:0, w:"It was prepared by NITI Aayog's Frontier Tech Hub with BCG and NASSCOM."},
+      {q:"Which of these is NOT one of the three pillars of the proposed India AI Talent Mission?", o:["AI fluency across education","India as an AI talent magnet","An AI skilling engine for workers","A ban on AI in entry-level jobs"], a:3, w:"The three pillars are AI in education, an AI talent magnet and a large skilling engine; the report does not propose bans."}
+    ]
+  },
+  related:["niti-ai-2025","skilling-viksit-2047","niti-dpi-2047-2026"],
+  src:[["NITI Aayog: Roadmap for Job Creation in the AI Economy (PDF)","https://niti.gov.in/sites/default/files/2025-10/Roadmap_for_Job_Creation_in_the_AI_Economy.pdf","official"],["IANS: India's tech services sector can create up to 4 million jobs in 5 years: NITI Aayog","https://ianslive.in/indias-tech-services-sector-can-create-up-to-4-million-jobs-in-5-years-niti-aayog--20251010180038","news"],["Outlook Money: India at AI crossroads: NITI Aayog's roadmap shows potential for 4 million new jobs","https://www.outlookmoney.com/news/india-at-ai-crossroads-niti-aayogs-roadmap-shows-potential-for-4-million-new-jobs-but-with-an-urgent-action-plan","news"]],
+  kw:"NITI Aayog AI jobs roadmap job creation AI economy artificial intelligence Frontier Tech Hub BCG NASSCOM tech services customer experience CX IT jobs 4 million 1.5 million 2031 India AI Talent Mission reskilling upskilling AI talent gap GCC Open-Source AI Commons compute grid"
 }
 
 );
@@ -4189,6 +4409,7 @@ Object.assign(window.STATE_FACTS_V2, {
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 1.95% to 5.83% of households got 100 days of MGNREGA work (CAG, 2026)","cag-mp-mgnrega-4-2026"],["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
+  SK:[...(window.STATE_FACTS_V2.SK||[]),["Fiscal deficit of 5.59% of GSDP against a 3% limit in 2024-25 (CAG, 2026)","cag-sikkim-finances-1-2026"]],
   RJ:[...(window.STATE_FACTS_V2.RJ||[]),["Mandatory road signs missing at 506 locations on inspected roads (CAG, 2026)","cag-rajasthan-road-safety-1-2026"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
