@@ -2,6 +2,13 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "CPSE": "Central Public Sector Enterprise: a company or corporation in which the Union government or other CPSEs hold a majority stake.",
+  "Reinsurance": "Insurance bought by an insurance company to pass on part of the risk it has taken on to another insurer.",
+  "COPU": "Committee on Public Undertakings: the parliamentary committee that examines CAG reports on government companies and corporations.",
+  "Disinvestment": "The government selling part or all of its shares in a public sector company.",
+  "DIPAM": "Department of Investment and Public Asset Management: the Union department that manages the government's shares in public sector companies, including their sale.",
+  "BRSR": "Business Responsibility and Sustainability Report: a yearly report in which large listed companies disclose their environmental, social and governance data.",
+  "Primary deficit": "The fiscal deficit minus interest payments; it shows how much a government borrows for spending other than paying interest on old debt.",
   "Administrative Approval": "The formal sanction by the competent authority to take up a works project at an estimated cost, after which it can be designed and put to tender.",
   "SFMS": "Structured Financial Messaging System: a secure banking message system used, among other things, to send and confirm bank guarantees electronically.",
   "Rush of expenditure": "Spending a large share of the year's budget in the last few months, especially March, which can lead to hasty or wasteful spending.",
@@ -4388,6 +4395,219 @@ window.SPEC_REPORTS.push(
   related:["niti-ai-2025","skilling-viksit-2047","niti-dpi-2047-2026"],
   src:[["NITI Aayog: Roadmap for Job Creation in the AI Economy (PDF)","https://niti.gov.in/sites/default/files/2025-10/Roadmap_for_Job_Creation_in_the_AI_Economy.pdf","official"],["IANS: India's tech services sector can create up to 4 million jobs in 5 years: NITI Aayog","https://ianslive.in/indias-tech-services-sector-can-create-up-to-4-million-jobs-in-5-years-niti-aayog--20251010180038","news"],["Outlook Money: India at AI crossroads: NITI Aayog's roadmap shows potential for 4 million new jobs","https://www.outlookmoney.com/news/india-at-ai-crossroads-niti-aayogs-roadmap-shows-potential-for-4-million-new-jobs-but-with-an-urgent-action-plan","news"]],
   kw:"NITI Aayog AI jobs roadmap job creation AI economy artificial intelligence Frontier Tech Hub BCG NASSCOM tech services customer experience CX IT jobs 4 million 1.5 million 2031 India AI Talent Mission reskilling upskilling AI talent gap GCC Open-Source AI Commons compute grid"
+},
+/* ---------- CAG · CPSE compliance audit observations (Report 22 of 2026) ---------- */
+{
+  id:"cag-cpse-compliance-22-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 22 of 2026",
+  title:"Report of the CAG for the year ended 31 March 2025, Union Government (Commercial): Compliance Audit Observations", short:"CPSE compliance audit 2026", sector:"Other", ministry:"Eight Union Ministries/Departments (Coal, Petroleum, Power, Finance, Heavy Industry, Steel, Tourism, Road Transport)",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026 (sent to the government on 5 August 2026)", period:"Year ended 31 March 2025, with earlier years where needed", flagged:20539.40,
+  flaggedNote:"Total financial implication of the individual audit observations, as given in the report. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "The CAG made 15 audit observations on 15 central public sector enterprises (CPSEs) under eight ministries, with a total financial implication of ₹20,539.40 crore.",
+    "The largest items were at SAIL: a potential loss of contribution of ₹1,461.30 crore at its rolling mills, and ₹172.33 crore extra cost from a delayed oxygen plant at Durgapur.",
+    "Other findings include ₹692.30 crore short sales at Andrew Yule's tea division, a ₹353.43 crore unfruitful investment by Oil India in Nigeria, and ₹254.98 crore lost by public sector insurers on reinsurance."
+  ],
+  en:"This CAG report looks at how 15 central public sector enterprises (CPSEs) followed rules and protected their money. The companies fall under eight ministries, including Coal, Petroleum, Power, Finance and Steel. The report has 10 individual audit observations and five compliance audit paragraphs. Their total financial implication is ₹20,539.40 crore. Most of it, ₹13,678.68 crore, comes from poor planning. At SAIL, low output at the rolling mills meant a potential loss of contribution of ₹1,461.30 crore from 2019-20 to 2023-24, and a delayed oxygen plant at Durgapur cost ₹172.33 crore more. Andrew Yule's tea division fell short of its sales target by ₹692.30 crore. Oil India's investment of ₹353.43 crore in a Nigerian oil block did not pay off. Four public sector general insurers lost ₹254.98 crore by keeping too much risk instead of reinsuring it. NHAI could not earn ₹68.72 crore of toll at plazas in Tamil Nadu. At the CAG's instance, 11 CPSEs recovered ₹60.02 crore during 2024-25. Replies to four observations had not come in when the report was finalised.",
+  hi:"CAG की यह रिपोर्ट देखती है कि केंद्र सरकार के 15 सार्वजनिक क्षेत्र उपक्रमों (CPSE) ने नियमों का पालन कैसे किया और अपने पैसे की रक्षा कैसे की। ये कंपनियाँ कोयला, पेट्रोलियम, बिजली, वित्त और इस्पात समेत आठ मंत्रालयों के अधीन हैं। रिपोर्ट में 10 अलग-अलग ऑडिट टिप्पणियाँ और पाँच अनुपालन ऑडिट पैराग्राफ़ हैं। इनका कुल वित्तीय असर ₹20,539.40 करोड़ है। इसका बड़ा हिस्सा, ₹13,678.68 करोड़, ख़राब योजना से जुड़ा है। SAIL में रोलिंग मिलों के कम उत्पादन से 2019-20 से 2023-24 के बीच ₹1,461.30 करोड़ के अंशदान (contribution) का संभावित नुक़सान हुआ, और दुर्गापुर में ऑक्सीजन प्लांट में देरी से ₹172.33 करोड़ ज़्यादा ख़र्च हुए। एंड्रयू यूल के चाय विभाग की बिक्री लक्ष्य से ₹692.30 करोड़ कम रही। नाइजीरिया के एक तेल ब्लॉक में ऑयल इंडिया का ₹353.43 करोड़ का निवेश फलदायी नहीं रहा। सार्वजनिक क्षेत्र की चार सामान्य बीमा कंपनियों ने जोखिम का पुनर्बीमा कराने के बजाय उसे ख़ुद ज़्यादा रखा और ₹254.98 करोड़ गँवाए। NHAI तमिलनाडु के टोल प्लाज़ा पर ₹68.72 करोड़ का टोल नहीं वसूल सका। CAG के कहने पर 11 CPSE ने 2024-25 में ₹60.02 करोड़ वसूल किए। रिपोर्ट को अंतिम रूप देते समय चार टिप्पणियों पर जवाब नहीं आए थे।",
+  context:{
+    what:"The CAG's yearly compliance audit report on Union government companies (the commercial wing). It collects separate audit findings on 15 CPSEs under eight ministries and departments.",
+    why:"CPSEs manage large amounts of public money and assets. This report shows where they lost money, missed targets or did not follow rules, and it goes to Parliament's Committee on Public Undertakings.",
+    how:"Test check of records of selected CPSEs. Draft observations were sent to the managements and ministries, and their replies were included where received."
+  },
+  nums:[["₹20,539.40 cr","Total financial implication of the observations",1],["15","CPSEs covered, under eight ministries",0],["₹1,461.30 cr","SAIL rolling mills: potential loss of contribution",1],["₹60.02 cr","Recovered by 11 CPSEs at the CAG's instance in 2024-25",0]],
+  themes:[
+    {name:"Steel (SAIL)", sev:"high", items:[
+      {t:"Rolling mills produced between 58.10% and 111.99% of their annual business plan, leading to a potential loss of contribution from 2019-20 to 2023-24.", amt:"₹1,461.30 cr"},
+      {t:"Roll failures at the rolling mills caused a loss from 2018 to 2024.", amt:"₹137.23 cr"},
+      {t:"Delay in the oxygen plant at Durgapur caused an additional financial burden.", amt:"₹172.33 cr"},
+      {t:"At SMS-III in Bhilai, issues included supervision charges (₹24 crore), insurance premium reimbursement (₹19.15 crore), replacement of damaged items (₹4.89 crore) and theft of material (₹5.53 crore).", amt:""}]},
+    {name:"Oil, coal and power", sev:"high", items:[
+      {t:"Oil India's investment in oil block OPL 205 in Nigeria proved unfruitful.", amt:"₹353.43 cr"},
+      {t:"Indian Oil had infructuous expenditure at its Paradip Refinery.", amt:"₹32.02 cr"},
+      {t:"South Eastern Coalfields lost ₹8.62 crore through contract lapses, and lost an opportunity of ₹35.74 crore by not supplying (-)100 mm coal.", amt:""},
+      {t:"Avoidable spending at Central Coalfields for violating forest rules (₹7.84 crore), avoidable interest at NLC India (₹14.51 crore), and a loss at Damodar Valley Corporation from theft of transformer oil and copper wire (₹9.28 crore).", amt:""}]},
+    {name:"Finance, tea and tourism", sev:"med", items:[
+      {t:"Four public sector general insurers kept too much risk instead of reinsuring it, a loss of ₹254.98 crore, plus ₹5.31 crore from control and treaty lapses.", amt:"₹254.98 cr"},
+      {t:"Andrew Yule's tea division fell short of its sales target from 2018-19 to 2024-25.", amt:"₹692.30 cr"},
+      {t:"ITDC was liable for ₹94.07 crore of ground rent and breaches for the Ashok and Samrat hotels, and faced a potential revenue loss of ₹20.25 crore at Hotel Kalinga Ashok.", amt:"₹94.07 cr"}]},
+    {name:"Roads and follow-up", sev:"med", items:[
+      {t:"NHAI could not earn toll revenue at toll plazas in Tamil Nadu.", amt:"₹68.72 cr"},
+      {t:"SAIL's distributor scheme met only 55% to 95% of targets, and 23 of 71 clusters were unserved.", amt:""},
+      {t:"11 CPSEs recovered money at the CAG's instance in 2024-25, and three CPSEs made corrections in five cases.", amt:"₹60.02 cr"},
+      {t:"Replies to four observations were not received when the report was finalised.", amt:""}]}
+  ],
+  charts:[
+    {title:"Financial implication by type of lapse", type:"bars", unit:"₹ crore", data:[["Defective or deficient planning",13678.68],["Inadequate monitoring",5900.81],["Not safeguarding financial interest",609.70],["Not following rules",350.21]], note:"Total ₹20,539.40 crore. A paragraph can fall in more than one category."},
+    {title:"Largest single findings", type:"bars", unit:"₹ crore", data:[["SAIL rolling mills",1461.30],["Andrew Yule tea sales",692.30],["Oil India, Nigeria block",353.43],["Insurers' reinsurance",254.98],["SAIL Durgapur oxygen plant",172.33]]}
+  ],
+  recs:[
+    "SECL should frame a manual or standard procedure for fixing production targets.",
+    "ASREC should set up a valuation mechanism with risk-based discounting, and timelines for resolution plans and one-time settlements.",
+    "The public sector insurers should improve their reinsurance and internal controls.",
+    "SAIL should improve rolling mill performance and its distributor network."
+  ],
+  recsNote:"In short, from the recommendations listed in the report's executive summary. Several paragraphs carry no recommendation there.",
+  response:["Draft observations went to the CPSE managements and ministries first, and their replies are included in the report. Replies to four observations had not been received when the report was finalised. The report goes to Parliament's Committee on Public Undertakings."],
+  timeline:[["2024-25","11 CPSEs recover ₹60.02 crore at the CAG's instance"],["5 Aug 2026","Report sent to the government"],["12 Aug 2026","Report tabled in Parliament"]],
+  glossary:["Compliance audit","CPSE","Infructuous expenditure","Avoidable expenditure","Reinsurance","COPU"],
+  exam:{
+    prelims:[
+      "CAG Report No. 22 of 2026 covers compliance audit observations on 15 CPSEs under eight ministries/departments, for the year ended 31 March 2025.",
+      "The total financial implication of its individual audit observations is ₹20,539.40 crore.",
+      "The largest single finding was a potential loss of contribution of ₹1,461.30 crore at SAIL's rolling mills.",
+      "CAG reports on Union government companies are examined by Parliament's Committee on Public Undertakings (COPU)."
+    ],
+    mains:"Poor planning, not rule-breaking, causes most of the money at issue in central public sector enterprises. Examine with reference to CAG Report No. 22 of 2026. (15 marks)",
+    quiz:[
+      {q:"What was the total financial implication of the observations in CAG Report No. 22 of 2026?", o:["₹2,053.94 crore","₹13,678.68 crore","₹20,539.40 crore","₹60.02 crore"], a:2, w:"₹20,539.40 crore. ₹13,678.68 crore of it was linked to deficient planning, and ₹60.02 crore was recovered."},
+      {q:"Which CPSE's investment in the OPL 205 block in Nigeria was found unfruitful?", o:["ONGC Videsh","Oil India","Indian Oil","GAIL"], a:1, w:"Oil India's ₹353.43 crore investment in OPL 205 was found unfruitful."},
+      {q:"Which parliamentary committee examines CAG reports on Union government companies?", o:["Public Accounts Committee","Estimates Committee","Committee on Public Undertakings","Business Advisory Committee"], a:2, w:"The Committee on Public Undertakings (COPU) examines CAG reports on government companies."}
+    ]
+  },
+  related:["cag-cpse-gpfr-21-2026","cag-econ-service-11-2026","cag-fin-comm-5-2026"],
+  src:[["CAG: Report No. 22 of 2026, Union Government (Commercial) (report page)","https://cag.gov.in/en/audit-report/details/125968","official"],["CAG: Full report, Report No. 22 of 2026, Compliance Audit Observations (PDF)","https://saiindia.gov.in/en/audit-report/download/125968","official"]],
+  kw:"CAG Report 22 2026 Union Government Commercial compliance audit observations CPSE PSU SAIL rolling mills Bhilai SMS-III Durgapur oxygen plant Oil India OPL 205 Nigeria Indian Oil Paradip refinery Central Coalfields NLC India SECL Damodar Valley Corporation ASREC reinsurance New India Assurance United India Oriental National Insurance Andrew Yule tea ITDC Ashok hotel NHAI toll Tamil Nadu COPU"
+},
+/* ---------- CAG · General Purpose Financial Reports of CPSEs 2023-24 (Report 21 of 2026) ---------- */
+{
+  id:"cag-cpse-gpfr-21-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 21 of 2026",
+  title:"Report of the CAG: General Purpose Financial Reports of Central Public Sector Enterprises for the period ended March 2024", short:"CPSE finances 2023-24", sector:"Public finance", ministry:"Union Government (Commercial); Department of Public Enterprises and DIPAM",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026 (sent to the government on 5 August 2026)", period:"Financial year 2023-24", flagged:null,
+  tldr:[
+    "282 government companies and corporations made a profit of ₹3,58,385 crore in 2023-24, while 182 companies lost ₹34,908 crore.",
+    "214 government companies had accumulated losses of ₹2,47,181 crore at 31 March 2024.",
+    "The CAG found gaps in board rules: 49 CPSEs lacked the required independent directors and 7 had no woman director."
+  ],
+  en:"Every year the CAG reports on the finances of central public sector enterprises (CPSEs). This report covers 2023-24. There were 757 CPSEs under CAG audit at 31 March 2024, and the report looks at 684 of them. The Union government held equity of ₹11,93,439 crore in 479 government companies and corporations, and had lent them ₹2,87,678 crore. 282 of them made a profit of ₹3,58,385 crore, and 70.46% of that came from 79 companies in petroleum, power and coal. 134 declared dividends of ₹1,38,138 crore. On the other side, 182 companies lost ₹34,908 crore, and 214 had accumulated losses of ₹2,47,181 crore. The CAG's comments on accounts had an impact of ₹3,563.37 crore on profit. The report also found weak corporate governance: 49 CPSEs did not have the required independent directors and 7 had no woman director. Many large CPSEs spent less than 2% of profit before tax on research. DIPAM counted ₹1,770 crore of SUUTI dividend as disinvestment receipts, which the CAG said was wrong.",
+  hi:"CAG हर साल केंद्र सरकार के सार्वजनिक क्षेत्र उपक्रमों (CPSE) के वित्त पर रिपोर्ट देता है। यह रिपोर्ट 2023-24 की है। 31 मार्च 2024 को 757 CPSE CAG ऑडिट के दायरे में थे, और रिपोर्ट इनमें से 684 को देखती है। केंद्र सरकार की 479 सरकारी कंपनियों और निगमों में ₹11,93,439 करोड़ की इक्विटी थी, और उसने इन्हें ₹2,87,678 करोड़ का कर्ज़ दिया था। इनमें से 282 ने ₹3,58,385 करोड़ का मुनाफ़ा कमाया, और इसका 70.46% पेट्रोलियम, बिजली और कोयले की 79 कंपनियों से आया। 134 ने ₹1,38,138 करोड़ का लाभांश घोषित किया। दूसरी ओर, 182 कंपनियों को ₹34,908 करोड़ का घाटा हुआ, और 214 का संचित घाटा ₹2,47,181 करोड़ था। खातों पर CAG की टिप्पणियों का मुनाफ़े पर ₹3,563.37 करोड़ का असर था। रिपोर्ट में कमज़ोर कॉरपोरेट गवर्नेंस भी मिला: 49 CPSE में ज़रूरी स्वतंत्र निदेशक नहीं थे और 7 में कोई महिला निदेशक नहीं थी। कई बड़े CPSE ने कर-पूर्व मुनाफ़े का 2% से कम शोध पर ख़र्च किया। DIPAM ने SUUTI के ₹1,770 करोड़ के लाभांश को विनिवेश प्राप्ति में गिना, जिसे CAG ने ग़लत बताया।",
+  context:{
+    what:"The CAG's yearly report on the General Purpose Financial Reports of CPSEs, prepared under Section 19-A of the CAG's Duties, Powers and Conditions of Service Act, 1971. It has eight chapters on finances, CAG oversight, governance, R&D, CSR, MoUs, disinvestment and sustainability reporting.",
+    why:"The Union government has over ₹11 lakh crore of equity in its companies. This report shows how much they earn, lose and pay back as dividends, and whether they follow governance rules.",
+    how:"Analysis of the financial statements of CPSEs for 2023-24, CAG comments on their accounts, and reviews of selected CPSEs on governance, R&D, CSR, MoUs, disinvestment and sustainability reports."
+  },
+  nums:[["₹3,58,385 cr","Profit of 282 government companies and corporations",0],["₹34,908 cr","Losses of 182 government companies",1],["₹2,47,181 cr","Accumulated losses of 214 government companies",1],["₹1,38,138 cr","Dividends declared by 134 companies",0]],
+  themes:[
+    {name:"Money in CPSEs", sev:"low", items:[
+      {t:"757 CPSEs were under CAG audit at 31 March 2024; finances of 684 are presented. 73 were left out because accounts were three or more years in arrears, they were under liquidation, or first accounts were not due.", amt:""},
+      {t:"Union government equity in 479 government companies and corporations.", amt:"₹11,93,439 cr"},
+      {t:"Long-term loans from the Union government outstanding at 31 March 2024.", amt:"₹2,87,678 cr"},
+      {t:"Market value of shares of 66 listed government companies at 31 March 2024.", amt:"₹37,92,736 cr"}]},
+    {name:"Profits and losses", sev:"high", items:[
+      {t:"282 companies and corporations made a profit; 70.46% of it came from 79 CPSEs in petroleum, power, and coal and lignite.", amt:"₹3,58,385 cr"},
+      {t:"134 companies and corporations declared dividends for 2023-24.", amt:"₹1,38,138 cr"},
+      {t:"182 government companies made losses in 2023-24.", amt:"₹34,908 cr"},
+      {t:"214 government companies had accumulated losses at 31 March 2024.", amt:"₹2,47,181 cr"}]},
+    {name:"Accounts and governance", sev:"med", items:[
+      {t:"The CAG reviewed accounts of 327 CPSEs. Its significant comments had an impact of ₹3,563.37 crore on profit and ₹61,949.59 crore on assets and liabilities.", amt:"₹3,563.37 cr"},
+      {t:"49 CPSEs did not have the required independent directors for all or part of 2023-24, and 7 CPSEs had no woman director.", amt:""},
+      {t:"Of 26 Ratna CPSEs reviewed, more than half had no dedicated R&D policy; 9 to 13 spent less than 2% of profit before tax on R&D, and three spent nothing.", amt:""},
+      {t:"58 CPSEs spent ₹3,339.80 crore on CSR in 2023-24; 15 reported a shortfall, and 8 had no board-approved CSR policy.", amt:"₹3,339.80 cr"}]},
+    {name:"Disinvestment and reporting", sev:"med", items:[
+      {t:"DIPAM realised ₹16,507.29 crore from 15 disinvestment cases in 2023-24.", amt:"₹16,507.29 cr"},
+      {t:"DIPAM counted ₹1,770 crore of SUUTI dividend income as disinvestment receipts, which the CAG said should not be included.", amt:"₹1,770 cr"},
+      {t:"Business Responsibility and Sustainability Reports of 30 CPSEs had wrong or missing data, including on energy, water, emissions and employee benefits.", amt:""}]}
+  ],
+  charts:[
+    {title:"Government companies: profit, dividend and loss, 2023-24", type:"bars", unit:"₹ crore", data:[["Profit (282 companies)",358385],["Dividend declared (134)",138138],["Loss (182 companies)",34908]]},
+    {title:"Union government's stake at 31 March 2024", type:"split", unit:"₹ crore", data:[["Equity",1193439],["Long-term loans",287678]]}
+  ],
+  recs:[
+    "Appoint the required independent and women directors on CPSE boards.",
+    "Frame board-approved R&D and CSR policies and annual action plans.",
+    "Set timelines in the MoU process and deduct marks for not meeting board composition rules.",
+    "Count only true disinvestment proceeds as disinvestment receipts.",
+    "Make sustainability (BRSR) disclosures complete and correct."
+  ],
+  recsNote:"Drawn from the findings in the CAG press brief. The full list of recommendations was not checked for this entry.",
+  response:["The press brief does not give the government's reply. The report goes to Parliament's Committee on Public Undertakings."],
+  timeline:[["31 Mar 2024","757 CPSEs under CAG audit"],["30 Sep 2024","Financial statements received from 607 CPSEs"],["5 Aug 2026","Report sent to the government"],["12 Aug 2026","Report tabled in Parliament"]],
+  glossary:["CPSE","Independent director","Disinvestment","DIPAM","BRSR","COPU"],
+  exam:{
+    prelims:[
+      "CAG Report No. 21 of 2026 covers the General Purpose Financial Reports of CPSEs for 2023-24 and is prepared under Section 19-A of the CAG (DPC) Act, 1971.",
+      "282 government companies and corporations earned a profit of ₹3,58,385 crore in 2023-24; 182 companies lost ₹34,908 crore.",
+      "Union government equity in 479 government companies and corporations was ₹11,93,439 crore at 31 March 2024.",
+      "DIPAM realised ₹16,507.29 crore from 15 disinvestment cases in 2023-24."
+    ],
+    mains:"Profits of central public sector enterprises are concentrated in a few sectors while losses persist elsewhere. Discuss with reference to the CAG's report on the financial reports of CPSEs for 2023-24. (15 marks)",
+    quiz:[
+      {q:"Under which section of the CAG (DPC) Act, 1971 is the report on financial reports of CPSEs prepared?", o:["Section 10","Section 13","Section 19-A","Section 23"], a:2, w:"The press brief says the report is prepared under Section 19-A of the Act."},
+      {q:"Which three sectors gave 70.46% of CPSE profits in 2023-24?", o:["Steel, telecom and railways","Petroleum, power, and coal and lignite","Banking, insurance and finance","Defence, aviation and shipping"], a:1, w:"79 CPSEs in petroleum, power, and coal and lignite gave 70.46% of the profit."},
+      {q:"What did the CAG say DIPAM should not have counted as disinvestment receipts?", o:["₹1,770 crore of SUUTI dividend income","₹16,507.29 crore from 15 cases","Union government loans to CPSEs","CSR spending of CPSEs"], a:0, w:"SUUTI dividend income of ₹1,770 crore was reported as disinvestment receipts; the CAG said it should not be included."}
+    ]
+  },
+  related:["cag-cpse-compliance-22-2026","union-accounts-2425","cag-fin-comm-5-2026"],
+  src:[["CAG: Report No. 21 of 2026, General Purpose Financial Reports of CPSEs (report page)","https://cag.gov.in/en/audit-report/details/125969","official"],["CAG press brief: Report No. 21 of 2026, General Purpose Financial Reports of CPSEs (PDF)","https://saiindia.gov.in/uploads/PressRelease/PR-Press-release-report-no-21-GPFR-2023-24-06a7d42724d3778-59234458.pdf","official"]],
+  kw:"CAG Report 21 2026 General Purpose Financial Reports CPSE PSU 2023-24 profit loss accumulated losses dividend equity Union government loans market capitalisation listed companies corporate governance independent directors woman director R&D CSR MoU Navratna Maharatna disinvestment DIPAM SUUTI BRSR sustainability Section 19-A COPU"
+},
+/* ---------- CAG · Nagaland State Finances 2024-25 (Report 2 of 2026) ---------- */
+{
+  id:"cag-nagaland-finances-2-2026", body:"CAG", state:"Nagaland", kind:"Financial audit", reportNo:"Report No. 2 of 2026 (Nagaland)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Nagaland", short:"Nagaland State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Nagaland",
+  date:"Sep 2026", dateISO:"2026-09-03", tabled:"Tabled in the Nagaland Legislative Assembly on 3 September 2026", period:"Financial year ended 31 March 2025", flagged:14.05,
+  flaggedNote:"Revenue-type spending booked as capital spending, which overstated the revenue surplus and understated the deficit. This is an amount flagged by audit, not a loss.",
+  tldr:[
+    "Nagaland's fiscal deficit was 6.17% of GSDP in 2024-25 after audit, and the state has missed its FRBM deficit target since 2022-23.",
+    "Revenue receipts shrank 0.42% because grants from the Union fell, even though tax collections rose.",
+    "Salaries, pensions and interest took ₹11,454.79 crore, about 71.21% of revenue receipts."
+  ],
+  en:"The CAG's report on Nagaland's finances for 2024-25 finds a state with little room in its budget. The state's economy (GSDP) grew 9.39%. But revenue receipts shrank 0.42%, mainly because grants from the Union fell, even though tax collections and the state's share of Union taxes rose. The state's own tax revenue rose from ₹1,598 crore to ₹1,710 crore. Revenue spending grew 3.47%. The accounts showed a revenue surplus of ₹752.72 crore and a fiscal deficit of ₹2,772.73 crore, or 6.14% of GSDP. After audit, ₹14.05 crore of revenue spending booked as capital spending was corrected. This put the fiscal deficit at ₹2,786.78 crore, or 6.17% of GSDP. The state has not kept its fiscal deficit within its FRBM targets since 2022-23. Salaries, pensions and interest took ₹11,454.79 crore, about 71.21% of revenue receipts. The state used ways and means advances or overdraft on 57 days. There were large savings and excesses across grants, and utilisation certificates were pending from as far back as 2011-12.",
+  hi:"2024-25 के लिए नगालैंड के वित्त पर CAG की रिपोर्ट बताती है कि राज्य के बजट में गुंजाइश बहुत कम है। राज्य की अर्थव्यवस्था (GSDP) 9.39% बढ़ी। लेकिन राजस्व प्राप्तियाँ 0.42% घट गईं, मुख्य रूप से इसलिए कि केंद्र से मिलने वाले अनुदान कम हुए, जबकि कर संग्रह और केंद्रीय करों में राज्य का हिस्सा बढ़ा। राज्य का अपना कर राजस्व ₹1,598 करोड़ से बढ़कर ₹1,710 करोड़ हो गया। राजस्व ख़र्च 3.47% बढ़ा। खातों में ₹752.72 करोड़ का राजस्व अधिशेष और ₹2,772.73 करोड़ यानी GSDP का 6.14% राजकोषीय घाटा दिखाया गया। ऑडिट के बाद, पूँजीगत ख़र्च के रूप में दर्ज ₹14.05 करोड़ के राजस्व ख़र्च को सुधारा गया। इससे राजकोषीय घाटा ₹2,786.78 करोड़ यानी GSDP का 6.17% हो गया। राज्य 2022-23 से अपना राजकोषीय घाटा FRBM लक्ष्यों के भीतर नहीं रख पाया है। वेतन, पेंशन और ब्याज पर ₹11,454.79 करोड़ ख़र्च हुए, जो राजस्व प्राप्तियों का लगभग 71.21% है। राज्य ने 57 दिन अर्थोपाय अग्रिम या ओवरड्राफ़्ट का सहारा लिया। अनुदानों में बड़े पैमाने पर बचत और अधिक ख़र्च हुआ, और उपयोगिता प्रमाणपत्र 2011-12 जितने पुराने समय से लंबित थे।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report for Nagaland for 2024-25. It reviews the state's receipts, spending, deficits, debt, budget management and the quality of its accounts.",
+    why:"Nagaland depends heavily on grants from the Union, and most of its revenue goes on salaries, pensions and interest. The report shows whether it keeps to its fiscal rules, and it is the base for the Assembly's Public Accounts Committee.",
+    how:"Analysis of the state's Finance Accounts and Appropriation Accounts for 2024-25, with comparison to earlier years."
+  },
+  nums:[["6.17%","Fiscal deficit as a share of GSDP, after audit",1],["71.21%","Share of revenue receipts taken by salaries, pensions and interest",1],["-0.42%","Change in revenue receipts in 2024-25",1],["9.39%","GSDP growth in 2024-25",0]],
+  themes:[
+    {name:"Deficits", sev:"high", items:[
+      {t:"The Finance Accounts showed a fiscal deficit of ₹2,772.73 crore (6.14% of GSDP) and a primary deficit of ₹1,605.03 crore (3.56%).", amt:""},
+      {t:"After audit, the fiscal deficit was ₹2,786.78 crore (6.17% of GSDP) and the revenue surplus ₹738.67 crore (1.64%), against ₹752.72 crore shown.", amt:"₹2,786.78 cr"},
+      {t:"The state has not kept its fiscal deficit within the State FRBM Act targets since 2022-23, and outstanding liabilities were within target only in 2020-21.", amt:""}]},
+    {name:"Revenue", sev:"med", items:[
+      {t:"Revenue receipts shrank 0.42%, as Union grants fell despite higher tax collections, including GST, and higher tax devolution.", amt:""},
+      {t:"Own tax revenue rose from ₹1,598 crore in 2023-24 to ₹1,710 crore in 2024-25.", amt:"₹1,710 cr"},
+      {t:"Nagaland's GSDP grew 9.39% and made up 0.14% of India's GDP.", amt:""}]},
+    {name:"Spending", sev:"high", items:[
+      {t:"Committed spending was ₹11,454.79 crore: salaries and wages ₹7,087.51 crore, pensions ₹3,199.58 crore and interest ₹1,167.70 crore, about 71.21% of revenue receipts.", amt:"₹11,454.79 cr"},
+      {t:"Total spending was ₹18,858.47 crore, of which ₹2,790.41 crore (14%) was pass-through money, including ₹2,184.47 crore of Union share for centrally sponsored schemes.", amt:"₹18,858.47 cr"},
+      {t:"Revenue spending grew 3.47%; capital spending was volatile and below budgeted levels.", amt:""}]},
+    {name:"Accounts and cash management", sev:"med", items:[
+      {t:"Revenue-type spending was booked as capital spending, overstating the revenue surplus.", amt:"₹14.05 cr"},
+      {t:"The state used ways and means advances, special advances or overdraft on 57 days, paying ₹1.91 crore in interest.", amt:"₹1.91 cr"},
+      {t:"There were large savings and excesses across grants; the excess needs regularisation by the legislature.", amt:""},
+      {t:"Utilisation certificates were pending from as far back as 2011-12. Government investment in companies and bodies was ₹339.87 crore at 31 March 2025.", amt:""}]}
+  ],
+  charts:[
+    {title:"Fiscal deficit, 2024-25: accounts vs after audit", type:"bars", unit:"% of GSDP", data:[["As per Finance Accounts",6.14],["After audit",6.17]]},
+    {title:"Committed spending, 2024-25", type:"split", unit:"₹ crore", data:[["Salaries and wages",7087.51],["Pensions",3199.58],["Interest",1167.70]], note:"Total ₹11,454.79 crore, about 71.21% of revenue receipts."}
+  ],
+  recs:[
+    "Raise the state's own revenue, including by collecting tax arrears.",
+    "Control spending better.",
+    "Carry out structural reforms to the state's finances."
+  ],
+  recsNote:"In short, from coverage of the report's executive summary. The full list was not checked for this entry.",
+  response:["The coverage checked does not give the state government's reply. The report goes to the Nagaland Legislative Assembly's Public Accounts Committee."],
+  timeline:[["2022-23","Fiscal deficit above the State FRBM target from this year onwards"],["31 Mar 2025","End of the year reviewed"],["3 Sep 2026","Report tabled in the Assembly, alongside CAG Report No. 1 of 2026"]],
+  glossary:["Financial audit","GSDP","Fiscal deficit","Primary deficit","Revenue surplus","FRBM","Committed expenditure","Own tax revenue","Ways and Means Advances","Utilisation certificate","Undischarged liabilities","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Nagaland) is the State Finances Audit Report for 2024-25, tabled on 3 September 2026.",
+      "After audit, Nagaland's fiscal deficit in 2024-25 was ₹2,786.78 crore, or 6.17% of GSDP.",
+      "Nagaland's revenue receipts shrank 0.42% in 2024-25 because Union grants fell.",
+      "Committed spending took about 71.21% of Nagaland's revenue receipts in 2024-25."
+    ],
+    mains:"High committed spending and dependence on Union grants limit the fiscal space of North-Eastern states. Examine with reference to the CAG's State Finances Audit Report of Nagaland for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was Nagaland's fiscal deficit in 2024-25 after audit adjustments, according to the CAG?", o:["3.56% of GSDP","6.14% of GSDP","6.17% of GSDP","9.39% of GSDP"], a:2, w:"6.17% after audit; the Finance Accounts showed 6.14%. 9.39% was GSDP growth."},
+      {q:"Why did Nagaland's revenue receipts fall in 2024-25?", o:["Its own tax revenue fell","Grants from the Union fell","GST collections fell","Tax devolution was cut"], a:1, w:"Union grants fell, even though tax collections, including GST, and tax devolution rose."},
+      {q:"Which of these is NOT part of committed expenditure as used by the CAG?", o:["Salaries and wages","Pensions","Interest payments","Capital spending on roads"], a:3, w:"Committed spending is salaries, pensions and interest; capital spending is not included."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","cag-sikkim-finances-1-2026","cag-haryana-finances-1-2026","state-finances"],
+  src:[["CAG: Audit Reports listing, showing Report No. 2 of 2026 (Nagaland), State Finances 2024-25","https://www.cag.gov.in/en/audit-report","official"],["Morung Express: Nagaland GSDP grows 9.39% in FY25; misses FRBM fiscal deficit target: CAG","https://morungexpress.com/nagaland-gsdp-grows-939-in-fy25-misses-frbm-fiscal-deficit-target-cag","news"],["Hub Network: CAG flags ₹288 crore lapses across Nagaland (notes the State Finances report tabled the same day)","https://hubnetwork.in/cag-flags-%E2%82%B9288-crore-lapses-across-nagaland/","news"]],
+  kw:"CAG Nagaland State Finances Audit Report 2024-25 SFAR Report 2 2026 fiscal deficit FRBM revenue surplus primary deficit GSDP central grants tax devolution committed expenditure salaries pensions interest misclassification ways and means advances overdraft utilisation certificates North East"
 }
 
 );
@@ -4398,7 +4618,7 @@ Object.assign(window.STATE_FACTS_V2, {
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
   OD:[...(window.STATE_FACTS_V2.OD||[]),["Utilisation certificates for ₹16,585.45 crore pending at end of 2024-25 (CAG, 2026)","cag-odisha-finances-3-2026"],["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
-  NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"]],
+  NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"],["Fiscal deficit of 6.17% of GSDP in 2024-25, after audit (CAG, 2026)","cag-nagaland-finances-2-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
