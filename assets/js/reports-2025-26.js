@@ -2,6 +2,19 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "CSIR": "Council of Scientific and Industrial Research: the body that runs India's network of national research laboratories, under the Department of Scientific and Industrial Research.",
+  "LHRF": "Laboratory and Headquarter Reserve Fund: a CSIR fund built from the money its laboratories earn, meant to be spent on research, innovation and upkeep.",
+  "Unfruitful expenditure": "Money spent on something that did not deliver its intended benefit, for example equipment bought but left unused.",
+  "Disaster Recovery Plan": "A written plan for restoring an IT system and its data quickly after a failure, attack or disaster.",
+  "DDO": "Drawing and Disbursing Officer: the official in a government office who is authorised to draw money from the treasury and make payments.",
+  "Segregation of duties": "A basic control where different people handle different steps of a payment, so no single person can both prepare and approve it.",
+  "DCRG": "Death-cum-Retirement Gratuity: a lump sum paid to a government employee on retirement, or to the family on death, up to a set limit.",
+  "Commutation of pension": "Taking part of a pension as a one-time lump sum in exchange for a smaller monthly pension.",
+  "NEP 2020": "National Education Policy 2020: the Union policy that sets the direction for school and higher education reform in India.",
+  "Internationalisation at home": "Bringing a global outlook into Indian campuses, through foreign students and faculty, joint courses and global content, without students having to go abroad.",
+  "LRS": "Liberalised Remittance Scheme: the RBI scheme under which residents can send money abroad each year for purposes such as study, travel and investment.",
+  "NIRF": "National Institutional Ranking Framework: the Education Ministry's yearly ranking of Indian higher education institutions.",
+  "Institution of National Importance": "A status given by an Act of Parliament to top institutions such as IITs, IIMs and AIIMS, with more autonomy and central funding.",
   "CPSE": "Central Public Sector Enterprise: a company or corporation in which the Union government or other CPSEs hold a majority stake.",
   "Reinsurance": "Insurance bought by an insurance company to pass on part of the risk it has taken on to another insurer.",
   "COPU": "Committee on Public Undertakings: the parliamentary committee that examines CAG reports on government companies and corporations.",
@@ -4609,6 +4622,216 @@ window.SPEC_REPORTS.push(
   src:[["CAG: Audit Reports listing, showing Report No. 2 of 2026 (Nagaland), State Finances 2024-25","https://www.cag.gov.in/en/audit-report","official"],["Morung Express: Nagaland GSDP grows 9.39% in FY25; misses FRBM fiscal deficit target: CAG","https://morungexpress.com/nagaland-gsdp-grows-939-in-fy25-misses-frbm-fiscal-deficit-target-cag","news"],["Hub Network: CAG flags ₹288 crore lapses across Nagaland (notes the State Finances report tabled the same day)","https://hubnetwork.in/cag-flags-%E2%82%B9288-crore-lapses-across-nagaland/","news"]],
   kw:"CAG Nagaland State Finances Audit Report 2024-25 SFAR Report 2 2026 fiscal deficit FRBM revenue surplus primary deficit GSDP central grants tax devolution committed expenditure salaries pensions interest misclassification ways and means advances overdraft utilisation certificates North East"
 }
+,
+/* ---------- CAG · Scientific and Environmental Ministries (Report 17 of 2026) ---------- */
+{
+  id:"cag-sci-env-17-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 17 of 2026",
+  title:"Report of the CAG for the year ended March 2024: Union Government, Scientific and Environmental Ministries/Departments (Compliance Audit)", short:"Science and environment ministries audit", sector:"Other", ministry:"Atomic Energy, Biotechnology, Science and Technology, Scientific and Industrial Research, Space, Earth Sciences, Environment, Forest and Climate Change, and New and Renewable Energy",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Presented in Parliament on 12 August 2026", period:"Year ended March 2024 (some balances up to 31 March 2025)", flagged:11.89,
+  flaggedNote:"Sum of five amounts the CAG called avoidable, unfruitful, unauthorised or excess spending (₹1.45 + ₹1.52 + ₹1.99 + ₹1.86 + ₹5.07 crore). It does not include the ₹3,490.68 crore balance lying in CSIR's reserve fund. These are amounts flagged by audit, not confirmed losses.",
+  tldr:[
+    "CSIR's laboratories let ₹3,490.68 crore pile up in a reserve fund by 31 March 2025, and ₹627.71 crore set aside for innovation was not used.",
+    "The CAG found ₹11.89 crore of avoidable, unfruitful, unauthorised or excess spending in five cases, the largest being ₹5.07 crore on small hydro projects in Ladakh.",
+    "IT audits of Tata Memorial Centre and SECI found weak security, missing disaster recovery plans and systems that were only partly working."
+  ],
+  en:"This CAG report covers eight Union ministries and departments that deal with science, space, energy and the environment, along with bodies and companies under them. It has two subject audits, two IT audits and four separate cases. The biggest finding is about CSIR, the council that runs India's national research laboratories. Most sampled laboratories and CSIR headquarters did not spend even the required part of their Laboratory and Headquarter Reserve Fund, so the balance kept growing. It stood at ₹3,490.68 crore on 31 March 2025, and ₹627.71 crore meant for innovation was unused. The Department of Atomic Energy had no full policy for its land and estates, which led to lost lease rent. IT systems at Tata Memorial Centre and at Solar Energy Corporation of India had weak passwords and access controls, no disaster recovery plans, and modules that did not fully work. The CAG also found ₹11.89 crore of wasteful spending in five cases. These include ₹5.07 crore on poorly planned small hydro projects in Ladakh and ₹1.99 crore on a photo gallery at the Forest Research Institute, Dehradun, that was not in the approved scheme.",
+  hi:"CAG की यह रिपोर्ट विज्ञान, अंतरिक्ष, ऊर्जा और पर्यावरण से जुड़े आठ केंद्रीय मंत्रालयों और विभागों तथा उनके तहत आने वाली संस्थाओं और कंपनियों को कवर करती है। इसमें दो विषय-आधारित ऑडिट, दो IT ऑडिट और चार अलग मामले हैं। सबसे बड़ा निष्कर्ष CSIR के बारे में है, जो भारत की राष्ट्रीय अनुसंधान प्रयोगशालाएँ चलाती है। नमूने में ली गई ज़्यादातर प्रयोगशालाओं और CSIR मुख्यालय ने अपने प्रयोगशाला और मुख्यालय आरक्षित कोष का तय हिस्सा भी ख़र्च नहीं किया, इसलिए शेष राशि बढ़ती गई। 31 मार्च 2025 को यह ₹3,490.68 करोड़ थी, और नवाचार के लिए रखे ₹627.71 करोड़ इस्तेमाल नहीं हुए। परमाणु ऊर्जा विभाग के पास अपनी ज़मीन और संपदा के लिए कोई पूरी नीति नहीं थी, जिससे पट्टा किराए का नुक़सान हुआ। टाटा मेमोरियल सेंटर और सोलर एनर्जी कॉरपोरेशन ऑफ़ इंडिया की IT प्रणालियों में पासवर्ड और एक्सेस नियंत्रण कमज़ोर थे, आपदा बहाली योजनाएँ नहीं थीं, और कई मॉड्यूल पूरी तरह काम नहीं करते थे। CAG ने पाँच मामलों में ₹11.89 करोड़ का फ़िज़ूल ख़र्च भी पाया। इनमें लद्दाख में ख़राब योजना वाली छोटी जलविद्युत परियोजनाओं पर ₹5.07 करोड़ और वन अनुसंधान संस्थान, देहरादून में एक फ़ोटो गैलरी पर ₹1.99 करोड़ शामिल हैं, जो स्वीकृत योजना में नहीं थी।",
+  context:{
+    what:"A CAG compliance audit report on eight Union ministries and departments: Atomic Energy, Biotechnology, Science and Technology, Scientific and Industrial Research, Space, Earth Sciences, Environment, Forest and Climate Change, and New and Renewable Energy, with the autonomous bodies and CPSEs under them.",
+    why:"These departments fund India's research laboratories, space and nuclear programmes and clean energy schemes. The report shows whether research money is being used, and whether key IT systems and assets are well managed.",
+    how:"Two subject-specific compliance audits (land and estate management in the Department of Atomic Energy, and CSIR's Laboratory and Headquarter Reserve Fund), two IT audits (Tata Memorial Centre's hospital systems and SECI's SAP-ERP), and four individual audit paragraphs."
+  },
+  nums:[["₹3,490.68 cr","Balance in CSIR's Laboratory and Headquarter Reserve Fund, 31 March 2025",1],["₹627.71 cr","Set aside for innovation but not used",1],["₹11.89 cr","Avoidable, unfruitful, unauthorised or excess spending in five cases",1],["8","Ministries and departments covered",0]],
+  themes:[
+    {name:"CSIR's unspent reserve fund", sev:"high", items:[
+      {t:"Most sampled CSIR laboratories and CSIR headquarters did not use even the prescribed part of the previous year's fund generation, so balances kept piling up.", amt:""},
+      {t:"The accumulated balance of the Laboratory and Headquarter Reserve Fund was ₹3,490.68 crore on 31 March 2025.", amt:"₹3,490.68 cr"},
+      {t:"₹627.71 crore earmarked for innovation activities was not used.", amt:"₹627.71 cr"},
+      {t:"Some receipts were wrongly credited to the fund, externally funded projects were settled late, and there was no set system to monitor the fund.", amt:""}]},
+    {name:"Wasteful spending", sev:"med", items:[
+      {t:"MNRE: poor planning and execution of the Ladakh Renewable Energy Initiative (small hydro projects) led to unfruitful spending.", amt:"₹5.07 cr"},
+      {t:"ICFRE: a photo gallery at the Forest Research Institute, Dehradun, was built though it was not part of the approved scheme.", amt:"₹1.99 cr"},
+      {t:"ICFRE: Technology Development Centres were set up from Compensatory Afforestation Funds beyond what was allowed.", amt:"₹1.86 cr"},
+      {t:"ARCI bought a laser welding machine without the support facilities it needed, so it stayed unused or underused for long periods; at DAE's Directorate of Construction, Services and Estate Management, elevator parts lay in storage for over seven years and had to be replaced and repaired.", amt:"₹2.97 cr"}]},
+    {name:"Land and estates at Atomic Energy", sev:"med", items:[
+      {t:"The Department of Atomic Energy had no full land and estate policy, and no common policy on transferring and leasing land despite Cabinet Secretariat directions of November 2011.", amt:""},
+      {t:"Land was allotted or kept without approval of the competent authority in some cases, and late lease renewals and late recovery of revised rent cost potential revenue.", amt:""}]},
+    {name:"IT systems", sev:"med", items:[
+      {t:"Tata Memorial Centre had no approved IT policy, IT steering committee, data retention policy or business continuity and disaster recovery plan.", amt:""},
+      {t:"Its hospital information system had weak passwords and access controls and no regular security audits.", amt:""},
+      {t:"At SECI, several key SAP-ERP modules were not implemented or only partly working, and core work was still done outside the system.", amt:""}]}
+  ],
+  charts:[
+    {title:"Wasteful spending found in five cases", type:"bars", unit:"₹ crore", data:[["Ladakh small hydro (MNRE)",5.07],["FRI photo gallery (ICFRE)",1.99],["Technology centres from CAF (ICFRE)",1.86],["Laser welding machine (ARCI)",1.52],["Elevator parts (DAE)",1.45]], note:"Total ₹11.89 crore, as listed in the CAG press brief."},
+    {title:"CSIR reserve fund, 31 March 2025", type:"split", unit:"₹ crore", data:[["Earmarked for innovation, unused",627.71],["Rest of the balance",2862.97]], note:"Total balance ₹3,490.68 crore. 'Rest of the balance' is the difference of the two published figures."}
+  ],
+  recs:[
+    "Use the CSIR reserve fund as prescribed and set up a system to monitor it.",
+    "Frame a full land and estate policy for the Department of Atomic Energy.",
+    "Put IT policies, access controls and disaster recovery plans in place at Tata Memorial Centre and SECI."
+  ],
+  recsNote:"In short, from the findings in the CAG press brief. The brief does not list the report's formal recommendations, which were not checked for this entry.",
+  response:["The press brief does not carry the ministries' replies. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["Nov 2011","Cabinet Secretariat directions on land transfer and leasing policy"],["Mar 2024","End of the audit year"],["31 Mar 2025","CSIR reserve fund balance reaches ₹3,490.68 crore"],["12 Aug 2026","Report presented in Parliament"]],
+  glossary:["Compliance audit","CSIR","LHRF","Unfruitful expenditure","Avoidable expenditure","CAMPA","Disaster Recovery Plan","CPSE","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 17 of 2026 is a compliance audit of the Scientific and Environmental Ministries/Departments for the year ended March 2024, presented in Parliament on 12 August 2026.",
+      "It found ₹3,490.68 crore lying in CSIR's Laboratory and Headquarter Reserve Fund on 31 March 2025, with ₹627.71 crore for innovation unused.",
+      "It found ₹5.07 crore of unfruitful spending on MNRE's Ladakh Renewable Energy Initiative (small hydro projects).",
+      "It included IT audits of Tata Memorial Centre and the SAP-ERP system of Solar Energy Corporation of India."
+    ],
+    mains:"Idle research funds and weak planning reduce the value of public spending on science. Discuss with reference to the CAG's 2026 compliance audit of the Scientific and Environmental Ministries. (15 marks)",
+    quiz:[
+      {q:"What was the balance in CSIR's Laboratory and Headquarter Reserve Fund on 31 March 2025, according to the CAG?", o:["₹627.71 crore","₹1,490.68 crore","₹3,490.68 crore","₹11.89 crore"], a:2, w:"The balance was ₹3,490.68 crore; ₹627.71 crore of it was earmarked for innovation and unused."},
+      {q:"Which ministry's Ladakh small hydro projects were flagged for unfruitful spending of ₹5.07 crore?", o:["Ministry of Power","Ministry of New and Renewable Energy","Ministry of Jal Shakti","Ministry of Earth Sciences"], a:1, w:"The finding was about MNRE's Ladakh Renewable Energy Initiative."},
+      {q:"Which two bodies' IT systems were audited in this report?", o:["ISRO and DRDO","Tata Memorial Centre and SECI","CSIR and IIT Delhi","NTPC and SECI"], a:1, w:"The IT audits covered Tata Memorial Centre's hospital systems and SECI's SAP-ERP."}
+    ]
+  },
+  related:["cag-green-india-4-2026","niti-ease-rd-2026","niti-st-scoreboard-2026","cag-cpse-compliance-22-2026"],
+  src:[["CAG press brief: Report No. 17 of 2026, Scientific and Environmental Ministries/Departments","https://d1jmc0u14z2tmp.cloudfront.net/uploads/PressRelease/PR-Press-Brief-English-17-of-2026-06a8087fe74a965-38101631.pdf","official"],["Blitz India Media: The fund the laboratories did not spend (CAG Report 17 of 2026)","https://blitzindiamedia.com/news/cag-report-17-2026-scientific-ministries-reserve-fund/","analysis"],["Blitz India Media: CAG audit finds scientific research fund unutilised","https://blitzindiamedia.com/news/cag-audit-scientific-research-fund-unutilised/","analysis"]],
+  kw:"CAG Report 17 2026 compliance audit scientific environmental ministries CSIR Laboratory Headquarter Reserve Fund LHRF innovation unspent Atomic Energy land estate Tata Memorial Centre IT audit SECI SAP ERP MNRE Ladakh small hydro ICFRE Forest Research Institute Dehradun photo gallery ARCI laser welding unfruitful expenditure"
+},
+/* ---------- CAG · Himachal Pradesh Composite Audit Report-I (Report 2 of 2025) ---------- */
+{
+  id:"cag-himachal-2-2025", body:"CAG", state:"Himachal Pradesh", kind:"Compliance audit", reportNo:"Report No. 02 of 2025 (Himachal Pradesh)",
+  title:"Report of the CAG for the year ended March 2022, Government of Himachal Pradesh (Composite Audit Report-I)", short:"Himachal treasury IT system, GST and excise audit", sector:"Public finance", ministry:"Finance, Planning, State Taxes and Excise, and Revenue Departments, Government of Himachal Pradesh",
+  date:"Dec 2025", dateISO:"2025-12-05", tabled:"Tabled in the Himachal Pradesh Vidhan Sabha on 5 December 2025", period:"Year ended March 2022 (IFMS audit covers April 2017 to March 2022)", flagged:484.14,
+  flaggedNote:"Mismatches in GST returns in 202 sampled cases that the CAG found to be compliance deficiencies. It is an amount at issue, not a confirmed loss, and does not include the other amounts in the report.",
+  tldr:[
+    "Himachal's treasury IT system (IFMS) passed 10,938 bills worth ₹2,467 crore after the officers' authority to draw money had expired.",
+    "In 106 treasuries, over 9.58 lakh bills were handled from start to end by a single employee, and a computer operator at Kangra treasury took ₹68.11 lakh through 19 bills.",
+    "A GST audit found mismatches of ₹484.14 crore in 202 cases, and the report also flags suspected liquor pilferage and ₹22.61 crore of SDRF money diverted or misused."
+  ],
+  en:"This CAG report on Himachal Pradesh for the year ended March 2022 covers the Finance, Planning, State Taxes and Excise, and Revenue departments. Its main part is an IT audit of the state's Integrated Financial Management System (IFMS), which handles budgets, bills, salaries and pensions. Between April 2017 and March 2022, treasuries passed 10,938 bills worth ₹2,467 crore after the drawing officers' validity had expired. In 106 treasuries, one employee did every step for over 9.58 lakh bills, though these steps should be split between different people. 36,212 employees had no PAN in the system. In Kangra treasury, a computer operator took ₹68.11 lakh through 19 false bills, of which ₹29.62 lakh was still to be recovered. Leave encashment and pension commutation were paid twice in some cases. A GST audit of 2017-18 returns found mismatches of ₹484.14 crore in 202 cases. The report also flags suspected liquor pilferage, short collection of stamp duty, and ₹22.61 crore of disaster relief (SDRF) money diverted or misused.",
+  hi:"मार्च 2022 को समाप्त वर्ष के लिए हिमाचल प्रदेश पर CAG की यह रिपोर्ट वित्त, योजना, राज्य कर और आबकारी, तथा राजस्व विभागों को कवर करती है। इसका मुख्य हिस्सा राज्य की एकीकृत वित्तीय प्रबंधन प्रणाली (IFMS) का IT ऑडिट है, जो बजट, बिल, वेतन और पेंशन संभालती है। अप्रैल 2017 से मार्च 2022 के बीच कोषागारों ने ₹2,467 करोड़ के 10,938 बिल आहरण अधिकारियों की वैधता ख़त्म होने के बाद पास किए। 106 कोषागारों में 9.58 लाख से ज़्यादा बिलों का हर चरण एक ही कर्मचारी ने किया, जबकि ये चरण अलग-अलग लोगों में बँटे होने चाहिए। 36,212 कर्मचारियों का PAN प्रणाली में नहीं था। कांगड़ा कोषागार में एक कंप्यूटर ऑपरेटर ने 19 फ़र्ज़ी बिलों से ₹68.11 लाख निकाल लिए, जिनमें से ₹29.62 लाख की वसूली बाक़ी थी। कुछ मामलों में अवकाश नकदीकरण और पेंशन रूपांतरण का भुगतान दो बार हुआ। 2017-18 के GST रिटर्न के ऑडिट में 202 मामलों में ₹484.14 करोड़ का अंतर मिला। रिपोर्ट में शराब की संदिग्ध चोरी, स्टांप शुल्क की कम वसूली, और आपदा राहत (SDRF) के ₹22.61 करोड़ के दुरुपयोग या दूसरी जगह इस्तेमाल का भी ज़िक्र है।",
+  context:{
+    what:"The CAG's Composite Audit Report-I on Himachal Pradesh for the year ended March 2022. It has one information system audit (IFMS), one subject-specific compliance audit (GST returns) and 11 separate compliance observations.",
+    why:"IFMS handles almost every rupee the state pays out, so weak controls in it put salaries, pensions and treasury money at risk. The GST and excise findings show revenue the state may be missing.",
+    how:"Audit of IFMS records from April 2017 to March 2022 with checks in district treasuries, a GST audit of 2017-18 returns (336 taxpayers in a limited check and 55 in detail), and test checks in tax, excise, revenue and planning offices."
+  },
+  nums:[["₹2,467 cr","Value of 10,938 bills passed after the drawing officer's validity expired",1],["9.58 lakh","Bills handled end to end by a single employee",1],["₹484.14 cr","GST return mismatches in 202 sampled cases",1],["₹22.61 cr","SDRF money diverted or misused",1]],
+  themes:[
+    {name:"Treasury IT system (IFMS)", sev:"high", items:[
+      {t:"10,938 bills by 90 drawing and disbursing officers were passed after their validity had expired (April 2017 to March 2022).", amt:"₹2,467 cr"},
+      {t:"In 106 treasuries, 9,58,957 bills were allotted tokens, compiled, checked and passed by the same employee, with no segregation of duties.", amt:""},
+      {t:"36,212 of 1,88,282 employees had no PAN in the system, 439 DDOs were linked to between 2 and 105 treasuries, and 356 salary bills were passed before their token date.", amt:""},
+      {t:"No service level agreement was signed with NIC, software changes went live without user testing, and there was no disaster recovery or business continuity plan.", amt:""}]},
+    {name:"Pension and payment errors", sev:"high", items:[
+      {t:"A computer operator at the Kangra district treasury took money through 19 bills between March and July 2017; ₹29.62 lakh was still to be recovered.", amt:"₹68.11 lakh"},
+      {t:"Gratuity (DCRG) above the limit was credited to 32 claimants.", amt:"₹180.05 lakh"},
+      {t:"Pension commutation was paid twice in 15 cases in five treasuries, and leave encashment twice in 14 cases.", amt:"₹145.14 lakh"},
+      {t:"10,599 of 23,391 family pension records showed different dates of birth for the same pension order, and 1,204 family pensions started before the date of death.", amt:""}]},
+    {name:"GST and excise revenue", sev:"med", items:[
+      {t:"Of 315 GST cases answered by the department, 202 (64.12%) were compliance deficiencies, with mismatches in returns.", amt:"₹484.14 cr"},
+      {t:"21 cases went unanswered, with a risk exposure of ₹211.14 crore; 15 deficiencies in the detailed audit had a revenue implication of ₹106.56 crore.", amt:"₹211.14 cr"},
+      {t:"Excess input tax credit was allowed to 114 dealers, with an interest loss of ₹1.76 crore.", amt:"₹10.05 cr"},
+      {t:"Suspected pilferage of 1.26 lakh proof litres of IMFL, 1.38 lakh proof litres of country liquor and 1.16 lakh bulk litres of beer involved licence fee of ₹9.71 crore.", amt:"₹9.71 cr"}]},
+    {name:"Other compliance issues", sev:"med", items:[
+      {t:"State Disaster Response Fund money was irregularly diverted and misused.", amt:"₹22.61 cr"},
+      {t:"Excess tax deferment was allowed in three tax offices, and stamp duty and registration fees were short realised.", amt:"₹11.66 cr"},
+      {t:"Minimum guaranteed quota of liquor was not allotted, causing loss of licence fee.", amt:"₹5.22 cr"},
+      {t:"Under the Aspirational Block Programme, the district planning committee met twice in four years against 48 expected meetings, and ₹12.22 crore lay unused with six block offices.", amt:"₹12.22 cr"}]}
+  ],
+  charts:[
+    {title:"Wrong or double payments found through IFMS", type:"bars", unit:"₹ lakh", data:[["Excess gratuity (DCRG), 32 claimants",180.05],["Commutation paid twice, 15 cases",77.81],["Kangra treasury misappropriation",68.11],["Leave encashment paid twice, 14 cases",67.33]]},
+    {title:"Revenue issues in tax and excise", type:"bars", unit:"₹ crore", data:[["Excess input tax credit",10.05],["Licence fee on suspected liquor pilferage",9.71],["Excess tax deferment",6.29],["Short stamp duty and registration fee",5.37],["Minimum guaranteed quota not allotted",5.22]]}
+  ],
+  recs:[
+    "Manage IFMS systematically, with full documentation from NIC as the system developer.",
+    "Move to end-to-end digital processing of bills and enforce segregation of duties.",
+    "Put a disaster recovery and business continuity plan in place.",
+    "Act against GST late filers and non-filers, speed up scrutiny of returns and follow up on flagged mismatches."
+  ],
+  recsNote:"From the CAG press brief.",
+  response:["The press brief does not carry the state government's replies. The report goes to the Himachal Pradesh Vidhan Sabha's Public Accounts Committee."],
+  timeline:[["Mar–Jul 2017","Misappropriation through 19 bills at Kangra treasury"],["Apr 2017 – Mar 2022","Period of the IFMS audit"],["28 Aug 2025","Report sent to the state government"],["5 Dec 2025","Report tabled in the Vidhan Sabha"]],
+  glossary:["Compliance audit","IFMS","DDO","Segregation of duties","DCRG","Commutation of pension","Input Tax Credit","SDRF","Disaster Recovery Plan","Service-level agreement","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 02 of 2025 on Himachal Pradesh (Composite Audit Report-I) covers the year ended March 2022 and was tabled in the Vidhan Sabha on 5 December 2025.",
+      "It found 10,938 bills worth ₹2,467 crore passed after the drawing and disbursing officers' validity had expired.",
+      "In 106 treasuries, over 9.58 lakh bills were processed end to end by the same employee.",
+      "Its GST audit found mismatches of ₹484.14 crore in 202 cases."
+    ],
+    mains:"Digital treasury systems need strong internal controls to prevent fraud. Examine with reference to the CAG's audit of Himachal Pradesh's Integrated Financial Management System. (10 marks)",
+    quiz:[
+      {q:"What did the CAG find about 10,938 bills in Himachal Pradesh's IFMS?", o:["They were never paid","They were passed after the drawing officer's validity had expired","They were paid in cash","They were rejected by the treasury"], a:1, w:"Bills worth ₹2,467 crore were passed after the DDOs' validity had expired."},
+      {q:"Which control principle was broken when one employee handled every step of over 9.58 lakh bills?", o:["Segregation of duties","Separation of powers","Double-entry bookkeeping","Zero-based budgeting"], a:0, w:"Segregation of duties means different people should handle different steps of a payment."},
+      {q:"At which district treasury did a computer operator misappropriate ₹68.11 lakh?", o:["Shimla","Mandi","Kangra","Solan"], a:2, w:"The case was at the Kangra district treasury, through 19 bills in 2017."}
+    ]
+  },
+  related:["cag-jk-3-2026","cag-gujarat-gst-2026","cag-delhi-revenue-1-2026","cag-kerala-revenue-2-2026"],
+  src:[["CAG press brief: Report No. 02 of 2025, Government of Himachal Pradesh (Composite Audit Report-I)","https://cag.gov.in/uploads/PressRelease/PR-7-Press-brief-CAR-I-2021-22-English-05122025-06a9910f05ad089-22274833.pdf","official"],["The Tribune: CAG uncovers rule breaches, weak controls in Himachal's financial system","https://www.tribuneindia.com/news/himachal/cag-uncovers-rule-breaches-weak-controls-in-himachals-financial-system","news"]],
+  kw:"CAG Himachal Pradesh Report 2 2025 composite audit report IFMS integrated financial management system treasury DDO validity segregation of duties PAN Kangra treasury fraud misappropriation pension DCRG commutation leave encashment GST mismatch input tax credit liquor pilferage excise stamp duty SDRF Aspirational Block Programme"
+},
+/* ---------- NITI · Internationalisation of Higher Education ---------- */
+{
+  id:"niti-higher-ed-intl-2025", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report (with an IIT Madras-led consortium)",
+  title:"Internationalisation of Higher Education in India: Prospects, Potential, and Policy Recommendations", short:"Making India a hub for foreign students", sector:"Education & institutions", ministry:"NITI Aayog",
+  date:"Dec 2025", dateISO:"2025-12-22", tabled:"Released by NITI Aayog in New Delhi on 22 December 2025", period:"Trends in academic mobility over the last 20 years; survey of 160 institutions", flagged:null,
+  tldr:[
+    "About 13.35 lakh Indians were studying abroad in 2024, while India hosted only 46,878 foreign students in 2021-22.",
+    "Money sent abroad for studies rose from ₹975 crore in 2013-14 to ₹29,000 crore in 2023-24.",
+    "The report makes 22 policy recommendations with 76 action pathways, including Vishwa Bandhu scholarships and fellowships and a revamped Study in India platform."
+  ],
+  en:"NITI Aayog's report looks at how India can attract more foreign students and teachers and link its universities with the world. It was prepared with a consortium led by IIT Madras, and draws on a survey of 160 higher education institutions in 24 states. The report finds a large imbalance. About 13.35 lakh Indians were studying abroad in 2024, mostly in Canada, the US, the UK, Australia and Germany. India hosted only 46,878 foreign students in 2021-22. Money sent abroad for studies rose from ₹975 crore in 2013-14 to ₹29,000 crore in 2023-24. The report lists barriers such as visa and rule hurdles, weak student support, rigid courses and low global visibility. It makes 22 policy recommendations with 76 action pathways and 125 indicators to track progress. These include Vishwa Bandhu scholarships for foreign students, Vishwa Bandhu fellowships for top researchers and faculty, summer schools at leading institutes, and a revamped Study in India platform. At the launch, NITI Member V.K. Paul said India should aim to host 1 lakh foreign students by 2030.",
+  hi:"नीति आयोग की यह रिपोर्ट बताती है कि भारत ज़्यादा विदेशी छात्रों और शिक्षकों को कैसे आकर्षित कर सकता है और अपने विश्वविद्यालयों को दुनिया से कैसे जोड़ सकता है। इसे IIT मद्रास के नेतृत्व वाले एक समूह के साथ तैयार किया गया, और यह 24 राज्यों के 160 उच्च शिक्षा संस्थानों के सर्वे पर आधारित है। रिपोर्ट एक बड़ा असंतुलन पाती है। 2024 में लगभग 13.35 लाख भारतीय विदेश में पढ़ रहे थे, ज़्यादातर कनाडा, अमेरिका, ब्रिटेन, ऑस्ट्रेलिया और जर्मनी में। भारत ने 2021-22 में सिर्फ़ 46,878 विदेशी छात्रों की मेज़बानी की। पढ़ाई के लिए विदेश भेजा गया पैसा 2013-14 के ₹975 करोड़ से बढ़कर 2023-24 में ₹29,000 करोड़ हो गया। रिपोर्ट वीज़ा और नियमों की अड़चनें, छात्रों के लिए कमज़ोर सहायता, कठोर पाठ्यक्रम और कम वैश्विक पहचान जैसी बाधाएँ गिनाती है। यह 22 नीतिगत सिफ़ारिशें, 76 कार्य-मार्ग और प्रगति मापने के 125 संकेतक देती है। इनमें विदेशी छात्रों के लिए विश्व बंधु छात्रवृत्ति, शीर्ष शोधकर्ताओं और शिक्षकों के लिए विश्व बंधु फ़ेलोशिप, प्रमुख संस्थानों में समर स्कूल, और नए रूप में Study in India प्लेटफ़ॉर्म शामिल हैं। लॉन्च पर नीति आयोग के सदस्य वी.के. पॉल ने कहा कि भारत को 2030 तक 1 लाख विदेशी छात्रों की मेज़बानी का लक्ष्य रखना चाहिए।",
+  context:{
+    what:"A NITI Aayog policy report on internationalising Indian higher education: student and faculty mobility, research tie-ups, foreign branch campuses in India and Indian campuses abroad. It focuses on 'internationalisation at home', as set out in NEP 2020.",
+    why:"Far more Indians study abroad than foreigners study in India, and the money spent abroad is large. NEP 2020 aims to make India a global study destination, and the report sets out how to get there by 2047.",
+    how:"Analysis of 20 years of academic mobility data, a survey of 160 higher education institutions in 24 states with over 100 questions, a national workshop at IIT Madras with 140 participants, and interviews with experts from 30 foreign institutions in 16 countries."
+  },
+  nums:[["13.35 lakh","Indian students abroad, 2024",1],["46,878","Foreign students in India, 2021-22",1],["₹29,000 cr","Money sent abroad for studies, 2023-24",1],["22","Policy recommendations, with 76 action pathways",0]],
+  themes:[
+    {name:"The imbalance", sev:"high", items:[
+      {t:"About 13.35 lakh Indians were studying abroad in 2024; India hosted 46,878 foreign students in 2021-22.", amt:""},
+      {t:"Coverage of the report puts the gap at about 25 to 28 Indian students going abroad for every foreign student coming to India.", amt:""},
+      {t:"Remittances for study abroad under the LRS rose from ₹975 crore in 2013-14 to ₹29,000 crore in 2023-24, equal to about 53% of the Union higher education budget of about ₹55,000 crore.", amt:"₹29,000 cr"},
+      {t:"Indian students in Canada, the US, the UK and Australia, about 8.5 lakh in all, spent nearly ₹2.9 lakh crore on higher education in 2023-24.", amt:"₹2.9 lakh cr"}]},
+    {name:"Barriers", sev:"med", items:[
+      {t:"Gaps in infrastructure, visa and regulatory hurdles, and limited support for foreign students.", amt:""},
+      {t:"Rigid curricula, unclear scholarship processes and weak global visibility of Indian institutions.", amt:""},
+      {t:"Public-private partnerships in higher education are underused.", amt:""}]},
+    {name:"What the report proposes", sev:"low", items:[
+      {t:"Vishwa Bandhu Scholarships for foreign students in two-year Master's programmes, covering tuition, stipend, housing, travel and health insurance.", amt:""},
+      {t:"Vishwa Bandhu Fellowships to attract and keep top researchers, faculty and diaspora professionals.", amt:""},
+      {t:"6 to 8 week international summer schools at the top five IITs, IIMs and central universities, for up to 500 students a year, mainly from the Global South.", amt:""},
+      {t:"A revamped Study in India platform, and international tie-ups by the top 100 NIRF-ranked universities and all Institutes of National Importance.", amt:""}]}
+  ],
+  charts:[
+    {title:"Where Indian students went, 2024", type:"bars", unit:"lakh students", data:[["Canada",4.27],["US",3.37],["UK",1.85],["Australia",1.22],["Germany",0.43]]},
+    {title:"Money sent abroad for studies", type:"bars", unit:"₹ crore", data:[["2013-14",975],["2023-24",29000]]}
+  ],
+  recs:[
+    "Launch Vishwa Bandhu Scholarships for foreign students and Vishwa Bandhu Fellowships for top researchers and faculty.",
+    "Run international summer schools at top IITs, IIMs and central universities.",
+    "Turn Study in India into a single, well-branded platform for foreign students.",
+    "Bring campus housing, safety, counselling and academic support up to global standards.",
+    "Get the top 100 NIRF-ranked universities and all Institutes of National Importance to build international partnerships."
+  ],
+  recsNote:"A selection of the 22 recommendations, as reported by ThePrint. They are suggestions, not adopted policy.",
+  response:["The report was released by NITI Aayog with the Secretary, Department of Higher Education, and the AICTE Chairman present. No formal government decision on it is reported."],
+  timeline:[["2013-14","₹975 crore sent abroad for studies"],["2020","NEP 2020 calls for internationalisation of higher education"],["2021-22","India hosts 46,878 foreign students"],["2024","About 13.35 lakh Indians studying abroad"],["22 Dec 2025","Report released by NITI Aayog"]],
+  glossary:["NEP 2020","Internationalisation at home","LRS","NIRF","Institution of National Importance"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Internationalisation of Higher Education in India: Prospects, Potential, and Policy Recommendations' on 22 December 2025, prepared with an IIT Madras-led consortium.",
+      "The report has 22 policy recommendations, 76 action pathways and 125 performance indicators.",
+      "India hosted 46,878 foreign students in 2021-22, while about 13.35 lakh Indians were studying abroad in 2024.",
+      "It proposes Vishwa Bandhu Scholarships for foreign students and Vishwa Bandhu Fellowships for researchers and faculty."
+    ],
+    mains:"India sends far more students abroad than it receives. Discuss the causes and suggest measures to make India a global education hub, with reference to NITI Aayog's 2025 report on internationalisation of higher education. (15 marks)",
+    quiz:[
+      {q:"Which country was the top destination for Indian students in 2024, as cited from NITI Aayog's report?", o:["United States","United Kingdom","Canada","Australia"], a:2, w:"Canada had about 4.27 lakh Indian students, ahead of the US with 3.37 lakh."},
+      {q:"What name does the report give to its proposed scholarships for foreign students?", o:["Vishwa Bandhu","Bharat Vidya","Study in India Plus","Global Scholar India"], a:0, w:"It proposes Vishwa Bandhu Scholarships and Vishwa Bandhu Fellowships."},
+      {q:"How many policy recommendations does the NITI Aayog report make?", o:["12","22","76","125"], a:1, w:"22 recommendations, with 76 action pathways and 125 performance indicators."}
+    ]
+  },
+  related:["school-education-2026","niti-ease-rd-2026","skilling-viksit-2047"],
+  src:[["PIB: NITI Aayog releases report on 'Internationalisation of Higher Education in India'","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207555&reg=3&lang=1","official"],["ThePrint: For every 1 foreign student, 25 Indians go abroad for studies, says NITI Aayog","https://theprint.in/india/education/brain-drain-is-real-for-every-1-foreign-student-25-indians-go-abroad-for-studies-says-niti-aayog/2811088","news"],["IANS: Over 13 lakh Indian students studied abroad in 2024: NITI Aayog","https://ianslive.in/over-13-lakh-indian-students-studied-abroad-in-2024-niti-aayog--20251222203441","news"]],
+  kw:"NITI Aayog internationalisation higher education 2025 foreign students study abroad brain drain Vishwa Bandhu scholarship fellowship Study in India NEP 2020 IIT Madras branch campus international students Canada US UK Australia Germany remittances LRS NIRF summer schools Global South"
+}
 
 );
 
@@ -4631,5 +4854,6 @@ Object.assign(window.STATE_FACTS_V2, {
   CG:[...(window.STATE_FACTS_V2.CG||[]),["Only 716 of 19,656 villages certified Har Ghar Jal by March 2024 (CAG, 2026)","cag-chhattisgarh-jjm-2-2026"]],
   SK:[...(window.STATE_FACTS_V2.SK||[]),["Fiscal deficit of 5.59% of GSDP against a 3% limit in 2024-25 (CAG, 2026)","cag-sikkim-finances-1-2026"]],
   RJ:[...(window.STATE_FACTS_V2.RJ||[]),["Mandatory road signs missing at 506 locations on inspected roads (CAG, 2026)","cag-rajasthan-road-safety-1-2026"]],
+  HP:[...(window.STATE_FACTS_V2.HP||[]),["10,938 treasury bills worth ₹2,467 crore passed after officers' validity expired (CAG, 2025)","cag-himachal-2-2025"]],
   DL:[...(window.STATE_FACTS_V2.DL||[]),["Only about 0.10% of e-way bills physically verified (CAG, 2026)","cag-delhi-revenue-1-2026"],["Share of India's GDP fell from 4% (2015-16) to 3.67% (2024-25) (CAG, 2026)","cag-delhi-finances-2-2026"]]
 });
