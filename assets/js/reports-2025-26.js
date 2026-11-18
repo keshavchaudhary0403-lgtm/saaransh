@@ -206,7 +206,17 @@ Object.assign(window.SITE.glossary, {
   "Extra-budgetary resources": "Money raised for government schemes through loans by public bodies, outside the Union budget.",
   "Black spot": "A stretch of road where serious crashes happen again and again, which needs to be identified and fixed.",
   "Crash barrier": "A guard rail or wall along the edge or middle of a road that stops vehicles from leaving the road or crossing over.",
-  "Optical hazard marking": "Bright reflective signs or marks that warn drivers of a hazard, such as a sharp turn or an obstacle, especially at night."
+  "Optical hazard marking": "Bright reflective signs or marks that warn drivers of a hazard, such as a sharp turn or an obstacle, especially at night.",
+  "Minimum Essential Amenities": "The basic facilities, such as drinking water, seating, toilets, shelters, fans and signage, that Railway Board rules require at every station.",
+  "Coliform bacteria": "Bacteria, including E. coli, whose presence in drinking water signals contamination, often from sewage.",
+  "Residual chlorine": "The chlorine left in treated water after disinfection; a small amount shows the water is still protected against germs.",
+  "NGT": "National Green Tribunal: a special court set up in 2010 to hear cases on the environment and pollution.",
+  "NAPS": "National Apprenticeship Promotion Scheme: a 2016 Skill Development Ministry scheme that pays part of an apprentice's stipend to encourage employers to take apprentices.",
+  "NATS": "National Apprenticeship Training Scheme: an Education Ministry scheme that places graduates and diploma holders in on-the-job training with a stipend.",
+  "District Skill Committee": "A district-level body that plans and oversees skilling and apprenticeship programmes in its district.",
+  "VAT": "Value Added Tax: the state sales tax that GST largely replaced in 2017; it still applies to items such as petrol, diesel and liquor.",
+  "Stamp duty": "A state tax paid on documents such as property sale deeds, usually along with a registration fee.",
+  "Under-assessment": "When a tax officer works out less tax than is actually due from a taxpayer."
 });
 
 window.SPEC_REPORTS.push(
@@ -4831,13 +4841,211 @@ window.SPEC_REPORTS.push(
   related:["school-education-2026","niti-ease-rd-2026","skilling-viksit-2047"],
   src:[["PIB: NITI Aayog releases report on 'Internationalisation of Higher Education in India'","https://www.pib.gov.in/PressReleasePage.aspx?PRID=2207555&reg=3&lang=1","official"],["ThePrint: For every 1 foreign student, 25 Indians go abroad for studies, says NITI Aayog","https://theprint.in/india/education/brain-drain-is-real-for-every-1-foreign-student-25-indians-go-abroad-for-studies-says-niti-aayog/2811088","news"],["IANS: Over 13 lakh Indian students studied abroad in 2024: NITI Aayog","https://ianslive.in/over-13-lakh-indian-students-studied-abroad-in-2024-niti-aayog--20251222203441","news"]],
   kw:"NITI Aayog internationalisation higher education 2025 foreign students study abroad brain drain Vishwa Bandhu scholarship fellowship Study in India NEP 2020 IIT Madras branch campus international students Canada US UK Australia Germany remittances LRS NIRF summer schools Global South"
+},
+/* ---------- CAG · Railway station amenities (Union) ---------- */
+{
+  id:"cag-railway-amenities-31-2026", body:"CAG", kind:"Compliance audit", reportNo:"Report No. 31 of 2026",
+  title:"Report of the CAG on Passenger Amenities and Sanitation at Non-suburban Railway Stations in Indian Railways", short:"Railway Station Amenities Audit", sector:"Roads & infrastructure", ministry:"Ministry of Railways",
+  date:"Aug 2026", dateISO:"2026-08-12", tabled:"Tabled in Parliament on 12 August 2026", period:"2019-20 to 2023-24", flagged:null,
+  tldr:[
+    "458 of 512 stations checked (more than 89%) lacked one or more Minimum Essential Amenities such as drinking water, toilets, seats or fans.",
+    "Coliform bacteria, including E. coli, were found in drinking water at 49 stations in 2022-23 and 56 stations in 2023-24.",
+    "Between 36% and 44% of the passenger amenities budget went unspent every year from 2019-20 to 2023-24."
+  ],
+  en:"The CAG checked basic facilities at 512 non-suburban railway stations across all 16 railway zones. More than 89% of them, 458 stations, lacked at least one amenity that every station must have, such as drinking water, seats, toilets, shelters or fans. Drinking water was not tested as often as the rules require, and coliform bacteria, including E. coli, were found at dozens of stations. Money was not the problem: 36% to 44% of the amenities budget went unspent each year, which the CAG put down to weak planning and execution.",
+  hi:"CAG ने सभी 16 रेलवे ज़ोन के 512 गैर-उपनगरीय रेलवे स्टेशनों पर बुनियादी सुविधाओं की जाँच की। इनमें से 89% से ज़्यादा, यानी 458 स्टेशनों पर कम से कम एक ज़रूरी सुविधा नहीं थी, जैसे पीने का पानी, बैठने की जगह, शौचालय, शेड या पंखे। पीने के पानी की जाँच नियमों के मुताबिक़ बार-बार नहीं हुई, और दर्जनों स्टेशनों पर E. coli समेत कोलीफ़ॉर्म बैक्टीरिया मिले। समस्या पैसे की नहीं थी: हर साल सुविधाओं के बजट का 36% से 44% खर्च ही नहीं हुआ, जिसका कारण CAG ने कमज़ोर योजना और अमल बताया।",
+  context:{
+    what:"A compliance audit of passenger amenities, sanitation and drinking water quality at non-suburban railway stations, covering 2019-20 to 2023-24.",
+    why:"India has 5,908 non-suburban stations, used by about 2,924 million passengers. Railway Board rules have required Minimum Essential Amenities at every station since 2018.",
+    how:"Physical inspection of 512 stations across all 16 zones, including 187 Amrit Bharat stations, and analysis of the Railways' amenities monitoring data from February 2025."
+  },
+  nums:[["458 of 512","Stations short of one or more essential amenities",1],["56","Stations with coliform bacteria in water, 2023-24",1],["36% to 44%","Amenities budget unspent each year",1],["187","Amrit Bharat stations in the sample",0]],
+  themes:[
+    {name:"Missing basic amenities", sev:"high", items:[
+      {t:"458 of 512 stations lacked one or more Minimum Essential Amenities; only 54 had no shortfall.", amt:""},
+      {t:"The most common gaps were fans (42% of stations), water coolers (40%) and drinking-water taps (27%).", amt:""},
+      {t:"17 of 18 top-category (NSG-1) stations lacked at least one amenity tested.", amt:""},
+      {t:"No time-bound action plans were made to fill the gaps, against Railway Board instructions, and no zone had set up the station-wise amenity webpages directed by the NGT by March 2024.", amt:""}]},
+    {name:"Unsafe or untested drinking water", sev:"high", items:[
+      {t:"Coliform bacteria, including E. coli, were found at 49 stations in 2022-23 and 56 stations in 2023-24.", amt:""},
+      {t:"Residual chlorine was outside the 0.2 to 0.5 ppm range at 135 stations in 2022-23 and 139 stations in 2023-24.", amt:""},
+      {t:"Bacteriological testing was not done at 59 stations and chemical testing at 179; in 2023-24, 479 stations did not test all 13 basic parameters.", amt:""}]},
+    {name:"Access for elderly and disabled passengers", sev:"medium", items:[
+      {t:"Priority seating was deficient at 490 stations and accessible toilets were lacking or deficient at 134.", amt:""},
+      {t:"441 stations had neither an emergency medical room nor the recommended medical box.", amt:""}]},
+    {name:"Unspent money and delayed works", sev:"medium", items:[
+      {t:"36% to 44% of the passenger amenities budget went unspent each year from 2019-20 to 2023-24, including non-COVID years.", amt:""},
+      {t:"59% of 395 passenger amenity works were delayed by one to more than four years.", amt:""},
+      {t:"141 CSR-funded toilet blocks in Southern and East Coast Railways were not working or not in use.", amt:"₹35.25 cr"}]}
+  ],
+  charts:[
+    {title:"Stations checked: any essential amenity missing?", type:"split", unit:"stations", data:[["One or more missing",458],["No shortfall",54]]},
+    {title:"Stations with coliform bacteria in drinking water", type:"bars", unit:"stations", data:[["2022-23",49],["2023-24",56]]},
+    {title:"Passenger complaints", type:"bars", unit:"complaints", data:[["2022-23",69196],["2023-24",74967]]}
+  ],
+  recs:[
+    "Provide all Minimum Essential Amenities at every station, with time-bound action plans.",
+    "Test drinking water as often and as fully as the protocol requires, and act on bad results.",
+    "Plan and execute amenity works so the budget is actually used."
+  ],
+  recsNote:"Summarised from the audit findings as reported in published coverage; see the full report for the CAG's exact recommendations.",
+  response:["No reply from the Ministry of Railways was reported in the coverage. The report goes to Parliament's Public Accounts Committee."],
+  timeline:[["1952","Railway Board first sets amenity norms"],["Apr 2018","Norms revised; essential amenities due at all stations by August 2018"],["2019-20 to 2023-24","Period audited"],["12 Aug 2026","Report No. 31 of 2026 tabled in Parliament"]],
+  glossary:["Compliance audit","Minimum Essential Amenities","Coliform bacteria","Residual chlorine","NGT","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 31 of 2026 is a compliance audit of passenger amenities and sanitation at non-suburban railway stations, tabled on 12 August 2026.",
+      "The audit inspected 512 stations across all 16 railway zones, including 187 Amrit Bharat stations.",
+      "458 of the 512 stations (more than 89%) lacked one or more Minimum Essential Amenities.",
+      "The prescribed range for residual chlorine in station drinking water is 0.2 to 0.5 ppm."
+    ],
+    mains:"Station redevelopment has focused on buildings while basic amenities lag. Discuss with reference to the CAG's 2026 audit of passenger amenities at railway stations. (10 marks)",
+    quiz:[
+      {q:"How many railway stations did the CAG inspect in its 2026 audit of passenger amenities?", o:["187","395","512","5,908"], a:2, w:"512 stations across all 16 zones. 5,908 is the total number of non-suburban stations."},
+      {q:"What share of the passenger amenities budget went unspent each year, per the audit?", o:["5% to 10%","15% to 20%","36% to 44%","60% to 70%"], a:2, w:"36% to 44% each year from 2019-20 to 2023-24."},
+      {q:"Which bacteria found in station water indicate faecal contamination?", o:["Lactobacillus","Coliform, including E. coli","Rhizobium","Azotobacter"], a:1, w:"Coliform bacteria, including E. coli, were found at 49 stations in 2022-23 and 56 in 2023-24."}
+    ]
+  },
+  related:["cag-railways-30-2026","railways"],
+  src:[["CAG: Report No. 31 of 2026 (report page)","https://cag.gov.in/rly/bhubaneswar/en/audit-report/details/125975","official"],["Down To Earth: Nearly 90% of railway stations lack prescribed amenities, supplied drinking water found contaminated","https://www.downtoearth.org.in/governance/nearly-90-of-railway-stations-lack-prescribed-amenities-supplied-drinking-water-found-contaminated-cag","news"],["The Policy Edge: CAG finds 89% of audited railway stations missing mandatory passenger amenities","https://www.policyedge.in/p/cag-finds-89-of-audited-railway-stations-missing-mandatory-passenger-amenities","analysis"]],
+  kw:"railway stations passenger amenities sanitation drinking water E coli coliform chlorine toilets fans water coolers Amrit Bharat accessibility disabled Indian Railways Railway Board CAG 2026 report 31"
+},
+/* ---------- NITI · Apprenticeship ecosystem ---------- */
+{
+  id:"niti-apprenticeship-2026", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report",
+  title:"Revitalizing Apprenticeship Ecosystem: Insights, Challenges, Recommendations and Best Practices", short:"Apprenticeship Reform Report", sector:"Skilling & employment", ministry:"NITI Aayog (MSDE and Ministry of Education schemes)",
+  date:"Feb 2026", dateISO:"2026-02-20", tabled:"Released by NITI Aayog on 20 February 2026", period:"Data up to FY 2024-25", flagged:null,
+  tldr:[
+    "Only 51,133 of 1,95,939 establishments registered under NAPS were active in FY 2024-25.",
+    "In FY 2024-25, 13.09 lakh apprentices registered under NAPS, 9.85 lakh were engaged and only 2.51 lakh completed.",
+    "The report gives 20 recommendations in five pillars, including a National Apprenticeship Mission and an Apprenticeship Engagement Index."
+  ],
+  en:"NITI Aayog studied India's two main apprenticeship schemes: NAPS, run by the Skill Development Ministry, and NATS, run by the Education Ministry for graduates and diploma holders. Engagement has grown fast, but few registered employers actually take apprentices, few apprentices finish, and the work is concentrated in about ten states. Women, the North East and small firms are left out. The report makes 20 recommendations, such as a single national portal, an index to rank states, and a bigger role for District Skill Committees and MSME clusters.",
+  hi:"नीति आयोग ने भारत की दो मुख्य अप्रेंटिसशिप योजनाओं का अध्ययन किया: कौशल विकास मंत्रालय की NAPS, और स्नातकों व डिप्लोमा धारकों के लिए शिक्षा मंत्रालय की NATS। अप्रेंटिस की संख्या तेज़ी से बढ़ी है, लेकिन पंजीकृत नियोक्ताओं में से कम ही वास्तव में अप्रेंटिस रखते हैं, कम अप्रेंटिस प्रशिक्षण पूरा करते हैं, और ज़्यादातर काम लगभग दस राज्यों तक सीमित है। महिलाएँ, पूर्वोत्तर और छोटी कंपनियाँ पीछे छूट गई हैं। रिपोर्ट 20 सिफ़ारिशें करती है, जैसे एक राष्ट्रीय पोर्टल, राज्यों की रैंकिंग के लिए एक सूचकांक, और ज़िला कौशल समितियों व MSME क्लस्टरों की बड़ी भूमिका।",
+  context:{
+    what:"A NITI Aayog policy report on India's apprenticeship system, covering the National Apprenticeship Promotion Scheme (NAPS) and the National Apprenticeship Training Scheme (NATS), with a compendium of best practices.",
+    why:"Apprenticeships link training to real jobs. India has a large young workforce, but apprenticeship take-up by employers and completion by trainees remain low.",
+    how:"Analysis of scheme data up to FY 2024-25 on establishments, registrations, engagement and completion, and a review of state, industry and international practices."
+  },
+  nums:[["51,133","Active NAPS establishments in FY 2024-25, of 1,95,939 registered",1],["2.51 lakh","NAPS apprentices who completed in FY 2024-25",1],["5.23 lakh","NATS apprentices engaged in FY 2024-25",0],["20","Recommendations in the report",0]],
+  themes:[
+    {name:"Low employer participation", sev:"high", items:[
+      {t:"Only 51,133 of 1,95,939 registered NAPS establishments were active in FY 2024-25.", amt:""},
+      {t:"Medium and large enterprises are less than 30% of active establishments but account for over 70% of apprenticeship engagement; MSMEs and start-ups take part little.", amt:""}]},
+    {name:"Few apprentices complete", sev:"high", items:[
+      {t:"In FY 2024-25, 13.09 lakh apprentices registered under NAPS, 9.85 lakh were engaged and 2.51 lakh completed, about 19.1% of registrations that year.", amt:""},
+      {t:"Women's participation is low, and awareness and career counselling are limited.", amt:""}]},
+    {name:"Concentrated in a few states", sev:"medium", items:[
+      {t:"The top 10 states have 79% of registered and 84% of active NAPS establishments, and 76% of engaged apprentices.", amt:""},
+      {t:"North Eastern states and Union Territories together have barely 4% of establishments.", amt:""},
+      {t:"83% of the 14,05,727 NATS apprentices engaged from FY 2019-20 to FY 2024-25 were in the top 10 states, led by Maharashtra (21.4%) and Tamil Nadu (17.6%).", amt:""}]},
+    {name:"Growth so far", sev:"low", items:[
+      {t:"NAPS engagements rose 27.7 times over seven years.", amt:""},
+      {t:"NATS engagement reached 5.23 lakh in FY 2024-25, almost double the year before.", amt:""}]}
+  ],
+  charts:[
+    {title:"NAPS establishments, FY 2024-25", type:"split", unit:"establishments", data:[["Active",51133],["Registered but not active",144806]]},
+    {title:"NAPS apprentices, FY 2024-25", type:"bars", unit:"lakh", data:[["Registered",13.09],["Engaged",9.85],["Completed",2.51]]}
+  ],
+  recs:[
+    "Set up a National Apprenticeship Mission and a single National Apprenticeship Portal.",
+    "Create an Apprenticeship Engagement Index to benchmark states and UTs.",
+    "Make District Skill Committees the main local anchors, with support for low-performing districts and rewards for the top 25 districts.",
+    "Bring in MSMEs through cluster-based consortia, and add start-up and gig-economy apprenticeships.",
+    "Support apprentices with travel and housing help, insurance, career counselling and measures for women."
+  ],
+  recsNote:"A selection of the 20 recommendations across five pillars, as reported by PIB and ThePrint. They are suggestions, not adopted policy.",
+  response:["The report was released by NITI Aayog Member Dr Arvind Virmani and CEO B.V.R. Subrahmanyam. No formal government decision on it is reported."],
+  timeline:[["2016","NAPS launched by the Skill Development Ministry"],["FY 2024-25","51,133 NAPS establishments active; 5.23 lakh NATS apprentices engaged"],["20 Feb 2026","Report released by NITI Aayog"]],
+  glossary:["Apprenticeship","NAPS","NATS","District Skill Committee","MSME"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Revitalizing Apprenticeship Ecosystem: Insights, Challenges, Recommendations and Best Practices' on 20 February 2026.",
+      "NAPS, launched in 2016 by the Ministry of Skill Development and Entrepreneurship, reimburses employers 25% of the stipend, up to ₹1,500 per month per apprentice.",
+      "NATS is run by the Ministry of Education for graduate and diploma holders.",
+      "The report proposes an Apprenticeship Engagement Index and a National Apprenticeship Mission."
+    ],
+    mains:"Apprenticeships can bridge the gap between skills and jobs, but employer participation in India remains low. Examine the reasons and suggest reforms, with reference to NITI Aayog's 2026 report on the apprenticeship ecosystem. (15 marks)",
+    quiz:[
+      {q:"Which ministry runs the National Apprenticeship Training Scheme (NATS)?", o:["Ministry of Labour and Employment","Ministry of Skill Development and Entrepreneurship","Ministry of Education","Ministry of MSME"], a:2, w:"NATS is run by the Ministry of Education; NAPS is run by the Skill Development Ministry."},
+      {q:"Under NAPS, how much of the stipend does the government reimburse to employers?", o:["10%, up to ₹500 a month","25%, up to ₹1,500 a month","50%, up to ₹3,000 a month","100% of the stipend"], a:1, w:"25% of the prescribed stipend, capped at ₹1,500 per month per apprentice."},
+      {q:"Roughly what share of registered NAPS establishments were active in FY 2024-25?", o:["About 26%","About 50%","About 76%","About 84%"], a:0, w:"51,133 of 1,95,939, or about 26%."}
+    ]
+  },
+  related:["skilling-viksit-2047","pmkvy-2025","plfs"],
+  src:[["PIB: NITI Aayog releases report on Revitalizing Apprenticeship Ecosystem","https://pib.gov.in/PressReleasePage.aspx?PRID=2230822","official"],["ThePrint: NITI Aayog finds gaps in apprentice scheme push, recommends 5-point reform plan","https://theprint.in/india/governance/niti-aayog-finds-gaps-in-apprentice-scheme-push-recommends-5-point-reform-plan/2859749","news"],["Next IAS: NITI Aayog report on apprenticeship","https://www.nextias.com/ca/current-affairs/21-02-2026/niti-aayog-apprenticeship-report","analysis"]],
+  kw:"NITI Aayog apprenticeship 2026 NAPS NATS apprentices stipend MSDE Ministry of Education skilling employment District Skill Committee Apprenticeship Engagement Index National Apprenticeship Mission MSME clusters women North East"
+},
+/* ---------- CAG · Haryana revenue (Compliance Audit Report II) ---------- */
+{
+  id:"cag-haryana-revenue-3-2024", body:"CAG", state:"Haryana", kind:"Compliance audit", reportNo:"Report No. 3 of 2024 (Haryana)",
+  title:"Report of the CAG on Compliance Audit Report II for the year ended March 2022, Government of Haryana", short:"Haryana Revenue Audit", sector:"Public finance", ministry:"Excise and Taxation, Revenue and Finance Departments, Government of Haryana",
+  date:"Mar 2025", dateISO:"2025-03-11", tabled:"Tabled in the Haryana Vidhan Sabha on 11 March 2025", period:"Year ended March 2022", flagged:1103.94, flaggedNote:"Under-assessment, short levy and loss of revenue found in test-checked records. These are amounts at issue, not confirmed losses; departments accepted ₹643.07 crore of it.",
+  tldr:[
+    "A test check of 104 tax offices found under-assessment, short levy or loss of revenue of ₹1,103.94 crore in 2,552 cases.",
+    "Departments accepted ₹643.07 crore in 1,077 cases, but recovered only ₹3.52 crore.",
+    "A GST check found deficiencies of ₹678.22 crore, and the state's IFMS let bills through without proper checks."
+  ],
+  en:"The CAG checked how Haryana collects sales tax, VAT, GST, state excise, stamp duty and registration fees. In 104 offices it found ₹1,103.94 crore of tax under-assessed, levied short or lost, across 2,552 cases. Most of it, ₹1,008.36 crore, was in sales tax and VAT. The departments accepted ₹643.07 crore but had recovered only ₹3.52 crore. The report also found weak checks in the state's IT system for payments, which allowed double pension and allowance payments.",
+  hi:"CAG ने जाँचा कि हरियाणा बिक्री कर, VAT, GST, राज्य उत्पाद शुल्क, स्टाम्प शुल्क और पंजीकरण शुल्क कैसे वसूलता है। 104 कार्यालयों में 2,552 मामलों में ₹1,103.94 करोड़ का कर कम आँका गया, कम लगाया गया या नुकसान हुआ। इसमें से ज़्यादातर, ₹1,008.36 करोड़, बिक्री कर और VAT में था। विभागों ने ₹643.07 करोड़ की आपत्तियाँ मानीं, लेकिन सिर्फ़ ₹3.52 करोड़ वसूले। रिपोर्ट में राज्य की भुगतान IT प्रणाली में कमज़ोर जाँच भी मिली, जिससे पेंशन और भत्तों का दोहरा भुगतान हुआ।",
+  context:{
+    what:"A compliance audit of Haryana's revenue sector for 2021-22: sales tax/VAT, GST, state excise, stamp duty and registration fees, plus an IT audit of the Integrated Financial Management System (IFMS).",
+    why:"The state raised ₹60,771.29 crore, about 78% of its ₹78,091.69 crore revenue receipts in 2021-22, from its own sources. Leaks in tax collection cut money for public services.",
+    how:"Test check of records in 104 units of the taxation, excise and revenue departments, a subject-specific audit of GST, and an IT audit of IFMS."
+  },
+  nums:[["₹1,103.94 cr","Revenue under-assessed, short levied or lost, in 2,552 cases",1],["₹643.07 cr","Accepted by departments, in 1,077 cases",0],["₹3.52 cr","Actually recovered, in 64 cases",1],["₹35,639.25 cr","Revenue arrears on 31 March 2022",1]],
+  themes:[
+    {name:"Sales tax and VAT", sev:"high", items:[
+      {t:"Irregularities in sales tax and VAT assessments in 578 cases.", amt:"₹1,008.36 cr"},
+      {t:"Under-assessment of tax in test-checked cases, with interest of ₹4.77 crore also leviable.", amt:"₹4.99 cr"}]},
+    {name:"GST oversight", sev:"high", items:[
+      {t:"A subject-specific audit of the department's oversight of GST payments and return filing found inconsistencies and compliance deficiencies.", amt:"₹678.22 cr"}]},
+    {name:"State excise and stamp duty", sev:"medium", items:[
+      {t:"Non or short realisation of excise duty, licence fee, interest or penalty in 24 of 106 excise units.", amt:"₹35.45 cr"},
+      {t:"Penalties for illicit liquor and licence fee dues not recovered.", amt:"₹7.46 cr"},
+      {t:"Short levy of stamp duty and registration fees in 1,308 cases.", amt:"₹60.13 cr"},
+      {t:"In 142 deeds, ₹18.22 crore was levied against ₹36.97 crore due.", amt:"₹18.75 cr"}]},
+    {name:"IFMS and payments", sev:"medium", items:[
+      {t:"Benchmarks for the IT system's objectives were not defined even after more than eight years.", amt:""},
+      {t:"Weak validation controls let bills be processed outside the set process, accepted invalid PANs, and allowed gratuity above the ceiling and double drawal of pension and travel allowance.", amt:""}]}
+  ],
+  charts:[
+    {title:"Revenue at issue by area", type:"bars", unit:"₹ crore", data:[["Sales tax and VAT",1008.36],["Stamp duty and registration",60.13],["State excise",35.45]]},
+    {title:"Of ₹1,103.94 crore flagged", type:"split", unit:"₹ crore", data:[["Accepted by departments",643.07],["Not accepted",460.87]]}
+  ],
+  recs:[
+    "Recover the amounts accepted by the departments and act on the other flagged cases.",
+    "Strengthen scrutiny of GST returns and payments.",
+    "Fix validation and input controls in IFMS so wrong or double payments are blocked."
+  ],
+  recsNote:"Summarised from the report's overview and published coverage.",
+  response:["The departments accepted ₹643.07 crore of the observations in 1,077 cases. The report goes to the Haryana Assembly's Public Accounts Committee."],
+  timeline:[["Mar 2022","Period audited ends"],["Mar 2022","Revenue arrears stand at ₹35,639.25 crore"],["11 Mar 2025","Report No. 3 of 2024 tabled in the Haryana Vidhan Sabha"]],
+  glossary:["Compliance audit","VAT","Excise","Stamp duty","Under-assessment","Input Tax Credit","IFMS","PAC"],
+  exam:{
+    prelims:[
+      "CAG's Compliance Audit Report II for Haryana for the year ended March 2022 (Report No. 3 of 2024) was tabled on 11 March 2025.",
+      "It found under-assessment, short levy or loss of revenue of ₹1,103.94 crore in 2,552 cases.",
+      "Haryana's revenue receipts in 2021-22 were ₹78,091.69 crore, of which about 78% was raised by the state itself.",
+      "Revenue arrears in some principal heads stood at ₹35,639.25 crore on 31 March 2022."
+    ],
+    mains:"Audit objections accepted by departments often go unrecovered. Discuss with reference to the CAG's audit of Haryana's revenue sector for 2021-22, and suggest ways to improve follow-up. (10 marks)",
+    quiz:[
+      {q:"In the CAG's Haryana revenue audit for 2021-22, which area had the largest amount at issue?", o:["State excise","Stamp duty and registration","Sales tax and VAT","Motor vehicles tax"], a:2, w:"Sales tax and VAT, with ₹1,008.36 crore in 578 cases."},
+      {q:"How much of the accepted amount had been recovered, per the audit?", o:["₹3.52 crore","₹64 crore","₹643.07 crore","₹1,103.94 crore"], a:0, w:"Only ₹3.52 crore in 64 cases, against ₹643.07 crore accepted."}
+    ]
+  },
+  related:["cag-haryana-finances-1-2026","cag-himachal-2-2025","cag-gst-20-2026"],
+  src:[["CAG: Compliance Audit Report II, Government of Haryana Report No. 3 of 2024 (report page)","https://cag.gov.in/en/audit-report/details/121683","official"],["CAG: Full report (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2024/Haryana-Report-No.3-English-15.11.2024-signed-067cedd74db4cb9.41948945.pdf","official"],["The Tribune: CAG report flags Rs 1,100 crore revenue loss in state","https://www.tribuneindia.com/news/haryana/cag-report-flags-rs1100-crore-revenue-loss-in-state","news"]],
+  kw:"Haryana CAG revenue audit 2021-22 sales tax VAT GST state excise stamp duty registration fees under-assessment IFMS pension double drawal Report 3 of 2024 tax loss arrears"
 }
+
 
 );
 
 /* map facts for the new state reports */
 Object.assign(window.STATE_FACTS_V2, {
-  HR:[...(window.STATE_FACTS_V2.HR||[]),["Capital spending was only 17.67% of borrowings in 2024-25 (CAG, 2026)","cag-haryana-finances-1-2026"]],
+  HR:[...(window.STATE_FACTS_V2.HR||[]),["Capital spending was only 17.67% of borrowings in 2024-25 (CAG, 2026)","cag-haryana-finances-1-2026"],["₹1,103.94 crore of revenue under-assessed or lost in 2,552 cases, 2021-22 (CAG, 2025)","cag-haryana-revenue-3-2024"]],
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
   OD:[...(window.STATE_FACTS_V2.OD||[]),["Utilisation certificates for ₹16,585.45 crore pending at end of 2024-25 (CAG, 2026)","cag-odisha-finances-3-2026"],["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
