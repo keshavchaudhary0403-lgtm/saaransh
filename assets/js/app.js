@@ -116,7 +116,7 @@ function show(v,opts={}){
     if(opts.sub) setSub(opts.sub[0],opts.sub[1]);
     $("#sheet").hidden=true;
   };
-  if(document.startViewTransition&&!reduced&&!opts.instant) document.startViewTransition(go); else go();
+  if(document.startViewTransition&&!reduced&&!opts.instant){const vt=document.startViewTransition(go);vt.ready.catch(()=>{});vt.finished.catch(()=>{})} else go();
 }
 document.addEventListener("click",e=>{const h=e.target.closest(".homelink");if(!h)return;e.preventDefault();closeReader();closePalette();if(curView==="home")window.scrollTo({top:0,behavior:reduced?"auto":"smooth"});else show("home")});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-view]:not(.view)");if(!b)return;const inner=e.target.closest("[data-open],[data-save],a,input,select");if(inner&&inner!==b&&b.contains(inner))return;e.preventDefault();closeReader();closePalette();show(b.dataset.view)});
@@ -194,7 +194,7 @@ $("#edition").textContent=`${R.length} reports · ${Y0}–${Y1}`;
   $("#receipt").innerHTML=`<div class="receipt" id="rcpt">
     <div class="rc-top"><span class="kick">Money flagged</span><span class="pill">${cagF.length} CAG audits</span></div>
     <div class="rc-total"><span class="fig" id="rcTot">₹${num(Math.round(flagTot),0)} cr</span><p>flagged in audits tabled ${esc(byDate[0].date)} – ${esc(byDate[byDate.length-1].date)}</p></div>
-    <ul class="rc-lines">${cagF.map((r,i)=>`<li class="rc-line${i===0?" top":""}" data-open="${r.id}" role="button" tabindex="0" style="--w:${Math.max(3,Math.sqrt(r.flagged)/mx*100).toFixed(1)}%;--d:${150+i*90}ms"><span class="nm">${esc(r.title)}${r.level==="State"?` <em>${esc(r.state)}</em>`:""}</span><b>${short(r.flagged)}</b><i class="bar"><i></i></i></li>`).join("")}</ul>
+    <ul class="rc-lines">${cagF.slice(0,8).map((r,i)=>`<li class="rc-line${i===0?" top":""}" data-open="${r.id}" role="button" tabindex="0" style="--w:${Math.max(3,Math.sqrt(r.flagged)/mx*100).toFixed(1)}%;--d:${150+i*90}ms"><span class="nm">${esc(r.title)}${r.level==="State"?` <em>${esc(r.state)}</em>`:""}</span><b>${short(r.flagged)}</b><i class="bar"><i></i></i></li>`).join("")}${cagF.length>8?`<li class="rc-more"><button data-pub-go="All" data-sort="money">+ ${cagF.length-8} more audits, ₹${num(Math.round(cagF.slice(8).reduce((a,r)=>a+r.flagged,0)),0)} cr together</button></li>`:""}</ul>
     <p class="rc-note">Not all of it is a loss: it includes money unspent, unaccounted for, or spent against the rules. Bars use a square-root scale.</p>
     <button class="rc-go" data-pub-go="All" data-sort="money">See them by amount <span>→</span></button>
   </div>`;
@@ -233,10 +233,10 @@ const SW={high:"Serious",med:"Notable",low:"Minor"};
 const SEVC={high:"red",med:"turm",low:"indigo"};
 (function(){
   const list=SEVR.map(r=>({r,items:r.themes.flatMap(t=>t.items.map(it=>({t:it.t,sev:t.sev,theme:t.name,amt:it.amt}))).sort((x,y)=>"hml".indexOf(x.sev[0])-"hml".indexOf(y.sev[0]))})).sort((x,y)=>y.items.filter(i=>i.sev==="high").length-x.items.filter(i=>i.sev==="high").length||y.items.length-x.items.length);
-  const all=list.flatMap(x=>x.items), c=k=>all.filter(i=>i.sev===k).length;
+  const all=list.flatMap(x=>x.items), c=k=>all.filter(i=>i.sev===k).length, TOP=16, shown=list.slice(0,TOP);
   let n=0; const FL=[];
-  const plot=list.map((x,gi)=>`<div class="sg" data-g="${gi}" style="flex:${x.items.length} 1 0"><div class="sg-bars">${x.items.map(it=>{FL.push({...it,r:x.r});return `<button class="sb ${it.sev}" data-fi="${FL.length-1}" aria-label="${SW[it.sev]}: ${esc(it.t)}" style="--d:${Math.min(n++,200)*6}ms"></button>`}).join("")}</div><button class="sg-lbl" data-open="${x.r.id}" data-tab="findings"><b>${x.items.length}</b>${esc(SHORT[x.r.id]||x.r.title)}</button></div>`).join("");
-  const idle=`<div class="pane idle"><span class="kick">Reading pane</span><p>Hover or tap a line to read the finding here. Click to open the report.</p><div class="tally"><div><b>${c("high")}</b>serious</div><div><b>${c("med")}</b>notable</div><div><b>${c("low")}</b>minor</div><div><b>${list.length}</b>reports</div></div></div>`;
+  const plot=shown.map((x,gi)=>`<div class="sg" data-g="${gi}" style="flex:${x.items.length} 1 0"><div class="sg-bars">${x.items.map(it=>{FL.push({...it,r:x.r});return `<button class="sb ${it.sev}" data-fi="${FL.length-1}" aria-label="${SW[it.sev]}: ${esc(it.t)}" style="--d:${Math.min(n++,200)*6}ms"></button>`}).join("")}</div><button class="sg-lbl" data-open="${x.r.id}" data-tab="findings"><b>${x.items.length}</b>${esc(SHORT[x.r.id]||x.r.title)}</button></div>`).join("");
+  const idle=`<div class="pane idle"><span class="kick">Reading pane</span><p>Hover or tap a line to read the finding here. Click to open the report.</p><div class="tally"><div><b>${c("high")}</b>serious</div><div><b>${c("med")}</b>notable</div><div><b>${c("low")}</b>minor</div><div><b>${list.length}</b>reports</div></div>${list.length>TOP?`<p class="muted" style="font-size:12px;margin-top:10px">Chart shows the ${TOP} reports with the most serious findings. Totals count all ${list.length}.</p>`:""}</div>`;
   $("#seis").innerHTML=`<div class="seis-plot"><div class="seis-in">${plot}</div></div><div id="pane">${idle}</div>`;
   const seis=$("#seis"), pane=$("#pane");
   let lock=null;
@@ -324,7 +324,7 @@ const setP=el=>el&&el.style.setProperty("--p",((el.value-el.min)/(el.max-el.min)
   const older=R.filter(r=>r.year<2019).sort((a,b)=>when(a)-when(b));
   const chip=r=>`<button class="fc c-${pub(r)}" data-open="${r.id}" title="${esc(r.title)} · ${esc(pubName(r))}"><span>${esc(r.title)}</span></button>`;
   $("#archive").innerHTML=`<div class="cal"><div class="cal-h"><span></span>${MO.map(m=>`<span>${m}</span>`).join("")}</div>
-    ${years.map(y=>{const L=R.filter(r=>r.year===y);return `<div class="cal-row"><div class="cal-y"><b>${y}</b><small>${L.length} report${L.length===1?"":"s"}</small></div>${MO.map((m,i)=>`<div class="cal-c">${L.filter(r=>(r.month||1)===i+1).map(chip).join("")}</div>`).join("")}</div>`}).join("")}</div>
+    ${years.map(y=>{const L=R.filter(r=>r.year===y);return `<div class="cal-row"><div class="cal-y"><b>${y}</b><small>${L.length} report${L.length===1?"":"s"}</small></div>${MO.map((m,i)=>{const M=L.filter(r=>(r.month||1)===i+1);return `<div class="cal-c">${M.slice(0,3).map(chip).join("")}${M.length>3?`<button class="fc-more" data-yr="${y}">+${M.length-3} more</button>`:""}</div>`}).join("")}</div>`}).join("")}</div>
     ${older.length?`<div class="cal-old"><span class="kick">Earlier landmarks</span>${older.map(r=>`<button data-open="${r.id}" class="c-${pub(r)}"><b>${r.year}</b> ${esc(r.title)}</button>`).join("")}</div>`:""}
     <div class="cal-key">${GROUPS.slice(1).filter(g=>R.some(g[2])).map(g=>`<span class="c-${g[1]}"><i></i>${esc(g[0])}</span>`).join("")}</div>`;
 })();
@@ -373,6 +373,7 @@ INIT.reports=()=>{
 function goReports(fn){closeReader();closePalette();fn();if(curView!=="reports")show("reports",{instant:true});syncLib()}
 document.addEventListener("click",e=>{
   if(e.target.closest("[data-saved-go]")){e.preventDefault();goReports(()=>{lib.tab="saved"});return}
+  const yr=e.target.closest("[data-yr]"); if(yr){e.preventDefault();goReports(()=>{lib.year=+yr.dataset.yr;lib.tab="all"});return}
   const p=e.target.closest("[data-pub-go]"); if(p){e.preventDefault();goReports(()=>{lib.group=p.dataset.pubGo;if(p.dataset.sort)lib.sort=p.dataset.sort;lib.tab="all"});return}
   const t=e.target.closest("[data-topic-go]"); if(t){e.preventDefault();goReports(()=>{lib.topic=t.dataset.topicGo;lib.tab="all"});return}
   const s=e.target.closest("[data-search]"); if(s&&!e.target.closest(".term")){openPalette(s.dataset.search);return}
