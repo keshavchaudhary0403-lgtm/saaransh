@@ -2,6 +2,14 @@
    Figures are as reported by the CAG / NITI Aayog and the published coverage cited in each `src`. */
 
 Object.assign(window.SITE.glossary, {
+  "AC bill": "Abstract Contingent bill: a bill used to draw money in advance for urgent spending, which must later be backed by a detailed bill (DC bill) showing how it was spent.",
+  "Trade deficit": "The amount by which a country's imports exceed its exports over a period.",
+  "FTA": "Free Trade Agreement: a deal between countries to cut or remove tariffs and other barriers on trade between them.",
+  "Critical minerals": "Minerals such as lithium, cobalt, nickel and copper that are vital for modern technology and clean energy, and whose supply is at risk.",
+  "HS code": "Harmonized System code: an international numbering system for traded products; six-digit codes are the most detailed level shared by all countries.",
+  "CBAM": "Carbon Border Adjustment Mechanism: the European Union's charge on the carbon emitted in making certain imports, such as steel and aluminium.",
+  "State Public University": "A university set up by a state law and funded mainly by the state government.",
+  "HEFA": "Higher Education Financing Agency: a joint venture of Canara Bank and the Ministry of Education that lends to central education institutions for infrastructure.",
   "CSIR": "Council of Scientific and Industrial Research: the body that runs India's network of national research laboratories, under the Department of Scientific and Industrial Research.",
   "LHRF": "Laboratory and Headquarter Reserve Fund: a CSIR fund built from the money its laboratories earn, meant to be spent on research, innovation and upkeep.",
   "Unfruitful expenditure": "Money spent on something that did not deliver its intended benefit, for example equipment bought but left unused.",
@@ -5038,6 +5046,205 @@ window.SPEC_REPORTS.push(
   related:["cag-haryana-finances-1-2026","cag-himachal-2-2025","cag-gst-20-2026"],
   src:[["CAG: Compliance Audit Report II, Government of Haryana Report No. 3 of 2024 (report page)","https://cag.gov.in/en/audit-report/details/121683","official"],["CAG: Full report (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2024/Haryana-Report-No.3-English-15.11.2024-signed-067cedd74db4cb9.41948945.pdf","official"],["The Tribune: CAG report flags Rs 1,100 crore revenue loss in state","https://www.tribuneindia.com/news/haryana/cag-report-flags-rs1100-crore-revenue-loss-in-state","news"]],
   kw:"Haryana CAG revenue audit 2021-22 sales tax VAT GST state excise stamp duty registration fees under-assessment IFMS pension double drawal Report 3 of 2024 tax loss arrears"
+},
+/* ---------- CAG · Bihar State Finances 2024-25 ---------- */
+{
+  id:"cag-bihar-finances-2-2026", body:"CAG", state:"Bihar", kind:"Financial audit", reportNo:"Report No. 2 of 2026 (Bihar)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Bihar (State Finances Audit Report)", short:"Bihar State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Bihar",
+  date:"Jul 2026", dateISO:"2026-07-23", tabled:"Tabled in the Bihar Legislative Assembly on 23 July 2026", period:"Financial year ended 31 March 2025", flagged:92132.75,
+  flaggedNote:"Grants for which 62,632 utilisation certificates were still pending on 31 March 2025. This is money not yet shown to be spent as intended, not a confirmed loss.",
+  tldr:[
+    "Utilisation certificates for ₹92,132.75 crore (62,632 UCs) were pending on 31 March 2025, up from ₹70,877.61 crore a year earlier.",
+    "Bihar spent ₹2,87,178.49 crore of a ₹3,64,518.87 crore budget; ₹77,340.38 crore (21.22%) went unspent.",
+    "The fiscal deficit was 4.16% of GSDP against a 3.5% target, and 4.37% after audit adjustments."
+  ],
+  en:"The CAG's report on Bihar's finances for 2024-25 finds weak control over how money is spent and accounted for. Departments had not sent utilisation certificates, the proof that grants were used as intended, for ₹92,132.75 crore. Some of these were due before 2019-20. About 21% of the budget was not spent, and most of the unspent money was not surrendered in time. The fiscal deficit crossed its target, and the CAG found the revenue deficit was much larger than the accounts showed once unpaid obligations were counted. Debt stayed within its ceiling at 37.72% of GSDP.",
+  hi:"2024-25 के लिए बिहार के वित्त पर CAG की रिपोर्ट बताती है कि पैसे के खर्च और उसके हिसाब पर नियंत्रण कमज़ोर है। विभागों ने ₹92,132.75 करोड़ के उपयोगिता प्रमाणपत्र नहीं भेजे थे, जो इस बात का सबूत होते हैं कि अनुदान सही काम पर खर्च हुआ। इनमें से कुछ 2019-20 से पहले ही बकाया हो गए थे। बजट का लगभग 21% खर्च नहीं हुआ, और ज़्यादातर बचा हुआ पैसा समय पर वापस (सरेंडर) नहीं किया गया। राजकोषीय घाटा अपने लक्ष्य से ऊपर गया, और CAG ने पाया कि बकाया देनदारियाँ जोड़ने पर राजस्व घाटा खातों में दिखाए गए आँकड़े से कहीं ज़्यादा था। कर्ज़ GSDP के 37.72% पर अपनी सीमा के भीतर रहा।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report for Bihar for 2024-25. It reviews the state's receipts, spending, deficits, debt, budget management and the quality of its accounts.",
+    why:"Bihar's GSDP was ₹9.92 lakh crore in 2024-25. Pending utilisation certificates in Bihar became a political issue after the CAG's 2025 report flagged ₹70,877 crore.",
+    how:"Analysis of the state's Finance Accounts and Appropriation Accounts for 2024-25, with audit adjustments to the reported deficits."
+  },
+  nums:[["₹92,132.75 cr","Grants without utilisation certificates, March 2025",1],["21.22%","Share of the budget left unspent",1],["4.16%","Fiscal deficit as % of GSDP (target 3.5%)",1],["37.72%","Outstanding liabilities as % of GSDP (ceiling 39.90%)",0]],
+  themes:[
+    {name:"Money not accounted for", sev:"high", items:[
+      {t:"62,632 utilisation certificates were pending on 31 March 2025; the number rose 26.15% over the year.", amt:"₹92,132.75 cr"},
+      {t:"3,505 of these UCs had fallen due before 2019-20.", amt:"₹21,515.36 cr"},
+      {t:"19,487 Abstract Contingent (AC) bills were pending adjustment on 31 March 2025; 1,366 of the 2,038 AC bills drawn in 2024-25 were drawn in March 2025.", amt:"₹10,361.74 cr"},
+      {t:"Only 33 of 398 Personal Ledger account administrators reconciled their balances, which stood at ₹31,830.36 crore.", amt:""}]},
+    {name:"Weak budgeting", sev:"high", items:[
+      {t:"Against a budget of ₹3,64,518.87 crore, the state spent ₹2,87,178.49 crore, leaving savings of 21.22%.", amt:"₹77,340.38 cr"},
+      {t:"86.57% of the savings were not surrendered.", amt:"₹66,952.02 cr"},
+      {t:"Supplementary provisions in 35 cases under 12 grants proved unnecessary.", amt:"₹6,225.58 cr"}]},
+    {name:"Deficits and debt", sev:"medium", items:[
+      {t:"The fiscal deficit was ₹41,222.50 crore, 4.16% of GSDP, above the 3.5% target; after audit it rose to 4.37%.", amt:""},
+      {t:"The revenue deficit of ₹357.38 crore (0.04% of GSDP) was ₹2,500.81 crore (0.25%) after audit adjustments, as reported by WION.", amt:""},
+      {t:"Undischarged liabilities such as short transfers to NPS and unpaid cesses came to 0.21% of GSDP.", amt:"₹2,139.82 cr"},
+      {t:"Outstanding liabilities were ₹3,74,134 crore (37.72% of GSDP); 50.18% of debt matures within seven years.", amt:""}]},
+    {name:"Spending pressure and PSUs", sev:"low", items:[
+      {t:"Committed expenditure rose 19.84%, the highest rise in five years, to 39.37% of revenue spending.", amt:""},
+      {t:"Own revenue grew 10.71%, slower than GSDP growth of 13.09%.", amt:"₹59,360 cr"},
+      {t:"State PSUs, with ₹45,665 crore of government investment, paid dividends of only ₹3.34 crore.", amt:""}]}
+  ],
+  charts:[
+    {title:"Budget 2024-25: spent and unspent", type:"split", unit:"₹ crore", data:[["Spent",287178.49],["Unspent (savings)",77340.38]]},
+    {title:"Grants waiting for utilisation certificates", type:"bars", unit:"₹ crore", data:[["April 2024",70877.61],["March 2025",92132.75]]},
+    {title:"Fiscal deficit, 2024-25", type:"bars", unit:"% of GSDP", data:[["FRBM target",3.5],["As per accounts",4.16],["After audit",4.37]]}
+  ],
+  recs:[
+    "Make departments submit utilisation certificates on time and clear the old backlog.",
+    "Prepare realistic budgets and surrender unspent money in time.",
+    "Record all liabilities, such as NPS and cess transfers, so deficits are shown correctly.",
+    "Reconcile Personal Deposit and Personal Ledger accounts regularly."
+  ],
+  recsNote:"Summarised from the audit's executive summary and coverage; see the full report for the CAG's exact recommendations.",
+  response:["No reply from the Bihar government on this report was reported in the coverage. The report goes to the Bihar Legislature's Public Accounts Committee."],
+  timeline:[["31 Mar 2025","62,632 UCs worth ₹92,132.75 crore pending"],["Jul 2025","Previous CAG report flags ₹70,877 crore of pending UCs in Bihar"],["Feb 2026","Finance Accounts 2024-25 sent to the state"],["23 Jul 2026","Report No. 2 of 2026 tabled in the Bihar assembly"]],
+  glossary:["Financial audit","GSDP","Fiscal deficit","Revenue deficit","Utilisation certificate","AC bill","Committed expenditure","Undischarged liabilities","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Bihar) is the State Finances Audit Report for 2024-25, tabled on 23 July 2026.",
+      "Utilisation certificates worth ₹92,132.75 crore (62,632 UCs) were pending in Bihar on 31 March 2025.",
+      "Bihar's fiscal deficit was 4.16% of GSDP in 2024-25 against a 3.5% target.",
+      "Bihar left ₹77,340.38 crore, or 21.22% of its 2024-25 budget, unspent."
+    ],
+    mains:"Pending utilisation certificates and large budget savings point to weak financial accountability in states. Discuss with reference to the CAG's 2024-25 State Finances Audit Report on Bihar. (15 marks)",
+    quiz:[
+      {q:"What does a utilisation certificate (UC) show?", o:["That a tax has been paid","That a grant was spent on the purpose it was given for","That a loan has been repaid","That a project was approved by the Cabinet"], a:1, w:"A UC is the proof that a grant was used as intended. Bihar had ₹92,132.75 crore of grants without UCs in March 2025."},
+      {q:"What share of Bihar's 2024-25 budget went unspent, per the CAG?", o:["About 5%","About 12%","About 21%","About 40%"], a:2, w:"₹77,340.38 crore of ₹3,64,518.87 crore, or 21.22%."},
+      {q:"Bihar's fiscal deficit in 2024-25 after audit adjustments was:", o:["3.50% of GSDP","4.16% of GSDP","4.37% of GSDP","6.17% of GSDP"], a:2, w:"4.16% per the accounts, 4.37% after the CAG's adjustments; the target was 3.5%."}
+    ]
+  },
+  related:["state-finances","cag-haryana-finances-1-2026","cag-wb-finances-2425"],
+  src:[["CAG: Bihar audit reports (Report No. 2 of 2026 listing)","https://cag.gov.in/ag2/bihar/en/audit-report","official"],["CAG: Executive Summary, State Finances Audit Report 2024-25, Bihar (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2026/3-Executive-Summary-C&AG's-SFAR-2024-25-GoB-06a61fb50f22850.67454465.pdf","official"],["ETV Bharat: Over 62K Utilization Certificates Worth Rs 92,133 Crore Pending In Bihar: CAG Report","https://www.etvbharat.com/en/bharat/over-62k-utilization-certificates-worth-rs-92133-crore-pending-in-bihar-cag-report-enn26072307231","news"],["WION: Seven states' revenue deficits higher than reported, CAG finds; Bihar up 7x","https://www.wionews.com/business-economy/seven-states-revenue-deficits-higher-than-reported-cag-finds-bihar-up-7x-chhattisgarh-doubles-1786013533224","news"]],
+  kw:"Bihar CAG state finances 2024-25 utilisation certificates UC pending 92132 crore AC bills DC bills budget savings fiscal deficit revenue deficit GSDP debt FRBM Personal Ledger accounts SNA committed expenditure Report 2 of 2026"
+},
+/* ---------- NITI · Trade Watch Quarterly Q1 FY27 ---------- */
+{
+  id:"niti-trade-watch-q1fy27-2026", body:"NITI", kind:"Policy report", reportNo:"Trade Watch Quarterly, ninth edition",
+  title:"Trade Watch Quarterly (April–June [Q1] FY27)", short:"Trade Watch Q1 FY27", sector:"Other", ministry:"NITI Aayog",
+  date:"Sep 2026", dateISO:"2026-09-16", tabled:"Released by NITI Aayog on 16 September 2026", period:"April to June 2026 (Q1 FY27)", flagged:null,
+  tldr:[
+    "India's merchandise exports grew 16% to US$129.5 billion in April–June 2026, but imports grew faster, 19.8%, to US$216.12 billion.",
+    "The merchandise trade deficit was US$86.62 billion; services ran a surplus of US$52.22 billion.",
+    "India's export share was below 1% in 4,361 products that make up 67.8% of global imports."
+  ],
+  en:"NITI Aayog's Trade Watch Quarterly tracks India's trade every three months. In April to June 2026, India's total trade grew 15.5% to US$506.9 billion. Goods exports rose 16%, led by mineral fuels, electrical machinery and iron and steel, and exports to free trade partners jumped 36.3%. But imports grew faster, so the goods trade deficit widened to US$86.62 billion. Services kept a large surplus. The edition's theme is metals and ores: India exports mostly iron, steel and aluminium, and depends on imports for critical minerals such as lithium and cobalt. The report says India is still a small player in most products the world buys, and needs to diversify.",
+  hi:"नीति आयोग की ट्रेड वॉच क्वार्टरली हर तीन महीने में भारत के व्यापार का हाल बताती है। अप्रैल से जून 2026 में भारत का कुल व्यापार 15.5% बढ़कर 506.9 अरब अमेरिकी डॉलर हो गया। वस्तुओं का निर्यात 16% बढ़ा, जिसमें खनिज ईंधन, बिजली की मशीनरी और लोहा-इस्पात आगे रहे, और मुक्त व्यापार साझेदारों को निर्यात 36.3% उछला। लेकिन आयात और तेज़ी से बढ़ा, इसलिए वस्तु व्यापार घाटा बढ़कर 86.62 अरब डॉलर हो गया। सेवाओं में बड़ा अधिशेष बना रहा। इस अंक का विषय धातुएँ और अयस्क है: भारत ज़्यादातर लोहा, इस्पात और एल्युमिनियम निर्यात करता है, और लिथियम व कोबाल्ट जैसे महत्वपूर्ण खनिजों के लिए आयात पर निर्भर है। रिपोर्ट कहती है कि दुनिया जो ज़्यादातर उत्पाद ख़रीदती है उनमें भारत अब भी छोटा खिलाड़ी है, और उसे विविधता लानी होगी।",
+  context:{
+    what:"The ninth edition of NITI Aayog's quarterly trade report, covering India's goods and services trade in April–June 2026, with a special focus on metals and ores.",
+    why:"Exports are central to India's growth plans. The report tracks where India gains or loses ground and which products and markets it is missing.",
+    how:"Analysis of India's trade data by product and partner, and of global import demand at the six-digit HS product level."
+  },
+  nums:[["US$129.5 bn","Merchandise exports, Q1 FY27 (up 16%)",0],["US$86.62 bn","Merchandise trade deficit, Q1 FY27",1],["US$52.22 bn","Services trade surplus, Q1 FY27",0],["4,361","Products where India's export share is below 1%",1]],
+  themes:[
+    {name:"Goods trade", sev:"medium", items:[
+      {t:"Merchandise exports grew 16% to US$129.5 billion; imports grew 19.8% to US$216.12 billion.", amt:""},
+      {t:"The merchandise trade deficit was US$86.62 billion, 26% higher than a year earlier.", amt:""},
+      {t:"Mineral fuels were 28.6% of exports (up 37.4%) and electrical machinery 19.8% (up 20%); iron and steel exports rose 22.9%.", amt:""}]},
+    {name:"Markets and FTAs", sev:"low", items:[
+      {t:"Exports to FTA partners rose 36.3% to US$52.66 billion, while imports from them rose 10% to US$71.99 billion.", amt:""},
+      {t:"Tanzania entered India's top 10 export destinations, with exports up 146.7%.", amt:""}]},
+    {name:"Missing out on global demand", sev:"high", items:[
+      {t:"In 4,361 six-digit products, worth US$17.49 trillion or 67.8% of global imports in 2025, India's average export share was below 1% (0.2% on average).", amt:""},
+      {t:"Products where India held over 10% of world markets made up 28.1% of its exports but only 2.6% of global imports.", amt:""}]},
+    {name:"Metals and critical minerals", sev:"medium", items:[
+      {t:"India's metals exports were US$34.8 billion in 2025; iron and steel, their articles and aluminium made up about 78%.", amt:""},
+      {t:"Imports of metals and ores rose from US$32.2 billion in 2015 to US$60.5 billion in 2025.", amt:""},
+      {t:"India depends on imports for critical minerals such as copper, lithium, cobalt and nickel.", amt:""}]}
+  ],
+  charts:[
+    {title:"India's trade, April–June 2026", type:"bars", unit:"US$ bn", data:[["Goods exports",129.5],["Goods imports",216.12],["Services exports",106.75],["Services imports",54.53]]},
+    {title:"Metals and ores imports", type:"bars", unit:"US$ bn", data:[["2015",32.2],["2025",60.5]]}
+  ],
+  recs:[
+    "Diversify exports into high-demand products and new markets.",
+    "Step up domestic exploration, recycling and value addition for critical minerals.",
+    "Cut logistics and financing costs for exporters.",
+    "Prepare metal exporters for rules such as the EU's carbon border tax (CBAM) on steel and aluminium."
+  ],
+  recsNote:"Summarised from coverage by ThePrint and Civilsdaily. They are suggestions, not adopted policy.",
+  response:["The report was launched by NITI Aayog Vice Chairman Ashok Lahiri, who said India needs to diversify. It is an analytical report and does not call for a formal government response."],
+  timeline:[["Apr–Jun 2026","Period covered (Q1 FY27)"],["16 Sep 2026","Ninth edition of Trade Watch Quarterly released"]],
+  glossary:["Trade deficit","FTA","Critical minerals","HS code","CBAM"],
+  exam:{
+    prelims:[
+      "NITI Aayog's Trade Watch Quarterly for April–June (Q1) FY27 is the ninth edition, with a focus on metals and ores.",
+      "India's merchandise exports were US$129.5 billion in Q1 FY27, up 16% year on year.",
+      "India's merchandise trade deficit in Q1 FY27 was US$86.62 billion, while services showed a surplus of US$52.22 billion.",
+      "The EU's Carbon Border Adjustment Mechanism (CBAM) covers steel and aluminium, both key Indian metal exports."
+    ],
+    mains:"India's exports are concentrated in products where global demand is small. Examine the challenges in diversifying India's export basket, with reference to NITI Aayog's Trade Watch Quarterly for Q1 FY27. (15 marks)",
+    quiz:[
+      {q:"What is the thematic focus of NITI Aayog's Trade Watch Quarterly for Q1 FY27?", o:["Textiles and apparel","Metals and ores","Pharmaceuticals","Electronics"], a:1, w:"The ninth edition focuses on metals and ores, including critical minerals."},
+      {q:"Which category was India's largest merchandise export in Q1 FY27, per the report?", o:["Electrical machinery","Iron and steel","Mineral fuels","Vehicles"], a:2, w:"Mineral fuels were 28.6% of exports; electrical machinery was 19.8%."},
+      {q:"In how many six-digit products was India's average export share below 1% in 2025?", o:["428","1,361","4,361","10,000"], a:2, w:"4,361 products, together worth US$17.49 trillion or 67.8% of global imports."}
+    ]
+  },
+  related:["niti-epi-2024","niti-manufacturing-hub-2026","cag-customs-dgft-25-2026"],
+  src:[["NITI Aayog: Trade Watch Quarterly (April–June [Q1] FY27)","https://www.niti.gov.in/whats-new/trade-watch-quarterly-april-june-q1-fy27","official"],["ThePrint: India's exports rise 16% in Q1 but presence remains limited in high-demand global products: NITI Aayog","https://theprint.in/economy/indias-exports-rise-16-in-q1-but-presence-remains-limited-in-high-demand-global-products-niti-aayog/3044867/","news"],["Civilsdaily: NITI Aayog Trade Watch Quarterly","https://www.civilsdaily.com/news/niti-aayog-trade-watch-quarterly/","analysis"]],
+  kw:"NITI Aayog Trade Watch Quarterly Q1 FY27 April June 2026 exports imports trade deficit services surplus metals ores critical minerals lithium cobalt copper nickel iron steel aluminium CBAM FTA Tanzania export diversification HS products global market share"
+},
+/* ---------- NITI · State Public Universities ---------- */
+{
+  id:"niti-spu-2025", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report",
+  title:"Expanding Quality Higher Education through States and State Public Universities", short:"State Public Universities Report", sector:"Education & institutions", ministry:"NITI Aayog (state higher education departments)",
+  date:"Feb 2025", dateISO:"2025-02-10", tabled:"Released by NITI Aayog on 10 February 2025", period:"Data up to 2021-22", flagged:null,
+  tldr:[
+    "State Public Universities (SPUs) teach about 81% of India's higher education students, so NEP 2020's goals depend on them.",
+    "The report makes 80 policy recommendations under 12 sub-themes across quality, funding, governance and employability.",
+    "It suggests a HEFA-like finance agency for SPUs and letting top SPUs raise fees by 5% to 10% a year, with scholarships for poor students."
+  ],
+  en:"Most Indian students in higher education study in universities run by state governments, not in central institutions like IITs. NITI Aayog's report looks at how these State Public Universities can improve. It finds they depend heavily on state grants, have little freedom to raise money or set fees, and face slow, opaque appointments and limited links with industry. The report makes 80 recommendations. They include a dedicated finance agency, fee autonomy for well-run universities, governing councils led by academics with few political appointees, and state-level higher education policies. The aim is to help reach NEP 2020's target of 50% enrolment by 2035.",
+  hi:"उच्च शिक्षा में पढ़ने वाले ज़्यादातर भारतीय छात्र IIT जैसे केंद्रीय संस्थानों में नहीं, बल्कि राज्य सरकारों के विश्वविद्यालयों में पढ़ते हैं। नीति आयोग की यह रिपोर्ट देखती है कि ये राज्य सार्वजनिक विश्वविद्यालय कैसे बेहतर हो सकते हैं। रिपोर्ट पाती है कि ये राज्य अनुदान पर बहुत निर्भर हैं, इनके पास पैसा जुटाने या फ़ीस तय करने की आज़ादी कम है, नियुक्तियाँ धीमी और अपारदर्शी हैं, और उद्योग से जुड़ाव सीमित है। रिपोर्ट 80 सिफ़ारिशें करती है। इनमें एक अलग वित्त एजेंसी, अच्छी तरह चलने वाले विश्वविद्यालयों को फ़ीस की स्वायत्तता, शिक्षाविदों के नेतृत्व वाली और कम राजनीतिक नियुक्तियों वाली प्रबंधन परिषदें, और राज्य स्तर की उच्च शिक्षा नीतियाँ शामिल हैं। मक़सद NEP 2020 के 2035 तक 50% नामांकन के लक्ष्य तक पहुँचने में मदद करना है।",
+  context:{
+    what:"A NITI Aayog policy report on State Public Universities: universities set up and funded by state governments, which teach most of India's higher education students.",
+    why:"NEP 2020 aims to raise the Gross Enrolment Ratio in higher education to 50% by 2035, from 28.4 in 2021-22. That cannot happen without stronger state universities.",
+    how:"Consultations with 20 states and UTs, the Union government, vice-chancellors, academics from over 50 SPUs and heads of state higher education councils, plus analysis of national data."
+  },
+  nums:[["81%","Share of higher education enrolment in SPUs",0],["80","Policy recommendations",0],["28.4","Gross Enrolment Ratio, 2021-22",1],["50%","NEP 2020 GER target for 2035",0]],
+  themes:[
+    {name:"Money", sev:"high", items:[
+      {t:"SPUs rely heavily on state grants that are not enough, and on traditional sources of revenue.", amt:""},
+      {t:"They have little autonomy to raise funds or adjust fees.", amt:""}]},
+    {name:"Governance", sev:"medium", items:[
+      {t:"Limited administrative autonomy and opaque appointments hold SPUs back.", amt:""},
+      {t:"The report wants governing councils with a majority of academics, researchers, alumni and administrators, and minimal or no political appointees.", amt:""}]},
+    {name:"Links with industry and jobs", sev:"medium", items:[
+      {t:"Private sector engagement with SPUs is limited.", amt:""},
+      {t:"Employability is one of the four thematic areas of the recommendations.", amt:""}]}
+  ],
+  charts:[
+    {title:"Who teaches India's higher education students", type:"split", unit:"% of enrolment", data:[["State Public Universities",81],["Other institutions",19]]},
+    {title:"Gross Enrolment Ratio in higher education", type:"bars", unit:"%", data:[["2021-22",28.4],["NEP target, 2035",50]]}
+  ],
+  recs:[
+    "Set up a finance agency for SPUs similar to the Higher Education Financing Agency (HEFA).",
+    "Let select well-managed SPUs pilot fee autonomy, raising fees 5% to 10% a year in line with inflation, with scholarships and fee waivers for disadvantaged students.",
+    "Grow self-financed programmes, consultancy and alumni funding, and give tax exemptions on CSR grants and research income.",
+    "Move to a regulatory-facilitator model and frame state-level higher education policies."
+  ],
+  recsNote:"A selection of the 80 recommendations, as reported by ThePrint. They are suggestions, not adopted policy.",
+  response:["The report was released by NITI Aayog Vice Chairman Suman Bery, CEO B.V.R. Subrahmanyam and Member Dr Vinod Kumar Paul. No formal government decision on it is reported."],
+  timeline:[["2020","NEP 2020 sets a 50% GER target for 2035"],["2021-22","GER in higher education at 28.4"],["10 Feb 2025","Report released by NITI Aayog"]],
+  glossary:["State Public University","GER","NEP 2020","HEFA"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Expanding Quality Higher Education through States and State Public Universities' on 10 February 2025.",
+      "State Public Universities account for about 81% of student enrolment in higher education.",
+      "The report has 80 recommendations under 12 sub-themes in four areas: quality, funding and financing, governance, and employability.",
+      "NEP 2020 targets a Gross Enrolment Ratio of 50% in higher education by 2035."
+    ],
+    mains:"State Public Universities carry most of India's higher education load but lack funds and autonomy. Discuss the reforms needed, with reference to NITI Aayog's 2025 report on SPUs. (15 marks)",
+    quiz:[
+      {q:"About what share of India's higher education students study in State Public Universities?", o:["About 20%","About 45%","About 81%","About 95%"], a:2, w:"About 81% of enrolment, per the Ministry of Education explainer on the report."},
+      {q:"NITI Aayog's SPU report suggests a finance agency modelled on which body?", o:["NABARD","HEFA","SIDBI","NHB"], a:1, w:"It suggests a finance agency similar to the Higher Education Financing Agency (HEFA), dedicated to SPUs."},
+      {q:"What GER target does NEP 2020 set for higher education by 2035?", o:["35%","40%","50%","75%"], a:2, w:"50% by 2035."}
+    ]
+  },
+  related:["niti-higher-ed-intl-2025","school-education-2026","niti-ease-rd-2026"],
+  src:[["All India Radio News: NITI Aayog releases report on strengthening State Public Universities","https://www.newsonair.gov.in/niti-aayog-releases-report-on-strengthening-state-public-universities-highlights-nep-2020-goals","official"],["PIB (Ministry of Education) explainer on higher education and the NITI Aayog SPU report (PDF)","https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc2025213501401.pdf","official"],["ThePrint: NITI Aayog calls for HEFA-like finance agency, fee autonomy to improve state public universities","https://theprint.in/india/education/niti-aayog-calls-for-hefa-like-finance-agency-fee-autonomy-to-improve-state-public-universities/2488313","news"]],
+  kw:"NITI Aayog State Public Universities SPU higher education 2025 GER NEP 2020 HEFA fee autonomy governance funding employability vice-chancellors state universities enrolment 81% 80 recommendations"
 }
 
 
@@ -5045,6 +5252,7 @@ window.SPEC_REPORTS.push(
 
 /* map facts for the new state reports */
 Object.assign(window.STATE_FACTS_V2, {
+  BR:[...(window.STATE_FACTS_V2.BR||[]),["Utilisation certificates for ₹92,132.75 crore pending in March 2025 (CAG, 2026)","cag-bihar-finances-2-2026"]],
   HR:[...(window.STATE_FACTS_V2.HR||[]),["Capital spending was only 17.67% of borrowings in 2024-25 (CAG, 2026)","cag-haryana-finances-1-2026"],["₹1,103.94 crore of revenue under-assessed or lost in 2,552 cases, 2021-22 (CAG, 2025)","cag-haryana-revenue-3-2024"]],
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
