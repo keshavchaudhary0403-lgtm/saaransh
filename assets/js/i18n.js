@@ -45,11 +45,39 @@ const HI={
 "oxygen plants in West Bengal were not commissioned or not working.":"पश्चिम बंगाल के ऑक्सीजन प्लांट चालू नहीं हुए या काम नहीं कर रहे थे।",
 "is what India needs to invest to reach net zero by 2070.":"का निवेश भारत को 2070 तक नेट ज़ीरो के लिए चाहिए।"
 };
+Object.assign(HI,{
+"Front page":"मुख्य पृष्ठ","Home":"होम","Patterns":"पैटर्न","Search":"खोजें","Today":"आज","More":"और","Latest":"ताज़ा","LATEST":"ताज़ा",
+"Independent · Plain language · English & हिंदी":"स्वतंत्र · सरल भाषा · English और हिंदी",
+"The reel":"रील","Numbers that stop you":"आँकड़े जो रोक दें","Every finding, filed":"हर निष्कर्ष, दर्ज","The seismograph":"सीस्मोग्राफ़",
+"One line for every finding in every report. Taller lines are more serious. Run your cursor across it.":"हर रिपोर्ट के हर निष्कर्ष के लिए एक रेखा। ऊँची रेखा यानी ज़्यादा गंभीर। कर्सर घुमाकर पढ़ें।",
+"Serious":"गंभीर","Notable":"उल्लेखनीय","Minor":"मामूली","Reading pane":"पढ़ने की जगह",
+"Hover or tap a line to read the finding here. Click to open the report.":"निष्कर्ष पढ़ने के लिए रेखा पर जाएँ या टैप करें। रिपोर्ट खोलने के लिए क्लिक करें।",
+"Where it breaks":"कहाँ टूटता है","Serious findings, by sector":"क्षेत्रवार गंभीर निष्कर्ष","How the states stand":"राज्य कहाँ खड़े हैं","All states →":"सभी राज्य →",
+"Counts findings in themes the reports rate serious. Click a sector to see its reports.":"रिपोर्टों में गंभीर माने गए विषयों के निष्कर्ष। क्षेत्र की रिपोर्ट देखने के लिए क्लिक करें।",
+"Before you scroll on":"आगे बढ़ने से पहले","Lock it in":"पक्का करें","Another question":"दूसरा सवाल","Try another":"एक और","Read the report":"रिपोर्ट पढ़ें",
+"The archive":"संग्रह","Filed, year by year":"साल-दर-साल दर्ज","Open the library →":"लाइब्रेरी खोलें →","Earlier landmarks":"पुराने अहम ऑडिट",
+"Read the brief":"सार पढ़ें","CAG AUDITS · ITEMISED":"CAG ऑडिट · ब्योरेवार","TOTAL FLAGGED":"कुल चिह्नित","FLAGGED":"चिह्नित","By amount →":"राशि के अनुसार →",
+"Not all of this is a loss. It includes money unspent, unaccounted for, or spent against the rules. Each report says which.":"यह सब नुक़सान नहीं है। इसमें बिना ख़र्च, बिना हिसाब या नियमों के ख़िलाफ़ ख़र्च हुई राशि शामिल है। हर रिपोर्ट बताती है कौन-सी।",
+"The library":"लाइब्रेरी","Every report, decoded":"हर रिपोर्ट, सरल भाषा में","Publisher":"प्रकाशक","Topic":"विषय","Year":"साल","Yours":"आपकी","Saved":"सहेजी गईं","Everyone":"सभी","All topics":"सभी विषय","Reset filters":"फ़िल्टर हटाएँ",
+"Newest":"नवीनतम","₹ flagged":"₹ चिह्नित","A–Z":"अ–ज़","Filter by scheme, ministry, state…":"योजना, मंत्रालय, राज्य से छाँटें…",
+"The numbers, at their true size":"आँकड़े, अपने असली आकार में","Money to scale":"पैमाने पर पैसा","Long-run trends":"लंबे रुझान","Key figures":"मुख्य आँकड़े","Drag sideways to zoom":"ज़ूम के लिए बगल में खींचें","Open the report →":"रिपोर्ट खोलें →",
+"Different audits. The same failures.":"अलग ऑडिट, वही चूकें।","A footnote":"एक टिप्पणी","Why so few people read these reports":"ये रिपोर्टें इतने कम लोग क्यों पढ़ते हैं",
+"What the reports say about your state":"आपके राज्य के बारे में रिपोर्टें क्या कहती हैं","SDG index":"SDG सूचकांक","Findings":"निष्कर्ष","has findings":"निष्कर्ष हैं","no data":"डेटा नहीं",
+"Know the numbers before the exam does":"परीक्षा से पहले आँकड़े जानिए","Estimate":"अनुमान","MCQs":"MCQ","Flashcards":"फ़्लैशकार्ड","Mains":"मेन्स","Tap a card to turn it over.":"पलटने के लिए कार्ड पर टैप करें।",
+"Lock in my guess":"मेरा अनुमान पक्का करें","Skip":"छोड़ें","Your score":"आपका स्कोर","Start over":"फिर से शुरू","Next question →":"अगला सवाल →","See my score":"मेरा स्कोर देखें","Copy question":"सवाल कॉपी करें","Read the report →":"रिपोर्ट पढ़ें →",
+"How India audits itself":"भारत अपना ऑडिट कैसे करता है","The CAG":"CAG","A report's journey":"एक रिपोर्ट का सफ़र","Landmark audits":"ऐतिहासिक ऑडिट","Reading a report":"रिपोर्ट कैसे पढ़ें","Glossary":"शब्दावली","Three kinds of audit":"तीन तरह के ऑडिट","Search terms":"शब्द खोजें",
+"Contents":"विषय-सूची","The gist":"सार","What they found":"क्या पाया","In numbers":"आँकड़ों में","The reply":"जवाब","For exams":"परीक्षा के लिए","Sources":"स्रोत","In plain words":"सरल शब्दों में",
+"What it is":"यह क्या है","Why it matters":"यह क्यों ज़रूरी है","How it was audited":"ऑडिट कैसे हुआ","How it was studied":"अध्ययन कैसे हुआ","What was checked":"क्या जाँचा गया","Expand all":"सब खोलें","Collapse all":"सब बंद करें",
+"Save for later":"बाद के लिए सहेजें","Practise this report":"इस रिपोर्ट से अभ्यास","Read next":"आगे पढ़ें","Terms used":"इस्तेमाल हुए शब्द","Prelims pointers":"प्रीलिम्स बिंदु","Test yourself":"खुद को परखें","Mains practice question":"मेन्स अभ्यास प्रश्न",
+"What happened next":"आगे क्या हुआ","Timeline":"समयरेखा","What it means for you":"आपके लिए इसका मतलब","Read the original before quoting a figure.":"कोई आँकड़ा उद्धृत करने से पहले मूल रिपोर्ट पढ़ें।",
+"Newer":"नई","Older →":"पुरानी →","← Newer":"← नई","Publisher":"प्रकाशक","Report":"रिपोर्ट","Type":"प्रकार","Tabled":"पेश","Ministry":"मंत्रालय","Covers":"अवधि","Reading time":"पढ़ने का समय",
+"Saved reports":"सहेजी गई रिपोर्ट्स","Skip to content":"सामग्री पर जाएँ","Close report":"रिपोर्ट बंद करें","Save report":"रिपोर्ट सहेजें","Copy summary":"सार कॉपी करें","minor":"मामूली","reports":"रिपोर्ट्स","Public finance":"सार्वजनिक वित्त","Education & institutions":"शिक्षा और संस्थान","Skilling & employment":"कौशल और रोज़गार","Roads & infrastructure":"सड़क और बुनियादी ढाँचा","Social welfare":"समाज कल्याण"
+});
 const MON={Jan:"जनवरी",Feb:"फ़रवरी",Mar:"मार्च",Apr:"अप्रैल",May:"मई",Jun:"जून",Jul:"जुलाई",Aug:"अगस्त",Sep:"सितंबर",Oct:"अक्टूबर",Nov:"नवंबर",Dec:"दिसंबर"};
 const RX=[
  [/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4})$/,(m,a,b)=>MON[a]+" "+b],[/^(\d{1,2}) (Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) (\d{4})$/,(m,d,a,b)=>d+" "+MON[a]+" "+b],
  [/^(\d+) CAG audits$/,"$1 CAG ऑडिट"],[/^\+(\d+) in (\d{4})$/,"$2 में +$1"],[/^All (\d+) →$/,"सभी $1 →"],[/^Reports from (\d{4}) – (\d{4})$/,"$1 – $2 की रिपोर्ट्स"],
- [/^Updated (.+)$/,(m,a)=>"अपडेट: "+(tr(a)||a)],[/^(\d+) min$/,"$1 मिनट"],[/^(₹?[\d,.]+) lakh cr$/,"$1 लाख करोड़"],[/^(₹?[\d,.]+) cr$/,"$1 करोड़"],[/^(₹?[\d,.]+) lakh$/,"$1 लाख"],[/^(₹?[\d,.]+) crore$/,"$1 करोड़"],[/^(CAG )?Report No\. (\d+) of (\d{4}(?:-\d{2})?)(.*)$/,"$1रिपोर्ट संख्या $2 ($3)$4"],[/^(\d+) others$/,"$1 अन्य"],
+ [/^Updated (.+)$/,(m,a)=>"अपडेट: "+(tr(a)||a)],[/^(\d+) min$/,"$1 मिनट"],[/^· (\d+) min read$/,"· $1 मिनट"],[/^(\d+) min read$/,"$1 मिनट"],[/^(\d+) findings$/,"$1 निष्कर्ष"],[/^(\d+) of (\d+) reports$/,"$2 में से $1 रिपोर्ट्स"],[/^(\d+) reports · (\d{4})–(\d{4})$/,"$1 रिपोर्ट्स · $2–$3"],[/^(₹?[\d,.]+) lakh cr$/,"$1 लाख करोड़"],[/^(₹?[\d,.]+) cr$/,"$1 करोड़"],[/^(₹?[\d,.]+) lakh$/,"$1 लाख"],[/^(₹?[\d,.]+) crore$/,"$1 करोड़"],[/^(CAG )?Report No\. (\d+) of (\d{4}(?:-\d{2})?)(.*)$/,"$1रिपोर्ट संख्या $2 ($3)$4"],[/^(\d+) others$/,"$1 अन्य"],
  [/^audits, indices and surveys from (\d+) publishers, (\d{4}) – (\d{4})\.$/,"$2 – $3 तक $1 प्रकाशकों के ऑडिट, सूचकांक और सर्वे।"],
  [/^flagged in CAG audits tabled (.+) – (.+)\. Not all of it is a loss\.$/,"$1 – $2 के बीच प्रस्तुत CAG ऑडिट में चिह्नित। यह सब नुक़सान नहीं है।"]
 ];
