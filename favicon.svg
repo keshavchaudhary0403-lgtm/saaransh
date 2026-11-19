@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <g transform="rotate(45 32 32)" fill="#7A52F4">
-    <rect x="11" y="11" width="19.5" height="19.5" rx="5"/>
-    <rect x="33.5" y="11" width="19.5" height="19.5" rx="5" opacity=".75"/>
-    <rect x="11" y="33.5" width="19.5" height="19.5" rx="5" opacity=".55"/>
-    <rect x="33.5" y="33.5" width="19.5" height="19.5" rx="5" opacity=".35"/>
+  <style>.i{fill:#1D2D6B}@media (prefers-color-scheme:dark){.i{fill:#EFE3CA}}</style>
+  <g transform="rotate(45 32 32)">
+    <rect x="11" y="11" width="19.5" height="19.5" rx="5" fill="#F0402A"/>
+    <rect class="i" x="33.5" y="11" width="19.5" height="19.5" rx="5"/>
+    <rect class="i" x="11" y="33.5" width="19.5" height="19.5" rx="5" opacity=".6"/>
+    <rect class="i" x="33.5" y="33.5" width="19.5" height="19.5" rx="5" opacity=".35"/>
   </g>
 </svg>

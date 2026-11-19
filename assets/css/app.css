@@ -81,9 +81,15 @@ mark.n{background:none;color:inherit;font-weight:600}
 .mast.scrolled{background:color-mix(in srgb,var(--bg) 78%,transparent);backdrop-filter:saturate(1.6) blur(16px);-webkit-backdrop-filter:saturate(1.6) blur(16px)}
 .mast-in{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut);height:52px;display:flex;align-items:center;gap:20px}
 .wordmark{display:flex;align-items:center;gap:10px;flex:none}
-.seal{width:38px;height:38px;display:grid;place-items:center;background:#1D2D6B;color:#FFFFFF;font:600 18px/1 "Noto Sans Devanagari",sans-serif;border-radius:12px;transition:transform .5s var(--spring),background .3s,color .3s;padding-top:2px;flex:none}
-:root[data-theme="dark"] .seal{background:var(--acc);color:#FFFFFF}
-.wordmark:hover .seal{transform:rotate(-8deg) scale(1.06);background:var(--acc);color:#FFFFFF}
+.mark{width:38px;height:38px;flex:none;overflow:visible;color:var(--ink)}
+.mark rect{fill:currentColor;transition:transform .5s var(--spring),opacity .3s;transform-box:fill-box;transform-origin:center}
+.mark .m1{fill:#F0402A}
+.mark .m3{opacity:.6}
+.mark .m4{opacity:.35}
+.wordmark:hover .mark .m1{transform:translate(-2px,-2px)}
+.wordmark:hover .mark .m2{transform:translate(2px,-2px)}
+.wordmark:hover .mark .m3{transform:translate(-2px,2px)}
+.wordmark:hover .mark .m4{transform:translate(2px,2px)}
 .wm b{display:block;font:700 19px/1 var(--f-disp);letter-spacing:-.03em}
 .wm small{display:block;font:500 11.5px/1 var(--f-sans);color:var(--ink3);margin-top:4px}
 .nav{display:flex;position:relative;margin:0 auto;background:var(--card);border-radius:999px;padding:5px;box-shadow:var(--shadow)}
@@ -1081,7 +1087,7 @@ main{min-height:70vh}
 .colophon.wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:12px 40px;padding:32px;margin-top:16px;margin-bottom:24px;background:var(--inv);color:var(--inv-fg);border-radius:var(--r);max-width:calc(var(--wrap) - var(--gut)*2)}
 @media (max-width:1344px){.colophon.wrap{margin-left:var(--gut);margin-right:var(--gut)}}
 .col-brand{display:flex;gap:14px;align-items:flex-start;grid-row:span 2}
-.col-brand .seal{background:var(--acc);color:#FFFFFF}
+.col-brand .mark{width:42px;height:42px;color:var(--inv-fg)}
 .col-brand p{font:500 20px/1.35 var(--f-disp);letter-spacing:-.02em;max-width:28ch}
 .colophon .fine{font-size:12.5px;color:var(--inv-mut);line-height:1.6}
 .colophon kbd{background:var(--inv2);border-color:var(--inv2);color:var(--inv-fg)}
