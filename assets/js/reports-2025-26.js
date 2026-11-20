@@ -224,7 +224,16 @@ Object.assign(window.SITE.glossary, {
   "District Skill Committee": "A district-level body that plans and oversees skilling and apprenticeship programmes in its district.",
   "VAT": "Value Added Tax: the state sales tax that GST largely replaced in 2017; it still applies to items such as petrol, diesel and liquor.",
   "Stamp duty": "A state tax paid on documents such as property sale deeds, usually along with a registration fee.",
-  "Under-assessment": "When a tax officer works out less tax than is actually due from a taxpayer."
+  "Under-assessment": "When a tax officer works out less tax than is actually due from a taxpayer.",
+  "Revenue deficit": "The gap when a government's day-to-day spending (salaries, pensions, interest, subsidies) is more than its revenue receipts, so it borrows to meet running costs.",
+  "DCC bill": "Detailed Countersigned Contingent bill: the bill that shows how money drawn in advance on an AC bill was actually spent, countersigned by a senior officer.",
+  "Excess expenditure": "Spending above the amount the legislature approved for a grant; the Constitution requires the legislature to regularise it later.",
+  "Off-budget borrowing": "Loans taken by state-owned bodies to pay for government schemes and repaid from the budget, but not shown as government debt in the budget.",
+  "SPSE": "State Public Sector Enterprise: a company or corporation owned and controlled by a state government.",
+  "FHTC": "Functional Household Tap Connection: a home tap that supplies enough drinking water of the set quality regularly, the Jal Jeevan Mission's unit of coverage.",
+  "Udyam": "The Ministry of MSME's online portal where micro, small and medium enterprises register for free and get a Udyam registration number.",
+  "Working capital": "The short-term money a business needs to run day to day, such as for raw materials, wages and bills, before customers pay.",
+  "Industry 4.0": "The use of automation, data, sensors, robotics and artificial intelligence in manufacturing, sometimes called the fourth industrial revolution."
 });
 
 window.SPEC_REPORTS.push(
@@ -5245,6 +5254,211 @@ window.SPEC_REPORTS.push(
   related:["niti-higher-ed-intl-2025","school-education-2026","niti-ease-rd-2026"],
   src:[["All India Radio News: NITI Aayog releases report on strengthening State Public Universities","https://www.newsonair.gov.in/niti-aayog-releases-report-on-strengthening-state-public-universities-highlights-nep-2020-goals","official"],["PIB (Ministry of Education) explainer on higher education and the NITI Aayog SPU report (PDF)","https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/feb/doc2025213501401.pdf","official"],["ThePrint: NITI Aayog calls for HEFA-like finance agency, fee autonomy to improve state public universities","https://theprint.in/india/education/niti-aayog-calls-for-hefa-like-finance-agency-fee-autonomy-to-improve-state-public-universities/2488313","news"]],
   kw:"NITI Aayog State Public Universities SPU higher education 2025 GER NEP 2020 HEFA fee autonomy governance funding employability vice-chancellors state universities enrolment 81% 80 recommendations"
+},
+/* ---------- CAG · Assam State Finances 2024-25 ---------- */
+{
+  id:"cag-assam-finances-2-2026", body:"CAG", state:"Assam", kind:"Financial audit", reportNo:"Report No. 2 of 2026 (Assam)",
+  title:"Report of the CAG on State Finances for the year 2024-25, Government of Assam (State Finances Audit Report)", short:"Assam State Finances 2024-25", sector:"Public finance", ministry:"Finance Department, Government of Assam",
+  date:"May 2026", dateISO:"2026-05-25", tabled:"Tabled in the Assam Legislative Assembly on 25 May 2026", period:"Financial year ended 31 March 2025, with trends from 2020-21", flagged:23240.56,
+  flaggedNote:"Grants for which 6,929 utilisation certificates were still pending on 31 March 2025. This is money not yet shown to be spent as intended, not a confirmed loss.",
+  tldr:[
+    "Utilisation certificates for ₹23,240.56 crore (6,929 UCs) were pending on 31 March 2025.",
+    "Assam's economy grew to ₹6,43,667 crore, but revenue receipts fell from 19.10% of GSDP in 2020-21 to 15.06% in 2024-25.",
+    "The fiscal deficit was ₹28,529.52 crore (4.43% of GSDP); the CAG says the state could not keep its revenue and fiscal deficits within FRBM targets."
+  ],
+  en:"The CAG's report on Assam's finances for 2024-25 finds a fast-growing economy but weak revenue and loose control over spending. GSDP rose to ₹6,43,667 crore, yet the state's revenue grew much more slowly, so revenue receipts fell as a share of the economy. Pension and interest now take a bigger share of revenue. Departments had not sent utilisation certificates, the proof that grants were used as intended, for ₹23,240.56 crore. The state spent money without budget provision, overspent some grants, and left ₹23,126 crore of its budget unused. Debt stayed within its limit at 26.84% of GSDP, but off-budget borrowings are growing.",
+  hi:"2024-25 के लिए असम के वित्त पर CAG की रिपोर्ट बताती है कि अर्थव्यवस्था तेज़ी से बढ़ी, लेकिन राजस्व कमज़ोर रहा और खर्च पर नियंत्रण ढीला रहा। GSDP बढ़कर ₹6,43,667 करोड़ हो गया, पर राज्य का राजस्व बहुत धीरे बढ़ा, इसलिए अर्थव्यवस्था के अनुपात में राजस्व प्राप्तियाँ घट गईं। पेंशन और ब्याज अब राजस्व का बड़ा हिस्सा ले रहे हैं। विभागों ने ₹23,240.56 करोड़ के उपयोगिता प्रमाणपत्र नहीं भेजे थे, जो इस बात का सबूत होते हैं कि अनुदान सही काम पर खर्च हुआ। राज्य ने बजट प्रावधान के बिना पैसा खर्च किया, कुछ अनुदानों में तय राशि से ज़्यादा खर्च किया, और बजट के ₹23,126 करोड़ इस्तेमाल ही नहीं किए। कर्ज़ GSDP के 26.84% पर अपनी सीमा के भीतर रहा, लेकिन बजट से बाहर के उधार बढ़ रहे हैं।",
+  context:{
+    what:"The CAG's annual State Finances Audit Report for Assam for 2024-25. It reviews the state's receipts, spending, deficits, debt, budget management and the quality of its accounts.",
+    why:"Assam's share of India's GDP rose from 1.71% to 1.95% between 2020-21 and 2024-25. Whether its own revenue and spending controls keep pace decides how long that growth can be paid for.",
+    how:"Analysis of the state's Finance Accounts and Appropriation Accounts for 2024-25, with five-year trends. The entry conference was held on 10 September 2025 and the exit meeting on 19 December 2025."
+  },
+  nums:[["₹23,240.56 cr","Grants without utilisation certificates, March 2025",1],["4.43%","Fiscal deficit as % of GSDP, 2024-25",1],["15.06%","Revenue receipts as % of GSDP (19.10% in 2020-21)",1],["26.84%","Outstanding liabilities as % of GSDP",0]],
+  themes:[
+    {name:"Money not accounted for", sev:"high", items:[
+      {t:"6,929 utilisation certificates were pending on 31 March 2025.", amt:"₹23,240.56 cr"},
+      {t:"The Finance Department alone accounted for ₹4,067 crore of the pending certificates.", amt:"₹4,067 cr"},
+      {t:"1,222 detailed contingent (DCC) bills, which should account for advance drawals, were pending.", amt:"₹753.61 cr"},
+      {t:"494 annual accounts of 75 autonomous bodies and 240 accounts of 44 state PSUs had not been submitted for audit.", amt:""}]},
+    {name:"Weak budget control", sev:"high", items:[
+      {t:"Against a budget of ₹1.68 lakh crore, the state spent ₹1.45 lakh crore, leaving savings of 13.71%.", amt:"₹23,126 cr"},
+      {t:"Money was spent without budget provision under public debt servicing heads.", amt:"₹509.59 cr"},
+      {t:"Excess spending in 2024-25 still needs to be regularised by the Legislature.", amt:"₹604.40 cr"},
+      {t:"Excess spending dating back to 2006-07 is still pending regularisation.", amt:"₹11,995.69 cr"}]},
+    {name:"Revenue and deficits", sev:"medium", items:[
+      {t:"Revenue receipts grew 5.87%, against GSDP growth of 13.07%, and fell from 19.10% to 15.06% of GSDP over five years.", amt:""},
+      {t:"The fiscal deficit was ₹28,529.52 crore (4.43% of GSDP). The revenue deficit was ₹3,000.05 crore, or ₹3,090.85 crore after audit adjustment.", amt:""},
+      {t:"Pension rose from 15.91% to 19.37% of revenue receipts, and interest from 8.01% to 9.77%. Committed costs and subsidies took 66.93% of revenue receipts.", amt:""},
+      {t:"Subsidy spending rose by ₹568 crore (124.63%) in 2024-25, mostly a ₹400 crore power subsidy to APDCL.", amt:"₹568 cr"}]},
+    {name:"Debt, off-budget borrowing and PSUs", sev:"medium", items:[
+      {t:"Outstanding liabilities rose from 25.72% to 26.84% of GSDP, within FRBM limits, but off-budget borrowings and guarantees are growing.", amt:""},
+      {t:"A sinking fund was kept outside the Government Account, which the CAG says violates Article 266 of the Constitution.", amt:""},
+      {t:"Of ₹10,903.95 crore invested in 31 state PSUs, only Assam Power Generation Corporation paid a return: ₹15 crore, or 0.11%.", amt:"₹10,903.95 cr"},
+      {t:"Undischarged liabilities, such as dues to disaster funds and NPS, came to 2.60% of total spending.", amt:"₹3,282.83 cr"}]}
+  ],
+  charts:[
+    {title:"Revenue receipts as a share of GSDP", type:"bars", unit:"%", data:[["2020-21",19.10],["2024-25",15.06]]},
+    {title:"Share of revenue receipts spent on pension and interest", type:"bars", unit:"%", data:[["Pension, 2020-21",15.91],["Pension, 2024-25",19.37],["Interest, 2020-21",8.01],["Interest, 2024-25",9.77]]},
+    {title:"Deficits and capital spending, 2024-25", type:"bars", unit:"₹ crore", data:[["Fiscal deficit",28529.52],["Capital expenditure",26404.20],["Revenue deficit",3000.05]]}
+  ],
+  recs:[
+    "Raise the state's own revenue and control spending better.",
+    "Make budget provisions more realistic and get excess spending regularised.",
+    "Be more open about off-budget borrowings and record all liabilities.",
+    "Clear pending accounts and utilisation certificates on time, and review investment in loss-making state PSUs."
+  ],
+  recsNote:"Summarised from the report's executive summary and coverage; see the full report for the CAG's exact recommendations.",
+  response:["The CAG says the government's responses were taken into account in the report. The report has been referred to the Assam Assembly's Public Accounts Committee."],
+  timeline:[["31 Mar 2025","6,929 UCs worth ₹23,240.56 crore pending"],["10 Sep 2025","Entry conference with the state government"],["19 Dec 2025","Exit meeting"],["6 Mar 2026","Report sent to the Assam government"],["25 May 2026","Report No. 2 of 2026 tabled in the Assam Assembly"]],
+  glossary:["Financial audit","GSDP","Fiscal deficit","Revenue deficit","Utilisation certificate","DCC bill","Excess expenditure","Committed expenditure","Off-budget borrowing","SPSE","Undischarged liabilities","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 2 of 2026 (Assam) is the State Finances Audit Report for 2024-25, tabled on 25 May 2026.",
+      "Utilisation certificates worth ₹23,240.56 crore (6,929 UCs) were pending in Assam on 31 March 2025.",
+      "Assam's fiscal deficit in 2024-25 was ₹28,529.52 crore, or 4.43% of GSDP.",
+      "The CAG says keeping a sinking fund outside the Government Account violates Article 266 of the Constitution."
+    ],
+    mains:"Fast economic growth does not guarantee healthy state finances. Discuss with reference to the CAG's State Finances Audit Report on Assam for 2024-25. (15 marks)",
+    quiz:[
+      {q:"What was the value of utilisation certificates pending in Assam on 31 March 2025, per the CAG?", o:["₹4,067 crore","₹10,903.95 crore","₹23,240.56 crore","₹92,132.75 crore"], a:2, w:"₹23,240.56 crore across 6,929 UCs. ₹92,132.75 crore is Bihar's figure."},
+      {q:"Assam's revenue receipts as a share of GSDP moved how between 2020-21 and 2024-25?", o:["Rose from 15.06% to 19.10%","Fell from 19.10% to 15.06%","Stayed at about 19%","Fell from 26.84% to 25.72%"], a:1, w:"They fell from 19.10% to 15.06%, as revenue grew more slowly than the economy."},
+      {q:"Which constitutional article deals with the Consolidated Funds and Public Accounts of India and the states?", o:["Article 148","Article 151","Article 266","Article 280"], a:2, w:"Article 266. Article 148 creates the CAG, Article 151 covers its reports, and Article 280 the Finance Commission."}
+    ]
+  },
+  related:["cag-assam-3-2026","cag-bihar-finances-2-2026","state-finances"],
+  src:[["CAG: Report No. 2 of 2026, State Finances Audit Report, Government of Assam (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2026/Report-No.-2-of-2026--State-Finance-Audit-Report,-Government-of-Assam-06a1533648ff079.21776503.pdf","official"],["CAG: executive summary (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2026/4-Executive-Summary-06a15339eba4af3.42579313.pdf","official"],["NE Now: CAG audit highlights fiscal irregularities, weak revenue mobilisation in Assam","https://nenow.in/north-east-news/assam/cag-audit-highlights-fiscal-irregularities-weak-revenue-mobilisation-in-assam.html","news"],["India Today NE: Rs 23,240 crore utilisation certificates pending","https://www.indiatodayne.in/assam/story/cag-audit-flags-fiscal-gaps-even-as-assam-economy-grows-rs-23240-crore-utilisation-certificates-pending-1397408-2026-05-25","news"],["The Hills Times (PTI): CAG report for 2024-25 fiscal tabled in Assam Assembly","https://thehillstimes.in/assam/cag-report-for-2024-25-fiscal-tabled-in-assam-assembly","news"]],
+  kw:"Assam state finances 2024-25 CAG SFAR utilisation certificates fiscal deficit revenue deficit GSDP pension interest subsidy APDCL off-budget borrowing sinking fund Article 266 SPSE excess expenditure DCC bills 2026"
+},
+/* ---------- CAG · Karnataka Jal Jeevan Mission ---------- */
+{
+  id:"cag-karnataka-jjm-12-2025", body:"CAG", state:"Karnataka", kind:"Performance audit", reportNo:"Report No. 12 of 2025 (Karnataka)",
+  title:"Report of the CAG on Implementation of Jal Jeevan Mission, Government of Karnataka", short:"Karnataka Tap Water Audit", sector:"Social welfare", ministry:"Government of Karnataka (rural drinking water supply)",
+  date:"Mar 2026", dateISO:"2026-03-24", tabled:"Tabled in the Karnataka Legislative Assembly on 24 March 2026", period:"2019-24, with coverage data up to November 2024", flagged:null,
+  tldr:[
+    "24.52 lakh of the 72.14 lakh targeted rural households (34%) still had no functional tap connection in November 2024.",
+    "Karnataka got only ₹11,189 crore of its ₹24,819.48 crore central allocation (45%), mainly because it could not use money already released.",
+    "Use of funds for water-quality monitoring fell from 50% in 2019-20 to 2% in 2023-24."
+  ],
+  en:"The Jal Jeevan Mission aims to give every rural home a working tap connection. The CAG found that in Karnataka about a third of the targeted households were still not connected by November 2024, after the mission's first deadline of March 2024 had passed. Works were held up by slow tendering, works started before land was available, and poor project reports. Because the state could not spend what it had already received, it got less than half of its central allocation. Spending on water-quality testing nearly stopped. Some villages were declared fully covered when works were not finished.",
+  hi:"जल जीवन मिशन का लक्ष्य हर ग्रामीण घर को चालू नल कनेक्शन देना है। CAG ने पाया कि कर्नाटक में नवंबर 2024 तक लक्षित घरों में से लगभग एक-तिहाई अब भी नहीं जुड़े थे, जबकि मिशन की पहली समय-सीमा मार्च 2024 बीत चुकी थी। काम धीमी निविदा प्रक्रिया, ज़मीन मिलने से पहले शुरू किए गए कामों और कमज़ोर परियोजना रिपोर्टों के कारण अटके। राज्य पहले मिला पैसा खर्च नहीं कर पाया, इसलिए उसे केंद्र के आवंटन का आधे से भी कम हिस्सा मिला। पानी की गुणवत्ता की जाँच पर खर्च लगभग बंद हो गया। कुछ गाँवों को पूरी तरह कवर घोषित कर दिया गया, जबकि काम पूरे नहीं हुए थे।",
+  context:{
+    what:"A CAG performance audit of how Karnataka carried out the Jal Jeevan Mission, the Centre-state scheme to give every rural household a functional household tap connection (FHTC).",
+    why:"Karnataka targeted 72.14 lakh rural households. The scheme's first deadline was 31 March 2024, so the audit shows how far the state fell short and why.",
+    how:"Review of the mission's planning, funding, works and water-quality testing in the state over 2019-24, as reported in coverage of the tabled report."
+  },
+  nums:[["24.52 lakh","Targeted households without a tap connection, Nov 2024",1],["34%","Share of the 72.14 lakh target still uncovered",1],["45%","Share of the central allocation actually received",1],["2%","Water-quality fund use in 2023-24 (50% in 2019-20)",1]],
+  themes:[
+    {name:"Households left out", sev:"high", items:[
+      {t:"24.52 lakh of the 72.14 lakh targeted households (34%) had no functional tap connection as of November 2024.", amt:""},
+      {t:"Delays came from slow tendering, many works given to the same contractors, works started before land was available, and late land clearance and design approval.", amt:""},
+      {t:"Detailed project reports were deficient, and some works were dropped citing fewer households.", amt:""}]},
+    {name:"Money not used, money not received", sev:"high", items:[
+      {t:"The state received only about ₹11,189 crore of a ₹24,819.48 crore central allocation (45%), mainly because it could not use funds already released.", amt:""},
+      {t:"Only ₹22.57 crore of an expected ₹1,594.90 crore community contribution was collected.", amt:""}]},
+    {name:"Water quality neglected", sev:"medium", items:[
+      {t:"Use of funds for water-quality monitoring and surveillance fell from 50% in 2019-20 to 2% in 2023-24.", amt:""},
+      {t:"The audit found a shortage of water-testing laboratories and equipment.", amt:""}]},
+    {name:"Wrong reporting of coverage", sev:"high", items:[
+      {t:"Five villages were wrongly declared 'Har Ghar Jal' compliant.", amt:""},
+      {t:"21 villages were reported as having 100% tap connections though works were not yet complete.", amt:""}]}
+  ],
+  charts:[
+    {title:"Central JJM funds for Karnataka", type:"bars", unit:"₹ crore", data:[["Allocated",24819.48],["Received",11189]]},
+    {title:"Use of water-quality monitoring funds", type:"bars", unit:"%", data:[["2019-20",50],["2023-24",2]]},
+    {title:"Community contribution", type:"bars", unit:"₹ crore", data:[["Expected",1594.90],["Collected",22.57]]}
+  ],
+  recs:[
+    "Speed up tendering and start works only after land is available.",
+    "Improve the quality of detailed project reports.",
+    "Use released funds in time so that further central instalments are not lost.",
+    "Restore water-quality testing and verify coverage before declaring villages Har Ghar Jal."
+  ],
+  recsNote:"The coverage did not report the CAG's exact recommendations. These points restate the problems the audit named; see the full report for its recommendations.",
+  response:["No reply from the Karnataka government was reported in the coverage. The report goes to the Karnataka Legislature's Public Accounts Committee."],
+  timeline:[["31 Mar 2024","Initial mission period ends"],["Nov 2024","24.52 lakh targeted households still without a tap connection"],["3 Mar 2026","Report sent to the state government"],["24 Mar 2026","Report No. 12 of 2025 tabled in the Karnataka Assembly"]],
+  glossary:["Performance audit","Jal Jeevan Mission","FHTC","Har Ghar Jal certification","DPR","PAC"],
+  exam:{
+    prelims:[
+      "CAG Report No. 12 of 2025 (Karnataka) on the Jal Jeevan Mission was tabled in the Karnataka Assembly on 24 March 2026.",
+      "24.52 lakh of 72.14 lakh targeted rural households in Karnataka (34%) lacked a functional tap connection in November 2024.",
+      "Karnataka received about ₹11,189 crore of its ₹24,819.48 crore central JJM allocation (45%).",
+      "Utilisation of water-quality monitoring funds fell from 50% in 2019-20 to 2% in 2023-24."
+    ],
+    mains:"States that cannot spend what they receive end up receiving less. Examine this with reference to the CAG's 2026 audit of the Jal Jeevan Mission in Karnataka. (10 marks)",
+    quiz:[
+      {q:"What share of Karnataka's targeted households had no functional tap connection in November 2024, per the CAG?", o:["About 8%","About 21%","About 34%","About 52%"], a:2, w:"24.52 lakh of 72.14 lakh, about 34%."},
+      {q:"Why did Karnataka receive only 45% of its central JJM allocation?", o:["The Centre cut the scheme budget","It could not use funds already released","It opted out of the scheme","Funds were diverted to MGNREGA"], a:1, w:"The audit says this was mainly due to the state's inability to use already-released funds."},
+      {q:"In how many villages did the CAG find 'Har Ghar Jal' wrongly declared in Karnataka?", o:["5","21","34","72"], a:0, w:"Five villages were wrongly declared Har Ghar Jal; 21 others were reported as 100% covered though works were incomplete."}
+    ]
+  },
+  related:["cag-kerala-jjm","cag-mp-jjm-5-2026","cag-chhattisgarh-jjm-2-2026","tn-jjm","cag-karnataka-pwd-kiadb-2026"],
+  src:[["CAG: Report No. 12 of 2025, Implementation of Jal Jeevan Mission (Karnataka)","https://cag.gov.in/en/audit-report/details/124685","official"],["ThePrint (PTI): Karnataka received less than half of allocation under JJM: CAG","https://theprint.in/india/karnataka-received-less-than-half-of-allocation-under-jjm-cag/2887908","news"],["Devdiscourse: Karnataka's struggles in implementing JJM and MGNREGA","https://www.devdiscourse.com/article/law-order/3849341-karnatakas-struggles-in-implementing-jjm-and-mgnrega-cag-report-unveils-gaps","news"],["GKToday: CAG audits flag gaps in Karnataka schemes","https://www.gktoday.in/cag-audits-flag-gaps-in-karnataka-schemes/","analysis"]],
+  kw:"Karnataka Jal Jeevan Mission JJM CAG tap water FHTC Har Ghar Jal rural drinking water water quality testing laboratories DPR tendering central allocation community contribution 2026"
+},
+/* ---------- NITI · Medium Enterprises ---------- */
+{
+  id:"niti-medium-enterprises-2025", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog research study (prepared by ASCI)",
+  title:"Designing a Policy for Medium Enterprises", short:"Medium Enterprises Policy", sector:"Other", ministry:"NITI Aayog (Ministry of MSME)",
+  date:"May 2025", dateISO:"2025-05-26", tabled:"Released by NITI Aayog on 26 May 2025", period:"Data up to 2023-24", flagged:null,
+  tldr:[
+    "Medium enterprises are only 0.3% of registered MSMEs but earn about 40% of MSME exports.",
+    "They face poor access to suitable finance, low use of advanced technology, weak R&D support, few testing facilities and skills that don't match their needs.",
+    "The report proposes a six-point roadmap, including a credit card with a pre-approved limit of up to ₹5 crore and a dedicated sub-portal on Udyam."
+  ],
+  en:"India's small business sector is mostly micro firms. Medium enterprises, the largest firms in the MSME group, are very few but punch above their weight, especially in exports. This NITI Aayog study, prepared by the Administrative Staff College of India, argues they need their own policy instead of being treated like micro and small firms. It finds they struggle to get finance suited to their size, to adopt new technology, to do research, to test products and to find trained workers. It suggests six fixes: tailored finance, sector-specific technology centres, an R&D cell in the MSME ministry, cluster testing facilities, targeted skilling and one digital portal.",
+  hi:"भारत का छोटा कारोबार क्षेत्र ज़्यादातर सूक्ष्म (माइक्रो) इकाइयों से बना है। मध्यम उद्यम, जो MSME समूह की सबसे बड़ी इकाइयाँ हैं, संख्या में बहुत कम हैं लेकिन ख़ासकर निर्यात में अपने आकार से कहीं ज़्यादा योगदान देते हैं। प्रशासनिक स्टाफ़ कॉलेज ऑफ़ इंडिया द्वारा तैयार नीति आयोग का यह अध्ययन कहता है कि इन्हें सूक्ष्म और लघु इकाइयों की तरह मानने के बजाय इनके लिए अलग नीति चाहिए। अध्ययन पाता है कि इन्हें अपने आकार के हिसाब से वित्त पाने, नई तकनीक अपनाने, शोध करने, उत्पादों की जाँच कराने और प्रशिक्षित कामगार पाने में मुश्किल होती है। यह छह उपाय सुझाता है: अनुकूल वित्त, क्षेत्र-विशेष तकनीकी केंद्र, MSME मंत्रालय में एक R&D प्रकोष्ठ, क्लस्टर जाँच सुविधाएँ, लक्षित कौशल विकास और एक डिजिटल पोर्टल।",
+  context:{
+    what:"A NITI Aayog research study on medium enterprises, the largest category of micro, small and medium enterprises (MSMEs), with a roadmap for a dedicated policy. It was prepared by the Administrative Staff College of India (ASCI) under NITI Aayog's research scheme.",
+    why:"MSMEs contribute about 29% of GDP, 40% of exports and employ over 60% of the workforce. Medium firms are the ones best placed to grow into large companies, but policy has mostly been built around micro and small firms.",
+    how:"Analysis of Udyam registration and other MSME data. It uses the MSME size classification in force before April 2025."
+  },
+  nums:[["0.3%","Medium enterprises' share of registered MSMEs",0],["40%","Their share of MSME exports",0],["3%","Their share of MSME employment, 2023-24",1],["₹5 cr","Proposed pre-approved credit card limit",0]],
+  themes:[
+    {name:"Few firms, big exports", sev:"low", items:[
+      {t:"Micro enterprises are 97% of registered MSMEs, small enterprises 2.7% and medium enterprises 0.3%.", amt:""},
+      {t:"Medium enterprises are 9% of exporting MSME units and contribute about 40% of MSME exports.", amt:""},
+      {t:"They accounted for only 3% of MSME employment in 2023-24.", amt:""}]},
+    {name:"What holds them back", sev:"high", items:[
+      {t:"Limited access to financial products tailored to medium-sized firms.", amt:""},
+      {t:"Low adoption of advanced technologies and inadequate support for R&D.", amt:""},
+      {t:"No sector-specific testing infrastructure in clusters, and training that does not match what firms need.", amt:""}]},
+    {name:"A moving definition", sev:"medium", items:[
+      {t:"From 1 April 2025, a medium enterprise can have up to ₹125 crore of investment and ₹500 crore of turnover, up from ₹50 crore and ₹250 crore.", amt:""},
+      {t:"The report's analysis uses the earlier limits.", amt:""}]}
+  ],
+  charts:[
+    {title:"Registered MSMEs by size", type:"split", unit:"% of registered MSMEs", data:[["Micro",97],["Small",2.7],["Medium",0.3]]},
+    {title:"Medium enterprise limits (₹ crore)", type:"bars", unit:"₹ crore", data:[["Investment, before Apr 2025",50],["Investment, from Apr 2025",125],["Turnover, before Apr 2025",250],["Turnover, from Apr 2025",500]]}
+  ],
+  recs:[
+    "Tailored finance: a working-capital scheme linked to turnover, and a credit card with a pre-approved limit of up to ₹5 crore at market rates.",
+    "Upgrade Technology Centres into sector-specific India SME 4.0 Competence Centres.",
+    "Set up a dedicated R&D cell in the Ministry of MSME, using the Self-Reliant India Fund for cluster projects.",
+    "Add sector-focused testing and certification facilities in clusters.",
+    "Offer skilling matched to regional and sector needs, with medium-enterprise modules in the ESDP.",
+    "Create a medium-enterprise sub-portal on Udyam with scheme discovery, compliance help and AI-based assistance."
+  ],
+  recsNote:"The six priority areas in the report. They are suggestions, not adopted policy.",
+  response:["The report was launched by NITI Aayog Vice Chairman Suman Bery, with Members V.K. Saraswat and Arvind Virmani. No formal government decision on it has been reported."],
+  timeline:[["Jul 2020","Earlier MSME size limits notified"],["1 Apr 2025","Revised MSME limits take effect"],["26 May 2025","Report released by NITI Aayog"]],
+  glossary:["MSME","Udyam","Working capital","Industry 4.0","GVA"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Designing a Policy for Medium Enterprises' on 26 May 2025.",
+      "Medium enterprises are 0.3% of registered MSMEs but contribute about 40% of MSME exports.",
+      "From 1 April 2025, medium enterprises are those with investment up to ₹125 crore and turnover up to ₹500 crore.",
+      "The report proposes a credit card for medium enterprises with a pre-approved limit of up to ₹5 crore."
+    ],
+    mains:"India has a 'missing middle' among its firms. Discuss the constraints faced by medium enterprises and the policy measures suggested by NITI Aayog in 2025. (15 marks)",
+    quiz:[
+      {q:"What share of registered MSMEs are medium enterprises, per NITI Aayog's 2025 report?", o:["0.3%","2.7%","9%","40%"], a:0, w:"0.3%. Micro firms are 97% and small firms 2.7%."},
+      {q:"From 1 April 2025, the turnover limit for a medium enterprise is:", o:["₹50 crore","₹125 crore","₹250 crore","₹500 crore"], a:3, w:"₹500 crore, with an investment limit of ₹125 crore."},
+      {q:"Which platform would host the proposed medium-enterprise sub-portal?", o:["GeM","Udyam","e-Shram","PM Gati Shakti"], a:1, w:"The report proposes a sub-portal within the Udyam registration platform."}
+    ]
+  },
+  related:["niti-manufacturing-hub-2026","niti-women-credit-2026","niti-pli-impact-2026"],
+  src:[["NITI Aayog: Designing a Policy for Medium Enterprises (PDF)","https://www.niti.gov.in/sites/default/files/2025-05/Designing-a-Policy-for-Medium-Enterprises.pdf","official"],["DT Next (IANS): NITI Aayog rolls out 6-point road map for big push to medium enterprises","https://www.dtnext.in/news/business/niti-aayog-rolls-out-6-point-road-map-for-big-push-to-medium-enterprises-834954","news"],["Lokmat Times (ANI): NITI Aayog releases report offering roadmap for transforming medium enterprises","https://www.lokmattimes.com/business/niti-aayog-releases-report-offering-roadmap-for-transforming-medium-enterprises-into-indias-growth-engines/amp/","news"],["GKToday: NITI Aayog's report on Designing a Policy for Medium Enterprises","https://www.gktoday.in/niti-aayogs-report-on-designing-a-policy-for-medium-enterprises","analysis"]],
+  kw:"NITI Aayog medium enterprises MSME policy 2025 ASCI Udyam exports credit card working capital Industry 4.0 SME competence centres R&D cluster testing skilling ESDP missing middle"
 }
 
 
@@ -5262,8 +5476,8 @@ Object.assign(window.STATE_FACTS_V2, {
   WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
   JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"],["74% of MGNREGS works taken up were incomplete in March 2024 (CAG, 2026)","cag-jk-mgnregs-4-2026"]],
-  AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"]],
-  KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"]],
+  AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"],["Utilisation certificates for ₹23,240.56 crore pending in March 2025 (CAG, 2026)","cag-assam-finances-2-2026"]],
+  KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"],["24.52 lakh of 72.14 lakh targeted rural homes without a tap connection, Nov 2024 (CAG, 2026)","cag-karnataka-jjm-12-2025"]],
   TG:[...(window.STATE_FACTS_V2.TG||[]),["GHMC paid ₹313.20 crore for dry waste that was not processed (CAG, 2026)","cag-telangana-swm-1-2025"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 1.95% to 5.83% of households got 100 days of MGNREGA work (CAG, 2026)","cag-mp-mgnrega-4-2026"],["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
