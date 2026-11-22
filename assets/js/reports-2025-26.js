@@ -233,7 +233,15 @@ Object.assign(window.SITE.glossary, {
   "FHTC": "Functional Household Tap Connection: a home tap that supplies enough drinking water of the set quality regularly, the Jal Jeevan Mission's unit of coverage.",
   "Udyam": "The Ministry of MSME's online portal where micro, small and medium enterprises register for free and get a Udyam registration number.",
   "Working capital": "The short-term money a business needs to run day to day, such as for raw materials, wages and bills, before customers pay.",
-  "Industry 4.0": "The use of automation, data, sensors, robotics and artificial intelligence in manufacturing, sometimes called the fourth industrial revolution."
+  "Industry 4.0": "The use of automation, data, sensors, robotics and artificial intelligence in manufacturing, sometimes called the fourth industrial revolution.",
+  "Master Plan": "A long-term plan, usually for 20 years, that sets how land in a city may be used for homes, industry, roads, parks and other needs.",
+  "PMAY": "Pradhan Mantri Awas Yojana: the Union scheme that helps poor and middle-income families build or buy a house, with separate urban and rural parts.",
+  "Compounding": "Regularising an unauthorised construction by charging a fee, where the rules allow it, instead of demolishing it.",
+  "Empanelment": "Approving a hospital or other provider to treat patients under a scheme and be paid by it.",
+  "Claim ratio": "Claims paid by an insurer as a share of the premium it received; schemes often require insurers to refund money if the ratio is below a set level.",
+  "Rice fallow": "Land that lies empty after the kharif rice harvest, which can grow a short pulse or oilseed crop on the moisture left in the soil.",
+  "FPO": "Farmer Producer Organisation: a group of farmers registered as a company or cooperative to buy inputs, process and sell produce together.",
+  "Seed village": "A village or cluster where selected farmers grow certified, good-quality seed of a crop for sale to other farmers nearby."
 });
 
 window.SPEC_REPORTS.push(
@@ -5459,6 +5467,199 @@ window.SPEC_REPORTS.push(
   related:["niti-manufacturing-hub-2026","niti-women-credit-2026","niti-pli-impact-2026"],
   src:[["NITI Aayog: Designing a Policy for Medium Enterprises (PDF)","https://www.niti.gov.in/sites/default/files/2025-05/Designing-a-Policy-for-Medium-Enterprises.pdf","official"],["DT Next (IANS): NITI Aayog rolls out 6-point road map for big push to medium enterprises","https://www.dtnext.in/news/business/niti-aayog-rolls-out-6-point-road-map-for-big-push-to-medium-enterprises-834954","news"],["Lokmat Times (ANI): NITI Aayog releases report offering roadmap for transforming medium enterprises","https://www.lokmattimes.com/business/niti-aayog-releases-report-offering-roadmap-for-transforming-medium-enterprises-into-indias-growth-engines/amp/","news"],["GKToday: NITI Aayog's report on Designing a Policy for Medium Enterprises","https://www.gktoday.in/niti-aayogs-report-on-designing-a-policy-for-medium-enterprises","analysis"]],
   kw:"NITI Aayog medium enterprises MSME policy 2025 ASCI Udyam exports credit card working capital Industry 4.0 SME competence centres R&D cluster testing skilling ESDP missing middle"
+},
+/* ---------- NITI · Pulses self-reliance ---------- */
+{
+  id:"niti-pulses-2025", body:"NITI", kind:"Policy report", reportNo:"NITI Aayog policy report",
+  title:"Strategies and Pathways for Accelerating Growth in Pulses towards the Goal of Atmanirbharta", short:"Self-Reliance in Pulses", sector:"Other", ministry:"NITI Aayog (Ministry of Agriculture and Farmers Welfare)",
+  date:"Sep 2025", dateISO:"2025-09-04", tabled:"Released by NITI Aayog on 4 September 2025", period:"Projections to 2030 and 2047", flagged:null,
+  tldr:[
+    "Pulses output could rise from 26.06 million tonnes in 2022 to 34.45 million tonnes by 2030 and 51.57 million tonnes by 2047.",
+    "The goals are self-sufficiency in pulses by 2030 and double the production by 2047.",
+    "111 high-potential districts give 75% of output; the report wants crop-wise clusters, better seed and 'One Block-One Seed Village' hubs there."
+  ],
+  en:"India grows more pulses than any other country but still imports some to meet demand. This NITI Aayog report sets out how India can stop depending on imports by 2030 and double production by 2047. It projects output rising from 26.06 million tonnes in 2022 to 51.57 million tonnes by 2047. Most pulses come from a small number of districts, so it suggests focusing on 111 high-potential districts with crop-wise clusters, good seed, seed hubs run with farmer producer organisations, and better use of land left empty after the rice harvest. It also draws on a survey of 885 farmers in five states.",
+  hi:"भारत दुनिया में सबसे ज़्यादा दालें उगाता है, फिर भी माँग पूरी करने के लिए कुछ आयात करता है। नीति आयोग की यह रिपोर्ट बताती है कि भारत 2030 तक आयात पर निर्भरता कैसे ख़त्म कर सकता है और 2047 तक उत्पादन दोगुना कैसे कर सकता है। इसका अनुमान है कि उत्पादन 2022 के 26.06 मिलियन टन से बढ़कर 2047 तक 51.57 मिलियन टन हो सकता है। ज़्यादातर दालें कुछ ही ज़िलों से आती हैं, इसलिए यह 111 उच्च-संभावना वाले ज़िलों पर ध्यान देने का सुझाव देती है: फ़सलवार क्लस्टर, अच्छा बीज, किसान उत्पादक संगठनों के साथ चलने वाले बीज केंद्र, और धान की कटाई के बाद ख़ाली पड़ी ज़मीन का बेहतर उपयोग। यह पाँच राज्यों के 885 किसानों के सर्वे पर भी आधारित है।",
+  context:{
+    what:"A NITI Aayog policy report with a roadmap for self-reliance (Atmanirbharta) in pulses. It projects demand and supply to 2030 and 2047 and sets out supply-side and demand-side strategies.",
+    why:"Pulses are the main source of protein for many Indian families. Shortfalls lead to imports and price spikes, and the Union Budget 2025-26 announced a six-year Mission for Aatmanirbharta in Pulses focusing on tur, urad and masoor.",
+    how:"Analysis of production, area, yield and trade data, demand projections under different assumptions, district-level clustering, and a survey of 885 farmers in Rajasthan, Madhya Pradesh, Gujarat, Andhra Pradesh and Karnataka."
+  },
+  nums:[["26.06 MT","Pulses production, 2022",0],["34.45 MT","Projected production by 2030",0],["51.57 MT","Projected production by 2047",0],["111","High-potential districts giving 75% of output",0]],
+  themes:[
+    {name:"Where India stands", sev:"low", items:[
+      {t:"Pulses production was 26.06 million tonnes in 2022.", amt:""},
+      {t:"Import dependency fell to about 10.4% in 2022-23.", amt:""},
+      {t:"111 high-potential districts contribute 75% of national output.", amt:""}]},
+    {name:"The road to 2030 and 2047", sev:"medium", items:[
+      {t:"Output is projected to rise to 34.45 million tonnes by 2030 and 51.57 million tonnes by 2047.", amt:""},
+      {t:"Crop-wise forecasts give 32.1 million tonnes by 2030 and 50.7 million tonnes by 2047.", amt:""},
+      {t:"Supply is projected at 30.6 million tonnes by 2030 and 45.8 million tonnes by 2047.", amt:""},
+      {t:"Against household consumption alone, supply would exceed demand by 3.79 million tonnes in 2030 and 16.48 million tonnes in 2047.", amt:""}]},
+    {name:"Room to grow", sev:"medium", items:[
+      {t:"Bringing one-third of rice-fallow land in ten states under pulses could add up to 2.85 million tonnes.", amt:""},
+      {t:"Better seed, seed treatment and technology suited to each agro-ecological region are needed to close yield gaps.", amt:""}]}
+  ],
+  charts:[
+    {title:"Pulses production and projections", type:"bars", unit:"million tonnes", data:[["2022 (actual)",26.06],["2030 (projected)",34.45],["2047 (projected)",51.57]]}
+  ],
+  recs:[
+    "Retain and diversify area under pulses through targeted crop-wise clustering.",
+    "Adopt technologies customised for each agro-ecological sub-region.",
+    "Distribute high-quality seed and seed treatment kits.",
+    "Set up 'One Block-One Seed Village' cluster hubs run with Farmer Producer Organisations.",
+    "Plan proactively for climate risks, and use data-driven monitoring and decision support.",
+    "On the demand side, promote healthy consumption in line with ICMR-NIN dietary recommendations."
+  ],
+  recsNote:"Main strategies as reported at the launch. They are suggestions, not adopted policy.",
+  response:["The report was released by NITI Aayog Member Prof. Ramesh Chand in the presence of officials from the Ministry of Agriculture and Farmers Welfare, DARE and ICAR. No formal government decision on it has been reported."],
+  timeline:[["2022","Base year: 26.06 million tonnes produced"],["Feb 2025","Union Budget announces six-year Mission for Aatmanirbharta in Pulses"],["4 Sep 2025","Report released by NITI Aayog"],["2030","Target: self-sufficiency in pulses"],["2047","Target: production doubled"]],
+  glossary:["Rice fallow","FPO","Seed village"],
+  exam:{
+    prelims:[
+      "NITI Aayog released 'Strategies and Pathways for Accelerating Growth in Pulses towards the Goal of Atmanirbharta' in September 2025.",
+      "It aims at self-sufficiency in pulses by 2030 and doubling production by 2047.",
+      "It projects pulses output of 34.45 million tonnes by 2030 and 51.57 million tonnes by 2047, from 26.06 million tonnes in 2022.",
+      "111 high-potential districts contribute 75% of India's pulses output."
+    ],
+    mains:"Despite being the largest producer, India imports pulses. Discuss the supply-side strategies suggested by NITI Aayog in 2025 to achieve self-reliance in pulses. (15 marks)",
+    quiz:[
+      {q:"By which year does NITI Aayog's 2025 pulses roadmap target self-sufficiency?", o:["2027","2030","2035","2047"], a:1, w:"2030. Doubling production is targeted by 2047."},
+      {q:"How many high-potential districts contribute 75% of India's pulses output, per the report?", o:["50","75","111","250"], a:2, w:"111 districts."},
+      {q:"'Rice fallow' land refers to:", o:["Land where rice failed","Land left empty after the rice harvest","Land converted from rice to wheat","Waste land unsuitable for rice"], a:1, w:"Land that lies unused after the kharif rice harvest, which can grow a pulse crop on leftover moisture."}
+    ]
+  },
+  related:["niti-epi-2024","niti-trade-watch-q1fy27-2026"],
+  src:[["NITI Aayog: Strategies and Pathways for Accelerating Growth in Pulses (PDF)","https://www.niti.gov.in/sites/default/files/2025-09/Strategies-and-Pathways-for-Accelerating-Growth-in-Pulses-towards-the-Goal-of-Atmanirbharta.pdf","official"],["The Tribune (ANI): NITI Aayog recommends strategies to double pulses production by 2047","https://www.tribuneindia.com/news/business/niti-aayog-recommends-strategies-to-double-indias-pulses-production-by-2047-and-self-sufficient-by-2030","news"],["Free Press Journal (IANS): NITI Aayog charts roadmap for self-reliance in pulses","https://www.freepressjournal.in/business/niti-aayog-charts-roadmap-for-self-reliance-in-pulses-cites-steady-rise-in-production","news"],["The Policy Edge: NITI Aayog releases roadmap to accelerate pulses growth","https://www.policyedge.in/p/niti-aayog-releases-roadmap-to-accelerate","analysis"]],
+  kw:"NITI Aayog pulses Atmanirbharta self-reliance 2030 2047 tur urad masoor chickpea lentil imports rice fallow seed village FPO clusters agriculture protein Ramesh Chand"
+},
+/* ---------- CAG · Uttar Pradesh: Ghaziabad Development Authority ---------- */
+{
+  id:"cag-up-gda-11-2025", body:"CAG", state:"Uttar Pradesh", kind:"Performance audit", reportNo:"Report No. 11 of 2025 (Uttar Pradesh)",
+  title:"Performance Audit of Development and Allotment of Properties by Ghaziabad Development Authority", short:"Ghaziabad Development Authority Audit", sector:"Roads & infrastructure", ministry:"Ghaziabad Development Authority, Government of Uttar Pradesh",
+  date:"Feb 2026", dateISO:"2026-02-20", tabled:"Tabled in the Uttar Pradesh Legislature on 20 February 2026", period:"2017-18 to 2021-22", flagged:154.02, flaggedNote:"Infrastructure surcharge not recovered on plot sales, as stated in the CAG's summary. Published coverage puts the total loss flagged in the report at about ₹469 crore. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "Against a target of at least 25,000 homes for the poor (EWS) in 2017-22, the authority built 9,960, about 40%.",
+    "It acquired only 18.32 hectares for its land bank against a 300-hectare target.",
+    "It did not levy an infrastructure surcharge on plot sales, without state approval, so ₹154.02 crore was not recovered."
+  ],
+  en:"The Ghaziabad Development Authority plans and develops the city next to Delhi, sells plots and homes, and stops illegal building. The CAG checked its work from 2017-18 to 2021-22. It built only about 40% of the homes for poor families that the city's Master Plan required, and private townships built only a third of theirs. Its land bank grew by 18.32 hectares against a 300-hectare target. It did not collect an infrastructure surcharge worth ₹154.02 crore, acted on only 19% to 65% of illegal construction cases, and built the ₹1,089 crore Hindon elevated road without it being in the approved Master Plan.",
+  hi:"गाज़ियाबाद विकास प्राधिकरण दिल्ली से सटे इस शहर की योजना बनाता है, उसका विकास करता है, प्लॉट और मकान बेचता है और अवैध निर्माण रोकता है। CAG ने 2017-18 से 2021-22 तक उसके काम की जाँच की। शहर के मास्टर प्लान में ग़रीब परिवारों के लिए जितने मकान ज़रूरी थे, प्राधिकरण ने उनमें से लगभग 40% ही बनाए, और निजी टाउनशिप ने अपने हिस्से का केवल एक-तिहाई। 300 हेक्टेयर के लक्ष्य के मुक़ाबले उसका लैंड बैंक केवल 18.32 हेक्टेयर बढ़ा। उसने ₹154.02 करोड़ का इंफ्रास्ट्रक्चर सरचार्ज नहीं वसूला, अवैध निर्माण के केवल 19% से 65% मामलों में कार्रवाई की, और ₹1,089 करोड़ की हिंडन एलिवेटेड रोड ऐसे बनाई जबकि वह स्वीकृत मास्टर प्लान में शामिल नहीं थी।",
+  context:{
+    what:"A CAG performance audit of how the Ghaziabad Development Authority (GDA) planned, developed and allotted land and property. The GDA was set up under the UP Urban Planning and Development Act, 1973, notified in March 1977, and covers a development area of 452 sq km.",
+    why:"Development authorities control how fast-growing cities use land, who gets affordable housing and whether illegal building is stopped. Ghaziabad is part of the National Capital Region, where these choices affect millions of people.",
+    how:"Review of GDA records for 2017-18 to 2021-22. The report was updated with replies received in March 2024 and July 2024."
+  },
+  nums:[["9,960","EWS homes built against a target of 25,000 (2017-22)",1],["18.32 ha","Land bank added against a 300-hectare target",1],["₹154.02 cr","Infrastructure surcharge not recovered",1],["125 of 1,303","Approved building maps with completion certificates",1]],
+  themes:[
+    {name:"Homes for poor families", sev:"high", items:[
+      {t:"Against a target of at least 25,000 EWS units in 2017-22 under Master Plan 2021, GDA built 9,960 (40%).", amt:""},
+      {t:"Integrated and Hi-tech township developers built 2,133 of their target of 6,382 EWS/LIG units (33%) by March 2022; GDA took no action against defaulting developers.", amt:""},
+      {t:"Under PMAY, GDA planned 20,173 EWS units against a state target of 45,000; only 5,801 were under construction until March 2024.", amt:""},
+      {t:"The quality of EWS/LIG construction was not ensured.", amt:""}]},
+    {name:"Money not collected", sev:"high", items:[
+      {t:"GDA withheld the infrastructure surcharge on plot sales without the state government's approval, so it was not recovered.", amt:"₹154.02 cr"},
+      {t:"Additional stamp duty demanded from the state for 2017-18 to 2021-22 had not been received.", amt:"₹347.43 cr"},
+      {t:"Receipts fell short of estimates by 40% to 58% in every year except 2018-19.", amt:""}]},
+    {name:"Planning gaps", sev:"medium", items:[
+      {t:"The Master Plan was delayed by more than four years for Ghaziabad and ten years for Modinagar; zonal plans were made for only one of eight zones.", amt:""},
+      {t:"The Hindon elevated road, estimated at ₹1,200 crore, was built without being in the approved Master Plan 2021, despite a direction from the NCR Planning Board.", amt:"₹1,089.45 cr"},
+      {t:"Against Master Plan 2021, open area and parks fell short by 79%, commercial use by 66% and residential use by 21%.", amt:""}]},
+    {name:"Land and illegal building", sev:"high", items:[
+      {t:"Only 18.32 hectares were acquired for the land bank against a target of 300 hectares in 2017-22.", amt:""},
+      {t:"Action was taken in only 19% to 65% of identified unauthorised construction cases.", amt:""},
+      {t:"Completion certificates were issued for 125 of 1,303 approved maps; the status of the other 1,178 was not available to audit.", amt:""},
+      {t:"1.26 lakh sq m of developed land had not been allotted to families who gave land on karar basis, even after more than 14 years.", amt:""}]}
+  ],
+  charts:[
+    {title:"EWS homes, 2017-22", type:"bars", unit:"homes", data:[["Target",25000],["Built by GDA",9960]]},
+    {title:"Land bank, 2017-22", type:"bars", unit:"hectares", data:[["Target",300],["Acquired",18.32]]},
+    {title:"Approved building maps", type:"split", unit:"maps", data:[["Completion certificate issued",125],["Status not available",1178]]}
+  ],
+  recs:[
+    "Approve the Master Plan on time in line with NCR Planning Board guidelines, with phase-wise targets.",
+    "Strictly conserve the Hindon flood-plain zones and develop green belts and parks.",
+    "Set strict timelines for Hi-tech and Integrated Townships and make sure EWS/LIG housing is built.",
+    "Take stringent action against unauthorised construction, with timely checks.",
+    "Fix responsibility on officials who gave undue benefit to builders or beneficiaries.",
+    "Keep scheme-wise data on developed, sold and unsold properties, and staff the technical cadre adequately."
+  ],
+  recsNote:"Summarised from the report's executive summary.",
+  response:["The report includes replies received from the state in March 2024 and July 2024. The state put the shortfall in receipts down to lower income from property sales, compounding and map-approval fees, and the Covid pandemic. The report goes to the state legislature's Public Accounts Committee."],
+  timeline:[["Mar 1977","Ghaziabad Development Authority notified"],["2017-18 to 2021-22","Period audited"],["19 Jan 2026","Report sent to the state government"],["20 Feb 2026","Report No. 11 of 2025 tabled in the UP Legislature"]],
+  glossary:["Performance audit","EWS","Master Plan","PMAY","Compounding"],
+  exam:{
+    prelims:[
+      "CAG Report No. 11 of 2025 (Uttar Pradesh), on the Ghaziabad Development Authority, was tabled on 20 February 2026.",
+      "It covers 2017-18 to 2021-22.",
+      "GDA built 9,960 EWS homes against a target of 25,000 under Master Plan 2021.",
+      "GDA was set up under the UP Urban Planning and Development Act, 1973."
+    ],
+    mains:"Urban development authorities often act as land sellers rather than city planners. Examine with reference to the CAG's 2026 audit of the Ghaziabad Development Authority. (15 marks)",
+    quiz:[
+      {q:"What share of its EWS housing target did the Ghaziabad Development Authority achieve in 2017-22, per the CAG?", o:["About 20%","About 33%","About 40%","About 65%"], a:2, w:"About 40%: 9,960 of 25,000. Private townships achieved 33% of their target."},
+      {q:"How much land did GDA acquire for its land bank in 2017-22 against a 300-hectare target?", o:["18.32 hectares","125 hectares","200 hectares","452 hectares"], a:0, w:"18.32 hectares. 452 sq km is GDA's development area."},
+      {q:"Which project did the CAG say was built without being in the approved Master Plan 2021?", o:["Delhi–Meerut RRTS","Hindon elevated road","Eastern Peripheral Expressway","Ghaziabad Metro"], a:1, w:"The Hindon elevated road, on which ₹1,089.45 crore was spent."}
+    ]
+  },
+  related:["niti-city-govt-2026","cag-telangana-swm-1-2025"],
+  src:[["CAG: Report No. 11 of 2025, Ghaziabad Development Authority","https://cag.gov.in/ag1/uttar-pradesh/en/audit-report/details/123698","official"],["CAG: Executive summary (PDF)","https://saiindia.gov.in/uploads/download_audit_report/2025/ES_UP_GDA-Audit-Report-No11-of-2025_English-06989a5ef884b83.80991152.pdf","official"],["GKToday: CAG flags irregularities in Ghaziabad Development Authority","https://www.gktoday.in/cag-flags-irregularities-in-ghaziabad-development-authority/","analysis"],["The420: CAG flags ₹469 crore loss in GDA","https://the420.in/cag-469-crore-loss-gda-official-lapses-ghaziabad/","news"]],
+  kw:"Ghaziabad Development Authority GDA Uttar Pradesh CAG 2026 EWS housing PMAY master plan land bank Hindon elevated road unauthorised construction infrastructure surcharge NCR urban planning"
+},
+/* ---------- CAG · West Bengal: Swasthya Sathi ---------- */
+{
+  id:"cag-wb-swasthya-sathi-5-2025", body:"CAG", state:"West Bengal", kind:"Performance audit", reportNo:"Report No. 5 of 2025 (West Bengal)",
+  title:"Performance and Compliance Audit Report of the Government of West Bengal for the year ended March 2023 (Swasthya Sathi Scheme)", short:"Swasthya Sathi Health Insurance Audit", sector:"Health", ministry:"Government of West Bengal",
+  date:"Jul 2026", dateISO:"2026-07-25", tabled:"Tabled in the West Bengal Assembly on 25 July 2026", period:"Year ended March 2023 (Swasthya Sathi: 2018-19 to 2022-23)", flagged:14.48, flaggedNote:"Excess payments to private hospitals that were given higher grades than warranted, as reported in coverage of the report. These are amounts at issue, not confirmed losses.",
+  tldr:[
+    "31 of 50 private hospitals checked were graded higher than they deserved, leading to excess payments of ₹14.48 crore.",
+    "2,605 healthcare providers were empanelled for 2.43 crore families, against 3,038 needed.",
+    "Two insurers did not refund ₹29.78 crore, and short budgets forced loans of ₹721.95 crore that cost ₹10.85 crore in interest."
+  ],
+  en:"Swasthya Sathi is West Bengal's own health insurance scheme for families. The CAG audited it for 2018-19 to 2022-23. Many private hospitals were graded higher than they deserved, which meant they were paid more per treatment. There were fewer empanelled hospitals and providers than the number of families required. Two insurers kept money they should have returned, and the scheme borrowed heavily because its budget was too small. More families were enrolled than there were ration-card families, and linking enrolments to Aadhaar was still incomplete. The same report also has a compliance audit of facilities for children with disabilities in schools.",
+  hi:"स्वास्थ्य साथी पश्चिम बंगाल की अपनी पारिवारिक स्वास्थ्य बीमा योजना है। CAG ने 2018-19 से 2022-23 तक इसका ऑडिट किया। कई निजी अस्पतालों को उनकी योग्यता से ऊँचा ग्रेड दिया गया, जिससे उन्हें हर इलाज का ज़्यादा भुगतान हुआ। परिवारों की संख्या के हिसाब से ज़रूरी अस्पतालों और सेवा-प्रदाताओं से कम ही सूचीबद्ध (एम्पैनल) थे। दो बीमा कंपनियों ने वह पैसा नहीं लौटाया जो लौटाना था, और बजट कम होने से योजना को भारी कर्ज़ लेना पड़ा। राशन कार्ड वाले परिवारों से ज़्यादा परिवार नामांकित थे, और नामांकन को आधार से जोड़ने का काम अधूरा था। इसी रिपोर्ट में स्कूलों में दिव्यांग बच्चों के लिए सुविधाओं पर एक अनुपालन ऑडिट भी है।",
+  context:{
+    what:"A CAG report with two parts: a performance audit of the Swasthya Sathi health insurance scheme, and a compliance audit of whether educational institutions offer an inclusive and accessible environment for persons with disabilities and children with special needs.",
+    why:"Swasthya Sathi is meant to cover 2.43 crore families. How hospitals are graded and paid, and whether enough of them are empanelled, decides whether families get care and whether public money is spent well.",
+    how:"Review of scheme records for 2018-19 to 2022-23, with a test check of 50 empanelled private hospitals. The report was sent to the state government on 15 October 2025 and tabled on 25 July 2026."
+  },
+  nums:[["₹14.48 cr","Excess payments to over-graded private hospitals",1],["31 of 50","Test-checked private hospitals graded higher than warranted",1],["2,605","Providers empanelled, against 3,038 needed",1],["₹721.95 cr","Loans taken in 2020-22 for want of budget",0]],
+  themes:[
+    {name:"Hospitals paid too much", sev:"high", items:[
+      {t:"31 of 50 test-checked private empanelled hospitals were given higher grades than warranted, leading to excess payments.", amt:"₹14.48 cr"}]},
+    {name:"Too few providers", sev:"high", items:[
+      {t:"2,605 healthcare providers were empanelled, against a requirement of 3,038 to serve 2.43 crore beneficiary families.", amt:""}]},
+    {name:"Money management", sev:"high", items:[
+      {t:"National Insurance Company and Bajaj Allianz General Insurance did not refund money to the scheme's nodal agency for missing the mandated claim ratio.", amt:"₹29.78 cr"},
+      {t:"Inadequate budget support led the nodal agency to take loans in 2020-22, on which interest of ₹10.85 crore was paid.", amt:"₹721.95 cr"},
+      {t:"The nodal agency had neither comprehensive guidelines nor annual action plans as of July 2024.", amt:""}]},
+    {name:"Who is enrolled", sev:"medium", items:[
+      {t:"Families enrolled as of March 2023 were around 10% more than ration-card families in PDS records of August 2023.", amt:""},
+      {t:"Aadhaar linking of enrolments, started in October 2021, was still incomplete.", amt:""}]}
+  ],
+  charts:[
+    {title:"Healthcare providers for 2.43 crore families", type:"bars", unit:"providers", data:[["Required",3038],["Empanelled",2605]]},
+    {title:"Test-checked private hospitals", type:"split", unit:"hospitals", data:[["Graded higher than warranted",31],["Others",19]]}
+  ],
+  response:["The report goes to the West Bengal Assembly's Public Accounts Committee. It was among 28 CAG reports covering 2020-21 to 2024-25 tabled together on 25 July 2026."],
+  timeline:[["2018-19 to 2022-23","Swasthya Sathi audit period"],["15 Oct 2025","Report sent to the state government"],["25 Jul 2026","Report No. 5 of 2025 tabled in the West Bengal Assembly"]],
+  glossary:["Performance audit","Compliance audit","Empanelment","Claim ratio","Aadhaar"],
+  exam:{
+    prelims:[
+      "CAG Report No. 5 of 2025 (West Bengal) covers the Swasthya Sathi scheme and inclusive education for children with special needs; it was tabled on 25 July 2026.",
+      "31 of 50 test-checked private hospitals under Swasthya Sathi were graded higher than warranted.",
+      "2,605 healthcare providers were empanelled against a requirement of 3,038 for 2.43 crore families."
+    ],
+    mains:"State-run health insurance schemes depend on sound hospital grading and empanelment. Discuss with reference to the CAG's audit of West Bengal's Swasthya Sathi scheme. (10 marks)",
+    quiz:[
+      {q:"Swasthya Sathi, audited by the CAG in 2026, is a health insurance scheme of which state?", o:["Odisha","West Bengal","Assam","Bihar"], a:1, w:"West Bengal."},
+      {q:"How many of the 50 test-checked private hospitals were graded higher than warranted?", o:["19","31","43","50"], a:1, w:"31, leading to excess payments of ₹14.48 crore."},
+      {q:"A 'claim ratio' in health insurance compares:", o:["Claims paid to premium received","Hospitals to beneficiaries","Claims rejected to claims filed","Premium to sum insured"], a:0, w:"Claims paid as a share of premium. Insurers that fell short of the mandated ratio had to refund money."}
+    ]
+  },
+  related:["cag-wb-covid","cag-wb-finances-2425","cag-wb-amphan"],
+  src:[["CAG: Report No. 5 of 2025, West Bengal","https://cag.gov.in/en/audit-report/details/125756","official"],["The Federal: BJP tables 28 CAG reports to corner TMC over state spending and welfare","https://thefederal.com/category/states/east/west-bengal/bjp-tables-28-cag-reports-corner-tmc-state-spending-welfare-251476","news"]],
+  kw:"Swasthya Sathi West Bengal health insurance CAG 2026 Report No 5 of 2025 private hospitals grading empanelment claim ratio insurers Aadhaar enrolment inclusive education disabilities"
 }
 
 
@@ -5473,11 +5674,12 @@ Object.assign(window.STATE_FACTS_V2, {
   OD:[...(window.STATE_FACTS_V2.OD||[]),["Utilisation certificates for ₹16,585.45 crore pending at end of 2024-25 (CAG, 2026)","cag-odisha-finances-3-2026"],["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
   NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"],["Fiscal deficit of 6.17% of GSDP in 2024-25, after audit (CAG, 2026)","cag-nagaland-finances-2-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
-  WB:[...(window.STATE_FACTS_V2.WB||[]),["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
+  WB:[...(window.STATE_FACTS_V2.WB||[]),["31 of 50 test-checked Swasthya Sathi hospitals graded higher than warranted (CAG, 2026)","cag-wb-swasthya-sathi-5-2025"],["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
   JK:[...(window.STATE_FACTS_V2.JK||[]),["Only 32 of 263 NABARD-funded rural projects due by March 2023 completed (CAG, 2026)","cag-jk-3-2026"],["74% of MGNREGS works taken up were incomplete in March 2024 (CAG, 2026)","cag-jk-mgnregs-4-2026"]],
   AS:[...(window.STATE_FACTS_V2.AS||[]),["₹11.49 crore paid above MRP for welfare items by Tribal Affairs (Plain) (CAG, 2026)","cag-assam-3-2026"],["Utilisation certificates for ₹23,240.56 crore pending in March 2025 (CAG, 2026)","cag-assam-finances-2-2026"]],
   KA:[...(window.STATE_FACTS_V2.KA||[]),["₹281.34 crore of KIADB investment underutilised for lack of clear land (CAG, 2026)","cag-karnataka-pwd-kiadb-2026"],["24.52 lakh of 72.14 lakh targeted rural homes without a tap connection, Nov 2024 (CAG, 2026)","cag-karnataka-jjm-12-2025"]],
+  UP:[...(window.STATE_FACTS_V2.UP||[]),["Ghaziabad Development Authority built 9,960 of 25,000 targeted EWS homes, 2017-22 (CAG, 2026)","cag-up-gda-11-2025"]],
   TG:[...(window.STATE_FACTS_V2.TG||[]),["GHMC paid ₹313.20 crore for dry waste that was not processed (CAG, 2026)","cag-telangana-swm-1-2025"]],
   TN:[...(window.STATE_FACTS_V2.TN||[]),["Third in Investment Friendliness Index 2026 (53.3)","niti-ifi-2026"],["Avoidable spend of about ₹9,500 crore on costlier power at Tangedco (CAG, 2026)","cag-tn-tangedco-2026"]],
   MP:[...(window.STATE_FACTS_V2.MP||[]),["Only 1.95% to 5.83% of households got 100 days of MGNREGA work (CAG, 2026)","cag-mp-mgnrega-4-2026"],["Only 13 of 59 working women hostels functional in March 2024 (CAG, 2026)","cag-mp-anganwadi-2-2026"],["Coverage of tap connections at 69%, against about 80% nationally (CAG, 2026)","cag-mp-jjm-5-2026"]],
