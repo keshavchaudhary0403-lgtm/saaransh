@@ -57,6 +57,11 @@ Object.assign(window.SITE.glossary, {
   "Demand incentive": "A subsidy that lowers the price a buyer pays for an eligible vehicle, paid to the maker who passes it on to the buyer.",
   "Phased Manufacturing Programme": "A rule under FAME that required vehicle makers to use parts made in India, step by step, to qualify for incentives.",
   "OEM": "Original Equipment Manufacturer: the company that makes and sells a product, such as an electric vehicle maker.",
+  "IPHS": "Indian Public Health Standards: national norms for the staff, services, equipment and buildings each level of public health facility should have.",
+  "CHC": "Community Health Centre: a block-level government hospital, usually with about 30 beds, meant to offer specialist care and refer patients from PHCs.",
+  "PHC": "Primary Health Centre: the first government health facility with a doctor, serving a group of villages or an urban area.",
+  "Health Sub-Centre": "The smallest government health facility, serving a few villages with basic care through nurses and health workers.",
+  "Antenatal care": "Health check-ups for a woman during pregnancy; at least four visits are recommended.",
   "Vahan": "The national online database of vehicle registrations run by the Ministry of Road Transport and Highways.",
   "IEC": "Information, Education and Communication: public awareness activities run as part of a government scheme.",
   "Digital Public Infrastructure": "Shared digital systems, such as Aadhaar and UPI, that the government provides and others can build services on.",
@@ -5660,7 +5665,83 @@ window.SPEC_REPORTS.push(
   related:["cag-wb-covid","cag-wb-finances-2425","cag-wb-amphan"],
   src:[["CAG: Report No. 5 of 2025, West Bengal","https://cag.gov.in/en/audit-report/details/125756","official"],["The Federal: BJP tables 28 CAG reports to corner TMC over state spending and welfare","https://thefederal.com/category/states/east/west-bengal/bjp-tables-28-cag-reports-corner-tmc-state-spending-welfare-251476","news"]],
   kw:"Swasthya Sathi West Bengal health insurance CAG 2026 Report No 5 of 2025 private hospitals grading empanelment claim ratio insurers Aadhaar enrolment inclusive education disabilities"
+},
+/* ---------- CAG · Nagaland: public health infrastructure ---------- */
+{
+  id:"cag-nagaland-health-2026", body:"CAG", state:"Nagaland", kind:"Compliance audit", reportNo:"CAG subject specific compliance audit (Nagaland, 2026)",
+  title:"Subject Specific Compliance Audit on Public Health Infrastructure and Management of Primary Health Services, Government of Nagaland", short:"Nagaland Public Health Infrastructure Audit", sector:"Health", ministry:"Health and Family Welfare Department, Government of Nagaland",
+  date:"Mar 2026", dateISO:"2026-03-26", tabled:"Tabled in the Nagaland Legislative Assembly on 26 March 2026", period:"2017-18 to 2022-23", flagged:null,
+  tldr:[
+    "Nagaland was short of 205 doctors, 321 medical officers and 1,955 nurses, among other health staff.",
+    "Community Health Centres had almost no specialists: shortages were 95% for paediatricians and anaesthetists and 90% for surgeons.",
+    "Only 5 of 11 district hospitals had a blood bank, and the state spent 3.22% to 5.19% of its budget on health against a 9% norm."
+  ],
+  en:"The CAG checked how Nagaland built and ran its public health facilities from 2017-18 to 2022-23. It found large staff gaps at every level, from district hospitals down to village sub-centres. Most Community Health Centres had no specialist doctors, and many tests, emergency care and blood banks were missing. Some districts had too few health centres, and Longleng had no Community Health Centre at all. More than a quarter of pregnant women did not get the four check-ups they should. The state spent far less of its budget on health than the national policy asks for, and oxygen plants set up during Covid were largely unused.",
+  hi:"CAG ने जाँच की कि नागालैंड ने 2017-18 से 2022-23 के बीच अपनी सरकारी स्वास्थ्य सुविधाएँ कैसे बनाईं और चलाईं। उसने ज़िला अस्पतालों से लेकर गाँव के उप-केंद्रों तक हर स्तर पर कर्मचारियों की भारी कमी पाई। ज़्यादातर सामुदायिक स्वास्थ्य केंद्रों (CHC) में कोई विशेषज्ञ डॉक्टर नहीं था, और कई जाँचें, आपातकालीन इलाज और ब्लड बैंक उपलब्ध नहीं थे। कुछ ज़िलों में स्वास्थ्य केंद्र बहुत कम थे, और लोंगलेंग में एक भी CHC नहीं था। एक-चौथाई से ज़्यादा गर्भवती महिलाओं को ज़रूरी चार जाँचें नहीं मिलीं। राज्य ने अपने बजट का जितना हिस्सा स्वास्थ्य पर ख़र्च किया, वह राष्ट्रीय नीति के लक्ष्य से काफ़ी कम था, और कोविड के दौरान लगाए गए ऑक्सीजन प्लांट ज़्यादातर इस्तेमाल नहीं हुए।",
+  context:{
+    what:"A CAG subject specific compliance audit of public health infrastructure and the management of primary health services in Nagaland, covering district hospitals, Community Health Centres (CHCs), Primary Health Centres (PHCs) and Health Sub-Centres.",
+    why:"In a hilly state with scattered villages, nearby health centres with staff, tests and medicines decide whether people get care at all. The audit checks these against the Indian Public Health Standards (IPHS) and the National Health Policy 2017.",
+    how:"Review of records for 2017-18 to 2022-23, with checks at sampled health facilities. Figures here are as reported in published coverage of the report."
+  },
+  nums:[["1,955","Shortfall of nurses",1],["205","Shortfall of doctors",1],["5 of 11","District hospitals with a blood bank",1],["26%+","Registered pregnant women without four antenatal check-ups, 2022-23",1]],
+  themes:[
+    {name:"Staff shortages", sev:"high", items:[
+      {t:"Shortfall of 205 doctors, 321 medical officers, 25 dental surgeons, 108 AYUSH medical officers, 1,955 nurses, 1,352 allied healthcare staff and 100 health assistants.", amt:""},
+      {t:"In CHCs, shortages were 95% for paediatricians and anaesthetists, 90% for surgeons, 76% for obstetricians and gynaecologists and 67% for general medicine specialists.", amt:""},
+      {t:"In district hospitals, specialist shortages ranged from 8% to 56%, general duty medical officers 43% to 100%, staff nurses 4% to 60% and paramedical staff 13% to 88%. Only DH Kohima met specialist norms in all 11 mandatory departments.", amt:""},
+      {t:"In PHCs, shortages were 86% for auxiliary nurse midwives, 64% for lab technicians and 33% for pharmacists; 52% of Health Sub-Centres were short of staff.", amt:""}]},
+    {name:"Missing services", sev:"high", items:[
+      {t:"No CHC offered specialist services except obstetrics and gynaecology at Noklak, Pungro, Jalukie, Meluri and Tobu.", amt:""},
+      {t:"No district hospital offered tests such as endoscopy, bronchoscopy, stress tests, arthroscopy, hysteroscopy or pulmonary function tests.", amt:""},
+      {t:"Only 5 of the 11 district hospitals had a blood bank, and emergency and trauma care was largely unavailable in the facilities examined.", amt:""},
+      {t:"More than 26% of registered pregnant women did not get four antenatal check-ups in 2022-23.", amt:""}]},
+    {name:"Too few facilities", sev:"medium", items:[
+      {t:"Longleng had no CHC; Tuensang and Dimapur were short of CHCs, and Dimapur was also short of PHCs.", amt:""},
+      {t:"Health Sub-Centres were short in all districts except Kiphire and Zunheboto.", amt:""},
+      {t:"Land acquisition for the Nagaland Medical College at Kohima was delayed.", amt:""}]},
+    {name:"Spending, safety and planning", sev:"medium", items:[
+      {t:"Health spending was 3.22% to 5.19% of the state budget in 2017-18 to 2022-23, against 9% by 2020 under the National Health Policy 2017.", amt:""},
+      {t:"The state lagged on seven of ten SDG-3 indicators.", amt:""},
+      {t:"Hospital infection control committees were formed in only 5 of 11 sampled facilities, and only 2 had a disaster management plan.", amt:""},
+      {t:"Oxygen (PSA) plants set up in 11 district hospitals, 8 CHCs and CIHSR Dimapur were largely unused.", amt:""}]}
+  ],
+  charts:[
+    {title:"Health staff shortfall", type:"bars", unit:"posts", data:[["Nurses",1955],["Allied healthcare staff",1352],["Medical officers",321],["Doctors",205],["AYUSH medical officers",108],["Health assistants",100],["Dental surgeons",25]]},
+    {title:"Specialist shortage in CHCs", type:"bars", unit:"% short", data:[["Paediatricians",95],["Anaesthetists",95],["Surgeons",90],["Obstetricians & gynaecologists",76],["General medicine",67]]},
+    {title:"District hospitals with a blood bank", type:"split", unit:"hospitals", data:[["With a blood bank",5],["Without",6]]}
+  ],
+  recs:[
+    "Post specialists and provide emergency and specialist services as per IPHS.",
+    "Provide diagnostic services in CHCs.",
+    "Set up a hospital infection control committee in every facility.",
+    "Give priority to fire safety clearances.",
+    "Improve services at PHCs with low bed occupancy and high referral rates.",
+    "Assess the use of assets created during the pandemic and consider moving them where needed.",
+    "Ensure adequate health spending, fill vacant medical and paramedical posts, and monitor progress towards SDG targets."
+  ],
+  recsNote:"As reported in published coverage of the report.",
+  response:["No formal government reply has been reported in coverage. In November 2026 the state health department inspected facilities in Tuensang and Noklak districts and ordered steps such as posting a pathology medical officer at District Hospital Noklak. The report goes to the Nagaland Assembly's Public Accounts Committee."],
+  timeline:[["2017-18 to 2022-23","Period audited"],["26 Mar 2026","Report tabled in the Nagaland Legislative Assembly"],["Nov 2026","State health department inspects facilities in Tuensang and Noklak"]],
+  glossary:["Compliance audit","IPHS","CHC","PHC","Health Sub-Centre","Antenatal care","Ayush"],
+  exam:{
+    prelims:[
+      "The CAG's audit of public health infrastructure and primary health services in Nagaland was tabled on 26 March 2026 and covers 2017-18 to 2022-23.",
+      "Only 5 of Nagaland's 11 district hospitals had a blood bank.",
+      "The audit compared health spending with a norm of 9% of the state budget by 2020 under the National Health Policy 2017; Nagaland spent 3.22% to 5.19%.",
+      "Indian Public Health Standards (IPHS) set the staff, services and equipment each level of public health facility should have."
+    ],
+    mains:"Staff shortages, not buildings, are the main weakness of primary health care in India's hill states. Discuss with reference to the CAG's 2026 audit of Nagaland's public health infrastructure. (15 marks)",
+    quiz:[
+      {q:"How many of Nagaland's 11 district hospitals had a blood bank, per the CAG?", o:["2","5","8","11"], a:1, w:"Five. Only 5 of 11 district hospitals had one."},
+      {q:"Which district of Nagaland had no Community Health Centre, per the CAG?", o:["Kohima","Dimapur","Longleng","Kiphire"], a:2, w:"Longleng. Kiphire and Zunheboto were the only districts without a sub-centre shortage."},
+      {q:"Indian Public Health Standards (IPHS) are used to:", o:["Rank states on health outcomes","Set norms for staff, services and equipment at public health facilities","Fix prices of essential medicines","Accredit private hospitals for insurance"], a:1, w:"IPHS set the minimum staff, services and equipment for each level of public facility."}
+    ]
+  },
+  related:["cag-nagaland-1-2026","cag-nagaland-finances-2-2026","cag-wb-swasthya-sathi-5-2025"],
+  src:[["Morung Express: CAG report reveals critical failures in Nagaland's public health infrastructure","https://morungexpress.com/cag-report-reveals-critical-failures-in-nagalands-public-health-infrastructure","news"],["Eastern Mirror: Healthcare stretched thin across Nagaland, CAG report reveals","https://www.easternmirrornagaland.com/healthcare-stretched-thin-across-nagaland-cag-report-reveals","news"],["Medical Dialogues: Nagaland records 29 percent decline in health spending; CAG flags major infrastructure gaps","https://medicaldialogues.in/news/health/hospital-diagnostics/nagaland-records-29-percent-decline-in-health-spending-cag-flags-major-infrastructure-gaps-183496","news"]],
+  kw:"Nagaland CAG 2026 public health infrastructure primary health services compliance audit doctors nurses shortage CHC PHC sub-centre IPHS blood bank district hospital antenatal care PSA oxygen plant NHP 2017 SDG Longleng Tuensang Dimapur"
 }
+
 
 
 );
@@ -5672,7 +5753,7 @@ Object.assign(window.STATE_FACTS_V2, {
   GJ:[...(window.STATE_FACTS_V2.GJ||[]),["Tops NITI's Investment Friendliness Index 2026 with 56.6","niti-ifi-2026"],["CAG GST audit: deviations in 291 cases worth ₹2,606.62 crore","cag-gujarat-gst-2026"]],
   KL:[...(window.STATE_FACTS_V2.KL||[]),["Only 52.46% of rural homes had tap connections by March 2024","cag-kerala-jjm"],["Revenue arrears of ₹30,308.52 crore, 24.35% of revenue (CAG, 2026)","cag-kerala-revenue-2-2026"]],
   OD:[...(window.STATE_FACTS_V2.OD||[]),["Utilisation certificates for ₹16,585.45 crore pending at end of 2024-25 (CAG, 2026)","cag-odisha-finances-3-2026"],["₹983.32 crore of mining funds spent in non-affected villages (CAG, 2026)","cag-odisha-dmf-2026"],["39.55 lakh e-challans worth ₹1,136.62 crore pending (CAG, 2026)","cag-odisha-tourism-transport-2026"]],
-  NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"],["Fiscal deficit of 6.17% of GSDP in 2024-25, after audit (CAG, 2026)","cag-nagaland-finances-2-2026"]],
+  NL:[...(window.STATE_FACTS_V2.NL||[]),["Only 8,251 of 16,288 targeted tap connections given in 34 sampled villages (CAG, 2026)","cag-nagaland-1-2026"],["Fiscal deficit of 6.17% of GSDP in 2024-25, after audit (CAG, 2026)","cag-nagaland-finances-2-2026"],["Only 5 of 11 district hospitals had a blood bank (CAG, 2026)","cag-nagaland-health-2026"]],
   UK:[...(window.STATE_FACTS_V2.UK||[]),["12 sewage plants releasing untreated sewage into the Ganga","cag-uk-namami-gange"]],
   WB:[...(window.STATE_FACTS_V2.WB||[]),["31 of 50 test-checked Swasthya Sathi hospitals graded higher than warranted (CAG, 2026)","cag-wb-swasthya-sathi-5-2025"],["₹18.07 crore of Amphan housing grants paid twice","cag-wb-amphan"],["43 of 75 oxygen plants not working (Dec 2023)","cag-wb-covid"],["₹2.29 lakh crore of grants without utilisation certificates","cag-wb-finances-2425"]],
   MH:[...(window.STATE_FACTS_V2.MH||[]),["Second in Investment Friendliness Index 2026 (53.7)","niti-ifi-2026"],["Only 52.81% of 25.72 lakh approved MGNREGS works completed (CAG, 2026)","cag-maharashtra-mgnregs-2026"]],
